@@ -1,0 +1,15 @@
+<ul class="social">
+  {% if site.social.github != "" and site.social.github %}
+  <li><a href="https://github.com/{{ site.social.github }}" target="_blank" rel="noopener">GitHub</a></li>
+  {% endif %}
+  {% if site.social.linkedin != "" and site.social.linkedin %}
+  <li><a href="https://www.linkedin.com/in/{{ site.social.linkedin }}" target="_blank" rel="noopener">LinkedIn</a></li>
+  {% endif %}
+  {% if site.social.instagram != "" and site.social.instagram %}
+  <li><a href="https://instagram.com/{{ site.social.instagram }}" target="_blank" rel="noopener">Instagram</a></li>
+  {% endif %}
+  {% if site.social.email != "" and site.social.email %}
+  <li><a href="mailto:{{ site.social.email }}">E-mail</a></li>
+  {% endif %}
+  <li><a href="{{ '/feed.xml' | relative_url }}">RSS</a></li>
+</ul>

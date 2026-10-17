@@ -1,0 +1,41 @@
+---
+layout: default
+---
+<article class="post">
+  <header class="post-header">
+    <a class="back" href="{{ '/' | relative_url }}">← todos os posts</a>
+    <h1>{{ page.title }}</h1>
+    {% assign palavras = content | strip_html | number_of_words %}
+    {% assign minutos = palavras | divided_by: 200 | plus: 1 %}
+    <p class="meta">
+      <time datetime="{{ page.date | date_to_xmlschema }}">{% include data-pt.html date=page.date %}</time>
+      <span aria-hidden="true">&nbsp;·&nbsp;</span>{{ minutos }} min de leitura
+    </p>
+    {% if page.tags.size > 0 %}
+    <ul class="tags">
+      {% for tag in page.tags %}<li>#{{ tag }}</li>{% endfor %}
+    </ul>
+    {% endif %}
+  </header>
+
+  <div class="prose">
+    {{ content }}
+  </div>
+
+  <aside class="author-card">
+    <img src="{{ site.author.avatar }}" alt="" width="56" height="56">
+    <div>
+      <strong>{{ site.author.name }}</strong>
+      <p>{{ site.author.bio }}</p>
+    </div>
+  </aside>
+
+  <nav class="post-nav">
+    {% if page.previous.url %}
+    <a href="{{ page.previous.url | relative_url }}"><small>Anterior</small>{{ page.previous.title }}</a>
+    {% else %}<span></span>{% endif %}
+    {% if page.next.url %}
+    <a class="next" href="{{ page.next.url | relative_url }}"><small>Próximo</small>{{ page.next.title }}</a>
+    {% endif %}
+  </nav>
+</article>

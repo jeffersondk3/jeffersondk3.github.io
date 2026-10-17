@@ -1,0 +1,38 @@
+---
+layout: default
+---
+<section class="hero">
+  <img class="hero-avatar" src="{{ site.author.avatar }}" alt="Foto de {{ site.author.name }}" width="112" height="112">
+  <div>
+    <p class="eyebrow">{{ site.tagline }}</p>
+    <h1>Oi, eu sou o {{ site.author.name }}.</h1>
+    <p class="lead">{{ site.author.bio }}</p>
+    <a class="btn" href="{{ '/sobre/' | relative_url }}">Mais sobre mim →</a>
+  </div>
+</section>
+
+<section class="posts">
+  <h2 class="section-title">Posts</h2>
+  {% if site.posts.size == 0 %}
+    <p class="empty">Nenhum post ainda. Em breve!</p>
+  {% else %}
+    {% assign ano_atual = "" %}
+    {% for post in site.posts %}
+      {% assign ano = post.date | date: "%Y" %}
+      {% if ano != ano_atual %}
+        {% unless forloop.first %}</ul>{% endunless %}
+        <h3 class="year">{{ ano }}</h3>
+        <ul class="post-list">
+        {% assign ano_atual = ano %}
+      {% endif %}
+      <li>
+        <a href="{{ post.url | relative_url }}" class="post-card">
+          <time datetime="{{ post.date | date_to_xmlschema }}">{% include data-pt.html date=post.date %}</time>
+          <span class="post-title">{{ post.title }}</span>
+          <span class="post-excerpt">{{ post.description | default: post.excerpt | strip_html | truncatewords: 28 }}</span>
+        </a>
+      </li>
+      {% if forloop.last %}</ul>{% endif %}
+    {% endfor %}
+  {% endif %}
+</section>
