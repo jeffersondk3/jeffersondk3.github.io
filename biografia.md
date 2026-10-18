@@ -41,7 +41,7 @@ Esta biografia será ampliada aos poucos, conforme eu registrar novas lembrança
 
 - **Meus primeiros trabalhos:** agricultura, criação de animais, construção civil, pintura e alimentação.
 - **Estudos e oportunidades:** o caminho até a formação em Tecnologia da Informação.
-- **Minha trajetória militar:** Exército Brasileiro e serviço como oficial temporário da Força Aérea Brasileira.
+- **Minha trajetória militar:** serviço militar obrigatório no Exército Brasileiro, com atuação na Cavalaria, manejo e cuidados com cavalos e atividades da Guarda Presidencial; posteriormente, serviço como oficial temporário da Força Aérea Brasileira.
 - **Família e vida pessoal:** pessoas, escolhas e momentos importantes.
 - **Meu futuro:** desenvolvimento profissional, idiomas, novos projetos e sonhos.
 
