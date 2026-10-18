@@ -1,25 +1,24 @@
 # =========================================================
-#  CONFIGURAÇÃO DO BLOG — edite só esta parte de cima
+# CONFIGURAÇÃO DO BLOG — informações públicas
 # =========================================================
 
-title: "Jefferson"                     # nome que aparece no topo do site
-tagline: "QA & Automação de Testes SAP" # frase curta embaixo do nome
-description: "Blog pessoal do Jefferson: carreira, qualidade de software, automação de testes e um pouco da vida."
+title: "Jefferson Almeida de Brito"
+tagline: "Infraestrutura de TI, Segurança da Informação e Projetos"
+description: "Portfólio profissional de Jefferson Almeida de Brito: infraestrutura de TI, segurança da informação, GitHub e estudos em QA, automação e SAP."
 
 author:
-  name: "Jefferson"
-  avatar: "https://github.com/jeffersondk3.png"   # usa a foto do GitHub; troque por /assets/img/foto.jpg se quiser
-  bio: "Trabalho com qualidade de software e automação de testes em ambientes SAP. Aqui escrevo sobre o que aprendo no caminho."
+  name: "Jefferson Almeida de Brito"
+  avatar: "https://github.com/jeffersondk3.png"
+  bio: "Profissional de infraestrutura de TI e segurança da informação. Compartilho projetos e estudos em GitHub, QA, automação e fundamentos SAP."
 
-# Links das redes — deixe "" (vazio) para esconder
 social:
   github: "jeffersondk3"
-  linkedin: ""        # ex.: "jefferson-silva"  (só o final do link)
-  instagram: ""       # ex.: "jefferson"
-  email: ""           # ex.: "jefferson@email.com"
+  linkedin: ""
+  instagram: ""
+  email: ""
 
 # =========================================================
-#  Daqui pra baixo não precisa mexer
+# Configurações técnicas do site
 # =========================================================
 
 url: "https://jeffersondk3.github.io"
