@@ -16,6 +16,16 @@ Atualmente, sou **2º Tenente — Oficial Temporário da Força Aérea Brasileir
 
 *Fotografias originais de diferentes etapas da minha vida: trabalho, carreira militar, família e projetos sociais.*
 
+## Projeto social — Esporte na comunidade
+
+Há 10 anos, atuo como voluntário com jovens da comunidade, promovendo futebol e jogos para incentivar a socialização, a convivência e a integração da juventude.
+
+Essa atuação também faz parte da minha formação: levo as experiências da comunidade para meus projetos acadêmicos e atividades de extensão. O projeto **Esporte na comunidade** registra essa conexão entre esporte, participação social e aprendizado.
+
+### Arquivo do projeto
+
+<a href="{{ '/assets/projetos/esporte-na-comunidade.pdf' | relative_url }}" target="_blank" rel="noopener noreferrer">Ver o projeto Esporte na comunidade (PDF) ↗</a>
+
 ## Meu caminho
 
 Minha trajetória passou por diferentes atividades profissionais antes de consolidar minha atuação em Tecnologia da Informação. Essas experiências me ensinaram dedicação, disciplina, capacidade de adaptação e compromisso com as pessoas.
