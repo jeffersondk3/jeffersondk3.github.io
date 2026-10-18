@@ -14,17 +14,6 @@
       {% include social.html %}
     </div>
   </footer>
-  <script>
-    function alternarTema() {
-      var root = document.documentElement;
-      var atual = root.getAttribute('data-theme');
-      if (!atual) {
-        atual = window.matchMedia('(prefers-color-scheme: dark)').matches ? 'dark' : 'light';
-      }
-      var novo = atual === 'dark' ? 'light' : 'dark';
-      root.setAttribute('data-theme', novo);
-      try { localStorage.setItem('tema', novo); } catch (e) {}
-    }
-  </script>
+  
 </body>
 </html>
