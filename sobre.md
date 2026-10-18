@@ -62,6 +62,10 @@ Mais do que uma mudança de país, queremos conhecer a cultura alemã, desenvolv
 
 **Quer conhecer mais sobre minha esposa, Sofia?** Confira o [currículo profissional dela]({{ '/curriculo-sofia/' | relative_url }}), visite seu [LinkedIn profissional](https://www.linkedin.com/in/sofia-giusti-538401186) ou acompanhe seu [Instagram (@sofi.giusti)](https://www.instagram.com/sofi.giusti/).
 
+## Voluntariado e atuação na comunidade
+
+Há 10 anos, atuo como voluntário com jovens da comunidade, promovendo futebol e jogos para incentivar a socialização, a convivência e a integração da juventude. Também integro essa experiência aos meus projetos acadêmicos, conectando minha formação à atuação na comunidade.
+
 ## Contato
 
 Você pode acompanhar minha trajetória pessoal e profissional, conhecer meus projetos e entrar em contato comigo pelas redes sociais.
