@@ -23,11 +23,36 @@ Tenho aproximadamente **quatro anos de experiência em TI**, com atuação em:
 
 Minha trajetória também inclui experiências em outras áreas, que fortaleceram minha capacidade de adaptação, organização e resolução de problemas.
 
+## Recomendações profissionais
+
+Referências de profissionais que acompanharam meu trabalho. Os destaques abaixo são resumos dos depoimentos enviados.
+
+### Wellington Nascimento de Souza — Líder Técnico
+
+Foi meu líder direto no Shopping Golden Square, do grupo Ancar Ivanhoe. Em sua carta, destaca minha atuação em infraestrutura e suporte, a resolução de incidentes, a organização das prioridades e o compromisso com a estabilidade dos serviços. Também ressalta comunicação, proatividade e trabalho em equipe.
+
+<a href="{{ '/assets/recomendacoes/carta-recomendacao-wellington.pdf' | relative_url }}" target="_blank" rel="noopener noreferrer">Ler a carta de recomendação assinada (PDF) ↗</a>
+
+### Pedro Henrique — Colega de equipe na Ancar Ivanhoe
+
+Destaca meu conhecimento técnico em infraestrutura, a disposição para ajudar e compartilhar conhecimentos, o comprometimento e a colaboração na resolução de desafios.
+
+### Dimas Mikael — Colega na área de TI da Força Aérea Brasileira
+
+Ressalta minha experiência em infraestrutura, organização e planejamento de projetos, além da comunicação, colaboração e capacidade de conectar o trabalho técnico à gestão.
+
+<a href="{{ '/assets/recomendacoes/recomendacoes-linkedin.pdf' | relative_url }}" target="_blank" rel="noopener noreferrer">Ler as recomendações de Pedro Henrique e Dimas Mikael (PDF) ↗</a> · [Ver meu perfil no LinkedIn](https://www.linkedin.com/in/jefferson-almeida-de-brito-a8640b124/)
+
 ## Formação
 
 - **Sistemas de Informação** — graduação concluída
 - **Segurança da Informação** — pós-graduação concluída
 - **Engenharia de Software** — graduação em andamento
+
+## Idiomas
+
+- **Inglês técnico.**
+- **Alemão em estudo**, com dedicação ao aprendizado contínuo.
 
 ## Projetos e aprendizado
 
