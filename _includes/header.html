@@ -31,8 +31,8 @@
       <a href="{{ '/sobre/' | relative_url }}">Sobre</a>
       <a href="{{ '/biografia/' | relative_url }}">Biografia</a>
       {% endif %}
-      <span class="language-hint" aria-label="Choose a language">{% if lng == "en" %}🌍 Read in German, English or Spanish{% elsif lng == "de" %}🌍 Auf Deutsch, Englisch oder Spanisch lesen{% elsif lng == "es" %}🌍 Lee en alemán, inglés o español{% else %}🌍 Leia em alemão, inglês e espanhol{% endif %}</span>
-      <span class="language-switch" aria-label="Idiomas">
+      <span class="language-hint">🌐 {% if lng == 'en' %}Languages{% elsif lng == 'de' %}Sprachen{% elsif lng == 'es' %}Idiomas{% else %}Idiomas{% endif %}</span>
+      <span class="language-switch" aria-label="Selecionar idioma">
         {% if page.lang == 'en' %}{% assign locale = 'en' %}{% elsif page.lang == 'de' %}{% assign locale = 'de' %}{% elsif page.lang == 'es' %}{% assign locale = 'es' %}{% else %}{% assign locale = 'pt' %}{% endif %}
         {% assign section = 'home' %}
         {% if page.url contains 'projetos' or page.url contains 'projects' or page.url contains 'projekte' or page.url contains 'proyectos' %}{% assign section = 'projects' %}
@@ -48,10 +48,10 @@
         {% when 'about' %}{% assign ptpath = '/sobre/' %}{% assign enpath = '/en/about/' %}{% assign depath = '/de/ueber-mich/' %}{% assign espath = '/es/sobre-mi/' %}
         {% when 'sofia' %}{% assign ptpath = '/curriculo-sofia/' %}{% assign enpath = '/en/sofia-resume/' %}{% assign depath = '/de/sofia-lebenslauf/' %}{% assign espath = '/es/curriculum-sofia/' %}
         {% endcase %}
-        <a href="{{ ptpath | relative_url }}" {% if locale == 'pt' %}aria-current="page"{% endif %}>PT</a>
-        <a href="{{ enpath | relative_url }}" {% if locale == 'en' %}aria-current="page"{% endif %}>EN</a>
-        <a href="{{ depath | relative_url }}" {% if locale == 'de' %}aria-current="page"{% endif %}>DE</a>
-        <a href="{{ espath | relative_url }}" {% if locale == 'es' %}aria-current="page"{% endif %}>ES</a>
+        <a href="{{ ptpath | relative_url }}" {% if locale == 'pt' %}aria-current="page"{% endif %}>🇧🇷 PT</a>
+        <a href="{{ enpath | relative_url }}" {% if locale == 'en' %}aria-current="page"{% endif %}>🇬🇧 EN</a>
+        <a href="{{ depath | relative_url }}" {% if locale == 'de' %}aria-current="page"{% endif %}>🇩🇪 DE</a>
+        <a href="{{ espath | relative_url }}" {% if locale == 'es' %}aria-current="page"{% endif %}>🇪🇸 ES</a>
       </span>
     </nav>
   </div>
