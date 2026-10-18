@@ -42,8 +42,8 @@ layout: default
   <p><strong>Objetivo:</strong> compartilhar conhecimento e desenvolver um portfólio técnico, com interesse em oportunidades profissionais na Alemanha e na Europa.</p>
 </section>
 
-<section class="posts">
-  <h2 class="section-title">Publicações</h2>
+<section class="posts game-posts">
+  <h2 class="section-title">Publicações <span class="game-heading-icon" aria-hidden="true">🎮</span></h2>
   {% if site.posts.size == 0 %}
     <p class="empty">Nenhuma publicação ainda. Em breve!</p>
   {% else %}
@@ -52,15 +52,20 @@ layout: default
       {% assign ano = post.date | date: "%Y" %}
       {% if ano != ano_atual %}
         {% unless forloop.first %}</ul>{% endunless %}
-        <h3 class="year">{{ ano }}</h3>
+        <h3 class="year game-year"><span aria-hidden="true">▸</span> {{ ano }} <span class="game-year-label">ARQUIVO DE MISSÕES</span></h3>
         <ul class="post-list">
         {% assign ano_atual = ano %}
       {% endif %}
       <li>
-        <a href="{{ post.url | relative_url }}" class="post-card">
-          <time datetime="{{ post.date | date_to_xmlschema }}">{% include data-pt.html date=post.date %}</time>
-          <span class="post-title">{{ post.title }}</span>
-          <span class="post-excerpt">{{ post.description | default: post.excerpt | strip_html | truncatewords: 28 }}</span>
+        <a href="{{ post.url | relative_url }}" class="post-card game-post-card">
+          <span class="game-post-symbol" aria-hidden="true">⌘<small>IT LAB</small></span>
+          <span class="game-post-content">
+            <span class="game-post-top"><span class="game-post-status"><span class="game-online-dot"></span> MISSÃO DISPONÍVEL</span><time datetime="{{ post.date | date_to_xmlschema }}">{% include data-pt.html date=post.date %}</time></span>
+            <span class="post-title">{{ post.title }}</span>
+            <span class="post-excerpt">{{ post.description | default: post.excerpt | strip_html | truncatewords: 28 }}</span>
+            <span class="game-post-tags"><span>TI</span><span>INFRAESTRUTURA</span><span>SEGURANÇA</span><span>ESTUDOS</span></span>
+          </span>
+          <span class="game-post-action" aria-hidden="true">EXPLORAR <span>➜</span></span>
         </a>
       </li>
       {% if forloop.last %}</ul>{% endif %}
