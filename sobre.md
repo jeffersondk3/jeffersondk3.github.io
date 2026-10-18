@@ -44,11 +44,11 @@ Esses temas representam meu **desenvolvimento profissional em andamento**, não 
 
 ## Objetivos profissionais
 
-Tenho interesse em oportunidades na **Alemanha** e em outros países europeus, principalmente em infraestrutura de TI, administração de sistemas, redes, suporte técnico e segurança da informação.
+Busco **oportunidades profissionais na área de Tecnologia da Informação na Europa**, com especial interesse na **Alemanha**, principalmente em infraestrutura de TI, administração de sistemas, redes, suporte técnico e segurança da informação.
 
-Também estudo alemão e busco ampliar continuamente minhas competências técnicas e interculturais.
+**Também estou apto e aberto a uma mudança de carreira**, inclusive para atuar em outras áreas e funções, aproveitando as experiências e competências que já desenvolvi ao longo da minha trajetória profissional, como liderança de equipes, organização de processos, atendimento ao público, resolução de problemas e capacidade de adaptação.
 
-**Estou aberto e preparado para uma mudança de carreira**, inclusive para atuar em novas funções e setores. Quero aproveitar as experiências que já adquiri em Tecnologia da Informação, infraestrutura, segurança da informação, liderança de equipes e atendimento ao público, aplicando essas competências em novos desafios profissionais. Tenho disposição para aprender, me adaptar a diferentes ambientes de trabalho e continuar evoluindo profissionalmente.
+Estou estudando alemão e continuo investindo no meu desenvolvimento profissional e intercultural.
 
 ## Nossa família e o projeto Alemanha
 
