@@ -48,6 +48,14 @@ Tenho interesse em oportunidades na **Alemanha** e em outros países europeus, p
 
 Também estudo alemão e busco ampliar continuamente minhas competências técnicas e interculturais.
 
+## Nossa família e o projeto Alemanha
+
+Sou casado com **Sofia Giusti**, profissional da área administrativa. Vivemos juntos em São Paulo e compartilhamos o objetivo de construir uma nova etapa de nossas vidas na **Alemanha**.
+
+Estamos nos preparando para essa mudança com planejamento, aprendizado de idiomas e desenvolvimento profissional. Meu foco é a área de Tecnologia da Informação; Sofia também busca oportunidades compatíveis com sua experiência em rotinas administrativas, organização de processos e suporte a equipes.
+
+Nosso objetivo é conhecer a cultura alemã, desenvolver nossas carreiras e construir uma vida juntos no país. Ainda estamos na fase de preparação e busca de oportunidades.
+
 ## Contato
 
-Você pode acompanhar meus projetos no [GitHub](https://github.com/jeffersondk3).
+Você pode acompanhar meus projetos no [GitHub](https://github.com/jeffersondk3) e conhecer minha trajetória profissional no [LinkedIn](https://www.linkedin.com/in/jefferson-almeida-de-brito-a8640b124/).
