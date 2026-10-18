@@ -221,3 +221,61 @@ h1, h2, h3 {
   .site-header .language-switch a { padding: 5px 6px; font-size: 11px; }
 }
 @media (prefers-reduced-motion: reduce) { .site-header .language-hint { animation: none; } }
+
+
+/* Legenda de idiomas — destaque visual com cores e bandeiras */
+.site-header .language-hint {
+  display: inline-flex !important;
+  align-items: center;
+  background: linear-gradient(110deg,#0b4f90,#1479c6) !important;
+  color: #fff !important;
+  border: 1px solid #08518f;
+  box-shadow: 0 3px 10px rgba(11,79,144,.22);
+  border-radius: 999px;
+  padding: 7px 13px !important;
+  font-size: 12px !important;
+  font-weight: 800 !important;
+  letter-spacing: .02em;
+  animation: language-glow 3s ease-in-out infinite;
+}
+.site-header .language-switch {
+  display: inline-flex !important;
+  align-items: center;
+  padding: 5px !important;
+  gap: 5px !important;
+  background: #fff !important;
+  border: 1px solid #b6d4ec;
+  border-radius: 14px;
+  box-shadow: 0 3px 12px rgba(22,50,79,.12);
+}
+.site-header .language-switch a {
+  display: inline-flex !important;
+  align-items: center;
+  justify-content: center;
+  white-space: nowrap !important;
+  font-size: 13px !important;
+  font-weight: 800 !important;
+  padding: 7px 10px !important;
+  border-radius: 9px !important;
+  border: 1px solid transparent !important;
+  background: #eff6ff !important;
+  color: #163b63 !important;
+  box-shadow: none !important;
+  transition: transform .18s ease, background .18s ease, box-shadow .18s ease;
+}
+.site-header .language-switch a:hover {
+  transform: translateY(-2px);
+  background: #d6ebff !important;
+  box-shadow: 0 3px 8px rgba(18,98,163,.15) !important;
+}
+.site-header .language-switch a[aria-current="page"] {
+  background: #1262a3 !important;
+  color: #fff !important;
+  border-color: #0a4e88 !important;
+  box-shadow: 0 2px 6px rgba(18,98,163,.24) !important;
+}
+@media (max-width:600px) {
+  .site-header .language-hint { font-size: 11px !important; padding: 6px 10px !important; }
+  .site-header .language-switch a { font-size: 12px !important; padding: 6px 8px !important; }
+}
+@media (prefers-reduced-motion:reduce) { .site-header .language-hint { animation:none; } }
