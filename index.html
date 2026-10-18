@@ -4,17 +4,25 @@ layout: default
 <section class="hero">
   <img class="hero-avatar" src="{{ site.author.avatar }}" alt="Foto de {{ site.author.name }}" width="112" height="112">
   <div>
-    <p class="eyebrow">{{ site.tagline }}</p>
-    <h1>Oi, eu sou o {{ site.author.name }}.</h1>
-    <p class="lead">{{ site.author.bio }}</p>
-    <a class="btn" href="{{ '/sobre/' | relative_url }}">Mais sobre mim →</a>
+    <p class="eyebrow">Infraestrutura de TI · Segurança da Informação · Projetos</p>
+    <h1>Olá, sou {{ site.author.name }}.</h1>
+    <p class="lead">Profissional de Tecnologia da Informação com experiência em infraestrutura, redes, servidores, suporte e segurança da informação. Aqui compartilho minha trajetória, projetos e estudos em QA, automação e fundamentos SAP.</p>
+    <a class="btn" href="{{ '/sobre/' | relative_url }}">Conheça minha trajetória →</a>
+    <p><a href="{{ '/projetos/' | relative_url }}">Ver meus projetos e estudos →</a></p>
   </div>
 </section>
 
 <section class="posts">
-  <h2 class="section-title">Posts</h2>
+  <h2 class="section-title">Áreas de atuação e aprendizado</h2>
+  <p><strong>Experiência profissional:</strong> infraestrutura de TI, redes, ambientes Linux, suporte técnico, segurança da informação e liderança de equipes.</p>
+  <p><strong>Em desenvolvimento:</strong> Git/GitHub, testes de software, automação, APIs, SQL, CI/CD e fundamentos SAP.</p>
+  <p><strong>Objetivo:</strong> compartilhar conhecimento e desenvolver um portfólio técnico, com interesse em oportunidades profissionais na Alemanha e na Europa.</p>
+</section>
+
+<section class="posts">
+  <h2 class="section-title">Publicações</h2>
   {% if site.posts.size == 0 %}
-    <p class="empty">Nenhum post ainda. Em breve!</p>
+    <p class="empty">Nenhuma publicação ainda. Em breve!</p>
   {% else %}
     {% assign ano_atual = "" %}
     {% for post in site.posts %}
