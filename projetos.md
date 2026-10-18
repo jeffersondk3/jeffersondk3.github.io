@@ -36,10 +36,4 @@ Minha experiência profissional inclui infraestrutura, redes, servidores, suport
 - [Meu GitHub](https://github.com/jeffersondk3)
 - [Sobre mim]({{ '/sobre/' | relative_url }})
 
-## Estude línguas comigo no Duolingo
-
-Aprender idiomas também faz parte da minha jornada. Adicione meu perfil e vamos manter a motivação para estudar juntos!
-
-<p><a class="btn" href="https://invite.duolingo.com/profile-share/Jeffersondk3?via=share_profile_qr" target="_blank" rel="noopener noreferrer" style="display:inline-flex;align-items:center;gap:8px;padding:14px 22px;background:#58cc02;color:#173b00;border:2px solid #46a302;border-radius:10px;font-weight:700;text-decoration:none;">Estude comigo no Duolingo ↗</a></p>
-
-**Meu perfil:** @Jeffersondk3
+Estude línguas comigo no [Duolingo ↗](https://invite.duolingo.com/profile-share/Jeffersondk3?via=share_profile_qr) · @Jeffersondk3
