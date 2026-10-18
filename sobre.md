@@ -58,7 +58,7 @@ Compartilhamos o sonho de construir uma nova etapa de nossas vidas na **Alemanha
 
 Mais do que uma mudança de país, queremos conhecer a cultura alemã, desenvolver nossas carreiras e construir uma vida juntos, sem esquecer nossas origens e tudo o que nos trouxe até aqui. Ainda estamos na fase de preparação e busca de oportunidades.
 
-**Quer conhecer mais sobre minha esposa, Sofia?** Você pode visitar seu [LinkedIn profissional](https://www.linkedin.com/in/sofia-giusti-538401186), onde ela apresenta sua trajetória e experiência, ou acompanhar seu [Instagram (@sofi.giusti)](https://www.instagram.com/sofi.giusti/).
+**Quer conhecer mais sobre minha esposa, Sofia?** Confira o [currículo profissional dela]({{ '/curriculo-sofia/' | relative_url }}), visite seu [LinkedIn profissional](https://www.linkedin.com/in/sofia-giusti-538401186) ou acompanhe seu [Instagram (@sofi.giusti)](https://www.instagram.com/sofi.giusti/).
 
 ## Contato
 
