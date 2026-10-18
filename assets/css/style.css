@@ -411,3 +411,40 @@ h1, h2, h3 {
   .game-post-card .post-title { font-size:17px; }
 }
 @media(prefers-reduced-motion:reduce) { .game-post-card { transition:none; } }
+
+
+/* Etiquetas vermelhas separadas no IT Match */
+.game-post-card .game-post-tags {
+  display: flex !important;
+  flex-wrap: wrap !important;
+  align-items: center;
+  gap: 10px !important;
+  margin-top: 8px;
+  margin-bottom: 10px;
+}
+.game-post-card .game-post-tags span,
+.game-post-card .game-post-tags span:nth-child(n) {
+  display: inline-block !important;
+  margin: 0 !important;
+  padding: 6px 11px !important;
+  border: 1px solid #ff6464 !important;
+  border-radius: 7px !important;
+  background: #991b1b !important;
+  color: #fff !important;
+  font: 800 11px/1.4 ui-monospace,Consolas,monospace !important;
+  letter-spacing: .03em;
+  white-space: nowrap;
+}
+.game-post-card .game-post-action {
+  display: inline-flex !important;
+  width: max-content;
+  margin-top: 8px;
+  padding: 9px 16px !important;
+  border: 1px solid #ff7070 !important;
+  border-radius: 8px !important;
+  background: #b91c1c !important;
+  color: #fff !important;
+  font-weight: 800 !important;
+  gap: 10px !important;
+}
+.game-post-card .game-post-action:hover { background: #dc2626 !important; }
