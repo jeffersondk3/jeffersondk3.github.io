@@ -1,41 +1,15 @@
-/* ============ Cores (claro / escuro) ============ */
+/* Paleta azul-claro fixa */
 :root {
-  --bg: #faf8f5;
+  --bg: #eaf5ff;
   --surface: #ffffff;
-  --text: #1d1b19;
-  --muted: #6b6560;
-  --line: #e7e2dc;
-  --accent: #0f766e;
-  --accent-soft: #e0f2ef;
-  --code-bg: #f3f0eb;
-  --shadow: 0 1px 2px rgba(0,0,0,.04), 0 4px 16px rgba(0,0,0,.04);
+  --text: #16324f;
+  --muted: #4c6680;
+  --line: #c7dff1;
+  --accent: #1262a3;
+  --accent-soft: #d4ebff;
+  --code-bg: #e3f0fc;
+  --shadow: 0 2px 12px rgba(22, 50, 79, .08);
   color-scheme: light;
-}
-@media (prefers-color-scheme: dark) {
-  :root:not([data-theme="light"]) {
-    --bg: #121212;
-    --surface: #1a1a1a;
-    --text: #ece8e3;
-    --muted: #9c958e;
-    --line: #2b2927;
-    --accent: #2dd4bf;
-    --accent-soft: #10302c;
-    --code-bg: #1f1e1c;
-    --shadow: none;
-    color-scheme: dark;
-  }
-}
-:root[data-theme="dark"] {
-  --bg: #121212;
-  --surface: #1a1a1a;
-  --text: #ece8e3;
-  --muted: #9c958e;
-  --line: #2b2927;
-  --accent: #2dd4bf;
-  --accent-soft: #10302c;
-  --code-bg: #1f1e1c;
-  --shadow: none;
-  color-scheme: dark;
 }
 
 /* ============ Base ============ */
@@ -197,3 +171,6 @@ h1, h2, h3 {
   .nav { gap: 14px; }
   .brand span { display: none; }
 }
+
+/* Tema sempre claro, independentemente do sistema */
+:root, :root[data-theme="dark"], :root[data-theme="light"] { --bg:#eaf5ff; --surface:#fff; --text:#16324f; --muted:#4c6680; --line:#c7dff1; --accent:#1262a3; --accent-soft:#d4ebff; --code-bg:#e3f0fc; --shadow:0 2px 12px rgba(22,50,79,.08); color-scheme:light; }
