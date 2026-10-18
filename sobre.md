@@ -58,4 +58,9 @@ Nosso objetivo é conhecer a cultura alemã, desenvolver nossas carreiras e cons
 
 ## Contato
 
-Você pode acompanhar meus projetos no [GitHub](https://github.com/jeffersondk3) e conhecer minha trajetória profissional no [LinkedIn](https://www.linkedin.com/in/jefferson-almeida-de-brito-a8640b124/).
+Você pode acompanhar minha trajetória pessoal e profissional, conhecer meus projetos e entrar em contato comigo pelas redes sociais.
+
+- 📱 **WhatsApp:** [Conversar comigo](https://wa.me/5511986245833)
+- 📸 **Instagram:** [@jeffersondk3](https://www.instagram.com/jeffersondk3/)
+- 💻 **GitHub:** [Meus projetos](https://github.com/jeffersondk3)
+- 💼 **LinkedIn:** [Meu perfil profissional](https://www.linkedin.com/in/jefferson-almeida-de-brito-a8640b124/)
