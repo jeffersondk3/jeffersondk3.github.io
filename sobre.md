@@ -52,7 +52,7 @@ Também estudo alemão e busco ampliar continuamente minhas competências técni
 
 Sou casado com **[Sofia Giusti](https://www.linkedin.com/in/sofia-giusti-538401186)**, argentina e profissional da área administrativa. Nós nos conhecemos na **igreja**, e desde então construímos uma história de companheirismo, fé e sonhos compartilhados. Sofia foi fundamental na minha trajetória: acreditou em mim, no meu potencial e nos meus objetivos, inclusive nos momentos em que o caminho parecia mais difícil.
 
-Vivemos juntos em São Paulo e nossa família também inclui **nosso cachorro e nossa gata, Gatuxa**, que fazem parte da nossa rotina e trazem alegria para nossa casa.
+Vivemos juntos em São Paulo e nossa família também inclui **nosso cachorro Toddy, de 1 ano, e nossa gata Gatuxa, de 6 anos**, que fazem parte da nossa rotina e trazem alegria para nossa casa.
 
 Compartilhamos o sonho de construir uma nova etapa de nossas vidas na **Alemanha**. Estamos nos preparando com planejamento, aprendizado de idiomas e desenvolvimento profissional. Meu foco é a área de Tecnologia da Informação; Sofia também busca oportunidades compatíveis com sua experiência em rotinas administrativas, organização de processos e suporte a equipes.
 
