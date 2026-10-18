@@ -185,3 +185,39 @@ h1, h2, h3 {
 @keyframes language-glow { 0%,100% { opacity: 1; } 50% { opacity: .35; } }
 @media (prefers-reduced-motion: reduce) { .language-hint { animation: none; } }
 @media (max-width: 720px) { .language-hint { font-size: .7rem; } .language-switch { gap: .1rem; } }
+
+
+/* Cabeçalho multilíngue compacto e responsivo */
+.site-header .wrap.header-inner {
+  max-width: 1240px;
+  width: 100%;
+  min-height: 76px;
+  height: auto;
+  padding: 12px 24px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 20px;
+}
+.site-header .brand { flex: 0 0 auto; min-width: 0; gap: 9px; }
+.site-header .brand span { display: block; font-size: 14px; max-width: 185px; line-height: 1.25; }
+.site-header .brand-avatar { flex: 0 0 36px; }
+.site-header .nav { flex: 1 1 auto; display: flex; justify-content: flex-end; align-items: center; flex-wrap: wrap; gap: 10px 17px; }
+.site-header .nav > a { white-space: nowrap; font-size: 14px; }
+.site-header .language-hint { flex: 0 0 auto; white-space: nowrap; padding: 5px 9px; font-size: 12px; animation: language-glow 3s ease-in-out infinite; }
+.site-header .language-switch { flex: 0 0 auto; display: inline-flex; align-items: center; gap: 4px; white-space: nowrap; }
+.site-header .language-switch a { display: inline-flex; align-items: center; justify-content: center; gap: 3px; font-size: 12px; font-weight: 700; padding: 5px 7px; border: 1px solid var(--line); border-radius: 7px; background: #fff; color: var(--text); }
+.site-header .language-switch a[aria-current="page"] { background: #d4ebff; border-color: #8dbfe6; }
+.site-header .language-switch a:hover { background: #e3f2ff; }
+@media (max-width: 1000px) {
+  .site-header .wrap.header-inner { flex-wrap: wrap; justify-content: center; gap: 10px; padding: 12px 16px; }
+  .site-header .nav { justify-content: center; flex: 1 1 100%; gap: 8px 13px; }
+  .site-header .brand span { max-width: none; }
+}
+@media (max-width: 600px) {
+  .site-header .brand span { display: block; font-size: 13px; }
+  .site-header .nav > a { font-size: 13px; }
+  .site-header .language-hint { font-size: 11px; }
+  .site-header .language-switch a { padding: 5px 6px; font-size: 11px; }
+}
+@media (prefers-reduced-motion: reduce) { .site-header .language-hint { animation: none; } }
