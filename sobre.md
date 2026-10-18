@@ -50,13 +50,15 @@ Também estudo alemão e busco ampliar continuamente minhas competências técni
 
 ## Nossa família e o projeto Alemanha
 
-Sou casado com **Sofia Giusti**, argentina e profissional da área administrativa. Nós nos conhecemos na **igreja**, e desde então construímos uma história de companheirismo, fé e sonhos compartilhados. Sofia foi fundamental na minha trajetória: acreditou em mim, no meu potencial e nos meus objetivos, inclusive nos momentos em que o caminho parecia mais difícil.
+Sou casado com **[Sofia Giusti](https://www.linkedin.com/in/sofia-giusti-538401186)**, argentina e profissional da área administrativa. Nós nos conhecemos na **igreja**, e desde então construímos uma história de companheirismo, fé e sonhos compartilhados. Sofia foi fundamental na minha trajetória: acreditou em mim, no meu potencial e nos meus objetivos, inclusive nos momentos em que o caminho parecia mais difícil.
 
 Vivemos juntos em São Paulo e nossa família também inclui **nosso cachorro e nossa gata, Gatuxa**, que fazem parte da nossa rotina e trazem alegria para nossa casa.
 
 Compartilhamos o sonho de construir uma nova etapa de nossas vidas na **Alemanha**. Estamos nos preparando com planejamento, aprendizado de idiomas e desenvolvimento profissional. Meu foco é a área de Tecnologia da Informação; Sofia também busca oportunidades compatíveis com sua experiência em rotinas administrativas, organização de processos e suporte a equipes.
 
 Mais do que uma mudança de país, queremos conhecer a cultura alemã, desenvolver nossas carreiras e construir uma vida juntos, sem esquecer nossas origens e tudo o que nos trouxe até aqui. Ainda estamos na fase de preparação e busca de oportunidades.
+
+**Quer conhecer mais sobre minha esposa, Sofia?** Você pode visitar seu [LinkedIn profissional](https://www.linkedin.com/in/sofia-giusti-538401186), onde ela apresenta sua trajetória e experiência, ou acompanhar seu [Instagram (@sofi.giusti)](https://www.instagram.com/sofi.giusti/).
 
 ## Contato
 
