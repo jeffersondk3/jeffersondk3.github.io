@@ -48,10 +48,10 @@
         {% when 'about' %}{% assign ptpath = '/sobre/' %}{% assign enpath = '/en/about/' %}{% assign depath = '/de/ueber-mich/' %}{% assign espath = '/es/sobre-mi/' %}
         {% when 'sofia' %}{% assign ptpath = '/curriculo-sofia/' %}{% assign enpath = '/en/sofia-resume/' %}{% assign depath = '/de/sofia-lebenslauf/' %}{% assign espath = '/es/curriculum-sofia/' %}
         {% endcase %}
-        <a href="{{ ptpath | relative_url }}" {% if locale == 'pt' %}aria-current="page"{% endif %}>🇧🇷 PT</a>
+        <a href="{{ ptpath | relative_url }}" {% if locale == 'pt' %}aria-current="page"{% endif %}><img class="lang-flag" src="https://flagcdn.com/w40/br.png" width="20" height="15" alt="Brasil" loading="lazy"> PT</a>
         <a href="{{ enpath | relative_url }}" {% if locale == 'en' %}aria-current="page"{% endif %}>🇬🇧 EN</a>
-        <a href="{{ depath | relative_url }}" {% if locale == 'de' %}aria-current="page"{% endif %}>🇩🇪 DE</a>
-        <a href="{{ espath | relative_url }}" {% if locale == 'es' %}aria-current="page"{% endif %}>🇪🇸 ES</a>
+        <a href="{{ depath | relative_url }}" {% if locale == 'de' %}aria-current="page"{% endif %}><img class="lang-flag" src="https://flagcdn.com/w40/de.png" width="20" height="15" alt="Deutschland" loading="lazy"> DE</a>
+        <a href="{{ espath | relative_url }}" {% if locale == 'es' %}aria-current="page"{% endif %}><img class="lang-flag" src="https://flagcdn.com/w40/es.png" width="20" height="15" alt="España" loading="lazy"> ES</a>
       </span>
     </nav>
   </div>
