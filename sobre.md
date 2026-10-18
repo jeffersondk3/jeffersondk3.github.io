@@ -4,26 +4,50 @@ title: Sobre mim
 permalink: /sobre/
 ---
 
-<!-- ✏️ Jefferson: reescreve este texto com a sua história. É só Markdown normal. -->
+# Sobre mim
 
-Oi! Sou o **Jefferson** e trabalho com **qualidade de software**, com foco em
-**automação de testes em ambientes SAP**.
+Olá! Sou **Jefferson Almeida de Brito**, profissional de Tecnologia da Informação, graduado em **Sistemas de Informação** e pós-graduado em **Segurança da Informação**.
 
-Criei este blog para registrar o que vou aprendendo: ferramentas, desafios do
-dia a dia em QA, dicas de carreira e, de vez em quando, assuntos que não têm
-nada a ver com tecnologia.
+Atualmente, sou oficial temporário da **Força Aérea Brasileira** e atuo na liderança e gestão de Tecnologia da Informação no **Instituto de Logística da Aeronáutica (ILA)**, em São Paulo.
 
-## O que eu faço
+## Experiência profissional
 
-- Testes funcionais e de regressão em sistemas SAP
-- Automação de testes
-- Garantia de qualidade em projetos de TI
+Tenho aproximadamente **quatro anos de experiência em TI**, com atuação em:
 
-## Fora do trabalho
+- Infraestrutura de TI, redes e servidores
+- Ambientes Linux
+- Segurança da informação
+- Suporte técnico e continuidade de serviços
+- Administração de sistemas e serviços de TI
+- Liderança de equipes técnicas
 
-Conta aqui um pouco de você: hobbies, de onde você é, o que gosta de fazer.
+Minha trajetória também inclui experiências em outras áreas, que fortaleceram minha capacidade de adaptação, organização e resolução de problemas.
 
-## Fale comigo
+## Formação
 
-Os links para me encontrar estão no rodapé da página. Fique à vontade para
-mandar mensagem!
+- **Sistemas de Informação** — graduação concluída
+- **Segurança da Informação** — pós-graduação concluída
+- **Engenharia de Software** — graduação em andamento
+
+## Projetos e aprendizado
+
+Estou desenvolvendo o **NEXUS IT – Enterprise Systems & QA Lab**, um projeto prático de estudos e portfólio com foco em:
+
+- Git e GitHub
+- Qualidade de software (QA) e automação de testes
+- APIs e bancos de dados SQL
+- Integração e entrega contínuas (CI/CD)
+- Segurança da informação
+- Fundamentos de processos empresariais e SAP
+
+Esses temas representam meu **desenvolvimento profissional em andamento**, não experiências de trabalho que eu já tenha exercido em todas essas áreas.
+
+## Objetivos profissionais
+
+Tenho interesse em oportunidades na **Alemanha** e em outros países europeus, principalmente em infraestrutura de TI, administração de sistemas, redes, suporte técnico e segurança da informação.
+
+Também estudo alemão e busco ampliar continuamente minhas competências técnicas e interculturais.
+
+## Contato
+
+Você pode acompanhar meus projetos no [GitHub](https://github.com/jeffersondk3).
