@@ -48,6 +48,8 @@ Tenho interesse em oportunidades na **Alemanha** e em outros países europeus, p
 
 Também estudo alemão e busco ampliar continuamente minhas competências técnicas e interculturais.
 
+**Estou aberto e preparado para uma mudança de carreira**, inclusive para atuar em novas funções e setores. Quero aproveitar as experiências que já adquiri em Tecnologia da Informação, infraestrutura, segurança da informação, liderança de equipes e atendimento ao público, aplicando essas competências em novos desafios profissionais. Tenho disposição para aprender, me adaptar a diferentes ambientes de trabalho e continuar evoluindo profissionalmente.
+
 ## Nossa família e o projeto Alemanha
 
 Sou casado com **[Sofia Giusti](https://www.linkedin.com/in/sofia-giusti-538401186)**, argentina e profissional da área administrativa. Nós nos conhecemos na **igreja**, e desde então construímos uma história de companheirismo, fé e sonhos compartilhados. Sofia foi fundamental na minha trajetória: acreditou em mim, no meu potencial e nos meus objetivos, inclusive nos momentos em que o caminho parecia mais difícil.
