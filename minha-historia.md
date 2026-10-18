@@ -16,6 +16,29 @@ Atualmente, sou **2º Tenente — Oficial Temporário da Força Aérea Brasileir
 
 *Fotografias originais de diferentes etapas da minha vida: trabalho, carreira militar, família e projetos sociais.*
 
+## Família e recomeço — 2017
+
+Em 2017, eu servia no Exército Brasileiro quando perdi minha mãe. Naquele momento, assumi a guarda e os cuidados da minha irmã Maria Eduarda, que tinha 12 anos e tem síndrome de Down. Precisei interromper minha trajetória no Exército para estar presente e dar atenção à minha família.
+
+Naquele mesmo ano, vim para São Paulo com meu pai, a Maria Eduarda e minha outra irmã para recomeçarmos a vida do zero. Foi um período decisivo, em que coloquei meus planos em pausa para cuidar de quem precisava de mim.
+
+Anos depois, meu pai passou a assumir a guarda da Maria Eduarda. Com o tempo, as coisas foram se organizando e, graças a Deus, conseguimos seguir em frente. Essa fase faz parte da minha história e do valor que dou à família, ao cuidado e à responsabilidade.
+
+### Memórias em família
+
+Estas fotografias registram momentos de carinho, convivência e conquistas ao longo dos anos.
+
+<div style="display:grid;grid-template-columns:repeat(auto-fit,minmax(220px,1fr));gap:16px;margin:24px 0;">
+  <a href="{{ '/assets/images/familia/familia-01.jpg' | relative_url }}" target="_blank" rel="noopener noreferrer" aria-label="Ampliar fotografia de família 1"><img src="{{ '/assets/images/familia/familia-01.jpg' | relative_url }}" alt="Memória em família com Maria Eduarda — fotografia 1" loading="lazy" style="display:block;width:100%;height:auto;border-radius:12px;"></a>
+  <a href="{{ '/assets/images/familia/familia-02.jpg' | relative_url }}" target="_blank" rel="noopener noreferrer" aria-label="Ampliar fotografia de família 2"><img src="{{ '/assets/images/familia/familia-02.jpg' | relative_url }}" alt="Memória em família com Maria Eduarda — fotografia 2" loading="lazy" style="display:block;width:100%;height:auto;border-radius:12px;"></a>
+  <a href="{{ '/assets/images/familia/familia-03.jpg' | relative_url }}" target="_blank" rel="noopener noreferrer" aria-label="Ampliar fotografia de família 3"><img src="{{ '/assets/images/familia/familia-03.jpg' | relative_url }}" alt="Memória em família com Maria Eduarda — fotografia 3" loading="lazy" style="display:block;width:100%;height:auto;border-radius:12px;"></a>
+  <a href="{{ '/assets/images/familia/familia-04.jpg' | relative_url }}" target="_blank" rel="noopener noreferrer" aria-label="Ampliar fotografia de família 4"><img src="{{ '/assets/images/familia/familia-04.jpg' | relative_url }}" alt="Memória em família com Maria Eduarda — fotografia 4" loading="lazy" style="display:block;width:100%;height:auto;border-radius:12px;"></a>
+  <a href="{{ '/assets/images/familia/familia-05.jpg' | relative_url }}" target="_blank" rel="noopener noreferrer" aria-label="Ampliar fotografia de família 5"><img src="{{ '/assets/images/familia/familia-05.jpg' | relative_url }}" alt="Memória em família com Maria Eduarda — fotografia 5" loading="lazy" style="display:block;width:100%;height:auto;border-radius:12px;"></a>
+  <a href="{{ '/assets/images/familia/familia-06.jpg' | relative_url }}" target="_blank" rel="noopener noreferrer" aria-label="Ampliar fotografia de família 6"><img src="{{ '/assets/images/familia/familia-06.jpg' | relative_url }}" alt="Memória em família com Maria Eduarda — fotografia 6" loading="lazy" style="display:block;width:100%;height:auto;border-radius:12px;"></a>
+  <a href="{{ '/assets/images/familia/familia-07.jpg' | relative_url }}" target="_blank" rel="noopener noreferrer" aria-label="Ampliar fotografia de família 7"><img src="{{ '/assets/images/familia/familia-07.jpg' | relative_url }}" alt="Memória em família com Maria Eduarda — fotografia 7" loading="lazy" style="display:block;width:100%;height:auto;border-radius:12px;"></a>
+  <a href="{{ '/assets/images/familia/familia-08.jpg' | relative_url }}" target="_blank" rel="noopener noreferrer" aria-label="Ampliar fotografia de família 8"><img src="{{ '/assets/images/familia/familia-08.jpg' | relative_url }}" alt="Memória em família com Maria Eduarda — fotografia 8" loading="lazy" style="display:block;width:100%;height:auto;border-radius:12px;"></a>
+</div>
+
 ## Projeto social — Esporte na comunidade
 
 Há 10 anos, atuo como voluntário com jovens da comunidade, promovendo futebol e jogos para incentivar a socialização, a convivência e a integração da juventude.
