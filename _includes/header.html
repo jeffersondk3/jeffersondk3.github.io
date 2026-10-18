@@ -4,13 +4,34 @@
       <img src="{{ site.author.avatar }}" alt="" class="brand-avatar" width="36" height="36">
       <span>{{ site.title }}</span>
     </a>
-    <nav class="nav">
-      <a href="{{ '/' | relative_url }}" {% if page.url == '/' %}aria-current="page"{% endif %}>Início</a>
-      <a href="{{ '/projetos/' | relative_url }}" {% if page.url == '/projetos/' %}aria-current="page"{% endif %}>Projetos</a>
-      <a href="{{ '/minha-historia/' | relative_url }}" {% if page.url == '/minha-historia/' %}aria-current="page"{% endif %}>História</a>
-      <a href="{{ '/sobre/' | relative_url }}" {% if page.url == '/sobre/' %}aria-current="page"{% endif %}>Sobre</a>
+    <nav class="nav" aria-label="Main navigation">
+      {% assign lng = page.lang | default: 'pt' %}
+      {% if lng == 'en' %}
+      <a href="{{ '/en/' | relative_url }}">Home</a>
+      <a href="{{ '/en/projects/' | relative_url }}">Projects</a>
+      <a href="{{ '/en/my-story/' | relative_url }}">Story</a>
+      <a href="{{ '/en/about/' | relative_url }}">About</a>
+      <a href="{{ '/en/biography/' | relative_url }}">Biography</a>
+      {% elsif lng == 'de' %}
+      <a href="{{ '/de/' | relative_url }}">Startseite</a>
+      <a href="{{ '/de/projekte/' | relative_url }}">Projekte</a>
+      <a href="{{ '/de/meine-geschichte/' | relative_url }}">Geschichte</a>
+      <a href="{{ '/de/ueber-mich/' | relative_url }}">Über mich</a>
+      <a href="{{ '/de/biografie/' | relative_url }}">Biografie</a>
+      {% elsif lng == 'es' %}
+      <a href="{{ '/es/' | relative_url }}">Inicio</a>
+      <a href="{{ '/es/proyectos/' | relative_url }}">Proyectos</a>
+      <a href="{{ '/es/mi-historia/' | relative_url }}">Historia</a>
+      <a href="{{ '/es/sobre-mi/' | relative_url }}">Sobre mí</a>
+      <a href="{{ '/es/biografia/' | relative_url }}">Biografía</a>
+      {% else %}
+      <a href="{{ '/' | relative_url }}">Início</a>
+      <a href="{{ '/projetos/' | relative_url }}">Projetos</a>
+      <a href="{{ '/minha-historia/' | relative_url }}">História</a>
+      <a href="{{ '/sobre/' | relative_url }}">Sobre</a>
       <a href="{{ '/biografia/' | relative_url }}">Biografia</a>
-      <span class="language-hint" aria-label="Leia em outros idiomas">🌍 Leia em alemão, inglês e espanhol</span>
+      {% endif %}
+      <span class="language-hint" aria-label="Choose a language">{% if lng == "en" %}🌍 Read in German, English or Spanish{% elsif lng == "de" %}🌍 Auf Deutsch, Englisch oder Spanisch lesen{% elsif lng == "es" %}🌍 Lee en alemán, inglés o español{% else %}🌍 Leia em alemão, inglês e espanhol{% endif %}</span>
       <span class="language-switch" aria-label="Idiomas">
         {% if page.lang == 'en' %}{% assign locale = 'en' %}{% elsif page.lang == 'de' %}{% assign locale = 'de' %}{% elsif page.lang == 'es' %}{% assign locale = 'es' %}{% else %}{% assign locale = 'pt' %}{% endif %}
         {% assign section = 'home' %}
