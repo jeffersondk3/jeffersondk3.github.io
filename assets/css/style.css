@@ -174,3 +174,14 @@ h1, h2, h3 {
 
 /* Tema sempre claro, independentemente do sistema */
 :root, :root[data-theme="dark"], :root[data-theme="light"] { --bg:#eaf5ff; --surface:#fff; --text:#16324f; --muted:#4c6680; --line:#c7dff1; --accent:#1262a3; --accent-soft:#d4ebff; --code-bg:#e3f0fc; --shadow:0 2px 12px rgba(22,50,79,.08); color-scheme:light; }
+
+
+/* Language selector and gentle animated notice */
+.nav { display: flex; align-items: center; flex-wrap: wrap; gap: .65rem; }
+.language-switch { display: inline-flex; gap: .35rem; align-items: center; white-space: nowrap; }
+.language-switch a { font-weight: 700; padding: .22rem .35rem; border-radius: .35rem; }
+.language-switch a[aria-current="page"] { background: #cce5ff; color: #103d70; }
+.language-hint { display: inline-block; font-size: .78rem; font-weight: 700; color: #064b87; background: #d9edff; padding: .28rem .55rem; border-radius: .5rem; animation: language-glow 2.4s ease-in-out infinite; }
+@keyframes language-glow { 0%,100% { opacity: 1; } 50% { opacity: .35; } }
+@media (prefers-reduced-motion: reduce) { .language-hint { animation: none; } }
+@media (max-width: 720px) { .language-hint { font-size: .7rem; } .language-switch { gap: .1rem; } }
