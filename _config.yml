@@ -24,6 +24,7 @@ social:
 url: "https://jeffersondk3.github.io"
 baseurl: ""
 lang: pt-BR
+google_analytics_id: "G-T2KBSHCHRB"
 timezone: America/Sao_Paulo
 
 markdown: kramdown
