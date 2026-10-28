@@ -1,0 +1,83 @@
+[
+  {
+    "id": "loecsen",
+    "title": "Loecsen",
+    "category": "Sites e cursos",
+    "icon": "Lo",
+    "description": "Pratique palavras, frases e situações do cotidiano com áudio.",
+    "url": "https://www.loecsen.com"
+  },
+  {
+    "id": "dw",
+    "title": "DW · Nicos Weg",
+    "category": "Sites e cursos",
+    "icon": "DW",
+    "description": "Acesse o curso de alemão da Deutsche Welle com interface em português.",
+    "url": "https://learngerman.dw.com/pt-br/nicos-weg/c-45457080",
+    "originalUrl": "https://share.google/mpZUZLeaqVVEgGgNz"
+  },
+  {
+    "id": "google-shared",
+    "title": "Material compartilhado · Google",
+    "category": "Sites e cursos",
+    "icon": "↗",
+    "description": "Outro link de apoio enviado por você. Acesse pelo endereço original.",
+    "url": "https://share.google/3plN7qvtnQ1VO3pvs"
+  },
+  {
+    "id": "sprachportal",
+    "title": "Sprachportal · Trabalho na Áustria",
+    "category": "Leitura e arquivos",
+    "icon": "ÖIF",
+    "description": "Revista Deutsch lernen 26: Meine Arbeit in Österreich. Leitura e atividades sobre profissões e trabalho.",
+    "url": "https://sprachportal.at/lernmaterial/unterrichtsmagazin-deutsch-lernen-26-meine-arbeit-in-oesterreich/"
+  },
+  {
+    "id": "drive",
+    "title": "Pasta de materiais · Google Drive",
+    "category": "Leitura e arquivos",
+    "icon": "▤",
+    "description": "Abra a pasta compartilhada com os arquivos de apoio aos seus estudos.",
+    "url": "https://drive.google.com/drive/folders/1mHJF5uoxD74kXgaMkT7paGmxGw2B13H9"
+  },
+  {
+    "id": "spotify",
+    "title": "Fluency TV Alemão",
+    "category": "Áudios e rádio",
+    "icon": "♪",
+    "description": "Abra o podcast no Spotify e escolha um episódio para treinar a escuta.",
+    "url": "https://open.spotify.com/show/6F1Y0opqDfUXHapNqC9Dhj?si=1n8UlwG4RnqyMTA3xmSMhg&utm_source=whatsapp"
+  },
+  {
+    "id": "radio",
+    "title": "Rádios alemãs · radio.de",
+    "category": "Áudios e rádio",
+    "icon": "FM",
+    "description": "Escolha uma rádio para ouvir músicas e acompanhar o alemão na programação ao vivo.",
+    "url": "https://www.radio.de"
+  },
+  {
+    "id": "youtube-playlist-1",
+    "title": "Playlist de aulas · YouTube 1",
+    "category": "Vídeos",
+    "icon": "▶",
+    "description": "Abra a primeira playlist enviada e continue suas aulas em vídeo.",
+    "url": "https://youtube.com/playlist?list=PLzekCrYOpwN19tDGhPN1vLYkaQArS0K2J&si=v5YmbqBIXg1an5ZH"
+  },
+  {
+    "id": "youtube-playlist-2",
+    "title": "Playlist de aulas · YouTube 2",
+    "category": "Vídeos",
+    "icon": "▶",
+    "description": "Abra a segunda playlist enviada e escolha a próxima aula.",
+    "url": "https://youtube.com/playlist?list=PLCDk4EutiT6o&si=C9a3-3CbO199B3s4"
+  },
+  {
+    "id": "raville",
+    "title": "Alemão com Raville",
+    "category": "Vídeos",
+    "icon": "▶",
+    "description": "Acesse o canal e acompanhe os vídeos de alemão.",
+    "url": "https://youtube.com/@alemaocomraville?si=HVtrQFpF_S8V9gIF"
+  }
+]

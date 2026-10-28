@@ -3,6 +3,7 @@
 Aplicativo estático publicado em /alemao/ no GitHub Pages.
 
 - Diálogos: 100 conversas originais com áudio DE/PT e quatro campos A–D para reescrever cada fala. A correção compara as palavras com a frase original, destaca diferenças após enviar e salva o treino por diálogo e perfil. Não é uma avaliação aberta de gramática ou de traduções alternativas.
+- Aba Apoio: 10 links indicados pelo usuário, agrupados em sites/cursos, leitura/arquivos, áudios/rádio e vídeos. Abre a plataforma de origem sem alterar permissões de acesso.
 - Meus materiais: 12 PDFs originais cifrados em partes AES-256-GCM. PDF.js reconstitui o original apenas na memória após desbloqueio.
 - Treino de escrita abaixo de cada página dos 12 materiais, com texto independente por página, módulo e perfil; salvamento na mesma fila de sincronização do progresso.
 - Uma conta Supabase, dois perfis selecionáveis: Jefferson e Sofia. Os dois perfis ficam acessíveis à mesma conta.
