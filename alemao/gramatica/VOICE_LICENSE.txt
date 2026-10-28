@@ -1,0 +1,1 @@
+Áudios sintéticos em alemão gerados com Piper, modelo de_DE-thorsten-medium. Voz Thorsten, licença CC0. Não são gravações humanas nem a voz do ChatGPT.
