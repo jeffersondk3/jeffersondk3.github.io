@@ -3,7 +3,7 @@ const $=id=>document.getElementById(id);
 const audio=$('audioPlayer');
 let data=[],current=null,category='',favoriteOnly=false,doneOnly=false,token=0,playing=false,index=-1,waiting=false;
 let saved={done:[],favorites:[],last:1};try{saved={...saved,...JSON.parse(localStorage.getItem('deutsch-alltag-v1')||'{}')};for(const k of ['done','favorites'])if(!Array.isArray(saved[k]))saved[k]=[]}catch{}
-const persist=()=>{try{localStorage.setItem('deutsch-alltag-v1',JSON.stringify(saved))}catch{}};
+const persist=()=>{try{localStorage.setItem(window.studyCloud?.userId?'deutsch-alltag-user-'+window.studyCloud.userId+'-'+window.studyCloud.profile:'deutsch-alltag-v1',JSON.stringify(saved));window.studyCloud?.saveDialogues(saved)}catch{}};
 const escapeHTML=s=>String(s).replace(/[&<>"']/g,c=>({'&':'&amp;','<':'&lt;','>':'&gt;','"':'&quot;',"'":'&#39;'}[c]));
 function draw(){
  $('doneCount').textContent=saved.done.length;$('progressBar').style.width=saved.done.length+'%';
@@ -47,3 +47,5 @@ $('closeLesson').onclick=()=>$('lesson').close();$('lesson').addEventListener('c
 $('install').onclick=()=>$('installHelp').showModal();$('closeInstall').onclick=()=>$('installHelp').close();
 window.addEventListener('pagehide',stop);
 fetch('data.json').then(r=>{if(!r.ok)throw new Error();return r.json()}).then(d=>{data=d;draw()}).catch(()=>{$('cards').textContent='Não foi possível carregar os diálogos. Confira sua conexão e recarregue a página.';$('continue').disabled=true});
+
+let displayedProfile='guest';window.addEventListener('study:dialogues',e=>{const active=window.studyCloud?.userId?window.studyCloud.userId+':'+window.studyCloud.profile:'guest';if(active!==displayedProfile){stop();if($('lesson').open)$('lesson').close();displayedProfile=active}saved=e.detail;draw();if(current&&$('lesson').open)lessonButtons()});

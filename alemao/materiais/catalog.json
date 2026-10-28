@@ -1,0 +1,2669 @@
+[
+  {
+    "id": "material-01",
+    "title": "A1 — Primeiros Passos",
+    "group": "Níveis A1 a C2",
+    "label": "A1",
+    "pages": 61,
+    "bytes": 29953477,
+    "sha256": "57635e78ca246764a77e0335edff998095daa9d629e4d2a547f219fbfb2019db",
+    "parts": [
+      {
+        "path": "materials-private/material-01-0001.enc",
+        "iv": "GqWtpifI0KsbyoKm",
+        "aad": "material-01:0"
+      },
+      {
+        "path": "materials-private/material-01-0002.enc",
+        "iv": "q5ktAx7UNCLrL311",
+        "aad": "material-01:1"
+      },
+      {
+        "path": "materials-private/material-01-0003.enc",
+        "iv": "8y2pHQQagU+H8bll",
+        "aad": "material-01:2"
+      },
+      {
+        "path": "materials-private/material-01-0004.enc",
+        "iv": "c+dUycqstISxjy3G",
+        "aad": "material-01:3"
+      },
+      {
+        "path": "materials-private/material-01-0005.enc",
+        "iv": "OLDqn2JVLRwnDywL",
+        "aad": "material-01:4"
+      },
+      {
+        "path": "materials-private/material-01-0006.enc",
+        "iv": "dsYrd9T0XXO65kzX",
+        "aad": "material-01:5"
+      },
+      {
+        "path": "materials-private/material-01-0007.enc",
+        "iv": "GWNUwTujGI7C+7IU",
+        "aad": "material-01:6"
+      },
+      {
+        "path": "materials-private/material-01-0008.enc",
+        "iv": "4Ob3OGvORYZPkSZZ",
+        "aad": "material-01:7"
+      },
+      {
+        "path": "materials-private/material-01-0009.enc",
+        "iv": "Ab6e4MnSCFVDjv9w",
+        "aad": "material-01:8"
+      },
+      {
+        "path": "materials-private/material-01-0010.enc",
+        "iv": "CWU8PBSZftvTzWK1",
+        "aad": "material-01:9"
+      },
+      {
+        "path": "materials-private/material-01-0011.enc",
+        "iv": "rKnVUUL2Apcdpwgj",
+        "aad": "material-01:10"
+      },
+      {
+        "path": "materials-private/material-01-0012.enc",
+        "iv": "Th7UqjxBiQBsdnl4",
+        "aad": "material-01:11"
+      },
+      {
+        "path": "materials-private/material-01-0013.enc",
+        "iv": "JSDws/OA1UoBWx2O",
+        "aad": "material-01:12"
+      },
+      {
+        "path": "materials-private/material-01-0014.enc",
+        "iv": "pmoKx2qT7+yxz3iA",
+        "aad": "material-01:13"
+      },
+      {
+        "path": "materials-private/material-01-0015.enc",
+        "iv": "Q8O6lfLcS/eyyCCZ",
+        "aad": "material-01:14"
+      },
+      {
+        "path": "materials-private/material-01-0016.enc",
+        "iv": "wo3YCC/UcKJCsMxj",
+        "aad": "material-01:15"
+      },
+      {
+        "path": "materials-private/material-01-0017.enc",
+        "iv": "/dEt/TYe51OAXcKM",
+        "aad": "material-01:16"
+      },
+      {
+        "path": "materials-private/material-01-0018.enc",
+        "iv": "O1M+24qoyaP2YTC2",
+        "aad": "material-01:17"
+      },
+      {
+        "path": "materials-private/material-01-0019.enc",
+        "iv": "USVNmismh0lbvFkG",
+        "aad": "material-01:18"
+      },
+      {
+        "path": "materials-private/material-01-0020.enc",
+        "iv": "5iw2j6w/q5GPNDR7",
+        "aad": "material-01:19"
+      },
+      {
+        "path": "materials-private/material-01-0021.enc",
+        "iv": "Kr+zmTGWx4AQWnEK",
+        "aad": "material-01:20"
+      },
+      {
+        "path": "materials-private/material-01-0022.enc",
+        "iv": "5TqtydzD6ugne7Lc",
+        "aad": "material-01:21"
+      },
+      {
+        "path": "materials-private/material-01-0023.enc",
+        "iv": "IS+x6ZxNMWZsMV+C",
+        "aad": "material-01:22"
+      },
+      {
+        "path": "materials-private/material-01-0024.enc",
+        "iv": "63kPoKBev/CrDQ9v",
+        "aad": "material-01:23"
+      },
+      {
+        "path": "materials-private/material-01-0025.enc",
+        "iv": "LrhOa3dmyi0NA2YK",
+        "aad": "material-01:24"
+      },
+      {
+        "path": "materials-private/material-01-0026.enc",
+        "iv": "0MOVdWn7k9Bd9let",
+        "aad": "material-01:25"
+      },
+      {
+        "path": "materials-private/material-01-0027.enc",
+        "iv": "IlDaBBKzORSuJAVT",
+        "aad": "material-01:26"
+      },
+      {
+        "path": "materials-private/material-01-0028.enc",
+        "iv": "uU6rAFQisgvT2Fx6",
+        "aad": "material-01:27"
+      },
+      {
+        "path": "materials-private/material-01-0029.enc",
+        "iv": "3ODNYgPdWsRUYsFG",
+        "aad": "material-01:28"
+      },
+      {
+        "path": "materials-private/material-01-0030.enc",
+        "iv": "uOrBszvVP4REuol+",
+        "aad": "material-01:29"
+      },
+      {
+        "path": "materials-private/material-01-0031.enc",
+        "iv": "uVORUn5BFmpMw8XK",
+        "aad": "material-01:30"
+      },
+      {
+        "path": "materials-private/material-01-0032.enc",
+        "iv": "DklqIe3wkCGbYN9C",
+        "aad": "material-01:31"
+      },
+      {
+        "path": "materials-private/material-01-0033.enc",
+        "iv": "Aql3F7ndBsG/FN1b",
+        "aad": "material-01:32"
+      },
+      {
+        "path": "materials-private/material-01-0034.enc",
+        "iv": "GVcazR84GrkGim1y",
+        "aad": "material-01:33"
+      },
+      {
+        "path": "materials-private/material-01-0035.enc",
+        "iv": "/UZmKsMpppY45Sba",
+        "aad": "material-01:34"
+      },
+      {
+        "path": "materials-private/material-01-0036.enc",
+        "iv": "LT3LBgtgcCpjENGP",
+        "aad": "material-01:35"
+      },
+      {
+        "path": "materials-private/material-01-0037.enc",
+        "iv": "cuEvOWwDMXjFDtnu",
+        "aad": "material-01:36"
+      },
+      {
+        "path": "materials-private/material-01-0038.enc",
+        "iv": "8SXzYQwRJJ8rpg24",
+        "aad": "material-01:37"
+      },
+      {
+        "path": "materials-private/material-01-0039.enc",
+        "iv": "qrgGxbfRbVN8AWyw",
+        "aad": "material-01:38"
+      },
+      {
+        "path": "materials-private/material-01-0040.enc",
+        "iv": "FAMmiDRVCX+bwqp6",
+        "aad": "material-01:39"
+      },
+      {
+        "path": "materials-private/material-01-0041.enc",
+        "iv": "61sD0oy59lAYaBAh",
+        "aad": "material-01:40"
+      },
+      {
+        "path": "materials-private/material-01-0042.enc",
+        "iv": "SX2SUt4cDKRguyF+",
+        "aad": "material-01:41"
+      },
+      {
+        "path": "materials-private/material-01-0043.enc",
+        "iv": "enJcsLCzBfwtVKTJ",
+        "aad": "material-01:42"
+      },
+      {
+        "path": "materials-private/material-01-0044.enc",
+        "iv": "jaBLbczbgtWhM+Rj",
+        "aad": "material-01:43"
+      },
+      {
+        "path": "materials-private/material-01-0045.enc",
+        "iv": "vT5XlyXP9MfrPs2n",
+        "aad": "material-01:44"
+      },
+      {
+        "path": "materials-private/material-01-0046.enc",
+        "iv": "eT9uAriEvoxbUFDo",
+        "aad": "material-01:45"
+      },
+      {
+        "path": "materials-private/material-01-0047.enc",
+        "iv": "0Ak+aR0NwMJv7YET",
+        "aad": "material-01:46"
+      },
+      {
+        "path": "materials-private/material-01-0048.enc",
+        "iv": "JSr8UjYUmopDD+6i",
+        "aad": "material-01:47"
+      },
+      {
+        "path": "materials-private/material-01-0049.enc",
+        "iv": "VUeWgpepu//x0Hd2",
+        "aad": "material-01:48"
+      },
+      {
+        "path": "materials-private/material-01-0050.enc",
+        "iv": "waTWkvAndSuyonBD",
+        "aad": "material-01:49"
+      },
+      {
+        "path": "materials-private/material-01-0051.enc",
+        "iv": "JQwz+gMtdC3m+tjC",
+        "aad": "material-01:50"
+      },
+      {
+        "path": "materials-private/material-01-0052.enc",
+        "iv": "nTi5ocvVg/a2v5AU",
+        "aad": "material-01:51"
+      },
+      {
+        "path": "materials-private/material-01-0053.enc",
+        "iv": "dyp07VwLTnSXKJ2f",
+        "aad": "material-01:52"
+      },
+      {
+        "path": "materials-private/material-01-0054.enc",
+        "iv": "6wxuqj/j3OJSyXIE",
+        "aad": "material-01:53"
+      },
+      {
+        "path": "materials-private/material-01-0055.enc",
+        "iv": "GrxJbMlCiOihkqNY",
+        "aad": "material-01:54"
+      },
+      {
+        "path": "materials-private/material-01-0056.enc",
+        "iv": "qiHoEL1VHYAnuIo+",
+        "aad": "material-01:55"
+      },
+      {
+        "path": "materials-private/material-01-0057.enc",
+        "iv": "GF2L/+qM2J9FRd6X",
+        "aad": "material-01:56"
+      },
+      {
+        "path": "materials-private/material-01-0058.enc",
+        "iv": "l751AOKOarjTBk9i",
+        "aad": "material-01:57"
+      }
+    ]
+  },
+  {
+    "id": "material-02",
+    "title": "A2 — Construindo a Base",
+    "group": "Níveis A1 a C2",
+    "label": "A2",
+    "pages": 61,
+    "bytes": 33936508,
+    "sha256": "d702916e3e5be32779418f7e187a7cf64c4c73803472f357c055a4da8976cd6c",
+    "parts": [
+      {
+        "path": "materials-private/material-02-0001.enc",
+        "iv": "st+DX4s2dzbMGEWn",
+        "aad": "material-02:0"
+      },
+      {
+        "path": "materials-private/material-02-0002.enc",
+        "iv": "EjyJLPu38C2Pom2+",
+        "aad": "material-02:1"
+      },
+      {
+        "path": "materials-private/material-02-0003.enc",
+        "iv": "pZJORxh/5phBr6Yx",
+        "aad": "material-02:2"
+      },
+      {
+        "path": "materials-private/material-02-0004.enc",
+        "iv": "ndWExCEM+Owfk6b/",
+        "aad": "material-02:3"
+      },
+      {
+        "path": "materials-private/material-02-0005.enc",
+        "iv": "VeMiQyqNmXARU4Gi",
+        "aad": "material-02:4"
+      },
+      {
+        "path": "materials-private/material-02-0006.enc",
+        "iv": "EvuojK3848MayicR",
+        "aad": "material-02:5"
+      },
+      {
+        "path": "materials-private/material-02-0007.enc",
+        "iv": "AQ8UB6Sa2Ci+yHpR",
+        "aad": "material-02:6"
+      },
+      {
+        "path": "materials-private/material-02-0008.enc",
+        "iv": "jFIIb13XA2TYB67f",
+        "aad": "material-02:7"
+      },
+      {
+        "path": "materials-private/material-02-0009.enc",
+        "iv": "FU6ZUZ1ZZcvdx48x",
+        "aad": "material-02:8"
+      },
+      {
+        "path": "materials-private/material-02-0010.enc",
+        "iv": "lqxI7nWTUlIRdVoZ",
+        "aad": "material-02:9"
+      },
+      {
+        "path": "materials-private/material-02-0011.enc",
+        "iv": "96iUe7OMKY47zbmz",
+        "aad": "material-02:10"
+      },
+      {
+        "path": "materials-private/material-02-0012.enc",
+        "iv": "u4yyUO4eb50XIsQa",
+        "aad": "material-02:11"
+      },
+      {
+        "path": "materials-private/material-02-0013.enc",
+        "iv": "aAbHQ6fVwL8rvZ1C",
+        "aad": "material-02:12"
+      },
+      {
+        "path": "materials-private/material-02-0014.enc",
+        "iv": "7weAmy0zB0ISgPRr",
+        "aad": "material-02:13"
+      },
+      {
+        "path": "materials-private/material-02-0015.enc",
+        "iv": "or9gZ9N1tDz4GM8v",
+        "aad": "material-02:14"
+      },
+      {
+        "path": "materials-private/material-02-0016.enc",
+        "iv": "US5yEX2wOvmX+GT1",
+        "aad": "material-02:15"
+      },
+      {
+        "path": "materials-private/material-02-0017.enc",
+        "iv": "UVixRpRorGhvlJ8O",
+        "aad": "material-02:16"
+      },
+      {
+        "path": "materials-private/material-02-0018.enc",
+        "iv": "r00pk3NZMsEPyaiy",
+        "aad": "material-02:17"
+      },
+      {
+        "path": "materials-private/material-02-0019.enc",
+        "iv": "EK6c/6K6iFuod9Nk",
+        "aad": "material-02:18"
+      },
+      {
+        "path": "materials-private/material-02-0020.enc",
+        "iv": "VxT9gqUqUkC7w/vC",
+        "aad": "material-02:19"
+      },
+      {
+        "path": "materials-private/material-02-0021.enc",
+        "iv": "BVPyeovfXP2RufVA",
+        "aad": "material-02:20"
+      },
+      {
+        "path": "materials-private/material-02-0022.enc",
+        "iv": "+QLffErd9IJ/fcPM",
+        "aad": "material-02:21"
+      },
+      {
+        "path": "materials-private/material-02-0023.enc",
+        "iv": "Xz5vi5XGF7xFpoDd",
+        "aad": "material-02:22"
+      },
+      {
+        "path": "materials-private/material-02-0024.enc",
+        "iv": "0ay2Qrofe5Ieb2+V",
+        "aad": "material-02:23"
+      },
+      {
+        "path": "materials-private/material-02-0025.enc",
+        "iv": "y7aeZuSSieQqmS2i",
+        "aad": "material-02:24"
+      },
+      {
+        "path": "materials-private/material-02-0026.enc",
+        "iv": "Ti333bxxMeSoiE7o",
+        "aad": "material-02:25"
+      },
+      {
+        "path": "materials-private/material-02-0027.enc",
+        "iv": "Y/3QQHyZY640D9Bs",
+        "aad": "material-02:26"
+      },
+      {
+        "path": "materials-private/material-02-0028.enc",
+        "iv": "DWZ0Bxx0J1kFYcKM",
+        "aad": "material-02:27"
+      },
+      {
+        "path": "materials-private/material-02-0029.enc",
+        "iv": "KrfaDI+GVX/k3HSy",
+        "aad": "material-02:28"
+      },
+      {
+        "path": "materials-private/material-02-0030.enc",
+        "iv": "quXKMjOrT6TZbVXo",
+        "aad": "material-02:29"
+      },
+      {
+        "path": "materials-private/material-02-0031.enc",
+        "iv": "C+Yo5Ks7izAB7GJj",
+        "aad": "material-02:30"
+      },
+      {
+        "path": "materials-private/material-02-0032.enc",
+        "iv": "1oSJWmLU0NDg3Xka",
+        "aad": "material-02:31"
+      },
+      {
+        "path": "materials-private/material-02-0033.enc",
+        "iv": "CScmhN1L/SaJVoRf",
+        "aad": "material-02:32"
+      },
+      {
+        "path": "materials-private/material-02-0034.enc",
+        "iv": "0ayRCBq9Rik17nQE",
+        "aad": "material-02:33"
+      },
+      {
+        "path": "materials-private/material-02-0035.enc",
+        "iv": "QJ7BjAAQe9srdSbN",
+        "aad": "material-02:34"
+      },
+      {
+        "path": "materials-private/material-02-0036.enc",
+        "iv": "ZWXcLo82EsfTEKB/",
+        "aad": "material-02:35"
+      },
+      {
+        "path": "materials-private/material-02-0037.enc",
+        "iv": "YG+BNHl54cku6cwe",
+        "aad": "material-02:36"
+      },
+      {
+        "path": "materials-private/material-02-0038.enc",
+        "iv": "JbLMwhDoXQJlRbip",
+        "aad": "material-02:37"
+      },
+      {
+        "path": "materials-private/material-02-0039.enc",
+        "iv": "Qkfo0IgBpF7yWMJv",
+        "aad": "material-02:38"
+      },
+      {
+        "path": "materials-private/material-02-0040.enc",
+        "iv": "2l4kz4PQD7ElVaJm",
+        "aad": "material-02:39"
+      },
+      {
+        "path": "materials-private/material-02-0041.enc",
+        "iv": "PVH5F9w0sUmGZOr6",
+        "aad": "material-02:40"
+      },
+      {
+        "path": "materials-private/material-02-0042.enc",
+        "iv": "GpKHC849EjKQ0dDx",
+        "aad": "material-02:41"
+      },
+      {
+        "path": "materials-private/material-02-0043.enc",
+        "iv": "uYXLUa4IsKhP4mZM",
+        "aad": "material-02:42"
+      },
+      {
+        "path": "materials-private/material-02-0044.enc",
+        "iv": "wRxZHZfw4KfPcukq",
+        "aad": "material-02:43"
+      },
+      {
+        "path": "materials-private/material-02-0045.enc",
+        "iv": "tU6sNiLdi1Wv83bQ",
+        "aad": "material-02:44"
+      },
+      {
+        "path": "materials-private/material-02-0046.enc",
+        "iv": "Ctv+sNeXHqCO5+5x",
+        "aad": "material-02:45"
+      },
+      {
+        "path": "materials-private/material-02-0047.enc",
+        "iv": "vtNc5rTBWYpPgV5l",
+        "aad": "material-02:46"
+      },
+      {
+        "path": "materials-private/material-02-0048.enc",
+        "iv": "3/b8mg+7KKZQpGRH",
+        "aad": "material-02:47"
+      },
+      {
+        "path": "materials-private/material-02-0049.enc",
+        "iv": "ZbSPbV2OYsjzy9XR",
+        "aad": "material-02:48"
+      },
+      {
+        "path": "materials-private/material-02-0050.enc",
+        "iv": "6vK8PzgkYPxrrcOl",
+        "aad": "material-02:49"
+      },
+      {
+        "path": "materials-private/material-02-0051.enc",
+        "iv": "t/RRvmdoGQDGdFkF",
+        "aad": "material-02:50"
+      },
+      {
+        "path": "materials-private/material-02-0052.enc",
+        "iv": "1uHKuW/GkF3SwC3t",
+        "aad": "material-02:51"
+      },
+      {
+        "path": "materials-private/material-02-0053.enc",
+        "iv": "NlIhirhqLeQufhqt",
+        "aad": "material-02:52"
+      },
+      {
+        "path": "materials-private/material-02-0054.enc",
+        "iv": "IatmOZ2aPpFd1QGm",
+        "aad": "material-02:53"
+      },
+      {
+        "path": "materials-private/material-02-0055.enc",
+        "iv": "nwCYaBtESvL6wr+H",
+        "aad": "material-02:54"
+      },
+      {
+        "path": "materials-private/material-02-0056.enc",
+        "iv": "eIU0p4VoOqkTghWA",
+        "aad": "material-02:55"
+      },
+      {
+        "path": "materials-private/material-02-0057.enc",
+        "iv": "4Q3QO9jqVg9GAoJf",
+        "aad": "material-02:56"
+      },
+      {
+        "path": "materials-private/material-02-0058.enc",
+        "iv": "jgCaU9qz6ZMJI2hd",
+        "aad": "material-02:57"
+      },
+      {
+        "path": "materials-private/material-02-0059.enc",
+        "iv": "d45H5nGj5GbFsyrt",
+        "aad": "material-02:58"
+      },
+      {
+        "path": "materials-private/material-02-0060.enc",
+        "iv": "+zTBeo8opLrpM9MF",
+        "aad": "material-02:59"
+      },
+      {
+        "path": "materials-private/material-02-0061.enc",
+        "iv": "31Chlq74eBAhxy+F",
+        "aad": "material-02:60"
+      },
+      {
+        "path": "materials-private/material-02-0062.enc",
+        "iv": "75vPdVqIbrAUmgh9",
+        "aad": "material-02:61"
+      },
+      {
+        "path": "materials-private/material-02-0063.enc",
+        "iv": "izhr14NPqVXKgsiT",
+        "aad": "material-02:62"
+      },
+      {
+        "path": "materials-private/material-02-0064.enc",
+        "iv": "5dOXOeZbwAICc4rL",
+        "aad": "material-02:63"
+      },
+      {
+        "path": "materials-private/material-02-0065.enc",
+        "iv": "XlqtFcVAyFd3LwVW",
+        "aad": "material-02:64"
+      }
+    ]
+  },
+  {
+    "id": "material-03",
+    "title": "B1 — Alemão com Autonomia",
+    "group": "Níveis A1 a C2",
+    "label": "B1",
+    "pages": 61,
+    "bytes": 36938863,
+    "sha256": "4b74b862850953b79f38ada2c9268dbdc68f071f50ddfe0bcb6b46d66ce0904a",
+    "parts": [
+      {
+        "path": "materials-private/material-03-0001.enc",
+        "iv": "uW+4rXwFolCdcl5O",
+        "aad": "material-03:0"
+      },
+      {
+        "path": "materials-private/material-03-0002.enc",
+        "iv": "SI3eS/QurEdw1yNQ",
+        "aad": "material-03:1"
+      },
+      {
+        "path": "materials-private/material-03-0003.enc",
+        "iv": "JaDK41gNrqL45SAV",
+        "aad": "material-03:2"
+      },
+      {
+        "path": "materials-private/material-03-0004.enc",
+        "iv": "SexnaRzVyeF6vJKd",
+        "aad": "material-03:3"
+      },
+      {
+        "path": "materials-private/material-03-0005.enc",
+        "iv": "yx+kHMrOViEV3dwd",
+        "aad": "material-03:4"
+      },
+      {
+        "path": "materials-private/material-03-0006.enc",
+        "iv": "ga3ok5KQuju5Tdsp",
+        "aad": "material-03:5"
+      },
+      {
+        "path": "materials-private/material-03-0007.enc",
+        "iv": "zcKrqEMvoijOGBG6",
+        "aad": "material-03:6"
+      },
+      {
+        "path": "materials-private/material-03-0008.enc",
+        "iv": "RKQvZkFyKnNB/XTN",
+        "aad": "material-03:7"
+      },
+      {
+        "path": "materials-private/material-03-0009.enc",
+        "iv": "VPf8KoynV6HawLJG",
+        "aad": "material-03:8"
+      },
+      {
+        "path": "materials-private/material-03-0010.enc",
+        "iv": "axv1YCpS5oIDrA3T",
+        "aad": "material-03:9"
+      },
+      {
+        "path": "materials-private/material-03-0011.enc",
+        "iv": "oE5zZd2QCNAZ3E0F",
+        "aad": "material-03:10"
+      },
+      {
+        "path": "materials-private/material-03-0012.enc",
+        "iv": "SA+4+NVq5vAQAy2u",
+        "aad": "material-03:11"
+      },
+      {
+        "path": "materials-private/material-03-0013.enc",
+        "iv": "GefWbA8lT7090Tfc",
+        "aad": "material-03:12"
+      },
+      {
+        "path": "materials-private/material-03-0014.enc",
+        "iv": "siiswCjHmz5fmJR2",
+        "aad": "material-03:13"
+      },
+      {
+        "path": "materials-private/material-03-0015.enc",
+        "iv": "FfaR0U1BVC3P+zOH",
+        "aad": "material-03:14"
+      },
+      {
+        "path": "materials-private/material-03-0016.enc",
+        "iv": "qJZzrTX4ywX/Q2bG",
+        "aad": "material-03:15"
+      },
+      {
+        "path": "materials-private/material-03-0017.enc",
+        "iv": "8d+ck6zmIpU52rV0",
+        "aad": "material-03:16"
+      },
+      {
+        "path": "materials-private/material-03-0018.enc",
+        "iv": "L8o0EciixDkwN+eK",
+        "aad": "material-03:17"
+      },
+      {
+        "path": "materials-private/material-03-0019.enc",
+        "iv": "IdpNGZuKcYfgyUDO",
+        "aad": "material-03:18"
+      },
+      {
+        "path": "materials-private/material-03-0020.enc",
+        "iv": "fh4M+UQIkLTY0lnK",
+        "aad": "material-03:19"
+      },
+      {
+        "path": "materials-private/material-03-0021.enc",
+        "iv": "68zfuiNjvQHtmyfe",
+        "aad": "material-03:20"
+      },
+      {
+        "path": "materials-private/material-03-0022.enc",
+        "iv": "hG3CX/KaAugfTej0",
+        "aad": "material-03:21"
+      },
+      {
+        "path": "materials-private/material-03-0023.enc",
+        "iv": "7q7Lgob6d3cr7eyJ",
+        "aad": "material-03:22"
+      },
+      {
+        "path": "materials-private/material-03-0024.enc",
+        "iv": "DimfE21l6SZ0sK61",
+        "aad": "material-03:23"
+      },
+      {
+        "path": "materials-private/material-03-0025.enc",
+        "iv": "LLdTArmBFrRmebbB",
+        "aad": "material-03:24"
+      },
+      {
+        "path": "materials-private/material-03-0026.enc",
+        "iv": "I9ZPaUIqwTwDGW1Z",
+        "aad": "material-03:25"
+      },
+      {
+        "path": "materials-private/material-03-0027.enc",
+        "iv": "EUY9NcpcKdO81Toz",
+        "aad": "material-03:26"
+      },
+      {
+        "path": "materials-private/material-03-0028.enc",
+        "iv": "gM1lTwsszydLR4xO",
+        "aad": "material-03:27"
+      },
+      {
+        "path": "materials-private/material-03-0029.enc",
+        "iv": "MyV75UX2EhApDGNl",
+        "aad": "material-03:28"
+      },
+      {
+        "path": "materials-private/material-03-0030.enc",
+        "iv": "Qdy4zHL1Z27NF6/3",
+        "aad": "material-03:29"
+      },
+      {
+        "path": "materials-private/material-03-0031.enc",
+        "iv": "VD4KDNBexcU+388z",
+        "aad": "material-03:30"
+      },
+      {
+        "path": "materials-private/material-03-0032.enc",
+        "iv": "hLo7gyWaofkgADHv",
+        "aad": "material-03:31"
+      },
+      {
+        "path": "materials-private/material-03-0033.enc",
+        "iv": "VeamYty1S1GkehqS",
+        "aad": "material-03:32"
+      },
+      {
+        "path": "materials-private/material-03-0034.enc",
+        "iv": "Hpougm1q517UcF8r",
+        "aad": "material-03:33"
+      },
+      {
+        "path": "materials-private/material-03-0035.enc",
+        "iv": "lDUiCCAUMTQmXeTC",
+        "aad": "material-03:34"
+      },
+      {
+        "path": "materials-private/material-03-0036.enc",
+        "iv": "KRgzxrw9lRJSOJzr",
+        "aad": "material-03:35"
+      },
+      {
+        "path": "materials-private/material-03-0037.enc",
+        "iv": "HrpZGjasvGuksY57",
+        "aad": "material-03:36"
+      },
+      {
+        "path": "materials-private/material-03-0038.enc",
+        "iv": "jA8V8Y89PvFNQXpU",
+        "aad": "material-03:37"
+      },
+      {
+        "path": "materials-private/material-03-0039.enc",
+        "iv": "0JOG8usuxTxgCZpL",
+        "aad": "material-03:38"
+      },
+      {
+        "path": "materials-private/material-03-0040.enc",
+        "iv": "/F1rXbcGSJSppF9k",
+        "aad": "material-03:39"
+      },
+      {
+        "path": "materials-private/material-03-0041.enc",
+        "iv": "AkxBTccp5bZHySDq",
+        "aad": "material-03:40"
+      },
+      {
+        "path": "materials-private/material-03-0042.enc",
+        "iv": "+07O/VuXwQzAC/yr",
+        "aad": "material-03:41"
+      },
+      {
+        "path": "materials-private/material-03-0043.enc",
+        "iv": "o7kHidFumPy+e0uh",
+        "aad": "material-03:42"
+      },
+      {
+        "path": "materials-private/material-03-0044.enc",
+        "iv": "30lexx9GbYsbVvmQ",
+        "aad": "material-03:43"
+      },
+      {
+        "path": "materials-private/material-03-0045.enc",
+        "iv": "wRJ+I2wvax9/VmH6",
+        "aad": "material-03:44"
+      },
+      {
+        "path": "materials-private/material-03-0046.enc",
+        "iv": "Is5BHzQ+cUXyi1cs",
+        "aad": "material-03:45"
+      },
+      {
+        "path": "materials-private/material-03-0047.enc",
+        "iv": "NyJop/e2HfC5b8av",
+        "aad": "material-03:46"
+      },
+      {
+        "path": "materials-private/material-03-0048.enc",
+        "iv": "AmLyZA0ZGOgNvMjw",
+        "aad": "material-03:47"
+      },
+      {
+        "path": "materials-private/material-03-0049.enc",
+        "iv": "Uiw/lU1MbrzjpP4j",
+        "aad": "material-03:48"
+      },
+      {
+        "path": "materials-private/material-03-0050.enc",
+        "iv": "q1vSo29lMfpydP9I",
+        "aad": "material-03:49"
+      },
+      {
+        "path": "materials-private/material-03-0051.enc",
+        "iv": "/3J+YJauxYLE1+4q",
+        "aad": "material-03:50"
+      },
+      {
+        "path": "materials-private/material-03-0052.enc",
+        "iv": "CTUCDXC8pb+DN4yH",
+        "aad": "material-03:51"
+      },
+      {
+        "path": "materials-private/material-03-0053.enc",
+        "iv": "woTWc1ud6PcO1sOU",
+        "aad": "material-03:52"
+      },
+      {
+        "path": "materials-private/material-03-0054.enc",
+        "iv": "JNkDNjiwwuoiGMRe",
+        "aad": "material-03:53"
+      },
+      {
+        "path": "materials-private/material-03-0055.enc",
+        "iv": "OXsEuObrrTkTVdza",
+        "aad": "material-03:54"
+      },
+      {
+        "path": "materials-private/material-03-0056.enc",
+        "iv": "3Hhlz/vuVVe4MNWm",
+        "aad": "material-03:55"
+      },
+      {
+        "path": "materials-private/material-03-0057.enc",
+        "iv": "vGLzT2DpRU6ZOINh",
+        "aad": "material-03:56"
+      },
+      {
+        "path": "materials-private/material-03-0058.enc",
+        "iv": "gXxpZxLvr3t0bX8M",
+        "aad": "material-03:57"
+      },
+      {
+        "path": "materials-private/material-03-0059.enc",
+        "iv": "csfeaf9POFKeco0V",
+        "aad": "material-03:58"
+      },
+      {
+        "path": "materials-private/material-03-0060.enc",
+        "iv": "Y5X0znPtiAgS06J0",
+        "aad": "material-03:59"
+      },
+      {
+        "path": "materials-private/material-03-0061.enc",
+        "iv": "BAhgayDEGxLvTVvp",
+        "aad": "material-03:60"
+      },
+      {
+        "path": "materials-private/material-03-0062.enc",
+        "iv": "AFhbk+Z0zqDvjPku",
+        "aad": "material-03:61"
+      },
+      {
+        "path": "materials-private/material-03-0063.enc",
+        "iv": "D8Z0mp5nPRw+v/CE",
+        "aad": "material-03:62"
+      },
+      {
+        "path": "materials-private/material-03-0064.enc",
+        "iv": "TXBZHKlGmzRhyLWG",
+        "aad": "material-03:63"
+      },
+      {
+        "path": "materials-private/material-03-0065.enc",
+        "iv": "r7yslsCB8keh9+NQ",
+        "aad": "material-03:64"
+      },
+      {
+        "path": "materials-private/material-03-0066.enc",
+        "iv": "WClhRMfJB+4HRtwy",
+        "aad": "material-03:65"
+      },
+      {
+        "path": "materials-private/material-03-0067.enc",
+        "iv": "vd3YxUfdkMVZu29A",
+        "aad": "material-03:66"
+      },
+      {
+        "path": "materials-private/material-03-0068.enc",
+        "iv": "aOhepPGKrwnDtxhQ",
+        "aad": "material-03:67"
+      },
+      {
+        "path": "materials-private/material-03-0069.enc",
+        "iv": "taJvK08oOLIEpcGG",
+        "aad": "material-03:68"
+      },
+      {
+        "path": "materials-private/material-03-0070.enc",
+        "iv": "Rev/KsJiXmBQOUWM",
+        "aad": "material-03:69"
+      },
+      {
+        "path": "materials-private/material-03-0071.enc",
+        "iv": "Z8z9rMfTB9Q8ZinW",
+        "aad": "material-03:70"
+      }
+    ]
+  },
+  {
+    "id": "material-04",
+    "title": "B2 — Expandindo o Repertório",
+    "group": "Níveis A1 a C2",
+    "label": "B2",
+    "pages": 61,
+    "bytes": 37348005,
+    "sha256": "6de71b6640a0bce29c1da3d97848180ae9e8542a82db8c0620a052480bbbcdbb",
+    "parts": [
+      {
+        "path": "materials-private/material-04-0001.enc",
+        "iv": "uE5w0AKx6RbWQj6A",
+        "aad": "material-04:0"
+      },
+      {
+        "path": "materials-private/material-04-0002.enc",
+        "iv": "tWiCKWsCDnmweXY8",
+        "aad": "material-04:1"
+      },
+      {
+        "path": "materials-private/material-04-0003.enc",
+        "iv": "w2klxSRy6PdRgjSq",
+        "aad": "material-04:2"
+      },
+      {
+        "path": "materials-private/material-04-0004.enc",
+        "iv": "arq+h/ZWuP0esqXW",
+        "aad": "material-04:3"
+      },
+      {
+        "path": "materials-private/material-04-0005.enc",
+        "iv": "IREGJtLZSBc/Jk46",
+        "aad": "material-04:4"
+      },
+      {
+        "path": "materials-private/material-04-0006.enc",
+        "iv": "LG7Zrq5IaD6mPtBk",
+        "aad": "material-04:5"
+      },
+      {
+        "path": "materials-private/material-04-0007.enc",
+        "iv": "W9xAcW7pGuyppE7L",
+        "aad": "material-04:6"
+      },
+      {
+        "path": "materials-private/material-04-0008.enc",
+        "iv": "2LqoCFh+jJm2Wi8B",
+        "aad": "material-04:7"
+      },
+      {
+        "path": "materials-private/material-04-0009.enc",
+        "iv": "dKolCU5WWwfJF8vp",
+        "aad": "material-04:8"
+      },
+      {
+        "path": "materials-private/material-04-0010.enc",
+        "iv": "7de/meqVg92DiIhe",
+        "aad": "material-04:9"
+      },
+      {
+        "path": "materials-private/material-04-0011.enc",
+        "iv": "rA8bYA5JW6S76UXu",
+        "aad": "material-04:10"
+      },
+      {
+        "path": "materials-private/material-04-0012.enc",
+        "iv": "chOZSfy1pZBylu3K",
+        "aad": "material-04:11"
+      },
+      {
+        "path": "materials-private/material-04-0013.enc",
+        "iv": "0h2mRily1b3NtFQR",
+        "aad": "material-04:12"
+      },
+      {
+        "path": "materials-private/material-04-0014.enc",
+        "iv": "pLwt3joxbdhlly/l",
+        "aad": "material-04:13"
+      },
+      {
+        "path": "materials-private/material-04-0015.enc",
+        "iv": "s/JxLwoba+auZRN6",
+        "aad": "material-04:14"
+      },
+      {
+        "path": "materials-private/material-04-0016.enc",
+        "iv": "BnNwYkZn1fyOwxPg",
+        "aad": "material-04:15"
+      },
+      {
+        "path": "materials-private/material-04-0017.enc",
+        "iv": "r2SgccRamtHScZHi",
+        "aad": "material-04:16"
+      },
+      {
+        "path": "materials-private/material-04-0018.enc",
+        "iv": "SvIjzWfK6b9GD5Rn",
+        "aad": "material-04:17"
+      },
+      {
+        "path": "materials-private/material-04-0019.enc",
+        "iv": "+4ftFWmxg4gz4IdP",
+        "aad": "material-04:18"
+      },
+      {
+        "path": "materials-private/material-04-0020.enc",
+        "iv": "DUg/vG8yLO6nRtlk",
+        "aad": "material-04:19"
+      },
+      {
+        "path": "materials-private/material-04-0021.enc",
+        "iv": "ZqfxRyqVzrXOD9U7",
+        "aad": "material-04:20"
+      },
+      {
+        "path": "materials-private/material-04-0022.enc",
+        "iv": "ffyCamAF5t3oqrG7",
+        "aad": "material-04:21"
+      },
+      {
+        "path": "materials-private/material-04-0023.enc",
+        "iv": "Cf0LpXphRM5ToRli",
+        "aad": "material-04:22"
+      },
+      {
+        "path": "materials-private/material-04-0024.enc",
+        "iv": "G1PhpD5Z/t8zRu6t",
+        "aad": "material-04:23"
+      },
+      {
+        "path": "materials-private/material-04-0025.enc",
+        "iv": "jthUf1aQ59CPru8L",
+        "aad": "material-04:24"
+      },
+      {
+        "path": "materials-private/material-04-0026.enc",
+        "iv": "8f7WVdBxoNPou2Xb",
+        "aad": "material-04:25"
+      },
+      {
+        "path": "materials-private/material-04-0027.enc",
+        "iv": "l02PaWPc+W1jlzyG",
+        "aad": "material-04:26"
+      },
+      {
+        "path": "materials-private/material-04-0028.enc",
+        "iv": "BxOdwAaQ+QRI+eU1",
+        "aad": "material-04:27"
+      },
+      {
+        "path": "materials-private/material-04-0029.enc",
+        "iv": "FCSOww3B14eFjE8X",
+        "aad": "material-04:28"
+      },
+      {
+        "path": "materials-private/material-04-0030.enc",
+        "iv": "gPCFjiPMI3pJRM3b",
+        "aad": "material-04:29"
+      },
+      {
+        "path": "materials-private/material-04-0031.enc",
+        "iv": "MGvP4paovt3bzxxl",
+        "aad": "material-04:30"
+      },
+      {
+        "path": "materials-private/material-04-0032.enc",
+        "iv": "tWlW7bW7gXH/QEpC",
+        "aad": "material-04:31"
+      },
+      {
+        "path": "materials-private/material-04-0033.enc",
+        "iv": "ptN5cJ0FLrqjIACM",
+        "aad": "material-04:32"
+      },
+      {
+        "path": "materials-private/material-04-0034.enc",
+        "iv": "cloOu6yaUlDJthMN",
+        "aad": "material-04:33"
+      },
+      {
+        "path": "materials-private/material-04-0035.enc",
+        "iv": "+2932AK70ZchNSHY",
+        "aad": "material-04:34"
+      },
+      {
+        "path": "materials-private/material-04-0036.enc",
+        "iv": "d3GVNdHDxyDaYIFj",
+        "aad": "material-04:35"
+      },
+      {
+        "path": "materials-private/material-04-0037.enc",
+        "iv": "jXDT936TuKpU5m/+",
+        "aad": "material-04:36"
+      },
+      {
+        "path": "materials-private/material-04-0038.enc",
+        "iv": "sHVKlrxPj6GK3uWa",
+        "aad": "material-04:37"
+      },
+      {
+        "path": "materials-private/material-04-0039.enc",
+        "iv": "SawJvFeKpZnBIOm9",
+        "aad": "material-04:38"
+      },
+      {
+        "path": "materials-private/material-04-0040.enc",
+        "iv": "x1XgPzaxPoDneIWS",
+        "aad": "material-04:39"
+      },
+      {
+        "path": "materials-private/material-04-0041.enc",
+        "iv": "wgms9zJYds79ftak",
+        "aad": "material-04:40"
+      },
+      {
+        "path": "materials-private/material-04-0042.enc",
+        "iv": "+M8IDu/xRqpnd58w",
+        "aad": "material-04:41"
+      },
+      {
+        "path": "materials-private/material-04-0043.enc",
+        "iv": "W8fI/8Qz1pny2BkQ",
+        "aad": "material-04:42"
+      },
+      {
+        "path": "materials-private/material-04-0044.enc",
+        "iv": "CFwQAsDV7l/3ASHS",
+        "aad": "material-04:43"
+      },
+      {
+        "path": "materials-private/material-04-0045.enc",
+        "iv": "QHTpx97PZXh5XOvW",
+        "aad": "material-04:44"
+      },
+      {
+        "path": "materials-private/material-04-0046.enc",
+        "iv": "03rCcjABAkwoYjvW",
+        "aad": "material-04:45"
+      },
+      {
+        "path": "materials-private/material-04-0047.enc",
+        "iv": "/vSXEjmz0/FgjI27",
+        "aad": "material-04:46"
+      },
+      {
+        "path": "materials-private/material-04-0048.enc",
+        "iv": "xwaLshXimDbmDVNL",
+        "aad": "material-04:47"
+      },
+      {
+        "path": "materials-private/material-04-0049.enc",
+        "iv": "MAhynGX7N9tQ5b6n",
+        "aad": "material-04:48"
+      },
+      {
+        "path": "materials-private/material-04-0050.enc",
+        "iv": "TEGwb1Yt43k9NCWG",
+        "aad": "material-04:49"
+      },
+      {
+        "path": "materials-private/material-04-0051.enc",
+        "iv": "uUHNFZjVBkKqQhXX",
+        "aad": "material-04:50"
+      },
+      {
+        "path": "materials-private/material-04-0052.enc",
+        "iv": "KVMwRLfa26kMZy3u",
+        "aad": "material-04:51"
+      },
+      {
+        "path": "materials-private/material-04-0053.enc",
+        "iv": "33ZMQp7jSbefzrzx",
+        "aad": "material-04:52"
+      },
+      {
+        "path": "materials-private/material-04-0054.enc",
+        "iv": "gziC54S5/IgD6+SX",
+        "aad": "material-04:53"
+      },
+      {
+        "path": "materials-private/material-04-0055.enc",
+        "iv": "13bPWh6UL9pnHFjp",
+        "aad": "material-04:54"
+      },
+      {
+        "path": "materials-private/material-04-0056.enc",
+        "iv": "nFANtfaAYbYH4S9P",
+        "aad": "material-04:55"
+      },
+      {
+        "path": "materials-private/material-04-0057.enc",
+        "iv": "Nf4HC7/9TxMhAys+",
+        "aad": "material-04:56"
+      },
+      {
+        "path": "materials-private/material-04-0058.enc",
+        "iv": "NVi8JU4UetH5tZVn",
+        "aad": "material-04:57"
+      },
+      {
+        "path": "materials-private/material-04-0059.enc",
+        "iv": "m3yYhYPwgvs1ymRe",
+        "aad": "material-04:58"
+      },
+      {
+        "path": "materials-private/material-04-0060.enc",
+        "iv": "yr/4dnZXhiISVAlB",
+        "aad": "material-04:59"
+      },
+      {
+        "path": "materials-private/material-04-0061.enc",
+        "iv": "hK16nJXuHT7NmhSH",
+        "aad": "material-04:60"
+      },
+      {
+        "path": "materials-private/material-04-0062.enc",
+        "iv": "cqofewc7Phulx5xT",
+        "aad": "material-04:61"
+      },
+      {
+        "path": "materials-private/material-04-0063.enc",
+        "iv": "cp3s3FRCecz3lEiX",
+        "aad": "material-04:62"
+      },
+      {
+        "path": "materials-private/material-04-0064.enc",
+        "iv": "ZZVuKyFflQP1GZbQ",
+        "aad": "material-04:63"
+      },
+      {
+        "path": "materials-private/material-04-0065.enc",
+        "iv": "c8bganid+KwbGBDw",
+        "aad": "material-04:64"
+      },
+      {
+        "path": "materials-private/material-04-0066.enc",
+        "iv": "T07MUzZxQjqfmFrM",
+        "aad": "material-04:65"
+      },
+      {
+        "path": "materials-private/material-04-0067.enc",
+        "iv": "U9WlP75KHVNHFp6D",
+        "aad": "material-04:66"
+      },
+      {
+        "path": "materials-private/material-04-0068.enc",
+        "iv": "3Zy8x5pZPUC+E8AL",
+        "aad": "material-04:67"
+      },
+      {
+        "path": "materials-private/material-04-0069.enc",
+        "iv": "YCJK+yI+Hmf67M95",
+        "aad": "material-04:68"
+      },
+      {
+        "path": "materials-private/material-04-0070.enc",
+        "iv": "JfRAUP8w32pYlhVK",
+        "aad": "material-04:69"
+      },
+      {
+        "path": "materials-private/material-04-0071.enc",
+        "iv": "02UqH5Y0q/tyyyrf",
+        "aad": "material-04:70"
+      },
+      {
+        "path": "materials-private/material-04-0072.enc",
+        "iv": "p7nE6lcgBMbHq/G2",
+        "aad": "material-04:71"
+      }
+    ]
+  },
+  {
+    "id": "material-05",
+    "title": "C1 — Expressão Avançada",
+    "group": "Níveis A1 a C2",
+    "label": "C1",
+    "pages": 61,
+    "bytes": 38175226,
+    "sha256": "11577d5510461d02e7a9515f10972db01059e114e175bd1386c24744b0ce235a",
+    "parts": [
+      {
+        "path": "materials-private/material-05-0001.enc",
+        "iv": "/59lrVoOsDh+1Gs7",
+        "aad": "material-05:0"
+      },
+      {
+        "path": "materials-private/material-05-0002.enc",
+        "iv": "ulu3+yFPMJoRJSYL",
+        "aad": "material-05:1"
+      },
+      {
+        "path": "materials-private/material-05-0003.enc",
+        "iv": "oF2KQ4npnulmM+co",
+        "aad": "material-05:2"
+      },
+      {
+        "path": "materials-private/material-05-0004.enc",
+        "iv": "+Mb8VXPrRGNM63ot",
+        "aad": "material-05:3"
+      },
+      {
+        "path": "materials-private/material-05-0005.enc",
+        "iv": "FDb8fvTymdJoT0sy",
+        "aad": "material-05:4"
+      },
+      {
+        "path": "materials-private/material-05-0006.enc",
+        "iv": "VYbxFUP/yV2CA1P0",
+        "aad": "material-05:5"
+      },
+      {
+        "path": "materials-private/material-05-0007.enc",
+        "iv": "Ko3GJy1w2JrdUM8+",
+        "aad": "material-05:6"
+      },
+      {
+        "path": "materials-private/material-05-0008.enc",
+        "iv": "/P40ZavjA7zxi+6+",
+        "aad": "material-05:7"
+      },
+      {
+        "path": "materials-private/material-05-0009.enc",
+        "iv": "l587nsu+MyeaU0mG",
+        "aad": "material-05:8"
+      },
+      {
+        "path": "materials-private/material-05-0010.enc",
+        "iv": "ryWus1hYm88HLRLU",
+        "aad": "material-05:9"
+      },
+      {
+        "path": "materials-private/material-05-0011.enc",
+        "iv": "AzdAOEp/Hn+w6Q0x",
+        "aad": "material-05:10"
+      },
+      {
+        "path": "materials-private/material-05-0012.enc",
+        "iv": "oazd6grJAR2ZYiHH",
+        "aad": "material-05:11"
+      },
+      {
+        "path": "materials-private/material-05-0013.enc",
+        "iv": "mD6eSwmkLE20gFnr",
+        "aad": "material-05:12"
+      },
+      {
+        "path": "materials-private/material-05-0014.enc",
+        "iv": "7wQtJv6mm+TZsG0/",
+        "aad": "material-05:13"
+      },
+      {
+        "path": "materials-private/material-05-0015.enc",
+        "iv": "dM/IvYPm3QwI2KVG",
+        "aad": "material-05:14"
+      },
+      {
+        "path": "materials-private/material-05-0016.enc",
+        "iv": "rOv3Qfqlm48pw0Wx",
+        "aad": "material-05:15"
+      },
+      {
+        "path": "materials-private/material-05-0017.enc",
+        "iv": "gXCifc4TOSFxHOGe",
+        "aad": "material-05:16"
+      },
+      {
+        "path": "materials-private/material-05-0018.enc",
+        "iv": "MbgGNcGhmeMdNkrI",
+        "aad": "material-05:17"
+      },
+      {
+        "path": "materials-private/material-05-0019.enc",
+        "iv": "9TBcxoYVWVd7yj8i",
+        "aad": "material-05:18"
+      },
+      {
+        "path": "materials-private/material-05-0020.enc",
+        "iv": "ySFPIUTLfIHeSXao",
+        "aad": "material-05:19"
+      },
+      {
+        "path": "materials-private/material-05-0021.enc",
+        "iv": "nWezLFRV8mlriGCB",
+        "aad": "material-05:20"
+      },
+      {
+        "path": "materials-private/material-05-0022.enc",
+        "iv": "etajFqZKd0N21S7q",
+        "aad": "material-05:21"
+      },
+      {
+        "path": "materials-private/material-05-0023.enc",
+        "iv": "02N1LpTIEymtI5uW",
+        "aad": "material-05:22"
+      },
+      {
+        "path": "materials-private/material-05-0024.enc",
+        "iv": "aUaoyeHXVOps5GFV",
+        "aad": "material-05:23"
+      },
+      {
+        "path": "materials-private/material-05-0025.enc",
+        "iv": "4lF5lVlRoUifiLdI",
+        "aad": "material-05:24"
+      },
+      {
+        "path": "materials-private/material-05-0026.enc",
+        "iv": "3XJy7aTkhNpZiBTA",
+        "aad": "material-05:25"
+      },
+      {
+        "path": "materials-private/material-05-0027.enc",
+        "iv": "PoFMfGs8wPidYKY1",
+        "aad": "material-05:26"
+      },
+      {
+        "path": "materials-private/material-05-0028.enc",
+        "iv": "VANCghXeW5DoFIOI",
+        "aad": "material-05:27"
+      },
+      {
+        "path": "materials-private/material-05-0029.enc",
+        "iv": "PIlnySvkFSq5YwWu",
+        "aad": "material-05:28"
+      },
+      {
+        "path": "materials-private/material-05-0030.enc",
+        "iv": "H31Gm5fC6XdW0xrd",
+        "aad": "material-05:29"
+      },
+      {
+        "path": "materials-private/material-05-0031.enc",
+        "iv": "aCXKaAQleDssRUz5",
+        "aad": "material-05:30"
+      },
+      {
+        "path": "materials-private/material-05-0032.enc",
+        "iv": "Uc5rRPd2ulFzPqrU",
+        "aad": "material-05:31"
+      },
+      {
+        "path": "materials-private/material-05-0033.enc",
+        "iv": "wUuPQtVn9dYv3LLA",
+        "aad": "material-05:32"
+      },
+      {
+        "path": "materials-private/material-05-0034.enc",
+        "iv": "CDHI4MByAlEKUYHm",
+        "aad": "material-05:33"
+      },
+      {
+        "path": "materials-private/material-05-0035.enc",
+        "iv": "IPANK6bqAyYXrcsw",
+        "aad": "material-05:34"
+      },
+      {
+        "path": "materials-private/material-05-0036.enc",
+        "iv": "jFKzzo6eFkFo+FF6",
+        "aad": "material-05:35"
+      },
+      {
+        "path": "materials-private/material-05-0037.enc",
+        "iv": "+EOeKy59v3JxPVqo",
+        "aad": "material-05:36"
+      },
+      {
+        "path": "materials-private/material-05-0038.enc",
+        "iv": "i3WRXd99HOcgUFdM",
+        "aad": "material-05:37"
+      },
+      {
+        "path": "materials-private/material-05-0039.enc",
+        "iv": "5T6+1467OmvbZm1i",
+        "aad": "material-05:38"
+      },
+      {
+        "path": "materials-private/material-05-0040.enc",
+        "iv": "VaybP4SH8lqoAkx2",
+        "aad": "material-05:39"
+      },
+      {
+        "path": "materials-private/material-05-0041.enc",
+        "iv": "/vsGzQwH4QuhvtbX",
+        "aad": "material-05:40"
+      },
+      {
+        "path": "materials-private/material-05-0042.enc",
+        "iv": "8e7i5BkZ7VYh7DNc",
+        "aad": "material-05:41"
+      },
+      {
+        "path": "materials-private/material-05-0043.enc",
+        "iv": "GvGvB7C6Oqlabcgn",
+        "aad": "material-05:42"
+      },
+      {
+        "path": "materials-private/material-05-0044.enc",
+        "iv": "mIwaJjvDgkF3m0PV",
+        "aad": "material-05:43"
+      },
+      {
+        "path": "materials-private/material-05-0045.enc",
+        "iv": "UOORKuygDzjIBpf3",
+        "aad": "material-05:44"
+      },
+      {
+        "path": "materials-private/material-05-0046.enc",
+        "iv": "fS3PkLBcQum+ra+g",
+        "aad": "material-05:45"
+      },
+      {
+        "path": "materials-private/material-05-0047.enc",
+        "iv": "TY19CPjHZT/PM5aQ",
+        "aad": "material-05:46"
+      },
+      {
+        "path": "materials-private/material-05-0048.enc",
+        "iv": "292tYTkuuNJ6C1Q2",
+        "aad": "material-05:47"
+      },
+      {
+        "path": "materials-private/material-05-0049.enc",
+        "iv": "orN1laoI1JjsTGJq",
+        "aad": "material-05:48"
+      },
+      {
+        "path": "materials-private/material-05-0050.enc",
+        "iv": "euU1Yva/wEXRgTJt",
+        "aad": "material-05:49"
+      },
+      {
+        "path": "materials-private/material-05-0051.enc",
+        "iv": "a4kgFpIR9hehfvWh",
+        "aad": "material-05:50"
+      },
+      {
+        "path": "materials-private/material-05-0052.enc",
+        "iv": "JrF48zlzeh+DuilY",
+        "aad": "material-05:51"
+      },
+      {
+        "path": "materials-private/material-05-0053.enc",
+        "iv": "ogm0aISobRuBXqJG",
+        "aad": "material-05:52"
+      },
+      {
+        "path": "materials-private/material-05-0054.enc",
+        "iv": "oTpGyS0m8r0l8IJ2",
+        "aad": "material-05:53"
+      },
+      {
+        "path": "materials-private/material-05-0055.enc",
+        "iv": "dIBU3D1DPUs3DM4w",
+        "aad": "material-05:54"
+      },
+      {
+        "path": "materials-private/material-05-0056.enc",
+        "iv": "+z0V13Ery1S3FiLb",
+        "aad": "material-05:55"
+      },
+      {
+        "path": "materials-private/material-05-0057.enc",
+        "iv": "CvrDuu3R6vFANJSP",
+        "aad": "material-05:56"
+      },
+      {
+        "path": "materials-private/material-05-0058.enc",
+        "iv": "wDrtj4AjLOWMP4uj",
+        "aad": "material-05:57"
+      },
+      {
+        "path": "materials-private/material-05-0059.enc",
+        "iv": "3yNAdiobzH7uGxPW",
+        "aad": "material-05:58"
+      },
+      {
+        "path": "materials-private/material-05-0060.enc",
+        "iv": "5OV2TC5gmcRrvfLn",
+        "aad": "material-05:59"
+      },
+      {
+        "path": "materials-private/material-05-0061.enc",
+        "iv": "tiPPm2xAFeCcujV/",
+        "aad": "material-05:60"
+      },
+      {
+        "path": "materials-private/material-05-0062.enc",
+        "iv": "JI20LH5BSOkMnNYr",
+        "aad": "material-05:61"
+      },
+      {
+        "path": "materials-private/material-05-0063.enc",
+        "iv": "MMmCpxPqmNh9u8jW",
+        "aad": "material-05:62"
+      },
+      {
+        "path": "materials-private/material-05-0064.enc",
+        "iv": "Bjor9tDssC/43oBW",
+        "aad": "material-05:63"
+      },
+      {
+        "path": "materials-private/material-05-0065.enc",
+        "iv": "cX5qfFOYD+EwiIO/",
+        "aad": "material-05:64"
+      },
+      {
+        "path": "materials-private/material-05-0066.enc",
+        "iv": "2/OjfaGP5U2Zj80N",
+        "aad": "material-05:65"
+      },
+      {
+        "path": "materials-private/material-05-0067.enc",
+        "iv": "j8mzCbx4fOb2V5vJ",
+        "aad": "material-05:66"
+      },
+      {
+        "path": "materials-private/material-05-0068.enc",
+        "iv": "qfj3E3UAwd3LSZ3P",
+        "aad": "material-05:67"
+      },
+      {
+        "path": "materials-private/material-05-0069.enc",
+        "iv": "2AOzXCLTv7JJgCYi",
+        "aad": "material-05:68"
+      },
+      {
+        "path": "materials-private/material-05-0070.enc",
+        "iv": "x/Wh8gHOHjvHEimh",
+        "aad": "material-05:69"
+      },
+      {
+        "path": "materials-private/material-05-0071.enc",
+        "iv": "5DJ2UC+iNT7rO+T9",
+        "aad": "material-05:70"
+      },
+      {
+        "path": "materials-private/material-05-0072.enc",
+        "iv": "w5LMhYIPmeTwxv1P",
+        "aad": "material-05:71"
+      },
+      {
+        "path": "materials-private/material-05-0073.enc",
+        "iv": "P7kPUO169FS22cNm",
+        "aad": "material-05:72"
+      }
+    ]
+  },
+  {
+    "id": "material-06",
+    "title": "C2 — Precisão e Nuances",
+    "group": "Níveis A1 a C2",
+    "label": "C2",
+    "pages": 61,
+    "bytes": 37612823,
+    "sha256": "9f9970fe2fda658beddfdc13d1ff50685f692f3664d8b30d7ff31879265faea0",
+    "parts": [
+      {
+        "path": "materials-private/material-06-0001.enc",
+        "iv": "Q02T+4WYtpELTC2N",
+        "aad": "material-06:0"
+      },
+      {
+        "path": "materials-private/material-06-0002.enc",
+        "iv": "PB8+rl+AlnezBY/d",
+        "aad": "material-06:1"
+      },
+      {
+        "path": "materials-private/material-06-0003.enc",
+        "iv": "4vAd6h6PpTrleAVi",
+        "aad": "material-06:2"
+      },
+      {
+        "path": "materials-private/material-06-0004.enc",
+        "iv": "U7khjZ0qRciHYB/C",
+        "aad": "material-06:3"
+      },
+      {
+        "path": "materials-private/material-06-0005.enc",
+        "iv": "1pDF4f2N/UnxXxTQ",
+        "aad": "material-06:4"
+      },
+      {
+        "path": "materials-private/material-06-0006.enc",
+        "iv": "oHXdxwR/WhxElMKM",
+        "aad": "material-06:5"
+      },
+      {
+        "path": "materials-private/material-06-0007.enc",
+        "iv": "kgvCxvPMaB+orQkh",
+        "aad": "material-06:6"
+      },
+      {
+        "path": "materials-private/material-06-0008.enc",
+        "iv": "wQQiBWLGMmCiJ6wM",
+        "aad": "material-06:7"
+      },
+      {
+        "path": "materials-private/material-06-0009.enc",
+        "iv": "r0skY7kC5nY4nmfy",
+        "aad": "material-06:8"
+      },
+      {
+        "path": "materials-private/material-06-0010.enc",
+        "iv": "A29CliiexTs9Hqb2",
+        "aad": "material-06:9"
+      },
+      {
+        "path": "materials-private/material-06-0011.enc",
+        "iv": "xR9NCOQGdz+xoWhR",
+        "aad": "material-06:10"
+      },
+      {
+        "path": "materials-private/material-06-0012.enc",
+        "iv": "iIwMnwHe8WBNW7b6",
+        "aad": "material-06:11"
+      },
+      {
+        "path": "materials-private/material-06-0013.enc",
+        "iv": "q8pU6a8C8r2sG1rH",
+        "aad": "material-06:12"
+      },
+      {
+        "path": "materials-private/material-06-0014.enc",
+        "iv": "MybjbhHI4zayKEpi",
+        "aad": "material-06:13"
+      },
+      {
+        "path": "materials-private/material-06-0015.enc",
+        "iv": "BsBlXDoRZsLcI89n",
+        "aad": "material-06:14"
+      },
+      {
+        "path": "materials-private/material-06-0016.enc",
+        "iv": "jc1+a8q9Cn2FFf/4",
+        "aad": "material-06:15"
+      },
+      {
+        "path": "materials-private/material-06-0017.enc",
+        "iv": "5QPP4lWQY+osJ1fF",
+        "aad": "material-06:16"
+      },
+      {
+        "path": "materials-private/material-06-0018.enc",
+        "iv": "YTJ5nTLgwv73xC84",
+        "aad": "material-06:17"
+      },
+      {
+        "path": "materials-private/material-06-0019.enc",
+        "iv": "xn5BGkTyqDD8a7sO",
+        "aad": "material-06:18"
+      },
+      {
+        "path": "materials-private/material-06-0020.enc",
+        "iv": "ZB6dfzvMi892p9FP",
+        "aad": "material-06:19"
+      },
+      {
+        "path": "materials-private/material-06-0021.enc",
+        "iv": "lTZmmAmp45BMaCgl",
+        "aad": "material-06:20"
+      },
+      {
+        "path": "materials-private/material-06-0022.enc",
+        "iv": "07oIPmojLoiUekC4",
+        "aad": "material-06:21"
+      },
+      {
+        "path": "materials-private/material-06-0023.enc",
+        "iv": "AU0vBwyBRWIPpEZa",
+        "aad": "material-06:22"
+      },
+      {
+        "path": "materials-private/material-06-0024.enc",
+        "iv": "/AxGKcQgoG/6xdYn",
+        "aad": "material-06:23"
+      },
+      {
+        "path": "materials-private/material-06-0025.enc",
+        "iv": "G+MA5ur7O4ROL1p2",
+        "aad": "material-06:24"
+      },
+      {
+        "path": "materials-private/material-06-0026.enc",
+        "iv": "BUYwH9qqI60+ZbPd",
+        "aad": "material-06:25"
+      },
+      {
+        "path": "materials-private/material-06-0027.enc",
+        "iv": "ScJAmmSzYLkMeBRy",
+        "aad": "material-06:26"
+      },
+      {
+        "path": "materials-private/material-06-0028.enc",
+        "iv": "oePlNnRfe8j3FXbO",
+        "aad": "material-06:27"
+      },
+      {
+        "path": "materials-private/material-06-0029.enc",
+        "iv": "/zDvZJ23qBTNPSzA",
+        "aad": "material-06:28"
+      },
+      {
+        "path": "materials-private/material-06-0030.enc",
+        "iv": "ucYPTYeWneLLRo+u",
+        "aad": "material-06:29"
+      },
+      {
+        "path": "materials-private/material-06-0031.enc",
+        "iv": "lyBlIsrTcel5RzTl",
+        "aad": "material-06:30"
+      },
+      {
+        "path": "materials-private/material-06-0032.enc",
+        "iv": "NIhn+62xKegxf4x/",
+        "aad": "material-06:31"
+      },
+      {
+        "path": "materials-private/material-06-0033.enc",
+        "iv": "BUJxH2+q5ULnlEjO",
+        "aad": "material-06:32"
+      },
+      {
+        "path": "materials-private/material-06-0034.enc",
+        "iv": "0S2JPAi7VhRYJtod",
+        "aad": "material-06:33"
+      },
+      {
+        "path": "materials-private/material-06-0035.enc",
+        "iv": "IQL7+h9Vd/LFXcwG",
+        "aad": "material-06:34"
+      },
+      {
+        "path": "materials-private/material-06-0036.enc",
+        "iv": "1YtRezJGB0Jldmah",
+        "aad": "material-06:35"
+      },
+      {
+        "path": "materials-private/material-06-0037.enc",
+        "iv": "2pDnMYBlj6W5EBqf",
+        "aad": "material-06:36"
+      },
+      {
+        "path": "materials-private/material-06-0038.enc",
+        "iv": "ZxZIVPJOoJffTmCy",
+        "aad": "material-06:37"
+      },
+      {
+        "path": "materials-private/material-06-0039.enc",
+        "iv": "DK/2R4UkPAWiVYCc",
+        "aad": "material-06:38"
+      },
+      {
+        "path": "materials-private/material-06-0040.enc",
+        "iv": "JEe3wgFMpPcClFtA",
+        "aad": "material-06:39"
+      },
+      {
+        "path": "materials-private/material-06-0041.enc",
+        "iv": "1XzG5swO9NCFIxnh",
+        "aad": "material-06:40"
+      },
+      {
+        "path": "materials-private/material-06-0042.enc",
+        "iv": "v27etPu8Euw1HIu3",
+        "aad": "material-06:41"
+      },
+      {
+        "path": "materials-private/material-06-0043.enc",
+        "iv": "WtkM0WuKp2LoPfTL",
+        "aad": "material-06:42"
+      },
+      {
+        "path": "materials-private/material-06-0044.enc",
+        "iv": "VJia+Oqq7yVnueM/",
+        "aad": "material-06:43"
+      },
+      {
+        "path": "materials-private/material-06-0045.enc",
+        "iv": "u4JSjv6HcX974pGD",
+        "aad": "material-06:44"
+      },
+      {
+        "path": "materials-private/material-06-0046.enc",
+        "iv": "B7D5xQf+hOkLeMXB",
+        "aad": "material-06:45"
+      },
+      {
+        "path": "materials-private/material-06-0047.enc",
+        "iv": "IJ1a6OAtcdD2xj8a",
+        "aad": "material-06:46"
+      },
+      {
+        "path": "materials-private/material-06-0048.enc",
+        "iv": "eP5CPZWyFLUHKM2/",
+        "aad": "material-06:47"
+      },
+      {
+        "path": "materials-private/material-06-0049.enc",
+        "iv": "4iu/uHSw2MtcTEQO",
+        "aad": "material-06:48"
+      },
+      {
+        "path": "materials-private/material-06-0050.enc",
+        "iv": "3VrAC4LobCk7qB44",
+        "aad": "material-06:49"
+      },
+      {
+        "path": "materials-private/material-06-0051.enc",
+        "iv": "Uq1vvilrFWGPl2of",
+        "aad": "material-06:50"
+      },
+      {
+        "path": "materials-private/material-06-0052.enc",
+        "iv": "jcF9pD9uIWkFWelY",
+        "aad": "material-06:51"
+      },
+      {
+        "path": "materials-private/material-06-0053.enc",
+        "iv": "HxFz5Q9l3y1rzqY4",
+        "aad": "material-06:52"
+      },
+      {
+        "path": "materials-private/material-06-0054.enc",
+        "iv": "GAIA4Tua9mHN662M",
+        "aad": "material-06:53"
+      },
+      {
+        "path": "materials-private/material-06-0055.enc",
+        "iv": "4nF7XZdGQHIbzQJ0",
+        "aad": "material-06:54"
+      },
+      {
+        "path": "materials-private/material-06-0056.enc",
+        "iv": "+GhlbxHcZtCi2dQy",
+        "aad": "material-06:55"
+      },
+      {
+        "path": "materials-private/material-06-0057.enc",
+        "iv": "2vgpH487Dhyve1s7",
+        "aad": "material-06:56"
+      },
+      {
+        "path": "materials-private/material-06-0058.enc",
+        "iv": "m3I4bc1H9fCavrv7",
+        "aad": "material-06:57"
+      },
+      {
+        "path": "materials-private/material-06-0059.enc",
+        "iv": "tjKf5D+KOpYYvs1V",
+        "aad": "material-06:58"
+      },
+      {
+        "path": "materials-private/material-06-0060.enc",
+        "iv": "ggwEM6audTk/lUKO",
+        "aad": "material-06:59"
+      },
+      {
+        "path": "materials-private/material-06-0061.enc",
+        "iv": "fPK96I34r+bqY038",
+        "aad": "material-06:60"
+      },
+      {
+        "path": "materials-private/material-06-0062.enc",
+        "iv": "9D6FkBI71zlNO80M",
+        "aad": "material-06:61"
+      },
+      {
+        "path": "materials-private/material-06-0063.enc",
+        "iv": "faL4sfgxyQpVl4Vd",
+        "aad": "material-06:62"
+      },
+      {
+        "path": "materials-private/material-06-0064.enc",
+        "iv": "zPKJiZdw4RPnr9/O",
+        "aad": "material-06:63"
+      },
+      {
+        "path": "materials-private/material-06-0065.enc",
+        "iv": "eA+JFV3BBbwTScD4",
+        "aad": "material-06:64"
+      },
+      {
+        "path": "materials-private/material-06-0066.enc",
+        "iv": "oE1qLjMM6SZkA36L",
+        "aad": "material-06:65"
+      },
+      {
+        "path": "materials-private/material-06-0067.enc",
+        "iv": "gZ0YREVHvEgHPg2l",
+        "aad": "material-06:66"
+      },
+      {
+        "path": "materials-private/material-06-0068.enc",
+        "iv": "Xih63g9S8E/QKDrY",
+        "aad": "material-06:67"
+      },
+      {
+        "path": "materials-private/material-06-0069.enc",
+        "iv": "lu5IsL0k8/ZbEJ63",
+        "aad": "material-06:68"
+      },
+      {
+        "path": "materials-private/material-06-0070.enc",
+        "iv": "aiDeWbJjR00MxSfz",
+        "aad": "material-06:69"
+      },
+      {
+        "path": "materials-private/material-06-0071.enc",
+        "iv": "w+VgIKnzKugT5oqt",
+        "aad": "material-06:70"
+      },
+      {
+        "path": "materials-private/material-06-0072.enc",
+        "iv": "/c8aoXkrFlIZz43e",
+        "aad": "material-06:71"
+      }
+    ]
+  },
+  {
+    "id": "material-07",
+    "title": "100 Expressões Essenciais",
+    "group": "Bônus",
+    "label": "Bônus 1",
+    "pages": 11,
+    "bytes": 4791420,
+    "sha256": "07e00a15acc23dcea5d93c5e892e9ce0983bce0682693e5f56c0fc75d7156a9f",
+    "parts": [
+      {
+        "path": "materials-private/material-07-0001.enc",
+        "iv": "2URKLs0M4DBAf8w9",
+        "aad": "material-07:0"
+      },
+      {
+        "path": "materials-private/material-07-0002.enc",
+        "iv": "4bVOzSJL+0v/ZACS",
+        "aad": "material-07:1"
+      },
+      {
+        "path": "materials-private/material-07-0003.enc",
+        "iv": "8kENPW9pLcIo/yFY",
+        "aad": "material-07:2"
+      },
+      {
+        "path": "materials-private/material-07-0004.enc",
+        "iv": "iQn+qjTqFe5zsAhC",
+        "aad": "material-07:3"
+      },
+      {
+        "path": "materials-private/material-07-0005.enc",
+        "iv": "aAK+H1KpQFnsi9PW",
+        "aad": "material-07:4"
+      },
+      {
+        "path": "materials-private/material-07-0006.enc",
+        "iv": "Mj4p9N/7lLPdNgjr",
+        "aad": "material-07:5"
+      },
+      {
+        "path": "materials-private/material-07-0007.enc",
+        "iv": "Zukqje42JrX8kG7L",
+        "aad": "material-07:6"
+      },
+      {
+        "path": "materials-private/material-07-0008.enc",
+        "iv": "iDlk2QIZNreXLcfS",
+        "aad": "material-07:7"
+      },
+      {
+        "path": "materials-private/material-07-0009.enc",
+        "iv": "pe8FI/EjaZGN5yeF",
+        "aad": "material-07:8"
+      },
+      {
+        "path": "materials-private/material-07-0010.enc",
+        "iv": "wjqPJF1hlx9SDQmh",
+        "aad": "material-07:9"
+      }
+    ]
+  },
+  {
+    "id": "material-08",
+    "title": "Guia de Pronúncia",
+    "group": "Bônus",
+    "label": "Bônus 2",
+    "pages": 11,
+    "bytes": 4712333,
+    "sha256": "552da1cac6c8ffd8919c52c9203370b56fdf176c422a59b0f39f0fbed0918a5d",
+    "parts": [
+      {
+        "path": "materials-private/material-08-0001.enc",
+        "iv": "0QU5ZS3jnSEcjox4",
+        "aad": "material-08:0"
+      },
+      {
+        "path": "materials-private/material-08-0002.enc",
+        "iv": "0ZuW9fiTU/UfGLc9",
+        "aad": "material-08:1"
+      },
+      {
+        "path": "materials-private/material-08-0003.enc",
+        "iv": "U3TuCXhPJYtwvLeK",
+        "aad": "material-08:2"
+      },
+      {
+        "path": "materials-private/material-08-0004.enc",
+        "iv": "Kp3DHtrDAgkiNrKn",
+        "aad": "material-08:3"
+      },
+      {
+        "path": "materials-private/material-08-0005.enc",
+        "iv": "IMs0vFnsfre5ZvOZ",
+        "aad": "material-08:4"
+      },
+      {
+        "path": "materials-private/material-08-0006.enc",
+        "iv": "3F0VYdHPw+DGl2s1",
+        "aad": "material-08:5"
+      },
+      {
+        "path": "materials-private/material-08-0007.enc",
+        "iv": "iHa0ZAGw65B7RYrp",
+        "aad": "material-08:6"
+      },
+      {
+        "path": "materials-private/material-08-0008.enc",
+        "iv": "OBlLjhlimmjJGIOD",
+        "aad": "material-08:7"
+      },
+      {
+        "path": "materials-private/material-08-0009.enc",
+        "iv": "/jUiihx7rUWeDCEl",
+        "aad": "material-08:8"
+      }
+    ]
+  },
+  {
+    "id": "material-09",
+    "title": "200 Frases para Conversação",
+    "group": "Bônus",
+    "label": "Bônus 3",
+    "pages": 21,
+    "bytes": 9876756,
+    "sha256": "703d34728a2dae9139a69e83d5cc1f747ff504e6d9a1204f6d4bc1dd9fc5944d",
+    "parts": [
+      {
+        "path": "materials-private/material-09-0001.enc",
+        "iv": "zw1bPrML/bIoFFcJ",
+        "aad": "material-09:0"
+      },
+      {
+        "path": "materials-private/material-09-0002.enc",
+        "iv": "FDTtc48rREpVu6Pm",
+        "aad": "material-09:1"
+      },
+      {
+        "path": "materials-private/material-09-0003.enc",
+        "iv": "9x4Rv1ILugpIGFTT",
+        "aad": "material-09:2"
+      },
+      {
+        "path": "materials-private/material-09-0004.enc",
+        "iv": "sexnd3f96yANT9Jy",
+        "aad": "material-09:3"
+      },
+      {
+        "path": "materials-private/material-09-0005.enc",
+        "iv": "JcRtSzecFWugEIro",
+        "aad": "material-09:4"
+      },
+      {
+        "path": "materials-private/material-09-0006.enc",
+        "iv": "geiXd5YQCl0oTJdm",
+        "aad": "material-09:5"
+      },
+      {
+        "path": "materials-private/material-09-0007.enc",
+        "iv": "ZDd5ViBUwFMHpBx5",
+        "aad": "material-09:6"
+      },
+      {
+        "path": "materials-private/material-09-0008.enc",
+        "iv": "k3JlvR5VbTDes9Vl",
+        "aad": "material-09:7"
+      },
+      {
+        "path": "materials-private/material-09-0009.enc",
+        "iv": "25W3zozpGbOFgAFS",
+        "aad": "material-09:8"
+      },
+      {
+        "path": "materials-private/material-09-0010.enc",
+        "iv": "5SDl2c3WmgrtxJDY",
+        "aad": "material-09:9"
+      },
+      {
+        "path": "materials-private/material-09-0011.enc",
+        "iv": "eqm/C8/GguTycSD0",
+        "aad": "material-09:10"
+      },
+      {
+        "path": "materials-private/material-09-0012.enc",
+        "iv": "JJLdq6LE916lN1Vd",
+        "aad": "material-09:11"
+      },
+      {
+        "path": "materials-private/material-09-0013.enc",
+        "iv": "zItqbgcszUovweji",
+        "aad": "material-09:12"
+      },
+      {
+        "path": "materials-private/material-09-0014.enc",
+        "iv": "hgUZeIpZJVL3pftU",
+        "aad": "material-09:13"
+      },
+      {
+        "path": "materials-private/material-09-0015.enc",
+        "iv": "kM2dBEaWV84wfJtv",
+        "aad": "material-09:14"
+      },
+      {
+        "path": "materials-private/material-09-0016.enc",
+        "iv": "mXDA1ToWJmU2ZEvL",
+        "aad": "material-09:15"
+      },
+      {
+        "path": "materials-private/material-09-0017.enc",
+        "iv": "MkxBOUA+s7YCCBG5",
+        "aad": "material-09:16"
+      },
+      {
+        "path": "materials-private/material-09-0018.enc",
+        "iv": "1tOSyCLIYzFMOB9C",
+        "aad": "material-09:17"
+      },
+      {
+        "path": "materials-private/material-09-0019.enc",
+        "iv": "qnkNEUcnPvnjJRWV",
+        "aad": "material-09:18"
+      }
+    ]
+  },
+  {
+    "id": "material-10",
+    "title": "50 Exercícios com Gabarito",
+    "group": "Bônus",
+    "label": "Bônus 4",
+    "pages": 16,
+    "bytes": 5780490,
+    "sha256": "07f7211f90abf973c98d945b5278293b38fafe680b9572258317207d36f9c648",
+    "parts": [
+      {
+        "path": "materials-private/material-10-0001.enc",
+        "iv": "u1bQ+0BRAEC8WcM9",
+        "aad": "material-10:0"
+      },
+      {
+        "path": "materials-private/material-10-0002.enc",
+        "iv": "vsvunWCGCbelXWXw",
+        "aad": "material-10:1"
+      },
+      {
+        "path": "materials-private/material-10-0003.enc",
+        "iv": "sojcW0xPBNd+Z979",
+        "aad": "material-10:2"
+      },
+      {
+        "path": "materials-private/material-10-0004.enc",
+        "iv": "f8RXMr/uYL3F1XPL",
+        "aad": "material-10:3"
+      },
+      {
+        "path": "materials-private/material-10-0005.enc",
+        "iv": "S1V2VKYFqXvWcZBb",
+        "aad": "material-10:4"
+      },
+      {
+        "path": "materials-private/material-10-0006.enc",
+        "iv": "PfeM71pf1r2W5kZl",
+        "aad": "material-10:5"
+      },
+      {
+        "path": "materials-private/material-10-0007.enc",
+        "iv": "25EWYIVIQ0f/M5WO",
+        "aad": "material-10:6"
+      },
+      {
+        "path": "materials-private/material-10-0008.enc",
+        "iv": "AgqxQlqI3RY7DfSs",
+        "aad": "material-10:7"
+      },
+      {
+        "path": "materials-private/material-10-0009.enc",
+        "iv": "mzuJCOXw3P/rseds",
+        "aad": "material-10:8"
+      },
+      {
+        "path": "materials-private/material-10-0010.enc",
+        "iv": "yhnIo8A8ySAUrQGA",
+        "aad": "material-10:9"
+      },
+      {
+        "path": "materials-private/material-10-0011.enc",
+        "iv": "hm0AXBP/QIvRU4Dl",
+        "aad": "material-10:10"
+      },
+      {
+        "path": "materials-private/material-10-0012.enc",
+        "iv": "GhZQqo+FQRm8smGc",
+        "aad": "material-10:11"
+      }
+    ]
+  },
+  {
+    "id": "material-11",
+    "title": "Alemão para Viajar",
+    "group": "Bônus",
+    "label": "Bônus 5",
+    "pages": 31,
+    "bytes": 13721273,
+    "sha256": "e1602b190c3fbddd7ff402120d7a6faf210d9da80859712ec96567f279e3143a",
+    "parts": [
+      {
+        "path": "materials-private/material-11-0001.enc",
+        "iv": "OSTBETfeSFqork+z",
+        "aad": "material-11:0"
+      },
+      {
+        "path": "materials-private/material-11-0002.enc",
+        "iv": "abJxAUYpuaBJm+ik",
+        "aad": "material-11:1"
+      },
+      {
+        "path": "materials-private/material-11-0003.enc",
+        "iv": "6xs/4HO7gpWQ5d6Q",
+        "aad": "material-11:2"
+      },
+      {
+        "path": "materials-private/material-11-0004.enc",
+        "iv": "KJf5LhuxkC3w+WO9",
+        "aad": "material-11:3"
+      },
+      {
+        "path": "materials-private/material-11-0005.enc",
+        "iv": "IOwNqKYFtxHGOeyD",
+        "aad": "material-11:4"
+      },
+      {
+        "path": "materials-private/material-11-0006.enc",
+        "iv": "LVIQalbGdO/TVZ3N",
+        "aad": "material-11:5"
+      },
+      {
+        "path": "materials-private/material-11-0007.enc",
+        "iv": "Sa5bGP2LOZ5Z4iIO",
+        "aad": "material-11:6"
+      },
+      {
+        "path": "materials-private/material-11-0008.enc",
+        "iv": "UsrIyZmkyayTq7TO",
+        "aad": "material-11:7"
+      },
+      {
+        "path": "materials-private/material-11-0009.enc",
+        "iv": "aH+XKDrc6pcEmAiu",
+        "aad": "material-11:8"
+      },
+      {
+        "path": "materials-private/material-11-0010.enc",
+        "iv": "OzRWKE4mRyFz8pPr",
+        "aad": "material-11:9"
+      },
+      {
+        "path": "materials-private/material-11-0011.enc",
+        "iv": "huE0zw5+j/ItUQqP",
+        "aad": "material-11:10"
+      },
+      {
+        "path": "materials-private/material-11-0012.enc",
+        "iv": "jncL+j2kqzO1VdFn",
+        "aad": "material-11:11"
+      },
+      {
+        "path": "materials-private/material-11-0013.enc",
+        "iv": "aD7m79xBLVggiUUJ",
+        "aad": "material-11:12"
+      },
+      {
+        "path": "materials-private/material-11-0014.enc",
+        "iv": "ARo+6v6LSWR/1ajh",
+        "aad": "material-11:13"
+      },
+      {
+        "path": "materials-private/material-11-0015.enc",
+        "iv": "CTCnq3yY+Jq7TA2P",
+        "aad": "material-11:14"
+      },
+      {
+        "path": "materials-private/material-11-0016.enc",
+        "iv": "bE6SfVk3zsIF2qnY",
+        "aad": "material-11:15"
+      },
+      {
+        "path": "materials-private/material-11-0017.enc",
+        "iv": "j7GdUSwE940hFzsf",
+        "aad": "material-11:16"
+      },
+      {
+        "path": "materials-private/material-11-0018.enc",
+        "iv": "qcZTiTho187Wklre",
+        "aad": "material-11:17"
+      },
+      {
+        "path": "materials-private/material-11-0019.enc",
+        "iv": "Ru+TNJujatWKQROF",
+        "aad": "material-11:18"
+      },
+      {
+        "path": "materials-private/material-11-0020.enc",
+        "iv": "xWSIUkuEGDjdlIhu",
+        "aad": "material-11:19"
+      },
+      {
+        "path": "materials-private/material-11-0021.enc",
+        "iv": "RoluB1RYj9zmBhXC",
+        "aad": "material-11:20"
+      },
+      {
+        "path": "materials-private/material-11-0022.enc",
+        "iv": "mlthRaoTvgB2/Umo",
+        "aad": "material-11:21"
+      },
+      {
+        "path": "materials-private/material-11-0023.enc",
+        "iv": "izMWmgiFvj3zyxCD",
+        "aad": "material-11:22"
+      },
+      {
+        "path": "materials-private/material-11-0024.enc",
+        "iv": "IButApoLahSXpm0g",
+        "aad": "material-11:23"
+      },
+      {
+        "path": "materials-private/material-11-0025.enc",
+        "iv": "pK0uHWxD7eC2HB3W",
+        "aad": "material-11:24"
+      },
+      {
+        "path": "materials-private/material-11-0026.enc",
+        "iv": "WmyVbgZlkZ4m/kvu",
+        "aad": "material-11:25"
+      },
+      {
+        "path": "materials-private/material-11-0027.enc",
+        "iv": "N8oR89CloarBS1YK",
+        "aad": "material-11:26"
+      }
+    ]
+  },
+  {
+    "id": "material-12",
+    "title": "Plano de Estudos de 90 Dias",
+    "group": "Bônus",
+    "label": "Bônus 6",
+    "pages": 20,
+    "bytes": 9770670,
+    "sha256": "9331db4a1c1a0bfaaee2df1ec1a856e8168eb0304572ea8776917b05bb1ede92",
+    "parts": [
+      {
+        "path": "materials-private/material-12-0001.enc",
+        "iv": "tOllpH14jQhPFfo4",
+        "aad": "material-12:0"
+      },
+      {
+        "path": "materials-private/material-12-0002.enc",
+        "iv": "FXrWP0oHcf1j1xKG",
+        "aad": "material-12:1"
+      },
+      {
+        "path": "materials-private/material-12-0003.enc",
+        "iv": "3KZAKFsn4c0oQxCd",
+        "aad": "material-12:2"
+      },
+      {
+        "path": "materials-private/material-12-0004.enc",
+        "iv": "LRM917dlrZP/rOj4",
+        "aad": "material-12:3"
+      },
+      {
+        "path": "materials-private/material-12-0005.enc",
+        "iv": "0qDhBqrfFoEwlsJX",
+        "aad": "material-12:4"
+      },
+      {
+        "path": "materials-private/material-12-0006.enc",
+        "iv": "Nv6rCyfe7vAceaSm",
+        "aad": "material-12:5"
+      },
+      {
+        "path": "materials-private/material-12-0007.enc",
+        "iv": "34EMvqJhG/6OcUL2",
+        "aad": "material-12:6"
+      },
+      {
+        "path": "materials-private/material-12-0008.enc",
+        "iv": "NQEC+rGd/UU1Rkwb",
+        "aad": "material-12:7"
+      },
+      {
+        "path": "materials-private/material-12-0009.enc",
+        "iv": "qtKEUw5SsAMNojvL",
+        "aad": "material-12:8"
+      },
+      {
+        "path": "materials-private/material-12-0010.enc",
+        "iv": "ZJDIPo47CU9Z4cd7",
+        "aad": "material-12:9"
+      },
+      {
+        "path": "materials-private/material-12-0011.enc",
+        "iv": "kY+eGUI+Axbrb4tF",
+        "aad": "material-12:10"
+      },
+      {
+        "path": "materials-private/material-12-0012.enc",
+        "iv": "e4BdCrS21jkgHE04",
+        "aad": "material-12:11"
+      },
+      {
+        "path": "materials-private/material-12-0013.enc",
+        "iv": "elNDg9pqc0p+2dz+",
+        "aad": "material-12:12"
+      },
+      {
+        "path": "materials-private/material-12-0014.enc",
+        "iv": "/Wwln/RATRopP76J",
+        "aad": "material-12:13"
+      },
+      {
+        "path": "materials-private/material-12-0015.enc",
+        "iv": "Ab64dxuWrY2OLMdv",
+        "aad": "material-12:14"
+      },
+      {
+        "path": "materials-private/material-12-0016.enc",
+        "iv": "XTgzq5FT29K1FkQd",
+        "aad": "material-12:15"
+      },
+      {
+        "path": "materials-private/material-12-0017.enc",
+        "iv": "uvGwnsoS2v0dd/GZ",
+        "aad": "material-12:16"
+      },
+      {
+        "path": "materials-private/material-12-0018.enc",
+        "iv": "P82P9WVb22+ece9P",
+        "aad": "material-12:17"
+      },
+      {
+        "path": "materials-private/material-12-0019.enc",
+        "iv": "rqSTMcpcnoXCDJxl",
+        "aad": "material-12:18"
+      }
+    ]
+  }
+]
