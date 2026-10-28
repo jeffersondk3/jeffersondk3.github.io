@@ -1,3 +1,4 @@
+import {createDialoguePractice} from './exercises.js?v=7';
 'use strict';
 const $=id=>document.getElementById(id);
 const audio=$('audioPlayer');
@@ -5,6 +6,8 @@ let data=[],current=null,category='',favoriteOnly=false,doneOnly=false,token=0,p
 let saved={done:[],favorites:[],last:1};try{saved={...saved,...JSON.parse(localStorage.getItem('deutsch-alltag-v1')||'{}')};for(const k of ['done','favorites'])if(!Array.isArray(saved[k]))saved[k]=[]}catch{}
 const persist=()=>{try{localStorage.setItem(window.studyCloud?.userId?'deutsch-alltag-user-'+window.studyCloud.userId+'-'+window.studyCloud.profile:'deutsch-alltag-v1',JSON.stringify(saved));window.studyCloud?.saveDialogues(saved)}catch{}};
 const escapeHTML=s=>String(s).replace(/[&<>"']/g,c=>({'&':'&amp;','<':'&lt;','>':'&gt;','"':'&quot;',"'":'&#39;'}[c]));
+const dialoguePractice=createDialoguePractice({getCloud:()=>window.studyCloud,storage:localStorage,listen:n=>playSentence(n,'de')});
+window.addEventListener('study:exercises',()=>dialoguePractice.refresh());
 function draw(){
  $('doneCount').textContent=saved.done.length;$('progressBar').style.width=saved.done.length+'%';
  const cats=[...new Set(data.map(d=>d.category))];$('categories').innerHTML=[['','◉','Todas as conversas'],...cats.map(c=>[c,data.find(d=>d.category===c).icon,c])].map(([c,icon,name])=>`<button data-category="${c}" class="${category===c?'active':''}"><span>${icon}</span>${name}<span>${c?'10':'100'}</span></button>`).join('');
@@ -16,7 +19,7 @@ function favorite(id){saved.favorites=saved.favorites.includes(id)?saved.favorit
 function lessonButtons(){$('favorite').textContent=saved.favorites.includes(current.id)?'♥':'♡';$('favorite').setAttribute('aria-pressed',saved.favorites.includes(current.id));$('markDone').textContent=saved.done.includes(current.id)?'✓ Praticado · desfazer':'✓ Marcar como praticado';$('previous').disabled=current.id===1;$('next').disabled=current.id===100}
 function showLines(){if(!current)return;$('lines').innerHTML=current.lines.map((l,i)=>`<div class="line ${index===i?'active':''} ${waiting&&index===i?'yourTurn':''}" id="line-${i}"><span class="avatar ${l.role==='B'?'b':''}">${l.role}</span><div class="words">${waiting&&index===i?'<div class="turnLabel">SUA VEZ · fale em voz alta</div>':''}<div class="de" lang="de">${escapeHTML(l.de)}</div><div class="pronunciation" aria-label="Pronúncia aproximada" ${$('showPron').checked?'':'hidden'}>${escapeHTML(l.pronunciation||'')}</div><div class="pt" ${$('showPt').checked?'':'hidden'}>${escapeHTML(l.pt)}</div></div><div class="sentenceAudio"><button data-sentence="${i}" data-lang="de" aria-label="Ouvir frase ${i+1} em alemão">DE ♪</button><button data-sentence="${i}" data-lang="pt" aria-label="Ouvir frase ${i+1} em português">PT ♪</button></div></div>`).join('')}
 function stop(){token++;audio.onended=null;audio.onerror=null;audio.pause();try{audio.currentTime=0}catch{}playing=false;waiting=false;index=-1;$('nextTurn').hidden=true;$('play').textContent='▶ Ouvir conversa';$('playStatus').textContent='Pronto para começar';showLines()}
-function openLesson(id){stop();current=data.find(d=>d.id===id);if(!current)return;saved.last=id;persist();$('lessonMeta').textContent=`${current.icon} ${current.category} · Diálogo ${String(id).padStart(2,'0')} · ${current.level}`;$('lessonTitle').textContent=current.title;lessonButtons();showLines();if(!$('lesson').open)$('lesson').showModal();$('lesson').scrollTop=0;notice('');audio.src=`audio/${String(current.id).padStart(3,'0')}-1-${$('audioLanguage').value==='pt'?'pt':'de'}.mp3`;audio.preload='metadata'}
+function openLesson(id){stop();current=data.find(d=>d.id===id);if(!current)return;saved.last=id;persist();$('lessonMeta').textContent=`${current.icon} ${current.category} · Diálogo ${String(id).padStart(2,'0')} · ${current.level}`;$('lessonTitle').textContent=current.title;lessonButtons();showLines();dialoguePractice.open(current);if(!$('lesson').open)$('lesson').showModal();$('lesson').scrollTop=0;notice('');audio.src=`audio/${String(current.id).padStart(3,'0')}-1-${$('audioLanguage').value==='pt'?'pt':'de'}.mp3`;audio.preload='metadata'}
 function notice(text){$('audioNotice').textContent=text;$('audioNotice').hidden=!text}
 function playClip(lang,onend){
  const t=token;
@@ -38,7 +41,8 @@ function step(t){if(t!==token||!current)return;if(index>=current.lines.length){p
 $('play').onclick=()=>{if(playing){stop();return}stop();playing=true;index=0;$('play').textContent='■ Encerrar conversa';step(token)};
 $('stop').onclick=stop;$('nextTurn').onclick=()=>{if(!waiting)return;waiting=false;index++;step(token)};
 $('role').onchange=stop;$('speed').onchange=stop;$('audioLanguage').onchange=stop;$('showPt').onchange=showLines;$('showPron').onchange=showLines;
-$('lines').onclick=e=>{const b=e.target.closest('[data-sentence]');if(!b)return;stop();index=Number(b.dataset.sentence);showLines();const t=token;$('playStatus').textContent=`Ouvindo frase ${index+1} de 4`;playClip(b.dataset.lang,()=>{if(t===token){index=-1;showLines();$('playStatus').textContent='Agora repita em voz alta.'}})};
+function playSentence(n,lang){stop();index=n;showLines();const t=token;$('playStatus').textContent=`Ouvindo frase ${index+1} de 4`;playClip(lang,()=>{if(t===token){index=-1;showLines();$('playStatus').textContent='Agora repita em voz alta.'}})}
+$('lines').onclick=e=>{const b=e.target.closest('[data-sentence]');if(b)playSentence(Number(b.dataset.sentence),b.dataset.lang)};
 $('categories').onclick=e=>{const b=e.target.closest('[data-category]');if(b){category=b.dataset.category;draw()}};
 $('cards').onclick=e=>{const f=e.target.closest('[data-favorite]'),o=e.target.closest('[data-open]');if(f)favorite(Number(f.dataset.favorite));if(o)openLesson(Number(o.dataset.open))};
 $('search').oninput=draw;$('favFilter').onclick=()=>{favoriteOnly=!favoriteOnly;$('favFilter').setAttribute('aria-pressed',favoriteOnly);draw()};$('doneFilter').onclick=()=>{doneOnly=!doneOnly;$('doneFilter').setAttribute('aria-pressed',doneOnly);draw()};
