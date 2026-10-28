@@ -1,8 +1,9 @@
+import {createWritingPractice} from './writing.js?v=1';
 import * as pdfjsLib from './vendor/pdf.mjs';
 const workerResponse=await fetch(new URL('./vendor/pdf.worker.mjs.gz.bin',import.meta.url));if(!workerResponse.ok)throw Error('Não foi possível carregar o leitor');const workerText=await new Response(workerResponse.body.pipeThrough(new DecompressionStream('gzip'))).text();pdfjsLib.GlobalWorkerOptions.workerSrc=URL.createObjectURL(new Blob([workerText],{type:'text/javascript'}));
 const $=id=>document.getElementById(id),escape=s=>String(s).replace(/[&<>"']/g,c=>({'&':'&amp;','<':'&lt;','>':'&gt;','"':'&quot;',"'":'&#39;'}[c]));
 let catalog=[],current=null,pdf=null,task=null,abort=null,renderTask=null,generation=0,renderGeneration=0,zoom=1,page=1,queue=Promise.resolve();
-const cloud=window.parent.studyCloud;let owner=null;
+const cloud=window.parent.studyCloud;let owner=null;const writingPractice=createWritingPractice({cloud});
 let progress={last:'material-01',items:{}};
 function save(){if(!current||!cloud?.userId)return;cloud.saveMaterial(current.id,progress.items[current.id]);cloud.saveMaterial('_last',{id:current.id});}
 function item(id){return progress.items[id]||{page:1,done:false};}
@@ -24,13 +25,13 @@ function pageRender(){
   renderTask=p.render({canvasContext:canvas.getContext('2d'),viewport,transform:ratio===1?null:[ratio,0,0,ratio,0,0]});
   try{await renderTask.promise;}catch(e){if(e.name==='RenderingCancelledException')return;throw e;}
   if(t!==generation||r!==renderGeneration)return;renderTask=null;$('loading').hidden=true;$('paper').hidden=false;$('readerStage').scrollTop=0;$('readerStage').scrollLeft=0;
-  $('page').value=target;$('page').max=doc.numPages;$('total').textContent='/ '+doc.numPages;$('zoomValue').textContent=Math.round(zoom*100)+'%';buttons(true);
+  $('page').value=target;$('page').max=doc.numPages;$('total').textContent='/ '+doc.numPages;$('zoomValue').textContent=Math.round(zoom*100)+'%';buttons(true);writingPractice.show({id:current.id,page:target,title:current.title});
   progress.last=current.id;progress.items[current.id]={...item(current.id),page:target};save();drawCatalog();$('savedStatus').textContent=`Página ${target} de ${doc.numPages} · posição salva na sua conta`;
  }).catch(e=>{if(t===generation){$('loading').hidden=true;$('errorBox').hidden=false;$('errorText').textContent='Não foi possível exibir esta página. Tente abrir o material novamente.';buttons(false);}});
 }
 async function openMaterial(id){
  const entry=catalog.find(d=>d.id===id);if(!entry)return;
- const t=++generation;++renderGeneration;if(abort)abort.abort();abort=new AbortController();if(renderTask)renderTask.cancel();if(task){try{await task.destroy();}catch{}task=null;}pdf=null;current=entry;zoom=1;
+ writingPractice.hide();const t=++generation;++renderGeneration;if(abort)abort.abort();abort=new AbortController();if(renderTask)renderTask.cancel();if(task){try{await task.destroy();}catch{}task=null;}pdf=null;current=entry;zoom=1;
  $('paper').hidden=true;$('loading').hidden=false;$('errorBox').hidden=true;$('loadingText').textContent='Abrindo '+entry.label+'…';$('materialLabel').textContent=entry.group+' · '+entry.label;$('materialTitle').textContent=entry.title;$('materialMeta').textContent=entry.pages+' páginas · material original do curso';$('savedStatus').textContent='Carregando o material…';buttons(false);drawCatalog();menu(false);
  try{
   const parts=new Array(entry.parts.length);let completed=0,nextPart=0;
@@ -49,10 +50,10 @@ $('page').onchange=()=>{if(!pdf)return;page=Math.max(1,Math.min(pdf.numPages,Num
 $('zoomOut').onclick=()=>{zoom=Math.max(.5,zoom-.25);pageRender();};$('zoomIn').onclick=()=>{zoom=Math.min(2,zoom+.25);pageRender();};
 $('done').onclick=()=>{if(!current)return;progress.items[current.id]={...item(current.id),page,done:!item(current.id).done};save();drawCatalog();buttons(!!pdf);};$('retry').onclick=()=>{if(current)openMaterial(current.id);};
 let resize;window.addEventListener('resize',()=>{clearTimeout(resize);resize=setTimeout(()=>{if(pdf)pageRender();},250);});window.addEventListener('keydown',e=>{if(['INPUT','TEXTAREA','SELECT'].includes(e.target.tagName)||e.ctrlKey||e.metaKey)return;if(e.key==='ArrowRight')go(1);if(e.key==='ArrowLeft')go(-1);if(e.key==='Escape')menu(false);});
-function loadProgress(){const values=cloud?.materials()||{};progress={last:values._last?.id||'material-01',items:Object.fromEntries(Object.entries(values).filter(([id])=>id!=='_last'))};}
-async function sessionState(){const changed=owner!==cloud?.userId+':'+cloud?.profile;if(changed){owner=cloud?.userId+':'+cloud?.profile;generation++;abort?.abort();renderTask?.cancel();if(task){try{await task.destroy();}catch{}task=null;}pdf=null;current=null;}
+function loadProgress(){const values=cloud?.materials()||{};progress={last:values._last?.id||'material-01',items:Object.fromEntries(Object.entries(values).filter(([id])=>id!=='_last'&&!id.startsWith('writing:')))};}
+async function sessionState(){const changed=owner!==cloud?.userId+':'+cloud?.profile;if(changed){writingPractice.hide();owner=cloud?.userId+':'+cloud?.profile;generation++;abort?.abort();renderTask?.cancel();if(task){try{await task.destroy();}catch{}task=null;}pdf=null;current=null;}
  const ready=!!cloud?.userId&&!!cloud.key;$('locked').hidden=ready;$('readerWorkspace').hidden=!ready;$('enterAccount').hidden=!!cloud?.userId;$('unlockForm').hidden=!cloud?.userId;$('lockHint').textContent=cloud?.userId?'Perfil '+(cloud.profile==='sofia'?'Sofia':'Jefferson')+' · '+cloud.email+'. Desbloqueie os materiais para continuar.':'Entre na sua conta para estudar e sincronizar seu progresso.';
- if(!ready)return;loadProgress();drawCatalog();if(!current&&catalog.length)openMaterial(catalog.some(x=>x.id===progress.last)?progress.last:catalog[0].id);
+ if(!ready){writingPractice.hide();return;}loadProgress();drawCatalog();writingPractice.refresh();if(!current&&catalog.length)openMaterial(catalog.some(x=>x.id===progress.last)?progress.last:catalog[0].id);
 }
 $('enterAccount').onclick=()=>window.parent.document.getElementById('accountButton').click();$('unlockForm').onsubmit=async e=>{e.preventDefault();const button=$('unlockForm').querySelector('button');button.disabled=true;$('unlockStatus').textContent='Desbloqueando…';try{await cloud.unlock($('vaultPassword').value);$('vaultPassword').value='';$('unlockStatus').textContent='';await sessionState()}catch(e){$('unlockStatus').textContent=e.message||'Não foi possível desbloquear. Confira sua senha e conexão.'}finally{button.disabled=false}};
 if(window.parent===window){location.replace('../?materials=1')}else{window.parent.addEventListener('study:materials',sessionState);window.parent.addEventListener('study:unlocked',sessionState);fetch('catalog.json').then(r=>{if(!r.ok)throw Error();return r.json()}).then(d=>{catalog=d;sessionState()}).catch(()=>{$('unlockStatus').textContent='Não foi possível carregar os materiais. Confira a conexão e tente novamente.'});sessionState();}
