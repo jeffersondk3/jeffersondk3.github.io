@@ -1,0 +1,7 @@
+Audio generated locally with Piper.
+German: de_DE-thorsten-medium (Thorsten Voice, CC0 dataset).
+Source: https://github.com/thorstenMueller/Thorsten-Voice
+Brazilian Portuguese: pt_BR-faber-medium (OHF Voice, CC0 dataset).
+Source: https://github.com/OHF-Voice/voice-datasets
+Official model distribution: https://huggingface.co/rhasspy/piper-voices
+The MP3 files are synthetic speech, not the ChatGPT voice or a clone of the user.

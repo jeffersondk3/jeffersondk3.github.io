@@ -1,0 +1,3702 @@
+[
+  {
+    "id": 1,
+    "title": "Apresentar-se",
+    "category": "Primeiras conversas",
+    "icon": "👋",
+    "level": "A1",
+    "lines": [
+      {
+        "role": "A",
+        "de": "Hallo! Wie heißt du?",
+        "pt": "Olá! Como você se chama?",
+        "ipa": "hˈaloː viː hˈaɪst duː",
+        "pronunciation": "háloo vii háist duu"
+      },
+      {
+        "role": "B",
+        "de": "Ich heiße Jefferson. Und du?",
+        "pt": "Eu me chamo Jefferson. E você?",
+        "ipa": "ɪç hˈaɪsə jˈɛfɜzˌoːn ʊnt duː",
+        "pronunciation": "iç háisse jéförzoon unt duu"
+      },
+      {
+        "role": "A",
+        "de": "Ich heiße Anna. Woher kommst du?",
+        "pt": "Eu me chamo Anna. De onde você vem?",
+        "ipa": "ɪç hˈaɪsə ˈanɑː voːhˈeːɾ kˈɔmst duː",
+        "pronunciation": "iç háisse ánaa voohêer kómst duu"
+      },
+      {
+        "role": "B",
+        "de": "Ich komme aus Brasilien.",
+        "pt": "Eu venho do Brasil.",
+        "ipa": "ɪç kˈɔmə ˌaʊs bɾazˈiːlɪən",
+        "pronunciation": "iç kóme aus brazíilien"
+      }
+    ]
+  },
+  {
+    "id": 2,
+    "title": "Cumprimentar",
+    "category": "Primeiras conversas",
+    "icon": "👋",
+    "level": "A1",
+    "lines": [
+      {
+        "role": "A",
+        "de": "Guten Morgen! Wie geht es dir?",
+        "pt": "Bom dia! Como você está?",
+        "ipa": "ɡˈuːtən mˈɔɾɡən viː ɡˈeːt ɛs dˈiːɾ",
+        "pronunciation": "gúuten mórgen vii gêet és díir"
+      },
+      {
+        "role": "B",
+        "de": "Gut, danke. Und dir?",
+        "pt": "Bem, obrigado. E você?",
+        "ipa": "ɡˈuːt dˈaŋkə ʊnt dˈiːɾ",
+        "pronunciation": "gúut dángke unt díir"
+      },
+      {
+        "role": "A",
+        "de": "Mir geht es auch gut.",
+        "pt": "Eu também estou bem.",
+        "ipa": "miːɾ ɡˈeːt ɛs ˌaʊx ɡˈuːt",
+        "pronunciation": "miir gêet és aukh gúut"
+      },
+      {
+        "role": "B",
+        "de": "Das freut mich!",
+        "pt": "Fico feliz!",
+        "ipa": "das frˈɔøt mɪç",
+        "pronunciation": "das fróit miç"
+      }
+    ]
+  },
+  {
+    "id": 3,
+    "title": "Soletrar o nome",
+    "category": "Primeiras conversas",
+    "icon": "👋",
+    "level": "A1",
+    "lines": [
+      {
+        "role": "A",
+        "de": "Wie ist Ihr Nachname?",
+        "pt": "Qual é seu sobrenome?",
+        "ipa": "viː ɪst iːɾ nˈaxnɑːmə",
+        "pronunciation": "vii ist iir nákhnaame"
+      },
+      {
+        "role": "B",
+        "de": "Mein Nachname ist Almeida.",
+        "pt": "Meu sobrenome é Almeida.",
+        "ipa": "maɪn nˈaxnɑːmə ɪst ˈalmaɪdˌɑː",
+        "pronunciation": "main nákhnaame ist álmaidaa"
+      },
+      {
+        "role": "A",
+        "de": "Können Sie das bitte buchstabieren?",
+        "pt": "Pode soletrar, por favor?",
+        "ipa": "kˌœnən ziː das bˈɪtə bˌuːxʃtɑːbˈiːrən",
+        "pronunciation": "könen zii das bíte buukhshtaabíiren"
+      },
+      {
+        "role": "B",
+        "de": "Ja: A, L, M, E, I, D, A.",
+        "pt": "Sim: A, L, M, E, I, D, A.",
+        "ipa": "jˈɑː ˈɑː ˈɛl ˈɛm ˈeː ˈiː dˈeː ˈɑː",
+        "pronunciation": "jáa áa él ém êe íi dêe áa"
+      }
+    ]
+  },
+  {
+    "id": 4,
+    "title": "De onde você é",
+    "category": "Primeiras conversas",
+    "icon": "👋",
+    "level": "A1",
+    "lines": [
+      {
+        "role": "A",
+        "de": "Kommst du aus Deutschland?",
+        "pt": "Você vem da Alemanha?",
+        "ipa": "kˈɔmst duː ˌaʊs dˈɔøtʃlant",
+        "pronunciation": "kómst duu aus dóitshlant"
+      },
+      {
+        "role": "B",
+        "de": "Nein, ich komme aus Brasilien.",
+        "pt": "Não, venho do Brasil.",
+        "ipa": "nˈaɪn ɪç kˈɔmə ˌaʊs bɾazˈiːlɪən",
+        "pronunciation": "náin iç kóme aus brazíilien"
+      },
+      {
+        "role": "A",
+        "de": "Wo wohnst du jetzt?",
+        "pt": "Onde você mora agora?",
+        "ipa": "vˌoː vˈoːnst duː jˈɛtst",
+        "pronunciation": "voo vôonst duu jétst"
+      },
+      {
+        "role": "B",
+        "de": "Ich wohne in São Paulo.",
+        "pt": "Eu moro em São Paulo.",
+        "ipa": "ɪç vˈoːnə ɪn zˈɑoː pˈaʊloː",
+        "pronunciation": "iç vôone in záoo páuloo"
+      }
+    ]
+  },
+  {
+    "id": 5,
+    "title": "Falar da família",
+    "category": "Primeiras conversas",
+    "icon": "👋",
+    "level": "A1",
+    "lines": [
+      {
+        "role": "A",
+        "de": "Bist du verheiratet?",
+        "pt": "Você é casado?",
+        "ipa": "bɪst duː fɛɾhaɪrˈɑːtət",
+        "pronunciation": "bist duu férhairáatet"
+      },
+      {
+        "role": "B",
+        "de": "Ja, meine Frau heißt Sofia.",
+        "pt": "Sim, minha esposa se chama Sofia.",
+        "ipa": "jˈɑː mˌaɪnə frˈaʊ hˈaɪst zˈoːfiːˌɑː",
+        "pronunciation": "jáa maine fráu háist zôofiiaa"
+      },
+      {
+        "role": "A",
+        "de": "Habt ihr Kinder?",
+        "pt": "Vocês têm filhos?",
+        "ipa": "hˈɑːpt iːɾ kˈɪndɜ",
+        "pronunciation": "háapt iir kíndör"
+      },
+      {
+        "role": "B",
+        "de": "Nein, wir haben keine Kinder.",
+        "pt": "Não, não temos filhos.",
+        "ipa": "nˈaɪn viːɾ hˌɑːbən kˈaɪnə kˈɪndɜ",
+        "pronunciation": "náin viir haaben káine kíndör"
+      }
+    ]
+  },
+  {
+    "id": 6,
+    "title": "Idade",
+    "category": "Primeiras conversas",
+    "icon": "👋",
+    "level": "A1",
+    "lines": [
+      {
+        "role": "A",
+        "de": "Wie alt bist du?",
+        "pt": "Quantos anos você tem?",
+        "ipa": "viː ˈalt bɪst duː",
+        "pronunciation": "vii ált bist duu"
+      },
+      {
+        "role": "B",
+        "de": "Ich bin dreißig Jahre alt.",
+        "pt": "Eu tenho trinta anos.",
+        "ipa": "ɪç bɪn dɾˈaɪsɪç jˈɑːrə ˈalt",
+        "pronunciation": "iç bin dráissiç jáare ált"
+      },
+      {
+        "role": "A",
+        "de": "Und wie alt ist deine Frau?",
+        "pt": "E quantos anos sua esposa tem?",
+        "ipa": "ʊnt viː ˈalt ɪst dˌaɪnə frˈaʊ",
+        "pronunciation": "unt vii ált ist daine fráu"
+      },
+      {
+        "role": "B",
+        "de": "Sie ist achtundzwanzig.",
+        "pt": "Ela tem vinte e oito.",
+        "ipa": "ziː ɪst ˈaxtʊnttsvˌantsɪç",
+        "pronunciation": "zii ist ákhtunttsvantsiç"
+      }
+    ]
+  },
+  {
+    "id": 7,
+    "title": "Idiomas",
+    "category": "Primeiras conversas",
+    "icon": "👋",
+    "level": "A1",
+    "lines": [
+      {
+        "role": "A",
+        "de": "Welche Sprachen sprichst du?",
+        "pt": "Quais idiomas você fala?",
+        "ipa": "vˈɛlçə ʃpɾˈɑːxən ʃpɾˈɪkst duː",
+        "pronunciation": "vélçe shpráakhen shpríkst duu"
+      },
+      {
+        "role": "B",
+        "de": "Ich spreche Portugiesisch und lerne Deutsch.",
+        "pt": "Falo português e estudo alemão.",
+        "ipa": "ɪç ʃpɾˈɛçə pˌɔɾtuːɡˈiːzɪʃ ʊnt lˈɛɾnə dˈɔøtʃ",
+        "pronunciation": "iç shpréçe pórtuugíizish unt lérne dóitsh"
+      },
+      {
+        "role": "A",
+        "de": "Sprichst du schon gut Deutsch?",
+        "pt": "Você já fala bem alemão?",
+        "ipa": "ʃpɾˈɪkst duː ʃˌoːn ɡˈuːt dˈɔøtʃ",
+        "pronunciation": "shpríkst duu shoon gúut dóitsh"
+      },
+      {
+        "role": "B",
+        "de": "Noch nicht. Bitte sprich langsam.",
+        "pt": "Ainda não. Por favor, fale devagar.",
+        "ipa": "nˈɔx nˈɪçt bˈɪtə ʃpɾˈɪç lˈaŋzɑːm",
+        "pronunciation": "nókh níçt bíte shpríç lángzaam"
+      }
+    ]
+  },
+  {
+    "id": 8,
+    "title": "Pedir repetição",
+    "category": "Primeiras conversas",
+    "icon": "👋",
+    "level": "A1",
+    "lines": [
+      {
+        "role": "A",
+        "de": "Entschuldigung, ich verstehe das nicht.",
+        "pt": "Desculpe, não entendo isso.",
+        "ipa": "ɛntʃˈʊldɪɡˌʊŋ ɪç fɛɾʃtˈeːə das nˈɪçt",
+        "pronunciation": "éntshúldigung iç férshtêee das níçt"
+      },
+      {
+        "role": "B",
+        "de": "Soll ich es wiederholen?",
+        "pt": "Devo repetir?",
+        "ipa": "zˌɔl ɪç ɛs viːdɜhˈoːlən",
+        "pronunciation": "zól iç és viidörhôolen"
+      },
+      {
+        "role": "A",
+        "de": "Ja, bitte. Etwas langsamer.",
+        "pt": "Sim, por favor. Um pouco mais devagar.",
+        "ipa": "jˈɑː bˈɪtə ˈɛtvɑːs lˈaŋzɑːmɜ",
+        "pronunciation": "jáa bíte étvaas lángzaamör"
+      },
+      {
+        "role": "B",
+        "de": "Natürlich. Kein Problem.",
+        "pt": "Claro. Sem problema.",
+        "ipa": "nɑːtˈyːɾlɪç kˈaɪn pɾoːblˈeːm",
+        "pronunciation": "naatǘürliç káin prooblêem"
+      }
+    ]
+  },
+  {
+    "id": 9,
+    "title": "Trocar contato",
+    "category": "Primeiras conversas",
+    "icon": "👋",
+    "level": "A1",
+    "lines": [
+      {
+        "role": "A",
+        "de": "Wie ist deine Telefonnummer?",
+        "pt": "Qual é seu número de telefone?",
+        "ipa": "viː ɪst dˌaɪnə tˌeːleːfˈɔnʊmɜ",
+        "pronunciation": "vii ist daine teeleefónumör"
+      },
+      {
+        "role": "B",
+        "de": "Ich schreibe sie dir auf.",
+        "pt": "Vou anotar para você.",
+        "ipa": "ɪç ʃrˈaɪbə ziː diːɾ ˈaʊf",
+        "pronunciation": "iç shráibe zii diir áuf"
+      },
+      {
+        "role": "A",
+        "de": "Kann ich dir eine Nachricht schicken?",
+        "pt": "Posso mandar uma mensagem para você?",
+        "ipa": "kˌan ɪç diːɾ ˌaɪnə nˈaxrɪçt ʃˈɪkən",
+        "pronunciation": "kan iç diir aine nákhriçt shíken"
+      },
+      {
+        "role": "B",
+        "de": "Ja, gern.",
+        "pt": "Sim, claro.",
+        "ipa": "jˈɑː ɡˈɛɾn",
+        "pronunciation": "jáa gérn"
+      }
+    ]
+  },
+  {
+    "id": 10,
+    "title": "Despedir-se",
+    "category": "Primeiras conversas",
+    "icon": "👋",
+    "level": "A1",
+    "lines": [
+      {
+        "role": "A",
+        "de": "Ich muss jetzt gehen.",
+        "pt": "Preciso ir agora.",
+        "ipa": "ɪç mˈʊs jˌɛtst ɡˈeːən",
+        "pronunciation": "iç mús jétst gêeen"
+      },
+      {
+        "role": "B",
+        "de": "Alles klar. Bis morgen!",
+        "pt": "Tudo bem. Até amanhã!",
+        "ipa": "ˈaləs klˈɑːɾ bɪs mˈɔɾɡən",
+        "pronunciation": "áles kláar bis mórgen"
+      },
+      {
+        "role": "A",
+        "de": "Bis morgen! Einen schönen Abend!",
+        "pt": "Até amanhã! Uma boa noite!",
+        "ipa": "bɪs mˈɔɾɡən ˌaɪnən ʃˈøːnən ˈɑːbənt",
+        "pronunciation": "bis mórgen ainen shö́önen áabent"
+      },
+      {
+        "role": "B",
+        "de": "Danke, dir auch!",
+        "pt": "Obrigado, para você também!",
+        "ipa": "dˈaŋkə diːɾ ˌaʊx",
+        "pronunciation": "dángke diir aukh"
+      }
+    ]
+  },
+  {
+    "id": 11,
+    "title": "Pedir um café",
+    "category": "Comer e beber",
+    "icon": "☕",
+    "level": "A1",
+    "lines": [
+      {
+        "role": "A",
+        "de": "Guten Tag! Was möchten Sie?",
+        "pt": "Olá! O que deseja?",
+        "ipa": "ɡˈuːtən tˈɑːk vˈas mˈœçtən ziː",
+        "pronunciation": "gúuten táak vás mö́çten zii"
+      },
+      {
+        "role": "B",
+        "de": "Einen Kaffee, bitte.",
+        "pt": "Um café, por favor.",
+        "ipa": "ˌaɪnən kˈafeː bˈɪtə",
+        "pronunciation": "ainen káfee bíte"
+      },
+      {
+        "role": "A",
+        "de": "Mit Milch oder ohne Milch?",
+        "pt": "Com leite ou sem leite?",
+        "ipa": "mɪt mˈɪlç ˌoːdɜ ˈoːnə mˈɪlç",
+        "pronunciation": "mit mílç oodör ôone mílç"
+      },
+      {
+        "role": "B",
+        "de": "Mit Milch, bitte.",
+        "pt": "Com leite, por favor.",
+        "ipa": "mɪt mˈɪlç bˈɪtə",
+        "pronunciation": "mit mílç bíte"
+      }
+    ]
+  },
+  {
+    "id": 12,
+    "title": "Na padaria",
+    "category": "Comer e beber",
+    "icon": "☕",
+    "level": "A1",
+    "lines": [
+      {
+        "role": "A",
+        "de": "Ich hätte gern zwei Brötchen.",
+        "pt": "Eu gostaria de dois pãezinhos.",
+        "ipa": "ɪç hˌɛtə ɡˈɛɾn tsvˈaɪ bɾˈøːtçən",
+        "pronunciation": "iç héte gérn tsvái brö́ötçen"
+      },
+      {
+        "role": "B",
+        "de": "Sonst noch etwas?",
+        "pt": "Mais alguma coisa?",
+        "ipa": "zˈɔnst nɔx ˈɛtvɑːs",
+        "pronunciation": "zónst nókh étvaas"
+      },
+      {
+        "role": "A",
+        "de": "Ja, ein Brot, bitte.",
+        "pt": "Sim, um pão, por favor.",
+        "ipa": "jˈɑː aɪn bɾˈoːt bˈɪtə",
+        "pronunciation": "jáa ain brôot bíte"
+      },
+      {
+        "role": "B",
+        "de": "Gern. Das macht fünf Euro.",
+        "pt": "Claro. São cinco euros.",
+        "ipa": "ɡˈɛɾn das mˈaxt fˈʏnf ˈɔøroː",
+        "pronunciation": "gérn das mákht fǘnf óiroo"
+      }
+    ]
+  },
+  {
+    "id": 13,
+    "title": "Pedir o cardápio",
+    "category": "Comer e beber",
+    "icon": "☕",
+    "level": "A1",
+    "lines": [
+      {
+        "role": "A",
+        "de": "Haben Sie einen Tisch für zwei?",
+        "pt": "Tem uma mesa para dois?",
+        "ipa": "hˌɑːbən ziː ˌaɪnən tˈɪʃ fyːɾ tsvˈaɪ",
+        "pronunciation": "haaben zii ainen tísh füür tsvái"
+      },
+      {
+        "role": "B",
+        "de": "Ja, hier am Fenster.",
+        "pt": "Sim, aqui junto à janela.",
+        "ipa": "jˈɑː hˈiːɾ am fˈɛnstɜ",
+        "pronunciation": "jáa híir am fénstör"
+      },
+      {
+        "role": "A",
+        "de": "Können wir die Speisekarte haben?",
+        "pt": "Podemos ver o cardápio?",
+        "ipa": "kˌœnən viːɾ diː ʃpˈaɪzeːkˌaɾtə hˈɑːbən",
+        "pronunciation": "könen viir dii shpáizeekarte háaben"
+      },
+      {
+        "role": "B",
+        "de": "Natürlich. Hier, bitte.",
+        "pt": "Claro. Aqui está.",
+        "ipa": "nɑːtˈyːɾlɪç hˈiːɾ bˈɪtə",
+        "pronunciation": "naatǘürliç híir bíte"
+      }
+    ]
+  },
+  {
+    "id": 14,
+    "title": "Pedir almoço",
+    "category": "Comer e beber",
+    "icon": "☕",
+    "level": "A1",
+    "lines": [
+      {
+        "role": "A",
+        "de": "Was empfehlen Sie?",
+        "pt": "O que recomenda?",
+        "ipa": "vˈas ɛmpfˈeːlən ziː",
+        "pronunciation": "vás émpfêelen zii"
+      },
+      {
+        "role": "B",
+        "de": "Die Suppe ist heute sehr gut.",
+        "pt": "A sopa está muito boa hoje.",
+        "ipa": "diː zˈʊpə ɪst hˈɔøtə zˈeːɾ ɡˈuːt",
+        "pronunciation": "dii zúpe ist hóite zêer gúut"
+      },
+      {
+        "role": "A",
+        "de": "Dann nehme ich die Suppe.",
+        "pt": "Então vou querer a sopa.",
+        "ipa": "dan nˈeːmə ɪç diː zˈʊpə",
+        "pronunciation": "dan nêeme iç dii zúpe"
+      },
+      {
+        "role": "B",
+        "de": "Möchten Sie auch etwas trinken?",
+        "pt": "Gostaria também de algo para beber?",
+        "ipa": "mˈœçtən ziː ˌaʊx ˈɛtvɑːs tɾˈɪŋkən",
+        "pronunciation": "mö́çten zii aukh étvaas tríngken"
+      }
+    ]
+  },
+  {
+    "id": 15,
+    "title": "Sem carne",
+    "category": "Comer e beber",
+    "icon": "☕",
+    "level": "A1",
+    "lines": [
+      {
+        "role": "A",
+        "de": "Ist in diesem Gericht Fleisch?",
+        "pt": "Este prato leva carne?",
+        "ipa": "ɪst ɪn dˌiːzəm ɡərˈɪçt flˈaɪʃ",
+        "pronunciation": "ist in diizem geríçt fláish"
+      },
+      {
+        "role": "B",
+        "de": "Ja, es enthält Hähnchen.",
+        "pt": "Sim, contém frango.",
+        "ipa": "jˈɑː ɛs ɛnthˈɛlt hˈɛːnçən",
+        "pronunciation": "jáa és énthélt héençen"
+      },
+      {
+        "role": "A",
+        "de": "Haben Sie etwas ohne Fleisch?",
+        "pt": "Tem algo sem carne?",
+        "ipa": "hˌɑːbən ziː ˈɛtvɑːs ˈoːnə flˈaɪʃ",
+        "pronunciation": "haaben zii étvaas ôone fláish"
+      },
+      {
+        "role": "B",
+        "de": "Ja, wir haben Gemüse mit Reis.",
+        "pt": "Sim, temos legumes com arroz.",
+        "ipa": "jˈɑː viːɾ hˌɑːbən ɡəmˈyːzə mɪt rˈaɪs",
+        "pronunciation": "jáa viir haaben gemǘüze mit ráis"
+      }
+    ]
+  },
+  {
+    "id": 16,
+    "title": "Alergia alimentar",
+    "category": "Comer e beber",
+    "icon": "☕",
+    "level": "A1",
+    "lines": [
+      {
+        "role": "A",
+        "de": "Ich bin gegen Nüsse allergisch.",
+        "pt": "Tenho alergia a nozes e outras oleaginosas.",
+        "ipa": "ɪç bɪn ɡˌeːɡən nˈʏsə ˈalɜɡˌɪʃ",
+        "pronunciation": "iç bin geegen nǘsse álörgish"
+      },
+      {
+        "role": "B",
+        "de": "Danke für den Hinweis.",
+        "pt": "Obrigado por avisar.",
+        "ipa": "dˈaŋkə fyːɾ deːn hˈɪnvaɪs",
+        "pronunciation": "dángke füür deen hínvais"
+      },
+      {
+        "role": "A",
+        "de": "Enthält dieser Kuchen Nüsse?",
+        "pt": "Este bolo contém nozes ou outras oleaginosas?",
+        "ipa": "ɛnthˈɛlt dˌiːzɜ kˈuːxən nˈʏsə",
+        "pronunciation": "énthélt diizör kúukhen nǘsse"
+      },
+      {
+        "role": "B",
+        "de": "Ich frage in der Küche nach.",
+        "pt": "Vou perguntar na cozinha.",
+        "ipa": "ɪç frˈɑːɡə ɪn dɛɾ kˈʏçə nˈɑːx",
+        "pronunciation": "iç fráage in dér kǘçe náakh"
+      }
+    ]
+  },
+  {
+    "id": 17,
+    "title": "Pedir água",
+    "category": "Comer e beber",
+    "icon": "☕",
+    "level": "A1",
+    "lines": [
+      {
+        "role": "A",
+        "de": "Kann ich bitte Wasser bekommen?",
+        "pt": "Posso pedir água, por favor?",
+        "ipa": "kˌan ɪç bˈɪtə vˈasɜ bəkˈɔmən",
+        "pronunciation": "kan iç bíte vássör bekómen"
+      },
+      {
+        "role": "B",
+        "de": "Mit oder ohne Kohlensäure?",
+        "pt": "Com ou sem gás?",
+        "ipa": "mɪt ˌoːdɜ ˈoːnə kˈoːlənzˌɔørə",
+        "pronunciation": "mit oodör ôone kôolenzóire"
+      },
+      {
+        "role": "A",
+        "de": "Ohne Kohlensäure, bitte.",
+        "pt": "Sem gás, por favor.",
+        "ipa": "ˈoːnə kˈoːlənzˌɔørə bˈɪtə",
+        "pronunciation": "ôone kôolenzóire bíte"
+      },
+      {
+        "role": "B",
+        "de": "Ein kleines oder ein großes Glas?",
+        "pt": "Um copo pequeno ou grande?",
+        "ipa": "aɪn klˈaɪnəs ˌoːdɜ aɪn ɡɾˈoːsəs ɡlˈɑːs",
+        "pronunciation": "ain kláines oodör ain grôosses gláas"
+      }
+    ]
+  },
+  {
+    "id": 18,
+    "title": "Pedir a conta",
+    "category": "Comer e beber",
+    "icon": "☕",
+    "level": "A1",
+    "lines": [
+      {
+        "role": "A",
+        "de": "Wir möchten bitte bezahlen.",
+        "pt": "Gostaríamos de pagar.",
+        "ipa": "viːɾ mˈœçtən bˈɪtə bətsˈɑːlən",
+        "pronunciation": "viir mö́çten bíte betsáalen"
+      },
+      {
+        "role": "B",
+        "de": "Zusammen oder getrennt?",
+        "pt": "Junto ou separado?",
+        "ipa": "tsuːzˈamən ˌoːdɜ ɡətɾˈɛnt",
+        "pronunciation": "tsuuzámen oodör getrént"
+      },
+      {
+        "role": "A",
+        "de": "Zusammen, bitte.",
+        "pt": "Junto, por favor.",
+        "ipa": "tsuːzˈamən bˈɪtə",
+        "pronunciation": "tsuuzámen bíte"
+      },
+      {
+        "role": "B",
+        "de": "Das macht dreißig Euro.",
+        "pt": "São trinta euros.",
+        "ipa": "das mˈaxt dɾˈaɪsɪç ˈɔøroː",
+        "pronunciation": "das mákht dráissiç óiroo"
+      }
+    ]
+  },
+  {
+    "id": 19,
+    "title": "Levar para viagem",
+    "category": "Comer e beber",
+    "icon": "☕",
+    "level": "A1",
+    "lines": [
+      {
+        "role": "A",
+        "de": "Ist das zum Hieressen?",
+        "pt": "É para comer aqui?",
+        "ipa": "ɪst das tsʊm hiːrˈɛsən",
+        "pronunciation": "ist das tsum hiiréssen"
+      },
+      {
+        "role": "B",
+        "de": "Nein, zum Mitnehmen, bitte.",
+        "pt": "Não, para levar, por favor.",
+        "ipa": "nˈaɪn tsʊm mˈɪtnˌeːmən bˈɪtə",
+        "pronunciation": "náin tsum mítneemen bíte"
+      },
+      {
+        "role": "A",
+        "de": "Brauchen Sie eine Tüte?",
+        "pt": "Precisa de uma sacola?",
+        "ipa": "bɾˈaʊxən ziː ˌaɪnə tˈyːtə",
+        "pronunciation": "bráukhen zii aine tǘüte"
+      },
+      {
+        "role": "B",
+        "de": "Nein, danke. Ich habe eine.",
+        "pt": "Não, obrigado. Tenho uma.",
+        "ipa": "nˈaɪn dˈaŋkə ɪç hɑːbə ˌaɪnə",
+        "pronunciation": "náin dángke iç haabe aine"
+      }
+    ]
+  },
+  {
+    "id": 20,
+    "title": "Reserva no restaurante",
+    "category": "Comer e beber",
+    "icon": "☕",
+    "level": "A1",
+    "lines": [
+      {
+        "role": "A",
+        "de": "Ich möchte einen Tisch reservieren.",
+        "pt": "Gostaria de reservar uma mesa.",
+        "ipa": "ɪç mˈœçtə ˌaɪnən tˈɪʃ rˌeːzɛɾvˈiːrən",
+        "pronunciation": "iç mö́çte ainen tísh reezérvíiren"
+      },
+      {
+        "role": "B",
+        "de": "Für wann und für wie viele Personen?",
+        "pt": "Para quando e para quantas pessoas?",
+        "ipa": "fyːɾ vˈan ʊnt fyːɾ viː fˈiːlə pɛɾzˈoːnən",
+        "pronunciation": "füür ván unt füür vii fíile pérzôonen"
+      },
+      {
+        "role": "A",
+        "de": "Für Samstag um sieben, für zwei.",
+        "pt": "Para sábado às sete, para dois.",
+        "ipa": "fyːɾ zˈamstɑːk ʊm zˈiːbən fyːɾ tsvˈaɪ",
+        "pronunciation": "füür zámstaak um zíiben füür tsvái"
+      },
+      {
+        "role": "B",
+        "de": "Auf welchen Namen, bitte?",
+        "pt": "Em qual nome, por favor?",
+        "ipa": "aʊf vˈɛlçən nˈɑːmən bˈɪtə",
+        "pronunciation": "auf vélçen náamen bíte"
+      }
+    ]
+  },
+  {
+    "id": 21,
+    "title": "Encontrar leite",
+    "category": "Compras",
+    "icon": "🛒",
+    "level": "A1",
+    "lines": [
+      {
+        "role": "A",
+        "de": "Entschuldigung, wo finde ich die Milch?",
+        "pt": "Com licença, onde encontro o leite?",
+        "ipa": "ɛntʃˈʊldɪɡˌʊŋ vˌoː fˈɪndə ɪç diː mˈɪlç",
+        "pronunciation": "éntshúldigung voo fínde iç dii mílç"
+      },
+      {
+        "role": "B",
+        "de": "Im Kühlregal, hinten links.",
+        "pt": "Na geladeira, ao fundo à esquerda.",
+        "ipa": "ɪm kˌyːlreːɡˈɑːl hˈɪntən lˈɪŋks",
+        "pronunciation": "im küülreegáal hínten língks"
+      },
+      {
+        "role": "A",
+        "de": "Vielen Dank für Ihre Hilfe.",
+        "pt": "Muito obrigado pela ajuda.",
+        "ipa": "fˈiːlən dˈaŋk fyːɾ ˌiːrə hˈɪlfə",
+        "pronunciation": "fíilen dángk füür iire hílfe"
+      },
+      {
+        "role": "B",
+        "de": "Gern geschehen.",
+        "pt": "De nada.",
+        "ipa": "ɡˈɛɾn ɡəʃˈeːən",
+        "pronunciation": "gérn geshêeen"
+      }
+    ]
+  },
+  {
+    "id": 22,
+    "title": "Preço de frutas",
+    "category": "Compras",
+    "icon": "🛒",
+    "level": "A1",
+    "lines": [
+      {
+        "role": "A",
+        "de": "Was kosten die Äpfel?",
+        "pt": "Quanto custam as maçãs?",
+        "ipa": "vˈas kˈɔstən diː ˈɛpfəl",
+        "pronunciation": "vás kósten dii épfel"
+      },
+      {
+        "role": "B",
+        "de": "Zwei Euro pro Kilo.",
+        "pt": "Dois euros por quilo.",
+        "ipa": "tsvˈaɪ ˈɔøroː pɾoː kˈiːloː",
+        "pronunciation": "tsvái óiroo proo kíiloo"
+      },
+      {
+        "role": "A",
+        "de": "Dann nehme ich ein Kilo.",
+        "pt": "Então vou levar um quilo.",
+        "ipa": "dan nˈeːmə ɪç aɪn kˈiːloː",
+        "pronunciation": "dan nêeme iç ain kíiloo"
+      },
+      {
+        "role": "B",
+        "de": "Gern. Darf es sonst noch etwas sein?",
+        "pt": "Claro. Deseja mais alguma coisa?",
+        "ipa": "ɡˈɛɾn dˈaɾf ɛs zˈɔnst nɔx ˈɛtvɑːs zaɪn",
+        "pronunciation": "gérn dárf és zónst nókh étvaas zain"
+      }
+    ]
+  },
+  {
+    "id": 23,
+    "title": "No caixa",
+    "category": "Compras",
+    "icon": "🛒",
+    "level": "A1",
+    "lines": [
+      {
+        "role": "A",
+        "de": "Haben Sie eine Kundenkarte?",
+        "pt": "Tem cartão de cliente?",
+        "ipa": "hˌɑːbən ziː ˌaɪnə kˈʊndənkˌaɾtə",
+        "pronunciation": "haaben zii aine kúndenkarte"
+      },
+      {
+        "role": "B",
+        "de": "Nein, habe ich nicht.",
+        "pt": "Não, não tenho.",
+        "ipa": "nˈaɪn hɑːbə ɪç nˈɪçt",
+        "pronunciation": "náin haabe iç níçt"
+      },
+      {
+        "role": "A",
+        "de": "Brauchen Sie den Kassenbon?",
+        "pt": "Precisa do recibo?",
+        "ipa": "bɾˈaʊxən ziː deːn kˈasənbˌoːn",
+        "pronunciation": "bráukhen zii deen kássenboon"
+      },
+      {
+        "role": "B",
+        "de": "Ja, bitte.",
+        "pt": "Sim, por favor.",
+        "ipa": "jˈɑː bˈɪtə",
+        "pronunciation": "jáa bíte"
+      }
+    ]
+  },
+  {
+    "id": 24,
+    "title": "Pagar com cartão",
+    "category": "Compras",
+    "icon": "🛒",
+    "level": "A1",
+    "lines": [
+      {
+        "role": "A",
+        "de": "Kann ich mit Karte bezahlen?",
+        "pt": "Posso pagar com cartão?",
+        "ipa": "kˌan ɪç mɪt kˈaɾtə bətsˈɑːlən",
+        "pronunciation": "kan iç mit kárte betsáalen"
+      },
+      {
+        "role": "B",
+        "de": "Ja. Halten Sie die Karte hierhin.",
+        "pt": "Sim. Aproxime o cartão aqui.",
+        "ipa": "jˈɑː hˈaltən ziː diː kˈaɾtə hiːɾhˈiːn",
+        "pronunciation": "jáa hálten zii dii kárte hiirhíin"
+      },
+      {
+        "role": "A",
+        "de": "Hat es funktioniert?",
+        "pt": "Funcionou?",
+        "ipa": "hat ɛs fʊŋktsjˌoːnˈiːɾt",
+        "pronunciation": "hat és fungktsjooníirt"
+      },
+      {
+        "role": "B",
+        "de": "Ja, die Zahlung war erfolgreich.",
+        "pt": "Sim, o pagamento foi aprovado.",
+        "ipa": "jˈɑː diː tsˈɑːlʊŋ vɑːɾ ɛɾfˈɔlɡɾaɪç",
+        "pronunciation": "jáa dii tsáalung vaar érfólgraiç"
+      }
+    ]
+  },
+  {
+    "id": 25,
+    "title": "Comprar uma sacola",
+    "category": "Compras",
+    "icon": "🛒",
+    "level": "A1",
+    "lines": [
+      {
+        "role": "A",
+        "de": "Möchten Sie eine Tasche?",
+        "pt": "Gostaria de uma sacola?",
+        "ipa": "mˈœçtən ziː ˌaɪnə tˈaʃə",
+        "pronunciation": "mö́çten zii aine táshe"
+      },
+      {
+        "role": "B",
+        "de": "Ja, was kostet sie?",
+        "pt": "Sim, quanto custa?",
+        "ipa": "jˈɑː vˈas kˈɔstət ziː",
+        "pronunciation": "jáa vás kóstet zii"
+      },
+      {
+        "role": "A",
+        "de": "Zwanzig Cent.",
+        "pt": "Vinte centavos.",
+        "ipa": "tsvˈantsɪç sˈɛnt",
+        "pronunciation": "tsvántsiç sént"
+      },
+      {
+        "role": "B",
+        "de": "Dann nehme ich eine.",
+        "pt": "Então vou levar uma.",
+        "ipa": "dan nˈeːmə ɪç ˌaɪnə",
+        "pronunciation": "dan nêeme iç aine"
+      }
+    ]
+  },
+  {
+    "id": 26,
+    "title": "Experimentar roupa",
+    "category": "Compras",
+    "icon": "🛒",
+    "level": "A1",
+    "lines": [
+      {
+        "role": "A",
+        "de": "Kann ich diese Jacke anprobieren?",
+        "pt": "Posso experimentar esta jaqueta?",
+        "ipa": "kˌan ɪç dˌiːzə jˈakə ˈanpɾoːbˌiːrən",
+        "pronunciation": "kan iç diize jáke ánproobiiren"
+      },
+      {
+        "role": "B",
+        "de": "Ja, die Umkleide ist dort.",
+        "pt": "Sim, o provador é ali.",
+        "ipa": "jˈɑː diː ˈʊmklˌaɪdə ɪst dˈɔɾt",
+        "pronunciation": "jáa dii úmklaide ist dórt"
+      },
+      {
+        "role": "A",
+        "de": "Haben Sie die Jacke in Größe M?",
+        "pt": "Tem esta jaqueta no tamanho M?",
+        "ipa": "hˌɑːbən ziː diː jˈakə ɪn ɡɾˈøːsə ˈɛm",
+        "pronunciation": "haaben zii dii jáke in grö́össe ém"
+      },
+      {
+        "role": "B",
+        "de": "Ich sehe gleich nach.",
+        "pt": "Vou verificar agora.",
+        "ipa": "ɪç zˈeːə ɡlˈaɪç nˈɑːx",
+        "pronunciation": "iç zêee gláiç náakh"
+      }
+    ]
+  },
+  {
+    "id": 27,
+    "title": "Trocar um produto",
+    "category": "Compras",
+    "icon": "🛒",
+    "level": "A1",
+    "lines": [
+      {
+        "role": "A",
+        "de": "Ich möchte dieses Hemd umtauschen.",
+        "pt": "Gostaria de trocar esta camisa.",
+        "ipa": "ɪç mˈœçtə dˌiːzəs hˈɛmt ˈʊmtˌaʊʃən",
+        "pronunciation": "iç mö́çte diizes hémt úmtaushen"
+      },
+      {
+        "role": "B",
+        "de": "Haben Sie den Kassenbon dabei?",
+        "pt": "Está com o recibo?",
+        "ipa": "hˌɑːbən ziː deːn kˈasənbˌoːn dɑːbˈaɪ",
+        "pronunciation": "haaben zii deen kássenboon daabái"
+      },
+      {
+        "role": "A",
+        "de": "Ja. Das Hemd ist zu klein.",
+        "pt": "Sim. A camisa está pequena demais.",
+        "ipa": "jˈɑː das hˈɛmt ɪst tsuː klˈaɪn",
+        "pronunciation": "jáa das hémt ist tsuu kláin"
+      },
+      {
+        "role": "B",
+        "de": "Welche Größe brauchen Sie?",
+        "pt": "De qual tamanho precisa?",
+        "ipa": "vˈɛlçə ɡɾˈøːsə bɾˈaʊxən ziː",
+        "pronunciation": "vélçe grö́össe bráukhen zii"
+      }
+    ]
+  },
+  {
+    "id": 28,
+    "title": "Comprar sapatos",
+    "category": "Compras",
+    "icon": "🛒",
+    "level": "A1",
+    "lines": [
+      {
+        "role": "A",
+        "de": "Ich suche bequeme Schuhe.",
+        "pt": "Procuro sapatos confortáveis.",
+        "ipa": "ɪç zˈuːxə bəkvˈeːmə ʃˈuːə",
+        "pronunciation": "iç zúukhe bekvêeme shúue"
+      },
+      {
+        "role": "B",
+        "de": "Welche Schuhgröße haben Sie?",
+        "pt": "Qual é seu número de calçado?",
+        "ipa": "vˈɛlçə ʃˈuːɡɾøːsə hˈɑːbən ziː",
+        "pronunciation": "vélçe shúugröösse háaben zii"
+      },
+      {
+        "role": "A",
+        "de": "Größe vierzig.",
+        "pt": "Número quarenta.",
+        "ipa": "ɡɾˈøːsə fˈiːɾtsɪç",
+        "pronunciation": "grö́össe fíirtsiç"
+      },
+      {
+        "role": "B",
+        "de": "Probieren Sie dieses Paar an.",
+        "pt": "Experimente este par.",
+        "ipa": "pɾoːbˈiːrən ziː dˌiːzəs pˈɑːɾ ˈan",
+        "pronunciation": "proobíiren zii diizes páar án"
+      }
+    ]
+  },
+  {
+    "id": 29,
+    "title": "Produto indisponível",
+    "category": "Compras",
+    "icon": "🛒",
+    "level": "A1",
+    "lines": [
+      {
+        "role": "A",
+        "de": "Haben Sie noch Reis?",
+        "pt": "Ainda tem arroz?",
+        "ipa": "hˌɑːbən ziː nɔx rˈaɪs",
+        "pronunciation": "haaben zii nókh ráis"
+      },
+      {
+        "role": "B",
+        "de": "Heute leider nicht mehr.",
+        "pt": "Hoje, infelizmente, não temos mais.",
+        "ipa": "hˈɔøtə lˈaɪdɜ nˌɪçt mˈeːɾ",
+        "pronunciation": "hóite láidör niçt mêer"
+      },
+      {
+        "role": "A",
+        "de": "Wann bekommen Sie neuen Reis?",
+        "pt": "Quando chega mais arroz?",
+        "ipa": "vˈan bəkˈɔmən ziː nˈɔøən rˈaɪs",
+        "pronunciation": "ván bekómen zii nóien ráis"
+      },
+      {
+        "role": "B",
+        "de": "Morgen früh.",
+        "pt": "Amanhã de manhã.",
+        "ipa": "mˈɔɾɡən frˈyː",
+        "pronunciation": "mórgen frǘü"
+      }
+    ]
+  },
+  {
+    "id": 30,
+    "title": "Mercado de rua",
+    "category": "Compras",
+    "icon": "🛒",
+    "level": "A1",
+    "lines": [
+      {
+        "role": "A",
+        "de": "Sind die Tomaten aus der Region?",
+        "pt": "Os tomates são da região?",
+        "ipa": "zɪnt diː toːmˈɑːtən ˌaʊs dɛɾ rˌeːɡiˈoːn",
+        "pronunciation": "zint dii toomáaten aus dér reegiôon"
+      },
+      {
+        "role": "B",
+        "de": "Ja, sie kommen von einem Hof in der Nähe.",
+        "pt": "Sim, vêm de uma fazenda próxima.",
+        "ipa": "jˈɑː ziː kˈɔmən fɔn ˌaɪnəm hˈoːf ɪn dɛɾ nˈɛːə",
+        "pronunciation": "jáa zii kómen fón ainem hôof in dér néee"
+      },
+      {
+        "role": "A",
+        "de": "Ich nehme ein halbes Kilo.",
+        "pt": "Vou levar meio quilo.",
+        "ipa": "ɪç nˈeːmə aɪn hˈalbəs kˈiːloː",
+        "pronunciation": "iç nêeme ain hálbes kíiloo"
+      },
+      {
+        "role": "B",
+        "de": "Sehr gern.",
+        "pt": "Com prazer.",
+        "ipa": "zˈeːɾ ɡˈɛɾn",
+        "pronunciation": "zêer gérn"
+      }
+    ]
+  },
+  {
+    "id": 31,
+    "title": "Comprar passagem",
+    "category": "Pela cidade",
+    "icon": "🚆",
+    "level": "A1",
+    "lines": [
+      {
+        "role": "A",
+        "de": "Eine Fahrkarte nach Berlin, bitte.",
+        "pt": "Uma passagem para Berlim, por favor.",
+        "ipa": "ˌaɪnə fˈɑːɾkaɾtə nɑːx bɛɾlˈiːn bˈɪtə",
+        "pronunciation": "aine fáarkarte naakh bérlíin bíte"
+      },
+      {
+        "role": "B",
+        "de": "Einfach oder hin und zurück?",
+        "pt": "Só ida ou ida e volta?",
+        "ipa": "ˈaɪnfˌax ˌoːdɜ hˈɪn ʊnt tsuːrˈʏk",
+        "pronunciation": "áinfakh oodör hín unt tsuurǘk"
+      },
+      {
+        "role": "A",
+        "de": "Einfach, bitte.",
+        "pt": "Só ida, por favor.",
+        "ipa": "ˈaɪnfˌax bˈɪtə",
+        "pronunciation": "áinfakh bíte"
+      },
+      {
+        "role": "B",
+        "de": "Für heute?",
+        "pt": "Para hoje?",
+        "ipa": "fyːɾ hˈɔøtə",
+        "pronunciation": "füür hóite"
+      }
+    ]
+  },
+  {
+    "id": 32,
+    "title": "Encontrar a plataforma",
+    "category": "Pela cidade",
+    "icon": "🚆",
+    "level": "A1",
+    "lines": [
+      {
+        "role": "A",
+        "de": "Wo fährt der Zug nach Frankfurt ab?",
+        "pt": "De onde sai o trem para Frankfurt?",
+        "ipa": "vˌoː fˈɛːɾt dɛɾ tsˈuːk nɑːx frˈaŋkfʊɐt ˈap",
+        "pronunciation": "voo féert dér tsúuk naakh frángkfuat áp"
+      },
+      {
+        "role": "B",
+        "de": "Von Gleis fünf.",
+        "pt": "Da plataforma cinco.",
+        "ipa": "fɔn ɡlˈaɪs fˈʏnf",
+        "pronunciation": "fón gláis fǘnf"
+      },
+      {
+        "role": "A",
+        "de": "Muss ich umsteigen?",
+        "pt": "Preciso fazer baldeação?",
+        "ipa": "mˈʊs ɪç ˈʊmʃtˌaɪɡən",
+        "pronunciation": "mús iç úmshtaigen"
+      },
+      {
+        "role": "B",
+        "de": "Nein, der Zug fährt direkt.",
+        "pt": "Não, o trem é direto.",
+        "ipa": "nˈaɪn dɛɾ tsˈuːk fˈɛːɾt diːrˈɛkt",
+        "pronunciation": "náin dér tsúuk féert diirékt"
+      }
+    ]
+  },
+  {
+    "id": 33,
+    "title": "Trem atrasado",
+    "category": "Pela cidade",
+    "icon": "🚆",
+    "level": "A1",
+    "lines": [
+      {
+        "role": "A",
+        "de": "Hat der Zug Verspätung?",
+        "pt": "O trem está atrasado?",
+        "ipa": "hat dɛɾ tsˈuːk fɛɾʃpˈɛːtʊŋ",
+        "pronunciation": "hat dér tsúuk férshpéetung"
+      },
+      {
+        "role": "B",
+        "de": "Ja, ungefähr zwanzig Minuten.",
+        "pt": "Sim, cerca de vinte minutos.",
+        "ipa": "jˈɑː ˈʊnɡəfˌɛːɾ tsvˈantsɪç miːnˈuːtən",
+        "pronunciation": "jáa úngeféer tsvántsiç miinúuten"
+      },
+      {
+        "role": "A",
+        "de": "Gibt es eine andere Verbindung?",
+        "pt": "Existe outra conexão?",
+        "ipa": "ɡˈiːpt ɛs ˌaɪnə ˈandərə fɛɾbˈɪndʊŋ",
+        "pronunciation": "gíipt és aine ándere férbíndung"
+      },
+      {
+        "role": "B",
+        "de": "Ja, über Köln.",
+        "pt": "Sim, via Colônia.",
+        "ipa": "jˈɑː ˌyːbɜ kˈœln",
+        "pronunciation": "jáa üübör kö́ln"
+      }
+    ]
+  },
+  {
+    "id": 34,
+    "title": "No ônibus",
+    "category": "Pela cidade",
+    "icon": "🚆",
+    "level": "A1",
+    "lines": [
+      {
+        "role": "A",
+        "de": "Fährt dieser Bus zum Bahnhof?",
+        "pt": "Este ônibus vai para a estação?",
+        "ipa": "fˈɛːɾt dˌiːzɜ bˈʊs tsʊm bˈɑːnhoːf",
+        "pronunciation": "féert diizör bús tsum báanhoof"
+      },
+      {
+        "role": "B",
+        "de": "Ja, steigen Sie bitte ein.",
+        "pt": "Sim, pode entrar.",
+        "ipa": "jˈɑː ʃtˈaɪɡən ziː bˈɪtə ˈaɪn",
+        "pronunciation": "jáa shtáigen zii bíte áin"
+      },
+      {
+        "role": "A",
+        "de": "Wo muss ich aussteigen?",
+        "pt": "Onde preciso descer?",
+        "ipa": "vˌoː mˈʊs ɪç ˈaʊsʃtˌaɪɡən",
+        "pronunciation": "voo mús iç áusshtaigen"
+      },
+      {
+        "role": "B",
+        "de": "An der letzten Haltestelle.",
+        "pt": "No último ponto.",
+        "ipa": "an dɛɾ lˈɛtstən hˈaltɛʃtˌɛlə",
+        "pronunciation": "an dér létsten háltéshtéle"
+      }
+    ]
+  },
+  {
+    "id": 35,
+    "title": "Pedir orientação",
+    "category": "Pela cidade",
+    "icon": "🚆",
+    "level": "A1",
+    "lines": [
+      {
+        "role": "A",
+        "de": "Entschuldigung, wo ist die Apotheke?",
+        "pt": "Com licença, onde fica a farmácia?",
+        "ipa": "ɛntʃˈʊldɪɡˌʊŋ vˌoː ɪst diː ˌapoːtˈeːkə",
+        "pronunciation": "éntshúldigung voo ist dii apootêeke"
+      },
+      {
+        "role": "B",
+        "de": "Gehen Sie geradeaus und dann rechts.",
+        "pt": "Siga em frente e depois à direita.",
+        "ipa": "ɡˈeːən ziː ɡərˈɑdeːˌaʊs ʊnt dan rˈɛçts",
+        "pronunciation": "gêeen zii gerádeeaus unt dan réçts"
+      },
+      {
+        "role": "A",
+        "de": "Ist es weit?",
+        "pt": "É longe?",
+        "ipa": "ɪst ɛs vˈaɪt",
+        "pronunciation": "ist és váit"
+      },
+      {
+        "role": "B",
+        "de": "Nein, nur fünf Minuten zu Fuß.",
+        "pt": "Não, só cinco minutos a pé.",
+        "ipa": "nˈaɪn nˈuːɾ fˈʏnf miːnˈuːtən tsuː fˈuːs",
+        "pronunciation": "náin núur fǘnf miinúuten tsuu fúus"
+      }
+    ]
+  },
+  {
+    "id": 36,
+    "title": "Pegar um táxi",
+    "category": "Pela cidade",
+    "icon": "🚆",
+    "level": "A1",
+    "lines": [
+      {
+        "role": "A",
+        "de": "Zum Flughafen, bitte.",
+        "pt": "Para o aeroporto, por favor.",
+        "ipa": "tsʊm flˈuːɡhɑːfən bˈɪtə",
+        "pronunciation": "tsum flúughaafen bíte"
+      },
+      {
+        "role": "B",
+        "de": "Zu welchem Terminal?",
+        "pt": "Para qual terminal?",
+        "ipa": "tsuː vˈɛlçəm (en)tˈɜːmɪnəl(de)",
+        "pronunciation": "tsuu vélçem (en)tö́örminel(de)"
+      },
+      {
+        "role": "A",
+        "de": "Zum Terminal eins.",
+        "pt": "Para o terminal um.",
+        "ipa": "tsʊm (en)tˈɜːmɪnəl(de) ˈaɪns",
+        "pronunciation": "tsum (en)tö́örminel(de) áins"
+      },
+      {
+        "role": "B",
+        "de": "Gern. Die Fahrt dauert etwa zwanzig Minuten.",
+        "pt": "Claro. A viagem leva cerca de vinte minutos.",
+        "ipa": "ɡˈɛɾn diː fˈɑːɾt dˈaʊɜt ˌɛtvɑː tsvˈantsɪç miːnˈuːtən",
+        "pronunciation": "gérn dii fáart dáuört étvaa tsvántsiç miinúuten"
+      }
+    ]
+  },
+  {
+    "id": 37,
+    "title": "Lugar reservado",
+    "category": "Pela cidade",
+    "icon": "🚆",
+    "level": "A1",
+    "lines": [
+      {
+        "role": "A",
+        "de": "Entschuldigung, ist dieser Platz frei?",
+        "pt": "Com licença, este lugar está livre?",
+        "ipa": "ɛntʃˈʊldɪɡˌʊŋ ɪst dˌiːzɜ plˈats frˈaɪ",
+        "pronunciation": "éntshúldigung ist diizör pláts frái"
+      },
+      {
+        "role": "B",
+        "de": "Nein, er ist reserviert.",
+        "pt": "Não, está reservado.",
+        "ipa": "nˈaɪn ɛɾ ɪst rˌeːzɛɾvˈiːɾt",
+        "pronunciation": "náin ér ist reezérvíirt"
+      },
+      {
+        "role": "A",
+        "de": "Und der Platz daneben?",
+        "pt": "E o lugar ao lado?",
+        "ipa": "ʊnt dɛɾ plˈats dɑːnˈeːbən",
+        "pronunciation": "unt dér pláts daanêeben"
+      },
+      {
+        "role": "B",
+        "de": "Der ist frei.",
+        "pt": "Esse está livre.",
+        "ipa": "dɛɾ ɪst frˈaɪ",
+        "pronunciation": "dér ist frái"
+      }
+    ]
+  },
+  {
+    "id": 38,
+    "title": "Alugar bicicleta",
+    "category": "Pela cidade",
+    "icon": "🚆",
+    "level": "A1",
+    "lines": [
+      {
+        "role": "A",
+        "de": "Ich möchte ein Fahrrad mieten.",
+        "pt": "Quero alugar uma bicicleta.",
+        "ipa": "ɪç mˈœçtə aɪn fˈɑːrɑːt mˈiːtən",
+        "pronunciation": "iç mö́çte ain fáaraat míiten"
+      },
+      {
+        "role": "B",
+        "de": "Für wie lange?",
+        "pt": "Por quanto tempo?",
+        "ipa": "fyːɾ viː lˈaŋə",
+        "pronunciation": "füür vii lánge"
+      },
+      {
+        "role": "A",
+        "de": "Für zwei Stunden.",
+        "pt": "Por duas horas.",
+        "ipa": "fyːɾ tsvˈaɪ ʃtˈʊndən",
+        "pronunciation": "füür tsvái shtúnden"
+      },
+      {
+        "role": "B",
+        "de": "Hier ist Ihr Helm.",
+        "pt": "Aqui está seu capacete.",
+        "ipa": "hˈiːɾ ɪst iːɾ hˈɛlm",
+        "pronunciation": "híir ist iir hélm"
+      }
+    ]
+  },
+  {
+    "id": 39,
+    "title": "Validar bilhete",
+    "category": "Pela cidade",
+    "icon": "🚆",
+    "level": "A1",
+    "lines": [
+      {
+        "role": "A",
+        "de": "Muss ich das Ticket entwerten?",
+        "pt": "Preciso validar a passagem?",
+        "ipa": "mˈʊs ɪç das tˈɪkət ɛntvˈɛɾtən",
+        "pronunciation": "mús iç das tíket éntvérten"
+      },
+      {
+        "role": "B",
+        "de": "Ja, an diesem Automaten.",
+        "pt": "Sim, nesta máquina.",
+        "ipa": "jˈɑː an dˌiːzəm ˌaʊtoːmˈɑːtən",
+        "pronunciation": "jáa an diizem autoomáaten"
+      },
+      {
+        "role": "A",
+        "de": "Vor der Fahrt?",
+        "pt": "Antes da viagem?",
+        "ipa": "fˌɔɾ dɛɾ fˈɑːɾt",
+        "pronunciation": "fór dér fáart"
+      },
+      {
+        "role": "B",
+        "de": "Genau, vor dem Einsteigen.",
+        "pt": "Exatamente, antes de embarcar.",
+        "ipa": "ɡənˈaʊ fˌɔɾ deːm ˈaɪnʃtˌaɪɡən",
+        "pronunciation": "genáu fór deem áinshtaigen"
+      }
+    ]
+  },
+  {
+    "id": 40,
+    "title": "Último metrô",
+    "category": "Pela cidade",
+    "icon": "🚆",
+    "level": "A1",
+    "lines": [
+      {
+        "role": "A",
+        "de": "Wann fährt die letzte U-Bahn?",
+        "pt": "A que horas sai o último metrô?",
+        "ipa": "vˈan fˈɛːɾt diː lˈɛtstə ˈuːbˈɑːn",
+        "pronunciation": "ván féert dii létste úubáan"
+      },
+      {
+        "role": "B",
+        "de": "Heute um halb eins.",
+        "pt": "Hoje à meia-noite e meia.",
+        "ipa": "hˈɔøtə ʊm hˈalp ˈaɪns",
+        "pronunciation": "hóite um hálp áins"
+      },
+      {
+        "role": "A",
+        "de": "Schaffe ich den Zug noch?",
+        "pt": "Ainda consigo pegar esse trem?",
+        "ipa": "ʃˈafə ɪç deːn tsˈuːk nɔx",
+        "pronunciation": "sháfe iç deen tsúuk nókh"
+      },
+      {
+        "role": "B",
+        "de": "Ja, Sie haben zehn Minuten.",
+        "pt": "Sim, tem dez minutos.",
+        "ipa": "jˈɑː ziː hˌɑːbən tsˈeːn miːnˈuːtən",
+        "pronunciation": "jáa zii haaben tsêen miinúuten"
+      }
+    ]
+  },
+  {
+    "id": 41,
+    "title": "Check-in no hotel",
+    "category": "Moradia e hotel",
+    "icon": "🏠",
+    "level": "A1",
+    "lines": [
+      {
+        "role": "A",
+        "de": "Guten Abend. Ich habe ein Zimmer gebucht.",
+        "pt": "Boa noite. Reservei um quarto.",
+        "ipa": "ɡˈuːtən ˈɑːbənt ɪç hɑːbə aɪn tsˈɪmɜ ɡəbˈuːxt",
+        "pronunciation": "gúuten áabent iç haabe ain tsímör gebúukht"
+      },
+      {
+        "role": "B",
+        "de": "Auf welchen Namen?",
+        "pt": "Em qual nome?",
+        "ipa": "aʊf vˈɛlçən nˈɑːmən",
+        "pronunciation": "auf vélçen náamen"
+      },
+      {
+        "role": "A",
+        "de": "Auf den Namen Almeida.",
+        "pt": "No nome Almeida.",
+        "ipa": "aʊf deːn nˈɑːmən ˈalmaɪdˌɑː",
+        "pronunciation": "auf deen náamen álmaidaa"
+      },
+      {
+        "role": "B",
+        "de": "Darf ich bitte Ihren Ausweis sehen?",
+        "pt": "Posso ver seu documento, por favor?",
+        "ipa": "dˈaɾf ɪç bˈɪtə ˌiːrən ˈaʊsvˌaɪs zˈeːən",
+        "pronunciation": "dárf iç bíte iiren áusvais zêeen"
+      }
+    ]
+  },
+  {
+    "id": 42,
+    "title": "Café da manhã do hotel",
+    "category": "Moradia e hotel",
+    "icon": "🏠",
+    "level": "A1",
+    "lines": [
+      {
+        "role": "A",
+        "de": "Ist das Frühstück im Preis enthalten?",
+        "pt": "O café da manhã está incluído no preço?",
+        "ipa": "ɪst das frˈyːʃtʏk ɪm pɾˈaɪs ɛnthˈaltən",
+        "pronunciation": "ist das frǘüshtük im práis énthálten"
+      },
+      {
+        "role": "B",
+        "de": "Ja, von sieben bis zehn Uhr.",
+        "pt": "Sim, das sete às dez.",
+        "ipa": "jˈɑː fɔn zˈiːbən bɪs tsˈeːn ˈuːɾ",
+        "pronunciation": "jáa fón zíiben bis tsêen úur"
+      },
+      {
+        "role": "A",
+        "de": "Wo ist der Frühstücksraum?",
+        "pt": "Onde fica a sala de café da manhã?",
+        "ipa": "vˌoː ɪst dɛɾ frˈyːʃtʏksrˌaʊm",
+        "pronunciation": "voo ist dér frǘüshtüksraum"
+      },
+      {
+        "role": "B",
+        "de": "Im Erdgeschoss, neben der Rezeption.",
+        "pt": "No térreo, ao lado da recepção.",
+        "ipa": "ɪm ɛɾdɡˈɛʃɔs nˌeːbən dɛɾ rˌeːtsɛptsjˈoːn",
+        "pronunciation": "im érdgéshós neeben dér reetséptsjôon"
+      }
+    ]
+  },
+  {
+    "id": 43,
+    "title": "Senha do Wi-Fi",
+    "category": "Moradia e hotel",
+    "icon": "🏠",
+    "level": "A1",
+    "lines": [
+      {
+        "role": "A",
+        "de": "Wie lautet das WLAN-Passwort?",
+        "pt": "Qual é a senha do Wi-Fi?",
+        "ipa": "viː lˈaʊtət das vˈeːlˈɑːnpˈasvɔɾt",
+        "pronunciation": "vii láutet das vêeláanpásvórt"
+      },
+      {
+        "role": "B",
+        "de": "Es steht auf Ihrer Zimmerkarte.",
+        "pt": "Está no seu cartão do quarto.",
+        "ipa": "ɛs ʃtˈeːt aʊf ˌiːrɜ tsˈɪmɜkˌaɾtə",
+        "pronunciation": "és shtêet auf iirör tsímörkarte"
+      },
+      {
+        "role": "A",
+        "de": "Das Netzwerk heißt Gäste, richtig?",
+        "pt": "A rede se chama Gäste, certo?",
+        "ipa": "das nˈɛtsvɛɾk hˈaɪst ɡˈɛstə rˈɪçtɪç",
+        "pronunciation": "das nétsvérk háist géste ríçtiç"
+      },
+      {
+        "role": "B",
+        "de": "Ja, genau.",
+        "pt": "Sim, exatamente.",
+        "ipa": "jˈɑː ɡənˈaʊ",
+        "pronunciation": "jáa genáu"
+      }
+    ]
+  },
+  {
+    "id": 44,
+    "title": "Problema no quarto",
+    "category": "Moradia e hotel",
+    "icon": "🏠",
+    "level": "A1",
+    "lines": [
+      {
+        "role": "A",
+        "de": "In meinem Zimmer funktioniert die Heizung nicht.",
+        "pt": "O aquecimento do meu quarto não funciona.",
+        "ipa": "ɪn mˌaɪnəm tsˈɪmɜ fʊŋktsjˌoːnˈiːɾt diː hˈaɪtsʊŋ nˈɪçt",
+        "pronunciation": "in mainem tsímör fungktsjooníirt dii háitsung níçt"
+      },
+      {
+        "role": "B",
+        "de": "Das tut mir leid. Wir prüfen das.",
+        "pt": "Sinto muito. Vamos verificar.",
+        "ipa": "das tˈuːt miːɾ lˈaɪt viːɾ pɾˈyːfən das",
+        "pronunciation": "das túut miir láit viir prǘüfen das"
+      },
+      {
+        "role": "A",
+        "de": "Kann ich ein anderes Zimmer bekommen?",
+        "pt": "Posso receber outro quarto?",
+        "ipa": "kˌan ɪç aɪn ˈandərəs tsˈɪmɜ bəkˈɔmən",
+        "pronunciation": "kan iç ain ánderes tsímör bekómen"
+      },
+      {
+        "role": "B",
+        "de": "Ich schaue nach, ob eines frei ist.",
+        "pt": "Vou verificar se há algum livre.",
+        "ipa": "ɪç ʃˈaʊə nˈɑːx ˌɔp ˌaɪnəs frˈaɪ ɪst",
+        "pronunciation": "iç sháue náakh óp aines frái ist"
+      }
+    ]
+  },
+  {
+    "id": 45,
+    "title": "Fazer check-out",
+    "category": "Moradia e hotel",
+    "icon": "🏠",
+    "level": "A1",
+    "lines": [
+      {
+        "role": "A",
+        "de": "Ich möchte auschecken.",
+        "pt": "Gostaria de fazer o check-out.",
+        "ipa": "ɪç mˈœçtə ˈaʊsçˌɛkən",
+        "pronunciation": "iç mö́çte áusçéken"
+      },
+      {
+        "role": "B",
+        "de": "War alles in Ordnung?",
+        "pt": "Estava tudo em ordem?",
+        "ipa": "vɑːɾ ˈaləs ɪn ˈɔɾdnʊŋ",
+        "pronunciation": "vaar áles in órdnung"
+      },
+      {
+        "role": "A",
+        "de": "Ja, vielen Dank. Kann ich den Koffer hierlassen?",
+        "pt": "Sim, muito obrigado. Posso deixar a mala aqui?",
+        "ipa": "jˈɑː fˈiːlən dˈaŋk kˌan ɪç deːn kˈɔfɜ hiːɾlˈasən",
+        "pronunciation": "jáa fíilen dángk kan iç deen kóför hiirlássen"
+      },
+      {
+        "role": "B",
+        "de": "Ja, bis heute Abend.",
+        "pt": "Sim, até esta noite.",
+        "ipa": "jˈɑː bɪs hˈɔøtə ˈɑːbənt",
+        "pronunciation": "jáa bis hóite áabent"
+      }
+    ]
+  },
+  {
+    "id": 46,
+    "title": "Visitar um apartamento",
+    "category": "Moradia e hotel",
+    "icon": "🏠",
+    "level": "A1",
+    "lines": [
+      {
+        "role": "A",
+        "de": "Ich interessiere mich für die Wohnung.",
+        "pt": "Tenho interesse no apartamento.",
+        "ipa": "ɪç ˌɪntərɛsˈiːrə mɪç fyːɾ diː vˈoːnʊŋ",
+        "pronunciation": "iç interéssíire miç füür dii vôonung"
+      },
+      {
+        "role": "B",
+        "de": "Möchten Sie einen Besichtigungstermin?",
+        "pt": "Gostaria de agendar uma visita?",
+        "ipa": "mˈœçtən ziː ˌaɪnən bəzˌɪçtɪɡˌʊŋstɜmˈiːn",
+        "pronunciation": "mö́çten zii ainen beziçtigungstörmíin"
+      },
+      {
+        "role": "A",
+        "de": "Ja, ist Freitag möglich?",
+        "pt": "Sim, sexta-feira é possível?",
+        "ipa": "jˈɑː ɪst frˈaɪtɑːk mˈøːklɪç",
+        "pronunciation": "jáa ist fráitaak mö́ökliç"
+      },
+      {
+        "role": "B",
+        "de": "Ja, um fünfzehn Uhr.",
+        "pt": "Sim, às quinze horas.",
+        "ipa": "jˈɑː ʊm fˈʏnftseːn ˈuːɾ",
+        "pronunciation": "jáa um fǘnftseen úur"
+      }
+    ]
+  },
+  {
+    "id": 47,
+    "title": "Valor do aluguel",
+    "category": "Moradia e hotel",
+    "icon": "🏠",
+    "level": "A1",
+    "lines": [
+      {
+        "role": "A",
+        "de": "Wie hoch ist die Miete?",
+        "pt": "Qual é o valor do aluguel?",
+        "ipa": "viː hˈoːx ɪst diː mˈiːtə",
+        "pronunciation": "vii hôokh ist dii míite"
+      },
+      {
+        "role": "B",
+        "de": "Die Kaltmiete beträgt achthundert Euro.",
+        "pt": "O aluguel sem os custos adicionais é de oitocentos euros.",
+        "ipa": "diː kˈaltmiːtə bətɾˈɛːkt ˈaxtʊndɜt ˈɔøroː",
+        "pronunciation": "dii káltmiite betréekt ákhtundört óiroo"
+      },
+      {
+        "role": "A",
+        "de": "Wie hoch sind die Nebenkosten?",
+        "pt": "Quanto são os custos adicionais?",
+        "ipa": "viː hˈoːx zɪnt diː nˈeːbənkˌɔstən",
+        "pronunciation": "vii hôokh zint dii nêebenkósten"
+      },
+      {
+        "role": "B",
+        "de": "Zweihundert Euro im Monat.",
+        "pt": "Duzentos euros por mês.",
+        "ipa": "tsvˈaɪhʊndɜt ˈɔøroː ɪm mˈoːnɑːt",
+        "pronunciation": "tsváihundört óiroo im môonaat"
+      }
+    ]
+  },
+  {
+    "id": 48,
+    "title": "Animais no imóvel",
+    "category": "Moradia e hotel",
+    "icon": "🏠",
+    "level": "A1",
+    "lines": [
+      {
+        "role": "A",
+        "de": "Sind Haustiere in der Wohnung erlaubt?",
+        "pt": "Animais de estimação são permitidos no apartamento?",
+        "ipa": "zɪnt hˈaʊstˌiːrə ɪn dɛɾ vˈoːnʊŋ ɛɾlˈaʊpt",
+        "pronunciation": "zint háustiire in dér vôonung érláupt"
+      },
+      {
+        "role": "B",
+        "de": "Welche Tiere haben Sie?",
+        "pt": "Quais animais vocês têm?",
+        "ipa": "vˈɛlçə tˈiːrə hˈɑːbən ziː",
+        "pronunciation": "vélçe tíire háaben zii"
+      },
+      {
+        "role": "A",
+        "de": "Einen Hund und eine Katze.",
+        "pt": "Um cachorro e uma gata.",
+        "ipa": "ˌaɪnən hˈʊnt ʊnt ˌaɪnə kˈatsə",
+        "pronunciation": "ainen húnt unt aine kátse"
+      },
+      {
+        "role": "B",
+        "de": "Ich bespreche das mit dem Vermieter.",
+        "pt": "Vou conversar sobre isso com o proprietário.",
+        "ipa": "ɪç bəʃpɾˈɛçə das mɪt deːm fɛɾmˈiːtɜ",
+        "pronunciation": "iç beshpréçe das mit deem férmíitör"
+      }
+    ]
+  },
+  {
+    "id": 49,
+    "title": "Chave do apartamento",
+    "category": "Moradia e hotel",
+    "icon": "🏠",
+    "level": "A1",
+    "lines": [
+      {
+        "role": "A",
+        "de": "Hier sind die Schlüssel.",
+        "pt": "Aqui estão as chaves.",
+        "ipa": "hˈiːɾ zɪnt diː ʃlˈʏsəl",
+        "pronunciation": "híir zint dii shlǘssel"
+      },
+      {
+        "role": "B",
+        "de": "Vielen Dank. Wo ist der Briefkasten?",
+        "pt": "Muito obrigado. Onde fica a caixa de correio?",
+        "ipa": "fˈiːlən dˈaŋk vˌoː ɪst dɛɾ bɾˈiːfkastən",
+        "pronunciation": "fíilen dángk voo ist dér bríifkasten"
+      },
+      {
+        "role": "A",
+        "de": "Unten neben der Haustür.",
+        "pt": "Embaixo, ao lado da porta de entrada.",
+        "ipa": "ˈʊntən nˌeːbən dɛɾ hˈaʊstˌyːɾ",
+        "pronunciation": "únten neeben dér háustüür"
+      },
+      {
+        "role": "B",
+        "de": "Alles klar, danke.",
+        "pt": "Entendi, obrigado.",
+        "ipa": "ˈaləs klˈɑːɾ dˈaŋkə",
+        "pronunciation": "áles kláar dángke"
+      }
+    ]
+  },
+  {
+    "id": 50,
+    "title": "Barulho do vizinho",
+    "category": "Moradia e hotel",
+    "icon": "🏠",
+    "level": "A1",
+    "lines": [
+      {
+        "role": "A",
+        "de": "Entschuldigung, die Musik ist sehr laut.",
+        "pt": "Desculpe, a música está muito alta.",
+        "ipa": "ɛntʃˈʊldɪɡˌʊŋ diː muːzˈiːk ɪst zˈeːɾ lˈaʊt",
+        "pronunciation": "éntshúldigung dii muuzíik ist zêer láut"
+      },
+      {
+        "role": "B",
+        "de": "Oh, das habe ich nicht bemerkt.",
+        "pt": "Ah, não percebi.",
+        "ipa": "ˈoː das hɑːbə ɪç nˈɪçt bəmˈɛɾkt",
+        "pronunciation": "ôo das haabe iç níçt bemérkt"
+      },
+      {
+        "role": "A",
+        "de": "Könnten Sie sie bitte leiser machen?",
+        "pt": "Poderia abaixar o volume, por favor?",
+        "ipa": "kˈœntən ziː ziː bˈɪtə lˈaɪzɜ mˈaxən",
+        "pronunciation": "kö́nten zii zii bíte láizör mákhen"
+      },
+      {
+        "role": "B",
+        "de": "Ja, natürlich.",
+        "pt": "Sim, claro.",
+        "ipa": "jˈɑː nɑːtˈyːɾlɪç",
+        "pronunciation": "jáa naatǘürliç"
+      }
+    ]
+  },
+  {
+    "id": 51,
+    "title": "Marcar consulta",
+    "category": "Saúde e atendimento",
+    "icon": "🩺",
+    "level": "A1–A2",
+    "lines": [
+      {
+        "role": "A",
+        "de": "Ich möchte einen Termin vereinbaren.",
+        "pt": "Gostaria de marcar uma consulta.",
+        "ipa": "ɪç mˈœçtə ˌaɪnən tɛɾmˈiːn fɛɾˈaɪnbɑːrən",
+        "pronunciation": "iç mö́çte ainen térmíin féráinbaaren"
+      },
+      {
+        "role": "B",
+        "de": "Waren Sie schon einmal bei uns?",
+        "pt": "Já esteve aqui antes?",
+        "ipa": "vɑːrən ziː ʃˌoːn ˈaɪnmˌɑːl baɪ ˈʊns",
+        "pronunciation": "vaaren zii shoon áinmaal bai úns"
+      },
+      {
+        "role": "A",
+        "de": "Nein, ich bin neu hier.",
+        "pt": "Não, sou novo aqui.",
+        "ipa": "nˈaɪn ɪç bɪn nˈɔø hˈiːɾ",
+        "pronunciation": "náin iç bin nói híir"
+      },
+      {
+        "role": "B",
+        "de": "Wie heißen Sie bitte?",
+        "pt": "Qual é seu nome, por favor?",
+        "ipa": "viː hˈaɪsən ziː bˈɪtə",
+        "pronunciation": "vii háissen zii bíte"
+      }
+    ]
+  },
+  {
+    "id": 52,
+    "title": "Descrever sintomas",
+    "category": "Saúde e atendimento",
+    "icon": "🩺",
+    "level": "A1–A2",
+    "lines": [
+      {
+        "role": "A",
+        "de": "Was fehlt Ihnen?",
+        "pt": "O que está sentindo?",
+        "ipa": "vˈas fˈeːlt ˈiːnən",
+        "pronunciation": "vás fêelt íinen"
+      },
+      {
+        "role": "B",
+        "de": "Ich habe seit gestern Kopfschmerzen.",
+        "pt": "Estou com dor de cabeça desde ontem.",
+        "ipa": "ɪç hɑːbə zaɪt ɡˈɛstɜn kˈɔpfʃmɜtsən",
+        "pronunciation": "iç haabe zait géstörn kópfshmörtsen"
+      },
+      {
+        "role": "A",
+        "de": "Haben Sie auch Fieber?",
+        "pt": "Também tem febre?",
+        "ipa": "hˌɑːbən ziː ˌaʊx fˈiːbɜ",
+        "pronunciation": "haaben zii aukh fíibör"
+      },
+      {
+        "role": "B",
+        "de": "Nein, ich habe kein Fieber.",
+        "pt": "Não, não tenho febre.",
+        "ipa": "nˈaɪn ɪç hɑːbə kˈaɪn fˈiːbɜ",
+        "pronunciation": "náin iç haabe káin fíibör"
+      }
+    ]
+  },
+  {
+    "id": 53,
+    "title": "Na farmácia",
+    "category": "Saúde e atendimento",
+    "icon": "🩺",
+    "level": "A1–A2",
+    "lines": [
+      {
+        "role": "A",
+        "de": "Ich möchte dieses Rezept einlösen.",
+        "pt": "Gostaria de retirar o medicamento desta receita.",
+        "ipa": "ɪç mˈœçtə dˌiːzəs reːtsˈɛpt ˈaɪnlˌøːzən",
+        "pronunciation": "iç mö́çte diizes reetsépt áinlöözen"
+      },
+      {
+        "role": "B",
+        "de": "Einen Moment, bitte.",
+        "pt": "Um momento, por favor.",
+        "ipa": "ˌaɪnən moːmˈɛnt bˈɪtə",
+        "pronunciation": "ainen moomént bíte"
+      },
+      {
+        "role": "A",
+        "de": "Ist das Medikament vorrätig?",
+        "pt": "O medicamento está disponível?",
+        "ipa": "ɪst das mˌeːdiːkamˈɛnt fˈoːɾrˌɛːtɪç",
+        "pronunciation": "ist das meediikamént fôorréetiç"
+      },
+      {
+        "role": "B",
+        "de": "Ich prüfe das für Sie.",
+        "pt": "Vou verificar para você.",
+        "ipa": "ɪç pɾˈyːfə das fyːɾ ziː",
+        "pronunciation": "iç prǘüfe das füür zii"
+      }
+    ]
+  },
+  {
+    "id": 54,
+    "title": "Cartão de saúde",
+    "category": "Saúde e atendimento",
+    "icon": "🩺",
+    "level": "A1–A2",
+    "lines": [
+      {
+        "role": "A",
+        "de": "Haben Sie Ihre Gesundheitskarte dabei?",
+        "pt": "Está com seu cartão de saúde?",
+        "ipa": "hˌɑːbən ziː ˌiːrə ɡəzˈʊnthaɪtskˌaɾtə dɑːbˈaɪ",
+        "pronunciation": "haaben zii iire gezúnthaitskarte daabái"
+      },
+      {
+        "role": "B",
+        "de": "Ja, hier ist sie.",
+        "pt": "Sim, aqui está.",
+        "ipa": "jˈɑː hˈiːɾ ɪst ziː",
+        "pronunciation": "jáa híir ist zii"
+      },
+      {
+        "role": "A",
+        "de": "Bitte nehmen Sie im Wartezimmer Platz.",
+        "pt": "Por favor, sente-se na sala de espera.",
+        "ipa": "bˈɪtə nˈeːmən ziː ɪm vˈaɾteːtsˌɪmɜ plˈats",
+        "pronunciation": "bíte nêemen zii im várteetsimör pláts"
+      },
+      {
+        "role": "B",
+        "de": "Danke. Wie lange dauert es ungefähr?",
+        "pt": "Obrigado. Quanto tempo demora, aproximadamente?",
+        "ipa": "dˈaŋkə viː lˈaŋə dˈaʊɜt ɛs ˈʊnɡəfˌɛːɾ",
+        "pronunciation": "dángke vii lánge dáuört és úngeféer"
+      }
+    ]
+  },
+  {
+    "id": 55,
+    "title": "No dentista",
+    "category": "Saúde e atendimento",
+    "icon": "🩺",
+    "level": "A1–A2",
+    "lines": [
+      {
+        "role": "A",
+        "de": "Ich habe Zahnschmerzen.",
+        "pt": "Estou com dor de dente.",
+        "ipa": "ɪç hɑːbə tsˈɑːnʃmɜtsən",
+        "pronunciation": "iç haabe tsáanshmörtsen"
+      },
+      {
+        "role": "B",
+        "de": "Seit wann haben Sie die Schmerzen?",
+        "pt": "Desde quando está com essa dor?",
+        "ipa": "zaɪt vˈan hˌɑːbən ziː diː ʃmˈɛɾtsən",
+        "pronunciation": "zait ván haaben zii dii shmértsen"
+      },
+      {
+        "role": "A",
+        "de": "Seit zwei Tagen.",
+        "pt": "Há dois dias.",
+        "ipa": "zaɪt tsvˈaɪ tˈɑːɡən",
+        "pronunciation": "zait tsvái táagen"
+      },
+      {
+        "role": "B",
+        "de": "Wir sehen uns das an.",
+        "pt": "Vamos examinar.",
+        "ipa": "viːɾ zˈeːən ʊns das ˈan",
+        "pronunciation": "viir zêeen uns das án"
+      }
+    ]
+  },
+  {
+    "id": 56,
+    "title": "Pedir ajuda urgente",
+    "category": "Saúde e atendimento",
+    "icon": "🩺",
+    "level": "A1–A2",
+    "lines": [
+      {
+        "role": "A",
+        "de": "Bitte helfen Sie mir! Jemand ist gestürzt.",
+        "pt": "Por favor, me ajude! Alguém caiu.",
+        "ipa": "bˈɪtə hˈɛlfən ziː mˈiːɾ jˈeːmant ɪst ɡəʃtˈʏɾtst",
+        "pronunciation": "bíte hélfen zii míir jêemant ist geshtǘrtst"
+      },
+      {
+        "role": "B",
+        "de": "Wo sind Sie genau?",
+        "pt": "Onde você está exatamente?",
+        "ipa": "vˌoː zɪnt ziː ɡənˈaʊ",
+        "pronunciation": "voo zint zii genáu"
+      },
+      {
+        "role": "A",
+        "de": "Am Bahnhof, vor dem Haupteingang.",
+        "pt": "Na estação, em frente à entrada principal.",
+        "ipa": "am bˈɑːnhoːf fˌɔɾ deːm hˈaʊptˌaɪnɡˌaŋ",
+        "pronunciation": "am báanhoof fór deem háuptaingang"
+      },
+      {
+        "role": "B",
+        "de": "Bleiben Sie dort. Hilfe kommt.",
+        "pt": "Fique aí. A ajuda está a caminho.",
+        "ipa": "blˈaɪbən ziː dˈɔɾt hˈɪlfə kˈɔmt",
+        "pronunciation": "bláiben zii dórt hílfe kómt"
+      }
+    ]
+  },
+  {
+    "id": 57,
+    "title": "Óculos",
+    "category": "Saúde e atendimento",
+    "icon": "🩺",
+    "level": "A1–A2",
+    "lines": [
+      {
+        "role": "A",
+        "de": "Meine Brille ist kaputt.",
+        "pt": "Meus óculos quebraram.",
+        "ipa": "mˌaɪnə bɾˈɪlə ɪst kˈɑpʊt",
+        "pronunciation": "maine bríle ist káput"
+      },
+      {
+        "role": "B",
+        "de": "Darf ich sie sehen?",
+        "pt": "Posso vê-los?",
+        "ipa": "dˈaɾf ɪç ziː zˈeːən",
+        "pronunciation": "dárf iç zii zêeen"
+      },
+      {
+        "role": "A",
+        "de": "Ja, können Sie sie reparieren?",
+        "pt": "Sim, pode consertá-los?",
+        "ipa": "jˈɑː kˌœnən ziː ziː rˌeːparˈiːrən",
+        "pronunciation": "jáa könen zii zii reeparíiren"
+      },
+      {
+        "role": "B",
+        "de": "Wir prüfen, ob das möglich ist.",
+        "pt": "Vamos verificar se é possível.",
+        "ipa": "viːɾ pɾˈyːfən ˌɔp das mˈøːklɪç ɪst",
+        "pronunciation": "viir prǘüfen óp das mö́ökliç ist"
+      }
+    ]
+  },
+  {
+    "id": 58,
+    "title": "Pedir intérprete",
+    "category": "Saúde e atendimento",
+    "icon": "🩺",
+    "level": "A1–A2",
+    "lines": [
+      {
+        "role": "A",
+        "de": "Ich verstehe die Erklärung nicht gut.",
+        "pt": "Não entendo bem a explicação.",
+        "ipa": "ɪç fɛɾʃtˈeːə diː ɛɾklˈɛːrʊŋ nˈɪçt ɡˈuːt",
+        "pronunciation": "iç férshtêee dii érkléerung níçt gúut"
+      },
+      {
+        "role": "B",
+        "de": "Welche Sprache sprechen Sie?",
+        "pt": "Qual idioma você fala?",
+        "ipa": "vˈɛlçə ʃpɾˈɑːxə ʃpɾˈɛçən ziː",
+        "pronunciation": "vélçe shpráakhe shpréçen zii"
+      },
+      {
+        "role": "A",
+        "de": "Portugiesisch. Ist ein Dolmetscher möglich?",
+        "pt": "Português. É possível ter um intérprete?",
+        "ipa": "pˌɔɾtuːɡˈiːzɪʃ ɪst aɪn dˈɔlmɛtʃɜ mˈøːklɪç",
+        "pronunciation": "pórtuugíizish ist ain dólmétshör mö́ökliç"
+      },
+      {
+        "role": "B",
+        "de": "Wir schauen, welche Hilfe verfügbar ist.",
+        "pt": "Vamos ver qual ajuda está disponível.",
+        "ipa": "viːɾ ʃˈaʊən vˈɛlçə hˈɪlfə fɛɾfˈyːkbɑːɾ ɪst",
+        "pronunciation": "viir sháuen vélçe hílfe férfǘükbaar ist"
+      }
+    ]
+  },
+  {
+    "id": 59,
+    "title": "Remarcar consulta",
+    "category": "Saúde e atendimento",
+    "icon": "🩺",
+    "level": "A1–A2",
+    "lines": [
+      {
+        "role": "A",
+        "de": "Ich muss meinen Termin verschieben.",
+        "pt": "Preciso remarcar minha consulta.",
+        "ipa": "ɪç mˈʊs mˌaɪnən tɛɾmˈiːn fɛɾʃˈiːbən",
+        "pronunciation": "iç mús mainen térmíin férshíiben"
+      },
+      {
+        "role": "B",
+        "de": "Wann ist Ihr Termin?",
+        "pt": "Quando é sua consulta?",
+        "ipa": "vˈan ɪst iːɾ tɛɾmˈiːn",
+        "pronunciation": "ván ist iir térmíin"
+      },
+      {
+        "role": "A",
+        "de": "Am Dienstag um neun.",
+        "pt": "Na terça-feira às nove.",
+        "ipa": "am dˈiːnstɑːk ʊm nˈɔøn",
+        "pronunciation": "am díinstaak um nóin"
+      },
+      {
+        "role": "B",
+        "de": "Passt Ihnen Donnerstag um zehn?",
+        "pt": "Quinta-feira às dez serve para você?",
+        "ipa": "pˈast ˌiːnən dˈɔnɜstˌɑːk ʊm tsˈeːn",
+        "pronunciation": "pást iinen dónörstaak um tsêen"
+      }
+    ]
+  },
+  {
+    "id": 60,
+    "title": "Na recepção da clínica",
+    "category": "Saúde e atendimento",
+    "icon": "🩺",
+    "level": "A1–A2",
+    "lines": [
+      {
+        "role": "A",
+        "de": "Ich habe um zehn Uhr einen Termin.",
+        "pt": "Tenho uma consulta às dez horas.",
+        "ipa": "ɪç hɑːbə ʊm tsˈeːn ˈuːɾ ˌaɪnən tɛɾmˈiːn",
+        "pronunciation": "iç haabe um tsêen úur ainen térmíin"
+      },
+      {
+        "role": "B",
+        "de": "Bei welcher Ärztin?",
+        "pt": "Com qual médica?",
+        "ipa": "baɪ vˈɛlçɜ ˈɛɾtstɪn",
+        "pronunciation": "bai vélçör értstin"
+      },
+      {
+        "role": "A",
+        "de": "Bei Frau Doktor Müller.",
+        "pt": "Com a doutora Müller.",
+        "ipa": "baɪ frˈaʊ dˈɔktoːɾ mˈʏlɜ",
+        "pronunciation": "bai fráu dóktoor mǘlör"
+      },
+      {
+        "role": "B",
+        "de": "Bitte warten Sie einen Moment.",
+        "pt": "Por favor, aguarde um momento.",
+        "ipa": "bˈɪtə vˈaɾtən ziː ˌaɪnən moːmˈɛnt",
+        "pronunciation": "bíte várten zii ainen moomént"
+      }
+    ]
+  },
+  {
+    "id": 61,
+    "title": "Primeiro dia de trabalho",
+    "category": "No trabalho",
+    "icon": "💼",
+    "level": "A1–A2",
+    "lines": [
+      {
+        "role": "A",
+        "de": "Guten Morgen, heute ist mein erster Tag.",
+        "pt": "Bom dia, hoje é meu primeiro dia.",
+        "ipa": "ɡˈuːtən mˈɔɾɡən hˈɔøtə ɪst maɪn ˈeːɾstɜ tˈɑːk",
+        "pronunciation": "gúuten mórgen hóite ist main êerstör táak"
+      },
+      {
+        "role": "B",
+        "de": "Herzlich willkommen im Team!",
+        "pt": "Seja bem-vindo à equipe!",
+        "ipa": "hˈɛɾtslɪç vɪlkˈɔmən ɪm (en)tˈiːm(de)",
+        "pronunciation": "hértsliç vilkómen im (en)tíim(de)"
+      },
+      {
+        "role": "A",
+        "de": "Vielen Dank. Wo ist mein Arbeitsplatz?",
+        "pt": "Muito obrigado. Onde fica meu posto de trabalho?",
+        "ipa": "fˈiːlən dˈaŋk vˌoː ɪst maɪn ˈaɾbaɪtsplˌats",
+        "pronunciation": "fíilen dángk voo ist main árbaitsplats"
+      },
+      {
+        "role": "B",
+        "de": "Ich zeige ihn Ihnen.",
+        "pt": "Vou mostrar para você.",
+        "ipa": "ɪç tsˈaɪɡə iːn ˈiːnən",
+        "pronunciation": "iç tsáige iin íinen"
+      }
+    ]
+  },
+  {
+    "id": 62,
+    "title": "Apresentar experiência",
+    "category": "No trabalho",
+    "icon": "💼",
+    "level": "A1–A2",
+    "lines": [
+      {
+        "role": "A",
+        "de": "In welchem Bereich arbeiten Sie?",
+        "pt": "Em qual área você trabalha?",
+        "ipa": "ɪn vˈɛlçəm bərˈaɪç ˈaɾbaɪtən ziː",
+        "pronunciation": "in vélçem beráiç árbaiten zii"
+      },
+      {
+        "role": "B",
+        "de": "Ich arbeite in der IT.",
+        "pt": "Trabalho com TI.",
+        "ipa": "ɪç ˈaɾbaɪtə ɪn dɛɾ ˌiːtˈeː",
+        "pronunciation": "iç árbaite in dér iitêe"
+      },
+      {
+        "role": "A",
+        "de": "Was machen Sie genau?",
+        "pt": "O que faz exatamente?",
+        "ipa": "vˈas mˈaxən ziː ɡənˈaʊ",
+        "pronunciation": "vás mákhen zii genáu"
+      },
+      {
+        "role": "B",
+        "de": "Ich unterstütze Benutzer und betreue Netzwerke.",
+        "pt": "Dou suporte aos usuários e cuido de redes.",
+        "ipa": "ɪç ˌʊntɜʃtˈʏtsə bənˈʊtsɜ ʊnt bətɾˈɔøə nˈɛtsvɛɾkə",
+        "pronunciation": "iç untörshtǘtse benútsör unt betróie nétsvérke"
+      }
+    ]
+  },
+  {
+    "id": 63,
+    "title": "Pedir uma tarefa",
+    "category": "No trabalho",
+    "icon": "💼",
+    "level": "A1–A2",
+    "lines": [
+      {
+        "role": "A",
+        "de": "Was soll ich zuerst machen?",
+        "pt": "O que devo fazer primeiro?",
+        "ipa": "vˈas zˌɔl ɪç tsuːˈeːɾst mˈaxən",
+        "pronunciation": "vás zól iç tsuuêerst mákhen"
+      },
+      {
+        "role": "B",
+        "de": "Bitte prüfen Sie diese Liste.",
+        "pt": "Por favor, verifique esta lista.",
+        "ipa": "bˈɪtə pɾˈyːfən ziː dˌiːzə lˈɪstə",
+        "pronunciation": "bíte prǘüfen zii diize líste"
+      },
+      {
+        "role": "A",
+        "de": "Bis wann brauchen Sie das?",
+        "pt": "Até quando precisa disso?",
+        "ipa": "bɪs vˈan bɾˈaʊxən ziː das",
+        "pronunciation": "bis ván bráukhen zii das"
+      },
+      {
+        "role": "B",
+        "de": "Bis heute Nachmittag.",
+        "pt": "Até esta tarde.",
+        "ipa": "bɪs hˈɔøtə nˈaxmɪtˌɑːk",
+        "pronunciation": "bis hóite nákhmitaak"
+      }
+    ]
+  },
+  {
+    "id": 64,
+    "title": "Entender instruções",
+    "category": "No trabalho",
+    "icon": "💼",
+    "level": "A1–A2",
+    "lines": [
+      {
+        "role": "A",
+        "de": "Können Sie mir den Ablauf zeigen?",
+        "pt": "Pode me mostrar o procedimento?",
+        "ipa": "kˌœnən ziː miːɾ deːn ˈaplˌaʊf tsˈaɪɡən",
+        "pronunciation": "könen zii miir deen áplauf tsáigen"
+      },
+      {
+        "role": "B",
+        "de": "Ja, wir machen es gemeinsam.",
+        "pt": "Sim, vamos fazer juntos.",
+        "ipa": "jˈɑː viːɾ mˈaxən ɛs ɡəmˈaɪnzɑːm",
+        "pronunciation": "jáa viir mákhen és gemáinzaam"
+      },
+      {
+        "role": "A",
+        "de": "Darf ich mir Notizen machen?",
+        "pt": "Posso fazer anotações?",
+        "ipa": "dˈaɾf ɪç miːɾ nˈoːtiːtsən mˈaxən",
+        "pronunciation": "dárf iç miir nôotiitsen mákhen"
+      },
+      {
+        "role": "B",
+        "de": "Natürlich, das ist eine gute Idee.",
+        "pt": "Claro, é uma boa ideia.",
+        "ipa": "nɑːtˈyːɾlɪç das ɪst ˌaɪnə ɡˈuːtə iːdˈeː",
+        "pronunciation": "naatǘürliç das ist aine gúute iidêe"
+      }
+    ]
+  },
+  {
+    "id": 65,
+    "title": "Horário de trabalho",
+    "category": "No trabalho",
+    "icon": "💼",
+    "level": "A1–A2",
+    "lines": [
+      {
+        "role": "A",
+        "de": "Wann beginnt die Arbeit?",
+        "pt": "A que horas começa o trabalho?",
+        "ipa": "vˈan bəɡˈɪnt diː ˈaɾbaɪt",
+        "pronunciation": "ván begínt dii árbait"
+      },
+      {
+        "role": "B",
+        "de": "Um acht Uhr.",
+        "pt": "Às oito.",
+        "ipa": "ʊm ˈaxt ˈuːɾ",
+        "pronunciation": "um ákht úur"
+      },
+      {
+        "role": "A",
+        "de": "Und wann ist die Mittagspause?",
+        "pt": "E quando é a pausa para almoço?",
+        "ipa": "ʊnt vˈan ɪst diː mˈɪtakspˌaʊzə",
+        "pronunciation": "unt ván ist dii mítakspauze"
+      },
+      {
+        "role": "B",
+        "de": "Von zwölf bis halb eins.",
+        "pt": "Das doze às doze e meia.",
+        "ipa": "fɔn tsvˈœlf bɪs hˈalp ˈaɪns",
+        "pronunciation": "fón tsvö́lf bis hálp áins"
+      }
+    ]
+  },
+  {
+    "id": 66,
+    "title": "Participar de reunião",
+    "category": "No trabalho",
+    "icon": "💼",
+    "level": "A1–A2",
+    "lines": [
+      {
+        "role": "A",
+        "de": "Wann beginnt die Besprechung?",
+        "pt": "Quando começa a reunião?",
+        "ipa": "vˈan bəɡˈɪnt diː bəʃpɾˈɛçʊŋ",
+        "pronunciation": "ván begínt dii beshpréçung"
+      },
+      {
+        "role": "B",
+        "de": "In zehn Minuten, im Raum drei.",
+        "pt": "Em dez minutos, na sala três.",
+        "ipa": "ɪn tsˈeːn miːnˈuːtən ɪm rˈaʊm dɾˈaɪ",
+        "pronunciation": "in tsêen miinúuten im ráum drái"
+      },
+      {
+        "role": "A",
+        "de": "Soll ich meinen Laptop mitbringen?",
+        "pt": "Devo trazer meu notebook?",
+        "ipa": "zˌɔl ɪç mˌaɪnən (en)lˈaptɒp(de) mˈɪtbɾˌɪŋən",
+        "pronunciation": "zól iç mainen (en)láptóp(de) mítbringen"
+      },
+      {
+        "role": "B",
+        "de": "Ja, bitte.",
+        "pt": "Sim, por favor.",
+        "ipa": "jˈɑː bˈɪtə",
+        "pronunciation": "jáa bíte"
+      }
+    ]
+  },
+  {
+    "id": 67,
+    "title": "Avisar atraso",
+    "category": "No trabalho",
+    "icon": "💼",
+    "level": "A1–A2",
+    "lines": [
+      {
+        "role": "A",
+        "de": "Guten Morgen, mein Zug hat Verspätung.",
+        "pt": "Bom dia, meu trem está atrasado.",
+        "ipa": "ɡˈuːtən mˈɔɾɡən maɪn tsˈuːk hat fɛɾʃpˈɛːtʊŋ",
+        "pronunciation": "gúuten mórgen main tsúuk hat férshpéetung"
+      },
+      {
+        "role": "B",
+        "de": "Wann kommen Sie ungefähr an?",
+        "pt": "A que horas você chega, aproximadamente?",
+        "ipa": "vˈan kˈɔmən ziː ˈʊnɡəfˌɛːɾ ˈan",
+        "pronunciation": "ván kómen zii úngeféer án"
+      },
+      {
+        "role": "A",
+        "de": "Etwa zwanzig Minuten später.",
+        "pt": "Cerca de vinte minutos mais tarde.",
+        "ipa": "ˌɛtvɑː tsvˈantsɪç miːnˈuːtən ʃpˈɛːtɜ",
+        "pronunciation": "étvaa tsvántsiç miinúuten shpéetör"
+      },
+      {
+        "role": "B",
+        "de": "Danke für die Nachricht.",
+        "pt": "Obrigado por avisar.",
+        "ipa": "dˈaŋkə fyːɾ diː nˈaxrɪçt",
+        "pronunciation": "dángke füür dii nákhriçt"
+      }
+    ]
+  },
+  {
+    "id": 68,
+    "title": "Ausência por doença",
+    "category": "No trabalho",
+    "icon": "💼",
+    "level": "A1–A2",
+    "lines": [
+      {
+        "role": "A",
+        "de": "Guten Morgen, ich bin heute krank.",
+        "pt": "Bom dia, estou doente hoje.",
+        "ipa": "ɡˈuːtən mˈɔɾɡən ɪç bɪn hˈɔøtə kɾˈaŋk",
+        "pronunciation": "gúuten mórgen iç bin hóite krángk"
+      },
+      {
+        "role": "B",
+        "de": "Gute Besserung!",
+        "pt": "Melhoras!",
+        "ipa": "ɡˈuːtə bˈɛsərˌʊŋ",
+        "pronunciation": "gúute bésserung"
+      },
+      {
+        "role": "A",
+        "de": "Ich melde mich später noch einmal.",
+        "pt": "Volto a entrar em contato mais tarde.",
+        "ipa": "ɪç mˈɛldə mɪç ʃpˈɛːtɜ nɔx ˈaɪnmˌɑːl",
+        "pronunciation": "iç mélde miç shpéetör nókh áinmaal"
+      },
+      {
+        "role": "B",
+        "de": "Alles klar. Ruhen Sie sich aus.",
+        "pt": "Tudo bem. Descanse.",
+        "ipa": "ˈaləs klˈɑːɾ rˈuːən ziː zɪç ˈaʊs",
+        "pronunciation": "áles kláar rúuen zii ziç áus"
+      }
+    ]
+  },
+  {
+    "id": 69,
+    "title": "Pedir feedback",
+    "category": "No trabalho",
+    "icon": "💼",
+    "level": "A1–A2",
+    "lines": [
+      {
+        "role": "A",
+        "de": "Haben Sie kurz Zeit für eine Rückmeldung?",
+        "pt": "Tem um momento para me dar um retorno?",
+        "ipa": "hˌɑːbən ziː kˈʊɐts tsˈaɪt fyːɾ ˌaɪnə rˈʏkmˌɛldʊŋ",
+        "pronunciation": "haaben zii kúats tsáit füür aine rǘkméldung"
+      },
+      {
+        "role": "B",
+        "de": "Ja, natürlich.",
+        "pt": "Sim, claro.",
+        "ipa": "jˈɑː nɑːtˈyːɾlɪç",
+        "pronunciation": "jáa naatǘürliç"
+      },
+      {
+        "role": "A",
+        "de": "Was kann ich noch verbessern?",
+        "pt": "O que ainda posso melhorar?",
+        "ipa": "vˈas kˌan ɪç nɔx fɛɾbˈɛsɜn",
+        "pronunciation": "vás kan iç nókh férbéssörn"
+      },
+      {
+        "role": "B",
+        "de": "Achten Sie bitte mehr auf die Dokumentation.",
+        "pt": "Preste mais atenção à documentação, por favor.",
+        "ipa": "ˈaxtən ziː bˈɪtə mˈeːɾ aʊf diː dˌoːkuːmˌɛntatsjˈoːn",
+        "pronunciation": "ákhten zii bíte mêer auf dii dookuuméntatsjôon"
+      }
+    ]
+  },
+  {
+    "id": 70,
+    "title": "Mudança de carreira",
+    "category": "No trabalho",
+    "icon": "💼",
+    "level": "A1–A2",
+    "lines": [
+      {
+        "role": "A",
+        "de": "Warum möchten Sie den Bereich wechseln?",
+        "pt": "Por que deseja mudar de área?",
+        "ipa": "vɑːrˈʊm mˈœçtən ziː deːn bərˈaɪç vˈɛksəln",
+        "pronunciation": "vaarúm mö́çten zii deen beráiç vékseln"
+      },
+      {
+        "role": "B",
+        "de": "Ich möchte etwas Neues lernen.",
+        "pt": "Quero aprender algo novo.",
+        "ipa": "ɪç mˈœçtə ˈɛtvɑːs nˈɔøəs lˈɛɾnən",
+        "pronunciation": "iç mö́çte étvaas nóies lérnen"
+      },
+      {
+        "role": "A",
+        "de": "Sind Sie bereit, als Junior anzufangen?",
+        "pt": "Está disposto a começar como júnior?",
+        "ipa": "zɪnt ziː bərˈaɪt als jˈuːnɪˌoːɾ ˈantsuːfˌaŋən",
+        "pronunciation": "zint zii beráit als júunioor ántsuufangen"
+      },
+      {
+        "role": "B",
+        "de": "Ja, ich möchte Schritt für Schritt lernen.",
+        "pt": "Sim, quero aprender passo a passo.",
+        "ipa": "jˈɑː ɪç mˈœçtə ʃrˈɪt fyːɾ ʃrˈɪt lˈɛɾnən",
+        "pronunciation": "jáa iç mö́çte shrít füür shrít lérnen"
+      }
+    ]
+  },
+  {
+    "id": 71,
+    "title": "Computador não liga",
+    "category": "Tecnologia e TI",
+    "icon": "💻",
+    "level": "A1–A2",
+    "lines": [
+      {
+        "role": "A",
+        "de": "Mein Computer geht nicht an.",
+        "pt": "Meu computador não liga.",
+        "ipa": "maɪn kɔmpjˈuːtɜ ɡˈeːt nˈɪçt ˈan",
+        "pronunciation": "main kómpjúutör gêet níçt án"
+      },
+      {
+        "role": "B",
+        "de": "Ist das Stromkabel angeschlossen?",
+        "pt": "O cabo de energia está conectado?",
+        "ipa": "ɪst das ʃtɾɔmkˈɑːbəl ˈanɡəʃlˌɔsən",
+        "pronunciation": "ist das shtrómkáabel ángeshlóssen"
+      },
+      {
+        "role": "A",
+        "de": "Ja, aber der Bildschirm bleibt schwarz.",
+        "pt": "Sim, mas a tela continua preta.",
+        "ipa": "jˈɑː ˌɑːbɜ dɛɾ bˈɪltʃɪɾm blˈaɪpt ʃvˈaɾts",
+        "pronunciation": "jáa aabör dér bíltshirm bláipt shvárts"
+      },
+      {
+        "role": "B",
+        "de": "Ich komme und prüfe das.",
+        "pt": "Vou aí verificar.",
+        "ipa": "ɪç kˈɔmə ʊnt pɾˈyːfə das",
+        "pronunciation": "iç kóme unt prǘüfe das"
+      }
+    ]
+  },
+  {
+    "id": 72,
+    "title": "Redefinir senha",
+    "category": "Tecnologia e TI",
+    "icon": "💻",
+    "level": "A1–A2",
+    "lines": [
+      {
+        "role": "A",
+        "de": "Ich habe mein Passwort vergessen.",
+        "pt": "Esqueci minha senha.",
+        "ipa": "ɪç hɑːbə maɪn pˈasvɔɾt fɛɾɡˈɛsən",
+        "pronunciation": "iç haabe main pásvórt férgéssen"
+      },
+      {
+        "role": "B",
+        "de": "Ich helfe Ihnen beim Zurücksetzen.",
+        "pt": "Vou ajudar você a redefini-la.",
+        "ipa": "ɪç hˈɛlfə ˌiːnən baɪm tsuːrˈʏkzˌɛtsən",
+        "pronunciation": "iç hélfe iinen baim tsuurǘkzétsen"
+      },
+      {
+        "role": "A",
+        "de": "Muss ich meine Identität bestätigen?",
+        "pt": "Preciso confirmar minha identidade?",
+        "ipa": "mˈʊs ɪç mˌaɪnə iːdˈɛntiːtˈɛːt bəʃtˈɛːtɪɡən",
+        "pronunciation": "mús iç maine iidéntiitéet beshtéetigen"
+      },
+      {
+        "role": "B",
+        "de": "Ja, das ist aus Sicherheitsgründen nötig.",
+        "pt": "Sim, isso é necessário por segurança.",
+        "ipa": "jˈɑː das ɪst ˌaʊs zˈɪçɜhˌaɪtsɡɾʏndən nˈøːtɪç",
+        "pronunciation": "jáa das ist aus zíçörhaitsgründen nö́ötiç"
+      }
+    ]
+  },
+  {
+    "id": 73,
+    "title": "Sem internet",
+    "category": "Tecnologia e TI",
+    "icon": "💻",
+    "level": "A1–A2",
+    "lines": [
+      {
+        "role": "A",
+        "de": "Ich habe keine Internetverbindung.",
+        "pt": "Estou sem conexão com a internet.",
+        "ipa": "ɪç hɑːbə kˈaɪnə ˈɪntɜnˌɛtfɛɾbˌɪndʊŋ",
+        "pronunciation": "iç haabe káine íntörnétférbindung"
+      },
+      {
+        "role": "B",
+        "de": "Sind andere Geräte auch betroffen?",
+        "pt": "Outros dispositivos também foram afetados?",
+        "ipa": "zɪnt ˈandərə ɡərˈɛːtə ˌaʊx bətɾˈɔfən",
+        "pronunciation": "zint ándere geréete aukh betrófen"
+      },
+      {
+        "role": "A",
+        "de": "Ja, im ganzen Büro.",
+        "pt": "Sim, no escritório inteiro.",
+        "ipa": "jˈɑː ɪm ɡˈantsən bˈyːroː",
+        "pronunciation": "jáa im gántsen bǘüroo"
+      },
+      {
+        "role": "B",
+        "de": "Dann prüfe ich die Netzwerkverbindung.",
+        "pt": "Então vou verificar a conexão de rede.",
+        "ipa": "dan pɾˈyːfə ɪç diː nˈɛtsvɜkfɛɾbˌɪndʊŋ",
+        "pronunciation": "dan prǘüfe iç dii nétsvörkférbindung"
+      }
+    ]
+  },
+  {
+    "id": 74,
+    "title": "Impressora",
+    "category": "Tecnologia e TI",
+    "icon": "💻",
+    "level": "A1–A2",
+    "lines": [
+      {
+        "role": "A",
+        "de": "Der Drucker druckt nicht.",
+        "pt": "A impressora não imprime.",
+        "ipa": "dɛɾ dɾˈʊkɜ dɾˈʊkt nˈɪçt",
+        "pronunciation": "dér drúkör drúkt níçt"
+      },
+      {
+        "role": "B",
+        "de": "Wird eine Fehlermeldung angezeigt?",
+        "pt": "Está aparecendo alguma mensagem de erro?",
+        "ipa": "vˌɪɾt ˌaɪnə fˈeːlɜmˌɛldʊŋ ˈanɡətsˌaɪkt",
+        "pronunciation": "virt aine fêelörméldung ángetsaikt"
+      },
+      {
+        "role": "A",
+        "de": "Ja, dort steht Papierstau.",
+        "pt": "Sim, aparece papel preso.",
+        "ipa": "jˈɑː dˈɔɾt ʃtˈeːt papˈiːɾstaʊ",
+        "pronunciation": "jáa dórt shtêet papíirstau"
+      },
+      {
+        "role": "B",
+        "de": "Wir entfernen das Papier vorsichtig.",
+        "pt": "Vamos remover o papel com cuidado.",
+        "ipa": "viːɾ ɛntfˈɛɾnən das papˈiːɾ fˈoːɾzˌɪçtɪç",
+        "pronunciation": "viir éntférnen das papíir fôorziçtiç"
+      }
+    ]
+  },
+  {
+    "id": 75,
+    "title": "Abrir chamado",
+    "category": "Tecnologia e TI",
+    "icon": "💻",
+    "level": "A1–A2",
+    "lines": [
+      {
+        "role": "A",
+        "de": "Wie melde ich das Problem?",
+        "pt": "Como informo o problema?",
+        "ipa": "viː mˈɛldə ɪç das pɾoːblˈeːm",
+        "pronunciation": "vii mélde iç das prooblêem"
+      },
+      {
+        "role": "B",
+        "de": "Bitte erstellen Sie ein Support-Ticket.",
+        "pt": "Por favor, abra um chamado de suporte.",
+        "ipa": "bˈɪtə ɛɾʃtˈɛlən ziː aɪn zˈʊpɔɾttˈɪkət",
+        "pronunciation": "bíte érshtélen zii ain zúpórttíket"
+      },
+      {
+        "role": "A",
+        "de": "Welche Informationen brauchen Sie?",
+        "pt": "De quais informações precisa?",
+        "ipa": "vˈɛlçə ˌɪnfɔɾmatsjˈoːnən bɾˈaʊxən ziː",
+        "pronunciation": "vélçe infórmatsjôonen bráukhen zii"
+      },
+      {
+        "role": "B",
+        "de": "Die Fehlermeldung und den Gerätenamen.",
+        "pt": "Da mensagem de erro e do nome do dispositivo.",
+        "ipa": "diː fˈeːlɜmˌɛldʊŋ ʊnt deːn ɡərˈɛːtənˌɑːmən",
+        "pronunciation": "dii fêelörméldung unt deen geréetenaamen"
+      }
+    ]
+  },
+  {
+    "id": 76,
+    "title": "Instalar programa",
+    "category": "Tecnologia e TI",
+    "icon": "💻",
+    "level": "A1–A2",
+    "lines": [
+      {
+        "role": "A",
+        "de": "Kann ich dieses Programm installieren?",
+        "pt": "Posso instalar este programa?",
+        "ipa": "kˌan ɪç dˌiːzəs pɾoːɡɾˈam ˌɪnstalˈiːrən",
+        "pronunciation": "kan iç diizes proográm instalíiren"
+      },
+      {
+        "role": "B",
+        "de": "Dafür brauchen Sie eine Freigabe.",
+        "pt": "Para isso, precisa de uma autorização.",
+        "ipa": "dɑːfˈyːɾ bɾˈaʊxən ziː ˌaɪnə frˈaɪɡɑːbə",
+        "pronunciation": "daafǘür bráukhen zii aine fráigaabe"
+      },
+      {
+        "role": "A",
+        "de": "An wen soll ich mich wenden?",
+        "pt": "Com quem devo falar?",
+        "ipa": "an vˈeːn zˌɔl ɪç mɪç vˈɛndən",
+        "pronunciation": "an vêen zól iç miç vénden"
+      },
+      {
+        "role": "B",
+        "de": "Bitte wenden Sie sich an die IT.",
+        "pt": "Por favor, entre em contato com a TI.",
+        "ipa": "bˈɪtə vˈɛndən ziː zɪç an diː ˌiːtˈeː",
+        "pronunciation": "bíte vénden zii ziç an dii iitêe"
+      }
+    ]
+  },
+  {
+    "id": 77,
+    "title": "Backup",
+    "category": "Tecnologia e TI",
+    "icon": "💻",
+    "level": "A1–A2",
+    "lines": [
+      {
+        "role": "A",
+        "de": "Wurde die Sicherung abgeschlossen?",
+        "pt": "O backup foi concluído?",
+        "ipa": "vˌʊɐdə diː zˈɪçərˌʊŋ ˈapɡəʃlˌɔsən",
+        "pronunciation": "vuade dii zíçerung ápgeshlóssen"
+      },
+      {
+        "role": "B",
+        "de": "Ja, heute Morgen.",
+        "pt": "Sim, hoje de manhã.",
+        "ipa": "jˈɑː hˈɔøtə mˈɔɾɡən",
+        "pronunciation": "jáa hóite mórgen"
+      },
+      {
+        "role": "A",
+        "de": "Können wir eine Datei wiederherstellen?",
+        "pt": "Podemos restaurar um arquivo?",
+        "ipa": "kˌœnən viːɾ ˌaɪnə datˈaɪ viːdɜhˈɛɾʃtɛlən",
+        "pronunciation": "könen viir aine datái viidörhérshtélen"
+      },
+      {
+        "role": "B",
+        "de": "Ja, welche Datei brauchen Sie?",
+        "pt": "Sim, de qual arquivo precisa?",
+        "ipa": "jˈɑː vˈɛlçə datˈaɪ bɾˈaʊxən ziː",
+        "pronunciation": "jáa vélçe datái bráukhen zii"
+      }
+    ]
+  },
+  {
+    "id": 78,
+    "title": "Atualização",
+    "category": "Tecnologia e TI",
+    "icon": "💻",
+    "level": "A1–A2",
+    "lines": [
+      {
+        "role": "A",
+        "de": "Muss ich den Computer neu starten?",
+        "pt": "Preciso reiniciar o computador?",
+        "ipa": "mˈʊs ɪç deːn kɔmpjˈuːtɜ nˈɔø ʃtˈaɾtən",
+        "pronunciation": "mús iç deen kómpjúutör nói shtárten"
+      },
+      {
+        "role": "B",
+        "de": "Ja, nach dem Update.",
+        "pt": "Sim, após a atualização.",
+        "ipa": "jˈɑː nɑːx deːm (en)ˈʌpdeɪt(de)",
+        "pronunciation": "jáa naakh deem (en)âpdeit(de)"
+      },
+      {
+        "role": "A",
+        "de": "Kann ich zuerst meine Arbeit speichern?",
+        "pt": "Posso salvar meu trabalho primeiro?",
+        "ipa": "kˌan ɪç tsuːˈeːɾst mˌaɪnə ˈaɾbaɪt ʃpˈaɪçɜn",
+        "pronunciation": "kan iç tsuuêerst maine árbait shpáiçörn"
+      },
+      {
+        "role": "B",
+        "de": "Ja, bitte speichern Sie alles.",
+        "pt": "Sim, por favor, salve tudo.",
+        "ipa": "jˈɑː bˈɪtə ʃpˈaɪçɜn ziː ˈaləs",
+        "pronunciation": "jáa bíte shpáiçörn zii áles"
+      }
+    ]
+  },
+  {
+    "id": 79,
+    "title": "Videoconferência",
+    "category": "Tecnologia e TI",
+    "icon": "💻",
+    "level": "A1–A2",
+    "lines": [
+      {
+        "role": "A",
+        "de": "Können Sie mich hören?",
+        "pt": "Consegue me ouvir?",
+        "ipa": "kˌœnən ziː mɪç hˈøːrən",
+        "pronunciation": "könen zii miç hö́ören"
+      },
+      {
+        "role": "B",
+        "de": "Ja, aber ich sehe kein Bild.",
+        "pt": "Sim, mas não vejo imagem.",
+        "ipa": "jˈɑː ˌɑːbɜ ɪç zˈeːə kˈaɪn bˈɪlt",
+        "pronunciation": "jáa aabör iç zêee káin bílt"
+      },
+      {
+        "role": "A",
+        "de": "Ich schalte die Kamera ein.",
+        "pt": "Vou ligar a câmera.",
+        "ipa": "ɪç ʃˈaltə diː kˈɑmeːrˌɑː ˈaɪn",
+        "pronunciation": "iç shálte dii kámeeraa áin"
+      },
+      {
+        "role": "B",
+        "de": "Jetzt funktioniert es.",
+        "pt": "Agora está funcionando.",
+        "ipa": "jˌɛtst fʊŋktsjˌoːnˈiːɾt ɛs",
+        "pronunciation": "jétst fungktsjooníirt és"
+      }
+    ]
+  },
+  {
+    "id": 80,
+    "title": "Ambientes Linux",
+    "category": "Tecnologia e TI",
+    "icon": "💻",
+    "level": "A1–A2",
+    "lines": [
+      {
+        "role": "A",
+        "de": "Arbeiten Sie auch mit Linux?",
+        "pt": "Você também trabalha com Linux?",
+        "ipa": "ˈaɾbaɪtən ziː ˌaʊx mɪt lˈiːnʊks",
+        "pronunciation": "árbaiten zii aukh mit líinuks"
+      },
+      {
+        "role": "B",
+        "de": "Ja, ich habe Erfahrung mit Linux-Umgebungen.",
+        "pt": "Sim, tenho experiência com ambientes Linux.",
+        "ipa": "jˈɑː ɪç hɑːbə ɛɾfˈɑːrʊŋ mɪt lˈiːnʊksʊmɡˈeːbʊŋən",
+        "pronunciation": "jáa iç haabe érfáarung mit líinuksumgêebungen"
+      },
+      {
+        "role": "A",
+        "de": "Kennen Sie diesen Befehl?",
+        "pt": "Conhece este comando?",
+        "ipa": "kˈɛnən ziː dˌiːzən bəfˈeːl",
+        "pronunciation": "kénen zii diizen befêel"
+      },
+      {
+        "role": "B",
+        "de": "Noch nicht. Können Sie ihn mir erklären?",
+        "pt": "Ainda não. Pode me explicar?",
+        "ipa": "nˈɔx nˈɪçt kˌœnən ziː iːn miːɾ ɛɾklˈɛːrən",
+        "pronunciation": "nókh níçt könen zii iin miir érkléeren"
+      }
+    ]
+  },
+  {
+    "id": 81,
+    "title": "Curso de alemão",
+    "category": "Estudos",
+    "icon": "📚",
+    "level": "A1–A2",
+    "lines": [
+      {
+        "role": "A",
+        "de": "Ich möchte mich für einen Deutschkurs anmelden.",
+        "pt": "Gostaria de me inscrever em um curso de alemão.",
+        "ipa": "ɪç mˈœçtə mɪç fyːɾ ˌaɪnən dɔøtʃkˈuːɾs ˈanmˌɛldən",
+        "pronunciation": "iç mö́çte miç füür ainen dóitshkúurs ánmélden"
+      },
+      {
+        "role": "B",
+        "de": "Welches Niveau haben Sie?",
+        "pt": "Qual é seu nível?",
+        "ipa": "vˈɛlçəs niːvˈoː hˈɑːbən ziː",
+        "pronunciation": "vélçes niivôo háaben zii"
+      },
+      {
+        "role": "A",
+        "de": "Ich bin Anfänger.",
+        "pt": "Sou iniciante.",
+        "ipa": "ɪç bɪn ˈanfˌɛŋɜ",
+        "pronunciation": "iç bin ánféngör"
+      },
+      {
+        "role": "B",
+        "de": "Dann ist der A1-Kurs passend.",
+        "pt": "Então o curso A1 é adequado.",
+        "ipa": "dan ɪst dɛɾ ˈɑː ˈaɪnskˈuːɾs pˈasənt",
+        "pronunciation": "dan ist dér áa áinskúurs pássent"
+      }
+    ]
+  },
+  {
+    "id": 82,
+    "title": "Perguntar uma palavra",
+    "category": "Estudos",
+    "icon": "📚",
+    "level": "A1–A2",
+    "lines": [
+      {
+        "role": "A",
+        "de": "Was bedeutet dieses Wort?",
+        "pt": "O que significa esta palavra?",
+        "ipa": "vˈas bədˈɔøtət dˌiːzəs vˈɔɾt",
+        "pronunciation": "vás bedóitet diizes vórt"
+      },
+      {
+        "role": "B",
+        "de": "Ein Bahnhof ist eine Station für Züge.",
+        "pt": "Uma estação ferroviária é uma estação para trens.",
+        "ipa": "aɪn bˈɑːnhoːf ɪst ˌaɪnə ʃtatsjˈoːn fyːɾ tsˈyːɡə",
+        "pronunciation": "ain báanhoof ist aine shtatsjôon füür tsǘüge"
+      },
+      {
+        "role": "A",
+        "de": "Können Sie ein Beispiel geben?",
+        "pt": "Pode dar um exemplo?",
+        "ipa": "kˌœnən ziː aɪn bˈaɪʃpiːl ɡˈeːbən",
+        "pronunciation": "könen zii ain báishpiil gêeben"
+      },
+      {
+        "role": "B",
+        "de": "Ja: Ich gehe zum Bahnhof.",
+        "pt": "Sim: eu vou à estação.",
+        "ipa": "jˈɑː ɪç ɡˈeːə tsʊm bˈɑːnhoːf",
+        "pronunciation": "jáa iç gêee tsum báanhoof"
+      }
+    ]
+  },
+  {
+    "id": 83,
+    "title": "Exercício em dupla",
+    "category": "Estudos",
+    "icon": "📚",
+    "level": "A1–A2",
+    "lines": [
+      {
+        "role": "A",
+        "de": "Sollen wir zusammen üben?",
+        "pt": "Vamos praticar juntos?",
+        "ipa": "zˌɔlən viːɾ tsuːzˈamən ˈyːbən",
+        "pronunciation": "zólen viir tsuuzámen ǘüben"
+      },
+      {
+        "role": "B",
+        "de": "Ja, gern. Wer beginnt?",
+        "pt": "Sim, claro. Quem começa?",
+        "ipa": "jˈɑː ɡˈɛɾn vˈeːɾ bəɡˈɪnt",
+        "pronunciation": "jáa gérn vêer begínt"
+      },
+      {
+        "role": "A",
+        "de": "Du stellst die Fragen, ich antworte.",
+        "pt": "Você faz as perguntas, eu respondo.",
+        "ipa": "duː ʃtˈɛlst diː frˈɑːɡən ɪç ˈantvɔɾtə",
+        "pronunciation": "duu shtélst dii fráagen iç ántvórte"
+      },
+      {
+        "role": "B",
+        "de": "Danach tauschen wir die Rollen.",
+        "pt": "Depois trocamos os papéis.",
+        "ipa": "danˈax tˈaʊʃən viːɾ diː rˈɔlən",
+        "pronunciation": "danákh táushen viir dii rólen"
+      }
+    ]
+  },
+  {
+    "id": 84,
+    "title": "Dever de casa",
+    "category": "Estudos",
+    "icon": "📚",
+    "level": "A1–A2",
+    "lines": [
+      {
+        "role": "A",
+        "de": "Was haben wir als Hausaufgabe?",
+        "pt": "Qual é a lição de casa?",
+        "ipa": "vˈas hˌɑːbən viːɾ als hˈaʊsˌaʊfɡˌɑːbə",
+        "pronunciation": "vás haaben viir als háussaufgaabe"
+      },
+      {
+        "role": "B",
+        "de": "Die Übungen auf Seite zwanzig.",
+        "pt": "Os exercícios da página vinte.",
+        "ipa": "diː ˈyːbʊŋən aʊf zˈaɪtə tsvˈantsɪç",
+        "pronunciation": "dii ǘübungen auf záite tsvántsiç"
+      },
+      {
+        "role": "A",
+        "de": "Müssen wir auch den Text lesen?",
+        "pt": "Também precisamos ler o texto?",
+        "ipa": "mˈʏsən viːɾ ˌaʊx deːn tˈɛkst lˈeːzən",
+        "pronunciation": "mǘssen viir aukh deen tékst lêezen"
+      },
+      {
+        "role": "B",
+        "de": "Ja, bitte bis morgen.",
+        "pt": "Sim, por favor, até amanhã.",
+        "ipa": "jˈɑː bˈɪtə bɪs mˈɔɾɡən",
+        "pronunciation": "jáa bíte bis mórgen"
+      }
+    ]
+  },
+  {
+    "id": 85,
+    "title": "Na biblioteca",
+    "category": "Estudos",
+    "icon": "📚",
+    "level": "A1–A2",
+    "lines": [
+      {
+        "role": "A",
+        "de": "Ich suche ein Buch für Deutschlernende.",
+        "pt": "Procuro um livro para estudantes de alemão.",
+        "ipa": "ɪç zˈuːxə aɪn bˈuːx fyːɾ dˈɔøtʃlɜnəndə",
+        "pronunciation": "iç zúukhe ain búukh füür dóitshlörnende"
+      },
+      {
+        "role": "B",
+        "de": "Für welches Niveau?",
+        "pt": "Para qual nível?",
+        "ipa": "fyːɾ vˈɛlçəs niːvˈoː",
+        "pronunciation": "füür vélçes niivôo"
+      },
+      {
+        "role": "A",
+        "de": "Für A1, mit einfachen Geschichten.",
+        "pt": "Para A1, com histórias simples.",
+        "ipa": "fyːɾ ˈɑː ˈaɪns mɪt ˈaɪnfˌaxən ɡəʃˈɪçtən",
+        "pronunciation": "füür áa áins mit áinfakhen geshíçten"
+      },
+      {
+        "role": "B",
+        "de": "Diese Bücher stehen hier.",
+        "pt": "Esses livros ficam aqui.",
+        "ipa": "dˌiːzə bˈyːçɜ ʃtˈeːən hˈiːɾ",
+        "pronunciation": "diize bǘüçör shtêeen híir"
+      }
+    ]
+  },
+  {
+    "id": 86,
+    "title": "Inscrição em prova",
+    "category": "Estudos",
+    "icon": "📚",
+    "level": "A1–A2",
+    "lines": [
+      {
+        "role": "A",
+        "de": "Wann findet die Prüfung statt?",
+        "pt": "Quando acontece a prova?",
+        "ipa": "vˈan fˈɪndət diː pɾˈyːfʊŋ ʃtˈat",
+        "pronunciation": "ván fíndet dii prǘüfung shtát"
+      },
+      {
+        "role": "B",
+        "de": "Am nächsten Samstag.",
+        "pt": "No próximo sábado.",
+        "ipa": "am nˈɛçstən zˈamstɑːk",
+        "pronunciation": "am néçsten zámstaak"
+      },
+      {
+        "role": "A",
+        "de": "Wie kann ich mich anmelden?",
+        "pt": "Como posso me inscrever?",
+        "ipa": "viː kˌan ɪç mɪç ˈanmˌɛldən",
+        "pronunciation": "vii kan iç miç ánmélden"
+      },
+      {
+        "role": "B",
+        "de": "Über unsere Internetseite.",
+        "pt": "Pelo nosso site.",
+        "ipa": "ˌyːbɜ ˌʊnzrə ˈɪntɜnˌɛtzaɪtə",
+        "pronunciation": "üübör unzre íntörnétzaite"
+      }
+    ]
+  },
+  {
+    "id": 87,
+    "title": "Na aula",
+    "category": "Estudos",
+    "icon": "📚",
+    "level": "A1–A2",
+    "lines": [
+      {
+        "role": "A",
+        "de": "Darf ich eine Frage stellen?",
+        "pt": "Posso fazer uma pergunta?",
+        "ipa": "dˈaɾf ɪç ˌaɪnə frˈɑːɡə ʃtˈɛlən",
+        "pronunciation": "dárf iç aine fráage shtélen"
+      },
+      {
+        "role": "B",
+        "de": "Ja, bitte.",
+        "pt": "Sim, pode falar.",
+        "ipa": "jˈɑː bˈɪtə",
+        "pronunciation": "jáa bíte"
+      },
+      {
+        "role": "A",
+        "de": "Warum steht das Verb hier am Ende?",
+        "pt": "Por que o verbo fica no final aqui?",
+        "ipa": "vɑːrˈʊm ʃtˈeːt das fˈɛɾp hˈiːɾ am ˈɛndə",
+        "pronunciation": "vaarúm shtêet das férp híir am énde"
+      },
+      {
+        "role": "B",
+        "de": "Weil das ein Nebensatz ist.",
+        "pt": "Porque esta é uma oração subordinada.",
+        "ipa": "vˌaɪl das aɪn nˈeːbənzˌats ɪst",
+        "pronunciation": "vail das ain nêebenzats ist"
+      }
+    ]
+  },
+  {
+    "id": 88,
+    "title": "Praticar devagar",
+    "category": "Estudos",
+    "icon": "📚",
+    "level": "A1–A2",
+    "lines": [
+      {
+        "role": "A",
+        "de": "Ich möchte diesen Satz üben.",
+        "pt": "Quero praticar esta frase.",
+        "ipa": "ɪç mˈœçtə dˌiːzən zˈats ˈyːbən",
+        "pronunciation": "iç mö́çte diizen záts ǘüben"
+      },
+      {
+        "role": "B",
+        "de": "Sprich ihn zuerst langsam.",
+        "pt": "Fale primeiro devagar.",
+        "ipa": "ʃpɾˈɪç iːn tsuːˈeːɾst lˈaŋzɑːm",
+        "pronunciation": "shpríç iin tsuuêerst lángzaam"
+      },
+      {
+        "role": "A",
+        "de": "Kannst du mir danach helfen?",
+        "pt": "Pode me ajudar depois?",
+        "ipa": "kˌanst duː miːɾ danˈax hˈɛlfən",
+        "pronunciation": "kanst duu miir danákh hélfen"
+      },
+      {
+        "role": "B",
+        "de": "Ja, wir üben ihn gemeinsam.",
+        "pt": "Sim, vamos praticá-la juntos.",
+        "ipa": "jˈɑː viːɾ ˈyːbən iːn ɡəmˈaɪnzɑːm",
+        "pronunciation": "jáa viir ǘüben iin gemáinzaam"
+      }
+    ]
+  },
+  {
+    "id": 89,
+    "title": "Estudar em casa",
+    "category": "Estudos",
+    "icon": "📚",
+    "level": "A1–A2",
+    "lines": [
+      {
+        "role": "A",
+        "de": "Wann lernst du Deutsch?",
+        "pt": "Quando você estuda alemão?",
+        "ipa": "vˈan lˈɛɾnst duː dˈɔøtʃ",
+        "pronunciation": "ván lérnst duu dóitsh"
+      },
+      {
+        "role": "B",
+        "de": "Meistens am Morgen.",
+        "pt": "Geralmente de manhã.",
+        "ipa": "mˈaɪstəns am mˈɔɾɡən",
+        "pronunciation": "máistens am mórgen"
+      },
+      {
+        "role": "A",
+        "de": "Wie lange lernst du?",
+        "pt": "Por quanto tempo você estuda?",
+        "ipa": "viː lˈaŋə lˈɛɾnst duː",
+        "pronunciation": "vii lánge lérnst duu"
+      },
+      {
+        "role": "B",
+        "de": "Heute lerne ich eine Stunde.",
+        "pt": "Hoje vou estudar por uma hora.",
+        "ipa": "hˈɔøtə lˈɛɾnə ɪç ˌaɪnə ʃtˈʊndə",
+        "pronunciation": "hóite lérne iç aine shtúnde"
+      }
+    ]
+  },
+  {
+    "id": 90,
+    "title": "Entender um texto",
+    "category": "Estudos",
+    "icon": "📚",
+    "level": "A1–A2",
+    "lines": [
+      {
+        "role": "A",
+        "de": "Hast du den Text verstanden?",
+        "pt": "Você entendeu o texto?",
+        "ipa": "hast duː deːn tˈɛkst fɛɾʃtˈandən",
+        "pronunciation": "hast duu deen tékst férshtánden"
+      },
+      {
+        "role": "B",
+        "de": "Zum Teil. Einige Wörter sind neu.",
+        "pt": "Em parte. Algumas palavras são novas.",
+        "ipa": "tsʊm tˈaɪl ˌaɪnɪɡə vˈœɾtɜ zɪnt nˈɔø",
+        "pronunciation": "tsum táil ainige vö́rtör zint nói"
+      },
+      {
+        "role": "A",
+        "de": "Sollen wir sie zusammen nachschlagen?",
+        "pt": "Vamos consultá-las juntos?",
+        "ipa": "zˌɔlən viːɾ ziː tsuːzˈamən nˈaxʃlɑːɡən",
+        "pronunciation": "zólen viir zii tsuuzámen nákhshlaagen"
+      },
+      {
+        "role": "B",
+        "de": "Ja, das hilft mir sehr.",
+        "pt": "Sim, isso me ajuda muito.",
+        "ipa": "jˈɑː das hˈɪlft miːɾ zˈeːɾ",
+        "pronunciation": "jáa das hílft miir zêer"
+      }
+    ]
+  },
+  {
+    "id": 91,
+    "title": "Abrir conta bancária",
+    "category": "Vida na Alemanha",
+    "icon": "🌿",
+    "level": "A1–A2",
+    "lines": [
+      {
+        "role": "A",
+        "de": "Ich möchte ein Konto eröffnen.",
+        "pt": "Gostaria de abrir uma conta.",
+        "ipa": "ɪç mˈœçtə aɪn kˈɔntoː ɛɾˈœfnən",
+        "pronunciation": "iç mö́çte ain kóntoo érö́fnen"
+      },
+      {
+        "role": "B",
+        "de": "Haben Sie einen Ausweis dabei?",
+        "pt": "Está com um documento de identidade?",
+        "ipa": "hˌɑːbən ziː ˌaɪnən ˈaʊsvˌaɪs dɑːbˈaɪ",
+        "pronunciation": "haaben zii ainen áusvais daabái"
+      },
+      {
+        "role": "A",
+        "de": "Ja. Welche Unterlagen brauchen Sie noch?",
+        "pt": "Sim. De quais outros documentos precisa?",
+        "ipa": "jˈɑː vˈɛlçə ˌʊntɜlˈɑːɡən bɾˈaʊxən ziː nɔx",
+        "pronunciation": "jáa vélçe untörláagen bráukhen zii nókh"
+      },
+      {
+        "role": "B",
+        "de": "Ich gebe Ihnen eine Liste.",
+        "pt": "Vou lhe dar uma lista.",
+        "ipa": "ɪç ɡˈeːbə ˌiːnən ˌaɪnə lˈɪstə",
+        "pronunciation": "iç gêebe iinen aine líste"
+      }
+    ]
+  },
+  {
+    "id": 92,
+    "title": "No correio",
+    "category": "Vida na Alemanha",
+    "icon": "🌿",
+    "level": "A1–A2",
+    "lines": [
+      {
+        "role": "A",
+        "de": "Ich möchte dieses Paket verschicken.",
+        "pt": "Quero enviar este pacote.",
+        "ipa": "ɪç mˈœçtə dˌiːzəs pakˈeːt fɛɾʃˈɪkən",
+        "pronunciation": "iç mö́çte diizes pakêet férshíken"
+      },
+      {
+        "role": "B",
+        "de": "Wohin soll es gehen?",
+        "pt": "Para onde deve ir?",
+        "ipa": "voːhˈiːn zˌɔl ɛs ɡˈeːən",
+        "pronunciation": "voohíin zól és gêeen"
+      },
+      {
+        "role": "A",
+        "de": "Nach Brasilien.",
+        "pt": "Para o Brasil.",
+        "ipa": "nɑːx bɾazˈiːlɪən",
+        "pronunciation": "naakh brazíilien"
+      },
+      {
+        "role": "B",
+        "de": "Bitte füllen Sie dieses Formular aus.",
+        "pt": "Por favor, preencha este formulário.",
+        "ipa": "bˈɪtə fˈʏlən ziː dˌiːzəs fˌɔɾmuːlˈɑːɾ ˈaʊs",
+        "pronunciation": "bíte fǘlen zii diizes fórmuuláar áus"
+      }
+    ]
+  },
+  {
+    "id": 93,
+    "title": "Agendar atendimento",
+    "category": "Vida na Alemanha",
+    "icon": "🌿",
+    "level": "A1–A2",
+    "lines": [
+      {
+        "role": "A",
+        "de": "Ich brauche einen Termin beim Bürgeramt.",
+        "pt": "Preciso de um agendamento no órgão de atendimento ao cidadão.",
+        "ipa": "ɪç bɾˈaʊxə ˌaɪnən tɛɾmˈiːn baɪm bˈʏɾɡeːrˌamt",
+        "pronunciation": "iç bráukhe ainen térmíin baim bǘrgeeramt"
+      },
+      {
+        "role": "B",
+        "de": "Worum geht es?",
+        "pt": "Qual é o assunto?",
+        "ipa": "vˈoːrʊm ɡˈeːt ɛs",
+        "pronunciation": "vôorum gêet és"
+      },
+      {
+        "role": "A",
+        "de": "Ich möchte meinen Wohnsitz anmelden.",
+        "pt": "Quero registrar meu endereço de residência.",
+        "ipa": "ɪç mˈœçtə mˌaɪnən vˈoːnzɪts ˈanmˌɛldən",
+        "pronunciation": "iç mö́çte mainen vôonzits ánmélden"
+      },
+      {
+        "role": "B",
+        "de": "Bitte sehen Sie im Online-Terminkalender nach.",
+        "pt": "Por favor, consulte a agenda de horários online.",
+        "ipa": "bˈɪtə zˈeːən ziː ɪm (en)ˈɒnlaɪn(de)tˌɛɾmɪnkˈɑːləndɜ nˈɑːx",
+        "pronunciation": "bíte zêeen zii im (en)ónlain(de)términkáalendör náakh"
+      }
+    ]
+  },
+  {
+    "id": 94,
+    "title": "Plano de celular",
+    "category": "Vida na Alemanha",
+    "icon": "🌿",
+    "level": "A1–A2",
+    "lines": [
+      {
+        "role": "A",
+        "de": "Ich suche eine Prepaid-Karte.",
+        "pt": "Procuro um chip pré-pago.",
+        "ipa": "ɪç zˈuːxə ˌaɪnə pɾˈeːpaɪtkˈaɾtə",
+        "pronunciation": "iç zúukhe aine prêepaitkárte"
+      },
+      {
+        "role": "B",
+        "de": "Wie viel Datenvolumen brauchen Sie?",
+        "pt": "De quanto volume de dados precisa?",
+        "ipa": "viː fˈiːl dˈɑːtənvˌoːlʊmən bɾˈaʊxən ziː",
+        "pronunciation": "vii fíil dáatenvoolumen bráukhen zii"
+      },
+      {
+        "role": "A",
+        "de": "Zehn Gigabyte wären gut.",
+        "pt": "Dez gigabytes seriam bons.",
+        "ipa": "tsˈeːn ɡˈiːɡabˌyːtə vˈɛːrən ɡˈuːt",
+        "pronunciation": "tsêen gíigabüüte véeren gúut"
+      },
+      {
+        "role": "B",
+        "de": "Ich zeige Ihnen unsere Tarife.",
+        "pt": "Vou mostrar nossos planos.",
+        "ipa": "ɪç tsˈaɪɡə ˌiːnən ˌʊnzrə tˈɑriːfə",
+        "pronunciation": "iç tsáige iinen unzre táriife"
+      }
+    ]
+  },
+  {
+    "id": 95,
+    "title": "Separar lixo",
+    "category": "Vida na Alemanha",
+    "icon": "🌿",
+    "level": "A1–A2",
+    "lines": [
+      {
+        "role": "A",
+        "de": "In welche Tonne kommt das Papier?",
+        "pt": "Em qual lixeira vai o papel?",
+        "ipa": "ɪn vˈɛlçə tˈɔnə kˈɔmt das papˈiːɾ",
+        "pronunciation": "in vélçe tóne kómt das papíir"
+      },
+      {
+        "role": "B",
+        "de": "In die blaue Tonne.",
+        "pt": "Na lixeira azul.",
+        "ipa": "ɪn diː blˈaʊə tˈɔnə",
+        "pronunciation": "in dii bláue tóne"
+      },
+      {
+        "role": "A",
+        "de": "Und wohin kommt das Glas?",
+        "pt": "E para onde vai o vidro?",
+        "ipa": "ʊnt voːhˈiːn kˈɔmt das ɡlˈɑːs",
+        "pronunciation": "unt voohíin kómt das gláas"
+      },
+      {
+        "role": "B",
+        "de": "Zum Glascontainer. Ich zeige dir den Weg.",
+        "pt": "Para o contêiner de vidro. Vou mostrar o caminho.",
+        "ipa": "tsʊm ɡlˈaskɔntˌaɪnɜ ɪç tsˈaɪɡə diːɾ deːn vˈeːk",
+        "pronunciation": "tsum gláskóntainör iç tsáige diir deen vêek"
+      }
+    ]
+  },
+  {
+    "id": 96,
+    "title": "Passear com cachorro",
+    "category": "Vida na Alemanha",
+    "icon": "🌿",
+    "level": "A1–A2",
+    "lines": [
+      {
+        "role": "A",
+        "de": "Ist das dein Hund?",
+        "pt": "Esse é seu cachorro?",
+        "ipa": "ɪst das daɪn hˈʊnt",
+        "pronunciation": "ist das dain húnt"
+      },
+      {
+        "role": "B",
+        "de": "Ja, er heißt Toddy.",
+        "pt": "Sim, ele se chama Toddy.",
+        "ipa": "jˈɑː ɛɾ hˈaɪst tˈɔdiː",
+        "pronunciation": "jáa ér háist tódii"
+      },
+      {
+        "role": "A",
+        "de": "Darf ich ihn streicheln?",
+        "pt": "Posso fazer carinho nele?",
+        "ipa": "dˈaɾf ɪç iːn ʃtɾˈaɪçəln",
+        "pronunciation": "dárf iç iin shtráiçeln"
+      },
+      {
+        "role": "B",
+        "de": "Ja, er ist freundlich.",
+        "pt": "Sim, ele é amigável.",
+        "ipa": "jˈɑː ɛɾ ɪst frˈɔøntlɪç",
+        "pronunciation": "jáa ér ist fróintliç"
+      }
+    ]
+  },
+  {
+    "id": 97,
+    "title": "Convidar para passeio",
+    "category": "Vida na Alemanha",
+    "icon": "🌿",
+    "level": "A1–A2",
+    "lines": [
+      {
+        "role": "A",
+        "de": "Hast du am Sonntag Zeit?",
+        "pt": "Tem tempo no domingo?",
+        "ipa": "hast duː am zˈɔntɑːk tsˈaɪt",
+        "pronunciation": "hast duu am zóntaak tsáit"
+      },
+      {
+        "role": "B",
+        "de": "Ja, was möchtest du machen?",
+        "pt": "Sim, o que quer fazer?",
+        "ipa": "jˈɑː vˈas mˈœçtəst duː mˈaxən",
+        "pronunciation": "jáa vás mö́çtest duu mákhen"
+      },
+      {
+        "role": "A",
+        "de": "Wollen wir im Park spazieren gehen?",
+        "pt": "Vamos caminhar no parque?",
+        "ipa": "vɔlən viːɾ ɪm pˈaɾk ʃpatsˈiːrən ɡˈeːən",
+        "pronunciation": "vólen viir im párk shpatsíiren gêeen"
+      },
+      {
+        "role": "B",
+        "de": "Gern! Um wie viel Uhr?",
+        "pt": "Claro! A que horas?",
+        "ipa": "ɡˈɛɾn ʊm viː fˈiːl ˈuːɾ",
+        "pronunciation": "gérn um vii fíil úur"
+      }
+    ]
+  },
+  {
+    "id": 98,
+    "title": "Falar do tempo",
+    "category": "Vida na Alemanha",
+    "icon": "🌿",
+    "level": "A1–A2",
+    "lines": [
+      {
+        "role": "A",
+        "de": "Wie ist das Wetter heute?",
+        "pt": "Como está o tempo hoje?",
+        "ipa": "viː ɪst das vˈɛtɜ hˈɔøtə",
+        "pronunciation": "vii ist das vétör hóite"
+      },
+      {
+        "role": "B",
+        "de": "Es ist kalt und es regnet.",
+        "pt": "Está frio e chovendo.",
+        "ipa": "ɛsɪst kˈalt ʊnt ɛs rˈɛɡnət",
+        "pronunciation": "éssist kált unt és régnet"
+      },
+      {
+        "role": "A",
+        "de": "Dann nehme ich einen Regenschirm mit.",
+        "pt": "Então vou levar um guarda-chuva.",
+        "ipa": "dan nˈeːmə ɪç ˌaɪnən rˈeːɡənʃˌɪɾm mˈɪt",
+        "pronunciation": "dan nêeme iç ainen rêegenshirm mít"
+      },
+      {
+        "role": "B",
+        "de": "Und vergiss deine Jacke nicht.",
+        "pt": "E não esqueça sua jaqueta.",
+        "ipa": "ʊnt fɛɾɡˈɪs dˌaɪnə jˈakə nˈɪçt",
+        "pronunciation": "unt férgís daine jáke níçt"
+      }
+    ]
+  },
+  {
+    "id": 99,
+    "title": "Objetos perdidos",
+    "category": "Vida na Alemanha",
+    "icon": "🌿",
+    "level": "A1–A2",
+    "lines": [
+      {
+        "role": "A",
+        "de": "Ich habe meinen Rucksack verloren.",
+        "pt": "Perdi minha mochila.",
+        "ipa": "ɪç hɑːbə mˌaɪnən rˈʊkzak fɛɾlˈoːrən",
+        "pronunciation": "iç haabe mainen rúkzak férlôoren"
+      },
+      {
+        "role": "B",
+        "de": "Wo haben Sie ihn zuletzt gesehen?",
+        "pt": "Onde você a viu pela última vez?",
+        "ipa": "vˌoː hˌɑːbən ziː iːn tsuːlˈɛtst ɡəzˈeːən",
+        "pronunciation": "voo haaben zii iin tsuulétst gezêeen"
+      },
+      {
+        "role": "A",
+        "de": "Im Zug nach Berlin.",
+        "pt": "No trem para Berlim.",
+        "ipa": "ɪm tsˈuːk nɑːx bɛɾlˈiːn",
+        "pronunciation": "im tsúuk naakh bérlíin"
+      },
+      {
+        "role": "B",
+        "de": "Bitte fragen Sie beim Fundbüro nach.",
+        "pt": "Por favor, procure o setor de achados e perdidos.",
+        "ipa": "bˈɪtə frˈɑːɡən ziː baɪm fˈʊndbyːrˌoː nˈɑːx",
+        "pronunciation": "bíte fráagen zii baim fúndbüüroo náakh"
+      }
+    ]
+  },
+  {
+    "id": 100,
+    "title": "Planejar a semana",
+    "category": "Vida na Alemanha",
+    "icon": "🌿",
+    "level": "A1–A2",
+    "lines": [
+      {
+        "role": "A",
+        "de": "Was möchtest du diese Woche üben?",
+        "pt": "O que quer praticar esta semana?",
+        "ipa": "vˈas mˈœçtəst duː dˌiːzə vˈɔxə ˈyːbən",
+        "pronunciation": "vás mö́çtest duu diize vókhe ǘüben"
+      },
+      {
+        "role": "B",
+        "de": "Jeden Tag einen kurzen Dialog.",
+        "pt": "Um diálogo curto por dia.",
+        "ipa": "jˈeːdən tˈɑːk ˌaɪnən kˈʊɐtsən dˌiːalˈoːk",
+        "pronunciation": "jêeden táak ainen kúatsen diialôok"
+      },
+      {
+        "role": "A",
+        "de": "Sollen wir zusammen Deutsch sprechen?",
+        "pt": "Vamos falar alemão juntos?",
+        "ipa": "zˌɔlən viːɾ tsuːzˈamən dˈɔøtʃ ʃpɾˈɛçən",
+        "pronunciation": "zólen viir tsuuzámen dóitsh shpréçen"
+      },
+      {
+        "role": "B",
+        "de": "Ja! Langsam und Schritt für Schritt.",
+        "pt": "Sim! Devagar e passo a passo.",
+        "ipa": "jˈɑː lˈaŋzɑːm ʊnt ʃrˈɪt fyːɾ ʃrˈɪt",
+        "pronunciation": "jáa lángzaam unt shrít füür shrít"
+      }
+    ]
+  }
+]

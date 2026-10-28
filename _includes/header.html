@@ -32,6 +32,7 @@
       <a href="{{ '/biografia/' | relative_url }}">Biografia</a>
       {% endif %}
       <a href="https://jefferson-almeida-portfolio.idealpin19.chatgpt.site" target="_blank" rel="noopener noreferrer">Site</a>
+      <a href="{{ '/alemao/' | relative_url }}">{% if lng == 'en' %}Learn German{% elsif lng == 'de' %}Deutsch lernen{% elsif lng == 'es' %}Alemán{% else %}Alemão{% endif %}</a>
       <span class="language-hint">🌐 {% if lng == 'en' %}Languages{% elsif lng == 'de' %}Sprachen{% elsif lng == 'es' %}Idiomas{% else %}Idiomas{% endif %}</span>
       <span class="language-switch" aria-label="Selecionar idioma">
         {% if page.lang == 'en' %}{% assign locale = 'en' %}{% elsif page.lang == 'de' %}{% assign locale = 'de' %}{% elsif page.lang == 'es' %}{% assign locale = 'es' %}{% else %}{% assign locale = 'pt' %}{% endif %}

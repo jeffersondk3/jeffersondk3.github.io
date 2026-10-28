@@ -8,6 +8,14 @@ permalink: /projetos/
 
 Este espaço reúne projetos de aprendizado e iniciativas técnicas. As tecnologias listadas como **em estudo** não representam, necessariamente, experiência profissional anterior.
 
+## Alemão em 4 anos — Deutsch im Alltag
+
+**Projeto pessoal de Jefferson Almeida de Brito · Estudos de alemão**
+
+Aplicativo de prática com 100 diálogos originais, tradução em português, leitura aproximada da pronúncia em azul e áudio em alemão e português. Inclui situações do dia a dia, trabalho e TI, além de treino por personagem, velocidade ajustável, favoritos e progresso local.
+
+[Abrir meu app de alemão →]({{ '/alemao/' | relative_url }})
+
 ## NEXUS IT — Enterprise Systems & QA Lab
 
 **Status:** em desenvolvimento / estudos
