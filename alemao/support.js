@@ -6,7 +6,7 @@ function render(){const query=$('supportSearch').value.trim().toLocaleLowerCase(
 $('supportSearch').addEventListener('input',render);$('supportFilters').addEventListener('click',e=>{const button=e.target.closest('[data-support-category]');if(button){category=button.dataset.supportCategory;render()}});
 let loaded=false;
 function loadResources(){if(loaded)return;loaded=true;
-fetch('support-resources.json?v=10').then(r=>{if(!r.ok)throw Error();return r.json()}).then(data=>{if(!Array.isArray(data)||data.some(r=>typeof r.title!=='string'||typeof r.category!=='string'||new URL(r.url).protocol!=='https:'))throw Error();resources=data;$('supportLoading').hidden=true;render()}).catch(()=>{$('supportLoading').textContent='Não foi possível carregar os links. Confira a conexão e atualize o app.'});
+fetch('support-resources.json?v=13',{cache:'no-store'}).then(r=>{if(!r.ok)throw Error();return r.json()}).then(data=>{if(!Array.isArray(data)||data.some(r=>typeof r.title!=='string'||typeof r.category!=='string'||new URL(r.url).protocol!=='https:'))throw Error();resources=data;$('supportLoading').hidden=true;render()}).catch(()=>{$('supportLoading').textContent='Não foi possível carregar os links. Confira a conexão e atualize o app.'});
 
 }
 
