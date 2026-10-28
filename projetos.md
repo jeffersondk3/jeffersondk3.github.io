@@ -12,7 +12,7 @@ Este espaço reúne projetos de aprendizado e iniciativas técnicas. As tecnolog
 
 **Projeto pessoal de Jefferson Almeida de Brito · Estudos de alemão**
 
-Aplicativo de prática com 100 diálogos originais, tradução em português, leitura aproximada da pronúncia em azul e áudio em alemão e português. Inclui situações do dia a dia, trabalho e TI, além de treino por personagem, velocidade ajustável, favoritos e progresso local.
+Aplicativo de prática com 100 diálogos originais, tradução em português, leitura aproximada da pronúncia em azul e áudio em alemão e português. Inclui situações do dia a dia, trabalho e TI, além de treino por personagem, velocidade ajustável e favoritos. A aba **Meus materiais** reúne os materiais pessoais de estudo. Os perfis **Jefferson** e **Sofia** têm progresso separado, com sincronização entre aparelhos após o login.
 
 [Abrir meu app de alemão →]({{ '/alemao/' | relative_url }})
 
