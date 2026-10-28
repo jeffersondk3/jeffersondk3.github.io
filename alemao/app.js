@@ -1,4 +1,4 @@
-import {createDialoguePractice} from './exercises.js?v=7';
+import {createDialoguePractice} from './exercises.js?v=11';
 'use strict';
 const $=id=>document.getElementById(id);
 const audio=$('audioPlayer');
