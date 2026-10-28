@@ -18,10 +18,10 @@
   },
   {
     "id": "google-shared",
-    "title": "Material compartilhado · Google",
+    "title": "Alemão sem Segredo · Material de apoio",
     "category": "Sites e cursos",
     "icon": "↗",
-    "description": "Outro link de apoio enviado por você. Acesse pelo endereço original.",
+    "description": "Material de apoio identificado por você como Alemão sem Segredo. Abre o link compartilhado original.",
     "url": "https://share.google/3plN7qvtnQ1VO3pvs"
   },
   {
@@ -34,10 +34,10 @@
   },
   {
     "id": "drive",
-    "title": "Pasta de materiais · Google Drive",
+    "title": "Alemão sem Segredo · Materiais no Drive",
     "category": "Leitura e arquivos",
     "icon": "▤",
-    "description": "Abra a pasta compartilhada com os arquivos de apoio aos seus estudos.",
+    "description": "Pasta de materiais de apoio identificada por você como Alemão sem Segredo. Acesse com a conta que já tem permissão.",
     "url": "https://drive.google.com/drive/folders/1mHJF5uoxD74kXgaMkT7paGmxGw2B13H9"
   },
   {
@@ -58,18 +58,18 @@
   },
   {
     "id": "youtube-playlist-1",
-    "title": "Playlist de aulas · YouTube 1",
+    "title": "Alemão sem Segredo · Playlist 1",
     "category": "Vídeos",
     "icon": "▶",
-    "description": "Abra a primeira playlist enviada e continue suas aulas em vídeo.",
+    "description": "Playlist de aulas de alemão indicada por você. Abra no YouTube para escolher a aula.",
     "url": "https://youtube.com/playlist?list=PLzekCrYOpwN19tDGhPN1vLYkaQArS0K2J&si=v5YmbqBIXg1an5ZH"
   },
   {
     "id": "youtube-playlist-2",
-    "title": "Playlist de aulas · YouTube 2",
+    "title": "Alemão sem Segredo · Playlist 2",
     "category": "Vídeos",
     "icon": "▶",
-    "description": "Abra a segunda playlist enviada e escolha a próxima aula.",
+    "description": "Playlist de aulas de alemão indicada por você. Abra no YouTube para escolher a aula.",
     "url": "https://youtube.com/playlist?list=PLCDk4EutiT6o&si=C9a3-3CbO199B3s4"
   },
   {
@@ -79,5 +79,21 @@
     "icon": "▶",
     "description": "Acesse o canal e acompanhe os vídeos de alemão.",
     "url": "https://youtube.com/@alemaocomraville?si=HVtrQFpF_S8V9gIF"
+  },
+  {
+    "id": "carol-minchuerri",
+    "title": "Caroline Minchuerri · Missão Alemão",
+    "category": "Vídeos",
+    "icon": "▶",
+    "description": "Canal da Carol Minchuerri para complementar seus estudos de alemão no YouTube.",
+    "url": "https://www.youtube.com/@carolminchuerri"
+  },
+  {
+    "id": "kultivi",
+    "title": "Kultivi · Alemão Básico e Intermediário",
+    "category": "Sites e cursos",
+    "icon": "K",
+    "description": "Abra o curso de alemão. Se precisar entrar, escolha o acesso com Google na Kultivi e selecione seu Gmail.",
+    "url": "https://kultivi.com/curso/alemao-basico-e-intermediario"
   }
 ]
