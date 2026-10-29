@@ -1,4 +1,4 @@
-import {studyLanguage} from './study-preferences.js?v=16';
+import {studyLanguage} from './study-preferences.js?v=19';
 import {createDialoguePractice} from './exercises.js?v=14';
 'use strict';
 const $=id=>document.getElementById(id);

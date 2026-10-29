@@ -1,6 +1,6 @@
 const THEME='deutsch-theme-v1',STUDY='deutsch-study-language-v1';
 let theme='light',language='pt',captions=null,captionRequest=null,queued=false;
-try{theme=localStorage.getItem(THEME)==='dark'?'dark':'light';language=['pt','en','off'].includes(localStorage.getItem(STUDY))?localStorage.getItem(STUDY):'pt'}catch{}
+try{theme=['light','blue','dark'].includes(localStorage.getItem(THEME))?localStorage.getItem(THEME):'light';language=['pt','en','off'].includes(localStorage.getItem(STUDY))?localStorage.getItem(STUDY):'pt'}catch{}
 export const studyLanguage=()=>language;
 export const appearanceTheme=()=>theme;
 const strict='.pt,.translation,.exerciseItem>p,[data-caption-pt]';
@@ -19,7 +19,7 @@ function paintCaptions(){
 }
 async function loadCaptions(){if(captions)return;if(!captionRequest)captionRequest=fetch(new URL('./caption-en.json?v=16',import.meta.url)).then(r=>{if(!r.ok)throw Error('captions');return r.json()}).then(data=>{captions=data;if(!document?.documentElement)return;document.documentElement.dataset.captionsReady='true';paintCaptions()}).catch(()=>{captionRequest=null;if(!document?.documentElement)return;const hint=document.getElementById('studyPreferencesHint');if(hint)hint.textContent='Não foi possível carregar o inglês. Confira a conexão e selecione o idioma novamente.';});await captionRequest;}
 export function setStudyPreferences(next={}){
- if(next.theme)theme=next.theme==='dark'?'dark':'light';if(next.language)language=['pt','en','off'].includes(next.language)?next.language:'pt';
+ if(next.theme)theme=['light','blue','dark'].includes(next.theme)?next.theme:'light';if(next.language)language=['pt','en','off'].includes(next.language)?next.language:'pt';
  document.documentElement.dataset.theme=theme;document.documentElement.dataset.study=language;document.documentElement.dataset.captionsReady=String(!!captions||language!=='en');
  try{localStorage.setItem(THEME,theme);localStorage.setItem(STUDY,language)}catch{}
  const themeControl=document.getElementById('themeSelect'),studyControl=document.getElementById('studyLanguage');if(themeControl)themeControl.value=theme;if(studyControl)studyControl.value=language;

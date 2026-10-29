@@ -1,4 +1,4 @@
-import {studyLanguage} from '../study-preferences.js?v=16';
+import {studyLanguage} from '../study-preferences.js?v=19';
 import {conversationPanel,copyConversation} from './conversation.mjs?v=18';
 import {createGrammarCloud} from './cloud-sync.mjs?v=15';
 import {installGenderColors} from './gender-colors.mjs?v=15';
