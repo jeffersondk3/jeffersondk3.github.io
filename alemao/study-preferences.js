@@ -1,6 +1,7 @@
 const THEME='deutsch-theme-v1',STUDY='deutsch-study-language-v1';
 let theme='light',language='pt',captions=null,captionRequest=null,queued=false;
 try{theme=['light','blue','dark'].includes(localStorage.getItem(THEME))?localStorage.getItem(THEME):'light';language=['pt','en','off'].includes(localStorage.getItem(STUDY))?localStorage.getItem(STUDY):'pt'}catch{}
+try{const entryUrl=new URL(location.href),entryTheme=entryUrl.searchParams.get('theme');if(['light','blue','dark'].includes(entryTheme)){theme=entryTheme;entryUrl.searchParams.delete('theme');history.replaceState(history.state,'',entryUrl.href)}}catch{}
 export const studyLanguage=()=>language;
 export const appearanceTheme=()=>theme;
 const strict='.pt,.translation,.exerciseItem>p,[data-caption-pt]';
