@@ -1,7 +1,8 @@
+import '../study-preferences.js?v=16';
 import {createGrammarCloud} from './cloud-sync.mjs?v=15';
 import {installGenderColors} from './gender-colors.mjs?v=15';
 import {hasWriting,writtenCount,quizPassed} from '../learning-rules.js?v=14';
-import {createReview} from './review-ui.mjs';
+import {createReview} from './review-ui.mjs?v=16';
 import {PROFILES,percent,grade,lessonProgress,profileData,saveQuiz,comprehension,weekGroups,dayKey,calendarEvent,timing} from './core.mjs?v=14';
 const $=s=>document.querySelector(s),e=s=>String(s??'').replace(/[&<>"']/g,c=>({'&':'&amp;','<':'&lt;','>':'&gt;','"':'&quot;',"'":'&#39;'}[c]));
 const KEY='deutsch-context-course-v2';let root={profiles:{},selected:'Jefferson'},persistent=true;
@@ -79,4 +80,5 @@ function tickExam(){const [page,l,k]=route();if(page!=='exam')return;const st=es
 function remind(){const r=p().reminder;if(!r.enabled)return;const now=new Date(),time=`${String(now.getHours()).padStart(2,'0')}:${String(now.getMinutes()).padStart(2,'0')}`,today=dayKey(now);if(time!==(r.time||'19:00')||r.last===today)return;r.last=today;persist();notify(`${profile}, hora de praticar alemão. Uma frase já é um começo!`);if('Notification'in window&&Notification.permission==='granted')try{new Notification('Seu momento de alemão',{body:`${profile}, escute uma frase e revise a lição de hoje.`})}catch{}}
 setInterval(()=>{if(cloud.ready){tickExam();remind()}},1000);
 try{const responses=await Promise.all([fetch('course.json'),fetch('exams.json')]);if(responses.some(r=>!r.ok))throw Error();[courses,exams]=await Promise.all(responses.map(r=>r.json()));p();review=createReview({e,heading,bar,playButton,courses,exams,data:p,profile:()=>profile,save:persist,activeDay,notify,stopMedia,render,allData:()=>PROFILES.map(n=>profileData(root,n))});installGenderColors(app);await cloud.start(root);if(cloud.ready){review.migrateAll();render();persist();}}catch{app.innerHTML='<div class="panel"><h1>Não foi possível carregar as aulas.</h1><p>Confira sua conexão e recarregue a página.</p><button id="reload">Tentar novamente</button></div>';$('#reload').onclick=()=>location.reload()}
+
 

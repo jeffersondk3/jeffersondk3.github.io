@@ -1,3 +1,4 @@
+import {studyLanguage} from './study-preferences.js?v=16';
 import {createDialoguePractice} from './exercises.js?v=14';
 'use strict';
 const $=id=>document.getElementById(id);
@@ -60,3 +61,8 @@ fetch('data.json').then(r=>{if(!r.ok)throw new Error();return r.json()}).then(d=
 
 let displayedProfile='guest';window.addEventListener('study:dialogues',e=>{const active=window.studyCloud?.userId?window.studyCloud.userId+':'+window.studyCloud.profile:'guest';if(active!==displayedProfile){stop();if($('lesson').open)$('lesson').close();displayedProfile=active}saved=e.detail;draw();if(current&&$('lesson').open)lessonButtons()});
 
+
+
+let lastSupportLanguage=null;
+function applyStudySupport(){const lang=studyLanguage(),changed=lang!==lastSupportLanguage;lastSupportLanguage=lang;const germanOnly=lang!=='pt';$('audioLanguage').disabled=germanOnly;$('audioLanguage').title=germanOnly?'Áudio em alemão neste modo':'';if(germanOnly)$('audioLanguage').value='de';$('showPron').disabled=germanOnly;$('showPt').disabled=lang==='off';if(changed&&lang!=='off')$('showPt').checked=true;const label=$('showPt').parentElement;for(const node of label.childNodes)if(node.nodeType===3)node.textContent=lang==='en'?' Legendas em inglês':lang==='off'?' Sem legendas':' Tradução';if(changed&&current){stop();showLines();prepareClip();}}
+window.addEventListener('study:preferences',applyStudySupport);applyStudySupport();
