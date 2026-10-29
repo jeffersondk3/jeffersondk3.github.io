@@ -25,7 +25,7 @@ a{color:var(--study-link)}.brand,.card h3,.card p,.intro h1,dialog h2,.supportCa
 :root[data-theme=dark] [aria-current=page],:root[data-theme=dark] button[aria-pressed=true],:root[data-theme=dark] #categories button.active{box-shadow:inset 0 -3px 0 #a9d6c9}
 
 /* Original cool palette, alongside warm light and dark. */
-:root[data-theme=blue]{--study-bg:#f5f8fa;--study-surface:#ffffff;--study-surface-2:#e8f1f8;--study-text:#182e3b;--study-muted:#617684;--study-border:#dce5eb;--study-link:#19659a;--blue:#19659a;--navy:#123953;--accent:#19659a;--red:#19659a;--accent-soft:#e8f1f8;--yellow:#ffc23b;color-scheme:light}
+:root[data-theme=blue]{--study-bg:#e6f0f8;--study-surface:#ffffff;--study-surface-2:#d7e8f5;--study-text:#182e3b;--study-muted:#617684;--study-border:#dce5eb;--study-link:#19659a;--blue:#19659a;--navy:#123953;--accent:#19659a;--red:#19659a;--accent-soft:#e8f1f8;--yellow:#ffc23b;color-scheme:light}
 :root[data-theme=blue] h1,:root[data-theme=blue] h2,:root[data-theme=blue] h3{color:#123953}
 :root[data-theme=blue] button,:root[data-theme=blue] .open{color:#19659a;border-color:#c5d8e5}
 :root[data-theme=blue] .primary,:root[data-theme=blue] a.button,:root[data-theme=blue] .open,:root[data-theme=blue] .appTabs button[aria-current=page]{background:#19659a!important;color:#fff!important;border-color:#19659a!important}
@@ -44,3 +44,11 @@ a{color:var(--study-link)}.brand,.card h3,.card p,.intro h1,dialog h2,.supportCa
 footer{font-size:13px!important;line-height:1.8!important;color:var(--study-text)!important;opacity:1!important}footer .dialogueTotal{display:inline-block;margin:6px 0;font-size:17px;font-weight:750;color:var(--study-text)}
 #listTitle>span{font-weight:750;opacity:1}
 @media(max-width:500px){.countryFlags{font-size:36px!important;gap:6px;left:-10px!important}.studyPreferences label,.profile,#profileChooser,.settings label{font-size:14px!important}}
+
+/* Make the classic palette visibly distinct from warm light. */
+:root[data-theme=blue] h1,:root[data-theme=blue] h2,:root[data-theme=blue] h3,:root[data-theme=blue] .card h3,:root[data-theme=blue] .intro h1,:root[data-theme=blue] .hero h1{color:#195c90!important}
+:root[data-theme=blue] header,:root[data-theme=blue] .appTabs,:root[data-theme=blue] #nav{border-bottom:3px solid #19659a!important}
+:root[data-theme=blue] .hero,:root[data-theme=blue] .intro{background:#eef6fc!important;border:1px solid #9bbfd9!important}
+:root[data-theme=blue] .studyPreferences{background:#d7e8f5!important;border-color:#9bbfd9!important}
+:root[data-theme=blue] .studyPreferences select,:root[data-theme=blue] .profile select{border-color:#8ab2cf!important}
+:root[data-theme=blue] .eyebrow{color:#195c90!important}
