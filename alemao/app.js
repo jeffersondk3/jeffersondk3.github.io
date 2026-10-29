@@ -2,6 +2,12 @@ import {createDialoguePractice} from './exercises.js?v=14';
 'use strict';
 const $=id=>document.getElementById(id);
 const audio=$('audioPlayer');
+const VOICE_KEY='deutsch-voice-choice-v1';let voiceChoice='male';try{voiceChoice=localStorage.getItem(VOICE_KEY)==='female'?'female':'male'}catch{}
+$('voiceChoice').value=voiceChoice;const femaleClips=new Map();
+async function clipSource(id,n,lang){if(voiceChoice!=='female')return `audio/${String(id).padStart(3,'0')}-${n+1}-${lang}.mp3`;let promise=femaleClips.get(id);if(!promise){promise=fetch(`audio-female/${String(id).padStart(3,'0')}.json?v=1`).then(r=>{if(!r.ok)throw Error('female');return r.json()}).catch(e=>{femaleClips.delete(id);throw e});femaleClips.set(id,promise)}const clips=await promise;const src=clips[lang]?.[n];if(!src)throw Error('female');return src;}
+async function prepareClip(){if(!current)return;const t=token;audio.removeAttribute('src');audio.load();try{const src=await clipSource(current.id,0,$('audioLanguage').value==='pt'?'pt':'de');if(t===token)audio.src=src}catch{if(t===token)notice('Não foi possível carregar a voz feminina. Confira a conexão e tente novamente.')}}
+$('voiceChoice').onchange=()=>{stop();voiceChoice=$('voiceChoice').value;try{localStorage.setItem(VOICE_KEY,voiceChoice)}catch{}prepareClip()};
+
 let data=[],current=null,category='',favoriteOnly=false,doneOnly=false,token=0,playing=false,index=-1,waiting=false;
 let saved={done:[],favorites:[],last:1};try{saved={...saved,...JSON.parse(localStorage.getItem('deutsch-alltag-v1')||'{}')};for(const k of ['done','favorites'])if(!Array.isArray(saved[k]))saved[k]=[]}catch{}
 const persist=()=>{try{localStorage.setItem(window.studyCloud?.userId?'deutsch-alltag-user-'+window.studyCloud.userId+'-'+window.studyCloud.profile:'deutsch-alltag-v1',JSON.stringify(saved));window.studyCloud?.saveDialogues(saved)}catch{}};
@@ -19,13 +25,13 @@ function favorite(id){saved.favorites=saved.favorites.includes(id)?saved.favorit
 function lessonButtons(){$('favorite').textContent=saved.favorites.includes(current.id)?'♥':'♡';$('favorite').setAttribute('aria-pressed',saved.favorites.includes(current.id));$('markDone').textContent=saved.done.includes(current.id)?'✓ Praticado · desfazer':'✓ Marcar como praticado';$('previous').disabled=current.id===1;$('next').disabled=current.id===100||!dialoguePractice.canAdvance();$('next').title=dialoguePractice.canAdvance()?'Próximo diálogo':'Envie e acerte pelo menos duas frases'}
 function showLines(){if(!current)return;$('lines').innerHTML=current.lines.map((l,i)=>`<div class="line ${index===i?'active':''} ${waiting&&index===i?'yourTurn':''}" id="line-${i}"><span class="avatar ${l.role==='B'?'b':''}">${l.role}</span><div class="words">${waiting&&index===i?'<div class="turnLabel">SUA VEZ · fale em voz alta</div>':''}<div class="de" lang="de">${escapeHTML(l.de)}</div><div class="pronunciation" aria-label="Pronúncia aproximada" ${$('showPron').checked?'':'hidden'}>${escapeHTML(l.pronunciation||'')}</div><div class="pt" ${$('showPt').checked?'':'hidden'}>${escapeHTML(l.pt)}</div></div><div class="sentenceAudio"><button data-sentence="${i}" data-lang="de" aria-label="Ouvir frase ${i+1} em alemão">DE ♪</button><button data-sentence="${i}" data-lang="pt" aria-label="Ouvir frase ${i+1} em português">PT ♪</button></div></div>`).join('')}
 function stop(){token++;audio.onended=null;audio.onerror=null;audio.pause();try{audio.currentTime=0}catch{}playing=false;waiting=false;index=-1;$('nextTurn').hidden=true;$('play').textContent='▶ Ouvir conversa';$('playStatus').textContent='Pronto para começar';showLines()}
-function openLesson(id){const blocked=dialoguePractice.blockedBefore(data,id);if(blocked!==null){id=blocked;}stop();current=data.find(d=>d.id===id);if(!current)return;saved.last=id;persist();$('lessonMeta').textContent=`${current.icon} ${current.category} · Diálogo ${String(id).padStart(2,'0')} · ${current.level}`;$('lessonTitle').textContent=current.title;lessonButtons();showLines();dialoguePractice.open(current);if(!$('lesson').open)$('lesson').showModal();$('lesson').scrollTop=0;notice('');audio.src=`audio/${String(current.id).padStart(3,'0')}-1-${$('audioLanguage').value==='pt'?'pt':'de'}.mp3`;audio.preload='metadata'}
+function openLesson(id){const blocked=dialoguePractice.blockedBefore(data,id);if(blocked!==null){id=blocked;}stop();current=data.find(d=>d.id===id);if(!current)return;saved.last=id;persist();$('lessonMeta').textContent=`${current.icon} ${current.category} · Diálogo ${String(id).padStart(2,'0')} · ${current.level}`;$('lessonTitle').textContent=current.title;lessonButtons();showLines();dialoguePractice.open(current);if(!$('lesson').open)$('lesson').showModal();$('lesson').scrollTop=0;notice('');prepareClip();audio.preload='metadata'}
 function notice(text){$('audioNotice').textContent=text;$('audioNotice').hidden=!text}
-function playClip(lang,onend){
- const t=token;
+async function playClip(lang,onend){
+ const t=token;let src;try{src=await clipSource(current.id,index,lang)}catch{if(t===token){notice('Não foi possível carregar o áudio escolhido. Confira a conexão e tente novamente.');playing=false;$('play').textContent='↻ Tentar novamente'}return;}if(t!==token)return;
  audio.onended=()=>{if(t===token)onend()};
  audio.onerror=()=>{if(t!==token)return;playing=false;$('play').textContent='↻ Tentar novamente';notice('Não foi possível carregar o áudio. Confira a conexão e tente novamente.');};
- audio.src=`audio/${String(current.id).padStart(3,'0')}-${index+1}-${lang}.mp3`;
+ audio.src=src;
  audio.playbackRate=Number($('speed').value);audio.defaultPlaybackRate=Number($('speed').value);
  audio.play().then(()=>{if(t===token){notice('');$('playStatus').textContent=`${lang==='de'?'Alemão':'Português'} · frase ${index+1} de 4`;}}).catch(e=>{if(t!==token||e.name==='AbortError')return;notice('O navegador não iniciou o áudio. Toque no botão ▶ do player abaixo. Se continuar sem som, confira o volume de mídia e abra o app no Safari.');$('playStatus').textContent='Toque em ▶ no player para ouvir.';});
 }
@@ -40,7 +46,7 @@ function step(t){if(t!==token||!current)return;if(index>=current.lines.length){p
 }
 $('play').onclick=()=>{if(playing){stop();return}stop();playing=true;index=0;$('play').textContent='■ Encerrar conversa';step(token)};
 $('stop').onclick=stop;$('nextTurn').onclick=()=>{if(!waiting)return;waiting=false;index++;step(token)};
-$('role').onchange=stop;$('speed').onchange=stop;$('audioLanguage').onchange=stop;$('showPt').onchange=showLines;$('showPron').onchange=showLines;
+$('role').onchange=stop;$('speed').onchange=stop;$('audioLanguage').onchange=()=>{stop();prepareClip()};$('showPt').onchange=showLines;$('showPron').onchange=showLines;
 function playSentence(n,lang){stop();index=n;showLines();const t=token;$('playStatus').textContent=`Ouvindo frase ${index+1} de 4`;playClip(lang,()=>{if(t===token){index=-1;showLines();$('playStatus').textContent='Agora repita em voz alta.'}})}
 $('lines').onclick=e=>{const b=e.target.closest('[data-sentence]');if(b)playSentence(Number(b.dataset.sentence),b.dataset.lang)};
 $('categories').onclick=e=>{const b=e.target.closest('[data-category]');if(b){category=b.dataset.category;draw()}};
@@ -53,3 +59,4 @@ window.addEventListener('pagehide',stop);
 fetch('data.json').then(r=>{if(!r.ok)throw new Error();return r.json()}).then(d=>{data=d;draw()}).catch(()=>{$('cards').textContent='Não foi possível carregar os diálogos. Confira sua conexão e recarregue a página.';$('continue').disabled=true});
 
 let displayedProfile='guest';window.addEventListener('study:dialogues',e=>{const active=window.studyCloud?.userId?window.studyCloud.userId+':'+window.studyCloud.profile:'guest';if(active!==displayedProfile){stop();if($('lesson').open)$('lesson').close();displayedProfile=active}saved=e.detail;draw();if(current&&$('lesson').open)lessonButtons()});
+

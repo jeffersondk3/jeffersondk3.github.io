@@ -1,0 +1,7 @@
+Female audio generated locally, without sending lesson texts to a speech service.
+German female: Piper de_DE-ramona-low, 1.08 length scale. Model card and dataset terms:
+https://huggingface.co/rhasspy/piper-voices/blob/main/de/de_DE/ramona/low/MODEL_CARD
+Brazilian Portuguese female: Kokoro-82M pf_dora, speed 0.94. Model license Apache-2.0:
+https://huggingface.co/hexgrad/Kokoro-82M
+Local runtime: Piper and kokoro-onnx. Voices are synthetic; not recordings or clones of Jefferson, Sofia or ChatGPT.
+The original male audio remains available. Female clips are loaded only when selected.

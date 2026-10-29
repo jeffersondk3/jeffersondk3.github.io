@@ -1,1 +1,4 @@
-Áudios sintéticos em alemão gerados com Piper, modelo de_DE-thorsten-medium. Voz Thorsten, licença CC0. Não são gravações humanas nem a voz do ChatGPT.
+Áudios sintéticos em alemão. Masculina: Piper de_DE-thorsten-medium (Thorsten, dataset CC0). Feminina: Piper de_DE-ramona-low. Gerados localmente; não são gravações humanas nem vozes do ChatGPT.
+
+Créditos e fontes da voz feminina: ../FEMALE-VOICE-CREDITS.txt
+Modelo Ramona: https://huggingface.co/rhasspy/piper-voices/blob/main/de/de_DE/ramona/low/MODEL_CARD

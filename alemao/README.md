@@ -34,3 +34,17 @@ Supabase JS 2.118.0, compilado com esbuild 0.25.12 (versões e lockfile em vendo
 A configuração do frontend contém somente a chave publicável do projeto. Não adicionar senhas, service_role, tokens de sessão, chave de conteúdo ou PDFs sem criptografia ao repositório. Trocar a senha de login não altera a senha que protege os materiais; o cofre exige reempacotamento para essa mudança.
 
 O aviso de configuração do Supabase sobre proteção contra senhas vazadas pode ser consultado em https://supabase.com/docs/guides/auth/password-security#password-strength-and-leaked-password-protection .
+
+## Gramática A1–B1 e vozes
+
+[Entrar na Gramática](https://jeffersondk3.github.io/alemao/gramatica/)
+
+- Usa a mesma conta de estudos dos Diálogos, com login por e-mail e senha.
+- Sincronização automática em `grammar_progress`, com RLS por usuário e perfis Jefferson/Sofia separados. Lições, escrita, simulados, cartões e revisões ficam disponíveis entre dispositivos. A fila local é reenviada quando a conexão volta.
+- A migração aproveita os dados anteriores do navegador sem substituir registros já existentes no servidor. Exportar/importar arquivos não é requisito do fluxo normal.
+- Os artigos têm cores suaves: masculino azul, feminino rosa, neutro verde. Plurais conhecidos ficam diferenciados; a cor de exemplos como “der Frau” acompanha o gênero feminino do substantivo.
+- Diálogos e Gramática oferecem vozes masculina e feminina. A escolha é lembrada neste aparelho. Áudios femininos gerados localmente com Ramona (DE) e Dora/Kokoro (PT-BR); créditos em FEMALE-VOICE-CREDITS.txt.
+- Permanecem as exigências de escrita e de acertos para avançar.
+
+Validação adicional: `node tests/grammar-sync.test.mjs` e `node tests/voice-options.test.cjs`.
+
