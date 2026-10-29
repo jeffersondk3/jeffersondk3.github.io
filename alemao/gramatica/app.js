@@ -1,6 +1,6 @@
 import {installStudyChoices} from './choice-controls.mjs?v=23';
 import {studyLanguage} from '../study-preferences.js?v=24';
-import {conversationPanel,copyConversation} from './conversation.mjs?v=28';
+import {conversationPanel,copyConversation} from './conversation.mjs?v=31';
 import {createGrammarCloud} from './cloud-sync.mjs?v=15';
 import {installGenderColors} from './gender-colors.mjs?v=15';
 import {hasWriting,writtenCount,quizPassed} from '../learning-rules.js?v=14';
