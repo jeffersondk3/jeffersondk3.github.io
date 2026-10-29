@@ -64,3 +64,8 @@ footer{font-size:13px!important;line-height:1.8!important;color:var(--study-text
 @media(max-width:350px){.choiceCards .choiceCard{gap:7px;padding:11px 8px}.choiceCard .choiceIcon{width:28px;height:28px}.choiceCard strong{font-size:14px}.choiceCard small{font-size:11px}}
 
 :root[data-study=off] .writingTranslation{display:none!important}
+
+/* Active lesson steps must keep readable foreground and background together. */
+:root[data-theme=blue] .stages button.active,:root[data-theme=light] .stages button.active{background:#19659a!important;color:#ffffff!important;border-color:#19659a!important}
+:root[data-theme=dark] .stages button.active,:root[data-theme=dark] .leveltabs button.active,:root[data-theme=dark] .review-nav a.active{background:#a9d6c9!important;color:#152a30!important;border-color:#a9d6c9!important}
+.stages button.active:focus-visible{outline:3px solid #75acd0;outline-offset:3px}
