@@ -1,7 +1,8 @@
+import {hasWriting} from '../learning-rules.js?v=14';
 export const PROFILES=['Jefferson','Sofia'];
 export function percent(n,total){return total?Math.round(n/total*100):0}
 export function grade(questions,answers={}){const items=questions.map((q,i)=>({chosen:answers[i]??null,answer:q.answer,correct:answers[i]===q.answer,explanation:q.explanation}));return{score:percent(items.filter(i=>i.correct).length,items.length),correct:items.filter(i=>i.correct).length,total:items.length,items}}
-export function lessonProgress(s={}){return Math.round(((s.context?100:0)+(s.rule?100:0)+(s.grammar?.best||0)+(s.listening?.best||0)+(s.practiced&&s.text?.trim()?100:0))/5)}
+export function lessonProgress(s={}){return Math.round(((s.context?100:0)+(s.rule?100:0)+(s.grammar?.best||0)+(s.listening?.best||0)+(s.practiced&&hasWriting(s.text)?100:0))/5)}
 export function profileData(root,name){if(!PROFILES.includes(name))throw Error('Perfil inválido');return root.profiles[name]??={lessons:{},exams:{},days:[],start:'',reminder:{enabled:false,time:'19:00'}}}
 export function saveQuiz(state,key,questions,answers){const result=grade(questions,answers);state[key]??={};state[key].best=Math.max(state[key].best||0,result.score);state[key].last={...result,at:new Date().toISOString()};return result}
 export function comprehension(lesson){return lesson.story.map((s,i)=>({audio:s.audio,prompt:'Qual é o significado da frase que você ouviu?',answer:s.pt,options:lesson.story.map((_,n)=>lesson.story[(n+i+1)%4].pt),explanation:`${s.de} → ${s.pt}`}))}

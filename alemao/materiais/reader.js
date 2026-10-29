@@ -1,9 +1,10 @@
-import {createWritingPractice} from './writing.js?v=1';
+import {hasWriting} from '../learning-rules.js?v=14';
+import {createWritingPractice} from './writing.js?v=14';
 import * as pdfjsLib from './vendor/pdf.mjs';
 const workerResponse=await fetch(new URL('./vendor/pdf.worker.mjs.gz.bin',import.meta.url));if(!workerResponse.ok)throw Error('Não foi possível carregar o leitor');const workerText=await new Response(workerResponse.body.pipeThrough(new DecompressionStream('gzip'))).text();pdfjsLib.GlobalWorkerOptions.workerSrc=URL.createObjectURL(new Blob([workerText],{type:'text/javascript'}));
 const $=id=>document.getElementById(id),escape=s=>String(s).replace(/[&<>"']/g,c=>({'&':'&amp;','<':'&lt;','>':'&gt;','"':'&quot;',"'":'&#39;'}[c]));
 let catalog=[],current=null,pdf=null,task=null,abort=null,renderTask=null,generation=0,renderGeneration=0,zoom=1,page=1,queue=Promise.resolve();
-const cloud=window.parent.studyCloud;let owner=null;const writingPractice=createWritingPractice({cloud});
+const cloud=window.parent.studyCloud;let owner=null;const writingPractice=createWritingPractice({cloud,onChange:()=>{if(pdf&&current)buttons(true)}});
 let progress={last:'material-01',items:{}};
 function save(){if(!current||!cloud?.userId)return;cloud.saveMaterial(current.id,progress.items[current.id]);cloud.saveMaterial('_last',{id:current.id});}
 function item(id){return progress.items[id]||{page:1,done:false};}
@@ -12,7 +13,7 @@ function drawCatalog(){
  const done=catalog.filter(d=>item(d.id).done).length;$('completed').textContent=done;$('progress').style.width=(done/12*100)+'%';
 }
 function menu(open){$('sidebar').classList.toggle('open',open);$('drawerBackdrop').hidden=!open;$('menuToggle').setAttribute('aria-expanded',open);}
-function buttons(ready){for(const id of ['page','done','zoomOut','zoomIn'])$(id).disabled=!ready;$('prev').disabled=$('bottomPrev').disabled=!ready||page<=1;$('next').disabled=$('bottomNext').disabled=!ready||page>=pdf.numPages;if(ready){$('zoomOut').disabled=zoom<=.5;$('zoomIn').disabled=zoom>=2;}$('done').textContent=item(current?.id).done?'✓ Concluído · desfazer':'✓ Marcar como concluído';$('done').setAttribute('aria-pressed',!!item(current?.id).done);}
+function buttons(ready){for(const id of ['page','done','zoomOut','zoomIn'])$(id).disabled=!ready;$('prev').disabled=$('bottomPrev').disabled=!ready||page<=1;$('next').disabled=$('bottomNext').disabled=!ready||page>=pdf.numPages||!writingPractice.canAdvance();if(ready){$('done').disabled=!item(current?.id).done&&!writingPractice.canAdvance();$('next').title=$('bottomNext').title=writingPractice.canAdvance()?'Próxima página':'Escreva pelo menos 30 caracteres para avançar';$('zoomOut').disabled=zoom<=.5;$('zoomIn').disabled=zoom>=2;}$('done').textContent=item(current?.id).done?'✓ Concluído · desfazer':'✓ Marcar como concluído';$('done').setAttribute('aria-pressed',!!item(current?.id).done);}
 function pageRender(){
  const doc=pdf,t=generation,r=++renderGeneration;if(!doc)return;
  if(renderTask)renderTask.cancel();
@@ -43,12 +44,12 @@ async function openMaterial(id){
   const loaded=await task.promise;if(t!==generation){await loaded.destroy();return;}pdf=loaded;page=Math.max(1,Math.min(pdf.numPages,Number(item(id).page)||1));pageRender();
  }catch(e){if(t!==generation||e.name==='AbortError')return;$('loading').hidden=true;$('errorBox').hidden=false;$('errorText').textContent='Confira sua conexão. Se a sessão tiver expirado, entre novamente com a conta autorizada e abra este material.';$('savedStatus').textContent='O progresso anterior foi preservado.';buttons(false);}
 }
-function go(delta){if(!pdf)return;const next=page+delta;if(next<1||next>pdf.numPages)return;page=next;buttons(true);pageRender();}
+function go(delta){if(!pdf)return;const next=page+delta;if(next<1||next>pdf.numPages)return;if(delta>0&&!writingPractice.requireWriting())return;writingPractice.hide();page=next;buttons(false);pageRender();}
 $('catalog').onclick=e=>{const b=e.target.closest('[data-material]');if(b)openMaterial(b.dataset.material);};$('menuToggle').onclick=()=>menu(!$('sidebar').classList.contains('open'));$('drawerBackdrop').onclick=()=>menu(false);
 $('prev').onclick=$('bottomPrev').onclick=()=>go(-1);$('next').onclick=$('bottomNext').onclick=()=>go(1);
-$('page').onchange=()=>{if(!pdf)return;page=Math.max(1,Math.min(pdf.numPages,Number($('page').value)||1));pageRender();};$('page').onkeydown=e=>{if(e.key==='Enter'){$('page').blur();}};
+$('page').onchange=()=>{if(!pdf)return;const target=Math.max(1,Math.min(pdf.numPages,Number($('page').value)||1));if(target>page){if(!writingPractice.requireWriting()){$('page').value=page;return;}for(let n=page+1;n<target;n++){if(!hasWriting(cloud.writing(current.id,n))){$('page').value=page;$('savedStatus').textContent='A página '+n+' ainda precisa de 30 caracteres. Avance uma página por vez.';return;}}}writingPractice.hide();page=target;buttons(false);pageRender();};$('page').onkeydown=e=>{if(e.key==='Enter'){$('page').blur();}};
 $('zoomOut').onclick=()=>{zoom=Math.max(.5,zoom-.25);pageRender();};$('zoomIn').onclick=()=>{zoom=Math.min(2,zoom+.25);pageRender();};
-$('done').onclick=()=>{if(!current)return;progress.items[current.id]={...item(current.id),page,done:!item(current.id).done};save();drawCatalog();buttons(!!pdf);};$('retry').onclick=()=>{if(current)openMaterial(current.id);};
+$('done').onclick=()=>{if(!current)return;if(!item(current.id).done&&!writingPractice.requireWriting())return;progress.items[current.id]={...item(current.id),page,done:!item(current.id).done};save();drawCatalog();buttons(!!pdf);};$('retry').onclick=()=>{if(current)openMaterial(current.id);};
 let resize;window.addEventListener('resize',()=>{clearTimeout(resize);resize=setTimeout(()=>{if(pdf)pageRender();},250);});window.addEventListener('keydown',e=>{if(['INPUT','TEXTAREA','SELECT'].includes(e.target.tagName)||e.ctrlKey||e.metaKey)return;if(e.key==='ArrowRight')go(1);if(e.key==='ArrowLeft')go(-1);if(e.key==='Escape')menu(false);});
 function loadProgress(){const values=cloud?.materials()||{};progress={last:values._last?.id||'material-01',items:Object.fromEntries(Object.entries(values).filter(([id])=>id!=='_last'&&!id.startsWith('writing:')))};}
 async function sessionState(){const changed=owner!==cloud?.userId+':'+cloud?.profile;if(changed){writingPractice.hide();owner=cloud?.userId+':'+cloud?.profile;generation++;abort?.abort();renderTask?.cancel();if(task){try{await task.destroy();}catch{}task=null;}pdf=null;current=null;}

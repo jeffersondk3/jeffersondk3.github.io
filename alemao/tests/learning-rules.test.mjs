@@ -1,0 +1,18 @@
+import assert from 'node:assert/strict';
+import {hasWriting,writtenCount,quizPassed,selectedWriting,translationUrl} from '../learning-rules.js';
+assert.equal(hasWriting(' '.repeat(50)),false);
+assert.equal(hasWriting('a'.repeat(29)),false);
+assert.equal(hasWriting('a'.repeat(30)),true);
+assert.equal(writtenCount('u\u0308'.repeat(30)),30);
+assert.equal(writtenCount('  Guten   Morgen  '),12);
+const qs=Array.from({length:4},()=>({options:['A','B'],answer:'A'}));
+const state=a=>({draft:a,last:{items:qs.map((_,i)=>({chosen:a[i]??null}))}});
+assert.equal(quizPassed(state({0:'A',1:'B',2:'B',3:'B'}),qs),false);
+assert.equal(quizPassed(state({0:'A',1:'A',2:'B',3:'B'}),qs),true);
+assert.equal(quizPassed(state({0:'A',1:'A'}),qs),false);
+const changed=state({0:'A',1:'A',2:'B',3:'B'});changed.draft[3]='A';
+assert.equal(quizPassed(changed,qs),false);
+assert.equal(selectedWriting('Ich heiße Jefferson',5,5),'heiße');
+assert.equal(selectedWriting('Guten Morgen!',0,12),'Guten Morgen');
+assert.ok(translationUrl('ä & ß').includes('%C3%A4%20%26%20%C3%9F'));
+console.log('Passed: writing limits, unicode, required answers, 50%, latest submitted draft and selected-text translation.');
