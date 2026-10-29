@@ -31,3 +31,16 @@ a{color:var(--study-link)}.brand,.card h3,.card p,.intro h1,dialog h2,.supportCa
 :root[data-theme=blue] .primary,:root[data-theme=blue] a.button,:root[data-theme=blue] .open,:root[data-theme=blue] .appTabs button[aria-current=page]{background:#19659a!important;color:#fff!important;border-color:#19659a!important}
 :root[data-theme=blue] #nav a.active,:root[data-theme=blue] button[aria-pressed=true],:root[data-theme=blue] #categories button.active,:root[data-theme=blue] .leveltabs button.active{background:#e8f1f8!important;color:#19659a!important;border-color:#a9c9df}
 :root[data-theme=blue] .progress .track i,:root[data-theme=blue] .bar>span{background:#2b85ba!important}
+
+/* Clear labels and navigation across the three appearances. */
+#tabGrammar{display:inline-flex;align-items:center;justify-content:center;gap:6px;background:#19659a!important;color:#fff!important;border:1px solid #19659a!important;font-weight:750;box-shadow:0 2px 5px #12395324}
+#tabGrammar:hover{background:#124d77!important;border-color:#124d77!important}#tabGrammar:focus-visible{outline:3px solid #84bfea;outline-offset:3px}
+.studyPreferences label,.profile,#profileChooser,.settings label{font-size:14px!important;font-weight:750!important;color:var(--study-text)!important;line-height:1.5}
+.studyPreferences select,.profile select,#profileChooser select,.settings select{font-size:16px!important;font-weight:600!important;line-height:1.5}
+#cloudStatus,#grammarSyncStatus{font-size:14px!important;font-weight:650!important;line-height:1.6!important;color:var(--study-text)!important;opacity:1!important}
+#grammarSyncStatus{margin-top:12px}.studyPreferences p{font-size:13px;line-height:1.6}
+.countryFlags{display:flex;gap:10px;align-items:center;filter:none!important;white-space:nowrap;font-size:48px!important;bottom:0!important;left:0!important;line-height:1.2}
+:root[data-theme=dark] .art{opacity:1}
+footer{font-size:13px!important;line-height:1.8!important;color:var(--study-text)!important;opacity:1!important}footer .dialogueTotal{display:inline-block;margin:6px 0;font-size:17px;font-weight:750;color:var(--study-text)}
+#listTitle>span{font-weight:750;opacity:1}
+@media(max-width:500px){.countryFlags{font-size:36px!important;gap:6px;left:-10px!important}.studyPreferences label,.profile,#profileChooser,.settings label{font-size:14px!important}}
