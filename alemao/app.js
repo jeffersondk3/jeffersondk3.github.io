@@ -1,5 +1,5 @@
 import {studyLanguage} from './study-preferences.js?v=24';
-import {createDialoguePractice} from './exercises.js?v=14';
+import {createDialoguePractice} from './exercises.js?v=27';
 'use strict';
 const $=id=>document.getElementById(id);
 const audio=$('audioPlayer');
@@ -46,7 +46,7 @@ function step(t){if(t!==token||!current)return;if(index>=current.lines.length){p
  if(waiting)return;speakLine(t,()=>{if(t===token){index++;step(t)}});
 }
 $('play').onclick=()=>{if(playing){stop();return}stop();playing=true;index=0;$('play').textContent='■ Encerrar conversa';step(token)};
-$('stop').onclick=stop;$('nextTurn').onclick=()=>{if(!waiting)return;waiting=false;index++;step(token)};
+$('stop').onclick=stop;$('nextTurn').onclick=()=>{if(!waiting)return;if(!dialoguePractice.requirePass()){notice('Responda e envie pelo menos duas frases do exercício em alemão antes de continuar.');return;}waiting=false;index++;step(token)};
 $('role').onchange=stop;$('speed').onchange=stop;$('audioLanguage').onchange=()=>{stop();prepareClip()};$('showPt').onchange=showLines;$('showPron').onchange=showLines;
 function playSentence(n,lang){stop();index=n;showLines();const t=token;$('playStatus').textContent=`Ouvindo frase ${index+1} de 4`;playClip(lang,()=>{if(t===token){index=-1;showLines();$('playStatus').textContent='Agora repita em voz alta.'}})}
 $('lines').onclick=e=>{const b=e.target.closest('[data-sentence]');if(b)playSentence(Number(b.dataset.sentence),b.dataset.lang)};
