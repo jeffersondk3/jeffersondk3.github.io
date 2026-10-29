@@ -51,7 +51,18 @@ function snapshotResponseField(event){const field=event.target;if(field.id!=='ph
 app.addEventListener('focusin',snapshotResponseField);
 app.addEventListener('focusout',snapshotResponseField);
 
-function correctionHtml(s,index){const result=s.corrections?.[index];if(!result||result.text!==phaseText(s,index))return 'Correção pendente.';if(!result.matches.length)return '<p>✓ Nenhum problema de ortografia ou gramática detectado. Isso não confirma a adequação ao tema.</p>';return '<h3>Revise sua resposta</h3>'+result.matches.map(m=>'<p><b>'+e(result.text.slice(m.offset,m.offset+m.length))+'</b>: '+e(m.message)+'<br>Sugestão: <span lang="de">'+e(m.replacements?.slice(0,3).map(r=>r.value).join(' / ')||'reformule este trecho')+'</span></p>').join('')+'<p>Edite o texto e toque em corrigir novamente.</p>';}
+
+function correctionExplanation(text,match){
+ const original=text.slice(match.offset,match.offset+match.length),suggestion=match.replacements?.[0]?.value||'',message=String(match.message||''),type=match.issueType||'';
+ if(suggestion&&original!==suggestion&&original.toLocaleLowerCase('de')===suggestion.toLocaleLowerCase('de'))return 'Confira as letras maiúsculas e minúsculas. Nomes próprios, como Jefferson e Sofia, começam com maiúscula; os substantivos alemães também.';
+ if(type==='misspelling'||/Tippfehler|Rechtschreib|Schreibweise|spelling/iu.test(message))return 'Possível erro de escrita. Confira a grafia e as sugestões abaixo.';
+ if(/Übereinstimmung|Kongruenz|concord/iu.test(message))return 'Confira a concordância entre as palavras. O verbo precisa combinar com o sujeito; artigos e adjetivos também podem exigir ajuste.';
+ if(/Komma|Zeichensetzung|punctuation/iu.test(message))return 'Confira a pontuação deste trecho.';
+ if(type==='style')return 'Sugestão de estilo: confira se a alternativa deixa a frase mais natural.';
+ return 'O corretor apontou um possível problema neste trecho. Confira as sugestões em alemão e revise a frase.';
+}
+
+function correctionHtml(s,index){const result=s.corrections?.[index];if(!result||result.text!==phaseText(s,index))return 'Correção pendente.';if(!result.matches.length)return '<p>✓ Nenhum problema de ortografia ou gramática detectado. Isso não confirma a adequação ao tema.</p>';return '<h3>Revise sua resposta</h3>'+result.matches.map(m=>'<p><b>'+e(result.text.slice(m.offset,m.offset+m.length))+'</b>: '+e(correctionExplanation(result.text,m))+'<br>Sugestão: <span lang="de">'+e(m.replacements?.slice(0,3).map(r=>r.value).join(' / ')||'reformule este trecho')+'</span></p>').join('')+'<p>Edite o texto e toque em corrigir novamente.</p>';}
 let correctionBusy=false;
 async function checkPhaseResponse(button){if(correctionBusy)return;const [,id,index]=route(),n=Number(index)||0,s=ls(id),text=phaseText(s,n),owner=profile,hash=location.hash;
 rememberResponse(s,n,text,'enviada para correção');persist();if(!germanResponse(text)){notify('Responda em alemão com pelo menos 50 caracteres e quatro palavras.');return;}
@@ -59,7 +70,7 @@ if(text.length>5000){notify('Use até 5.000 caracteres nesta resposta.');return;
 correctionBusy=true;button.disabled=true;button.textContent='Conferindo alemão…';const controller=new AbortController(),timeout=setTimeout(()=>controller.abort(),20000);
 try{const response=await fetch('https://api.languagetool.org/v2/check',{method:'POST',body:new URLSearchParams({text,language:'de-DE',motherTongue:'pt-BR'}),signal:controller.signal});if(!response.ok)throw Error();const result=await response.json();if(!Array.isArray(result.matches))throw Error();
 if(owner!==profile||hash!==location.hash||phaseText(s,n)!==text||!cloud.ready)return;
-s.corrections??={};s.corrections[n]={text,matches:result.matches.map(m=>({offset:m.offset,length:m.length,message:m.message,replacements:(m.replacements||[]).slice(0,3).map(r=>({value:r.value}))}))};
+s.corrections??={};s.corrections[n]={text,matches:result.matches.map(m=>({offset:m.offset,length:m.length,message:m.message,issueType:m.rule?.issueType||'',replacements:(m.replacements||[]).slice(0,3).map(r=>({value:r.value}))}))};
 s.responseChecks??={};delete s.responseChecks[n];if(result.matches.length===0){s.responseChecks[n]=text;if(n===0)s.context=true;if(n===1)s.rule=true;if(n===4)s.practiced=true;}
 activeDay();render();notify(result.matches.length?'Revise as sugestões abaixo da resposta.':'Correção concluída: nenhum problema detectado.');
 }catch{if(owner===profile&&hash===location.hash)notify('Corretor indisponível. Sua resposta foi mantida; tente corrigir novamente. A fase continua bloqueada.');}
