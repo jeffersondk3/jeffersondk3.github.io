@@ -62,3 +62,5 @@ footer{font-size:13px!important;line-height:1.8!important;color:var(--study-text
 #grammarWorkspace>header{flex-wrap:wrap;align-items:start}.studyChoiceControls .profile{font-size:14px!important}
 @media(max-width:700px){.studyChoiceControls{grid-template-columns:1fr;max-width:none;gap:18px}.choiceCards .choiceCard{min-height:82px;padding:14px}.choiceCard strong{font-size:17px}.choiceCard small{font-size:13px}}
 @media(max-width:350px){.choiceCards .choiceCard{gap:7px;padding:11px 8px}.choiceCard .choiceIcon{width:28px;height:28px}.choiceCard strong{font-size:14px}.choiceCard small{font-size:11px}}
+
+:root[data-study=off] .writingTranslation{display:none!important}

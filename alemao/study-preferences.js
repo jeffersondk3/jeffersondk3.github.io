@@ -25,6 +25,7 @@ export function setStudyPreferences(next={}){
  try{localStorage.setItem(THEME,theme);localStorage.setItem(STUDY,language)}catch{}
  const themeControl=document.getElementById('themeSelect'),studyControl=document.getElementById('studyLanguage');if(themeControl)themeControl.value=theme;if(studyControl)studyControl.value=language;
  const hint=document.getElementById('studyPreferencesHint');if(hint)hint.textContent=language==='en'?'Áudio em alemão · legendas de apoio em inglês.':language==='off'?'Sem legendas nas falas. Os enunciados e exercícios continuam disponíveis.':'Alemão com legendas de apoio em português.';
+ if(hint?.dataset.context==='materials')hint.textContent=language==='en'?'Apoio em inglês · tradução da escrita de alemão para inglês.':language==='off'?'Tradução da escrita oculta. As páginas dos PDFs continuam no idioma original.':'Apoio em português · tradução da escrita de alemão para português.';
  if(language==='en')loadCaptions();else paintCaptions();window.dispatchEvent(new CustomEvent('study:preferences',{detail:{theme,language}}));
 }
 function boot(){

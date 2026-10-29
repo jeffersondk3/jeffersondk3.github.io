@@ -1,3 +1,4 @@
+import {studyLanguage} from '../study-preferences.js?v=24';
 import {hasWriting,writtenCount,selectedWriting,translationUrl} from '../learning-rules.js?v=14';
 // Escrita pessoal por perfil, material e página. Usa a mesma fila de sincronização do progresso.
 export function createWritingPractice({cloud,root=document,onChange=()=>{}}){
@@ -17,10 +18,12 @@ export function createWritingPractice({cloud,root=document,onChange=()=>{}}){
  input.addEventListener('input',save);input.addEventListener('blur',refresh);
  $('germanCharacters').addEventListener('click',e=>{const character=e.target.closest('[data-character]')?.dataset.character;if(!character||!valid())return;const start=input.selectionStart??input.value.length,end=input.selectionEnd??start;if(input.value.length-(end-start)+character.length>limit)return;input.setRangeText(character,start,end,'end');input.focus();save();});
 
- function translationOptions(){const selected=selectedWriting(input.value,input.selectionStart,input.selectionEnd),all=input.value.trim();for(const [id,text]of [['translateSelection',selected],['translateWriting',all]]){const a=$(id);a.hidden=!text;if(text)a.href=translationUrl(text);else a.removeAttribute('href')}const preview=$('translationSelection');preview.textContent=selected?'Selecionado: '+selected.slice(0,180):'Toque numa palavra ou selecione uma frase para traduzir.';}
+ function translationOptions(){const selected=selectedWriting(input.value,input.selectionStart,input.selectionEnd),all=input.value.trim();for(const [id,text]of [['translateSelection',selected],['translateWriting',all]]){const a=$(id);a.hidden=!text;if(text)a.href=translationUrl(text).replace('tl=pt','tl='+ (studyLanguage()==='en'?'en':'pt'));else a.removeAttribute('href')}const preview=$('translationSelection');preview.textContent=selected?'Selecionado: '+selected.slice(0,180):'Toque numa palavra ou selecione uma frase para traduzir.';}
+ window.addEventListener('study:preferences',translationOptions);
  input.addEventListener('click',translationOptions);input.addEventListener('select',translationOptions);input.addEventListener('keyup',translationOptions);input.addEventListener('touchend',()=>setTimeout(translationOptions,0));
  function canAdvance(){return !!valid()&&hasWriting(input.value)}
  function requireWriting(){if(canAdvance())return true;panel.hidden=false;count();$('writingStatus').textContent='Escreva pelo menos 30 caracteres nesta página antes de continuar.';panel.scrollIntoView?.({behavior:'smooth',block:'center'});input.focus();return false;}
 
  hide();return{show,hide,refresh,canAdvance,requireWriting};
 }
+

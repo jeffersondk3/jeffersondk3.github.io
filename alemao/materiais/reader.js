@@ -1,5 +1,5 @@
 import {hasWriting} from '../learning-rules.js?v=14';
-import {createWritingPractice} from './writing.js?v=14';
+import {createWritingPractice} from './writing.js?v=24';
 import * as pdfjsLib from './vendor/pdf.mjs';
 const workerResponse=await fetch(new URL('./vendor/pdf.worker.mjs.gz.bin',import.meta.url));if(!workerResponse.ok)throw Error('Não foi possível carregar o leitor');const workerText=await new Response(workerResponse.body.pipeThrough(new DecompressionStream('gzip'))).text();pdfjsLib.GlobalWorkerOptions.workerSrc=URL.createObjectURL(new Blob([workerText],{type:'text/javascript'}));
 const $=id=>document.getElementById(id),escape=s=>String(s).replace(/[&<>"']/g,c=>({'&':'&amp;','<':'&lt;','>':'&gt;','"':'&quot;',"'":'&#39;'}[c]));
@@ -58,3 +58,4 @@ async function sessionState(){const changed=owner!==cloud?.userId+':'+cloud?.pro
 }
 $('enterAccount').onclick=()=>window.parent.document.getElementById('accountButton').click();$('unlockForm').onsubmit=async e=>{e.preventDefault();const button=$('unlockForm').querySelector('button');button.disabled=true;$('unlockStatus').textContent='Desbloqueando…';try{await cloud.unlock($('vaultPassword').value);$('vaultPassword').value='';$('unlockStatus').textContent='';await sessionState()}catch(e){$('unlockStatus').textContent=e.message||'Não foi possível desbloquear. Confira sua senha e conexão.'}finally{button.disabled=false}};
 if(window.parent===window){location.replace('../?materials=1')}else{window.parent.addEventListener('study:materials',sessionState);window.parent.addEventListener('study:unlocked',sessionState);fetch('catalog.json').then(r=>{if(!r.ok)throw Error();return r.json()}).then(d=>{catalog=d;sessionState()}).catch(()=>{$('unlockStatus').textContent='Não foi possível carregar os materiais. Confira a conexão e tente novamente.'});sessionState();}
+
