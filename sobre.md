@@ -69,21 +69,21 @@ Esses temas representam meu **desenvolvimento profissional em andamento**, não 
 
 ## Objetivos profissionais
 
-Busco **oportunidades profissionais na área de Tecnologia da Informação na Europa**, com especial interesse na **Alemanha**, principalmente em infraestrutura de TI, administração de sistemas, redes, suporte técnico e segurança da informação.
+Busco **oportunidades profissionais na área de Tecnologia da Informação em diferentes países da Europa**, principalmente em infraestrutura de TI, administração de sistemas, redes, suporte técnico e segurança da informação.
 
 **Também estou apto e aberto a uma mudança de carreira**, inclusive para atuar em outras áreas e funções, aproveitando as experiências e competências que já desenvolvi ao longo da minha trajetória profissional, como liderança de equipes, organização de processos, atendimento ao público, resolução de problemas e capacidade de adaptação.
 
 Estou estudando alemão e continuo investindo no meu desenvolvimento profissional e intercultural.
 
-## Nossa família e o projeto Alemanha
+## Nossa família e os planos para a Europa
 
 Sou casado com **[Sofia Giusti](https://www.linkedin.com/in/sofia-giusti-538401186)**, argentina e profissional da área administrativa. Nós nos conhecemos na **igreja**, e desde então construímos uma história de companheirismo, fé e sonhos compartilhados. Sofia foi fundamental na minha trajetória: acreditou em mim, no meu potencial e nos meus objetivos, inclusive nos momentos em que o caminho parecia mais difícil.
 
 Vivemos juntos em São Paulo e nossa família também inclui **nosso cachorro Toddy, de 1 ano, e nossa gata Gatuxa, de 6 anos**, que fazem parte da nossa rotina e trazem alegria para nossa casa.
 
-Compartilhamos o sonho de construir uma nova etapa de nossas vidas na **Alemanha**. Estamos nos preparando com planejamento, aprendizado de idiomas e desenvolvimento profissional. Meu foco é a área de Tecnologia da Informação; Sofia também busca oportunidades compatíveis com sua experiência em rotinas administrativas, organização de processos e suporte a equipes.
+Compartilhamos o sonho de construir uma nova etapa de nossas vidas na **Europa**. Estamos nos preparando com planejamento, aprendizado de idiomas e desenvolvimento profissional. Meu foco é a área de Tecnologia da Informação; Sofia também busca oportunidades compatíveis com sua experiência em rotinas administrativas, organização de processos e suporte a equipes.
 
-Mais do que uma mudança de país, queremos conhecer a cultura alemã, desenvolver nossas carreiras e construir uma vida juntos, sem esquecer nossas origens e tudo o que nos trouxe até aqui. Ainda estamos na fase de preparação e busca de oportunidades.
+Mais do que uma mudança de país, queremos conhecer outras culturas, desenvolver nossas carreiras e construir uma vida juntos, sem esquecer nossas origens e tudo o que nos trouxe até aqui. Ainda estamos na fase de preparação e busca de oportunidades.
 
 **Quer conhecer mais sobre minha esposa, Sofia?** Confira o [currículo profissional dela]({{ '/curriculo-sofia/' | relative_url }}), visite seu [LinkedIn profissional](https://www.linkedin.com/in/sofia-giusti-538401186) ou acompanhe seu [Instagram (@sofi.giusti)](https://www.instagram.com/sofi.giusti/).
 
