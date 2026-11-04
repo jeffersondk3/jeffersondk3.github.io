@@ -24,20 +24,20 @@ layout: default
 </section>
 
 <section class="posts">
-  <h2 class="section-title">Minha Biografia — Das raízes à tecnologia</h2>
-  <p>Antes da TI, minha história começou na roça, com trabalho pesado, dificuldades financeiras e a determinação de continuar estudando. Tenho orgulho das minhas origens e quero compartilhar cada capítulo dessa jornada.</p>
+  <h2 class="section-title">Antes da TI</h2>
+  <p>Trabalhei na roça antes de entrar na área de TI. Nesta página, conto sobre os primeiros trabalhos, as dificuldades financeiras e como continuei estudando.</p>
   <p><a class="btn" href="{{ '/biografia/' | relative_url }}">Ler minha biografia →</a></p>
 </section>
 
 <section class="posts">
   <h2 class="section-title">Minha História em fotos</h2>
-  <p>Dos primeiros trabalhos à carreira militar e à Tecnologia da Informação: conheça os momentos que marcaram minha trajetória pessoal e profissional.</p>
+  <p>Reuni fotos dos meus primeiros trabalhos, do serviço militar e da minha família. São registros das pessoas e dos momentos que fazem parte da minha história.</p>
   <p><a class="btn" href="{{ '/minha-historia/' | relative_url }}">Ver minha trajetória em fotos →</a></p>
 </section>
 
 <section class="posts">
   <h2 class="section-title">Currículo profissional</h2>
-  <p>Conheça minha experiência em infraestrutura de TI, segurança da informação, gestão de serviços e minha atuação como oficial temporário da Força Aérea Brasileira.</p>
+  <p>Meus currículos estão disponíveis em português, inglês e alemão.</p>
   <div aria-label="Currículos disponíveis por idioma" style="display:flex;flex-wrap:wrap;align-items:stretch;gap:14px;margin:18px 0 10px;">
     <a href="{{ '/assets/curriculo/Jefferson_Curriculo_PT_Tabular.pdf' | relative_url }}" target="_blank" rel="noopener noreferrer" style="display:inline-flex;align-items:center;gap:12px;flex:1 1 165px;min-width:155px;max-width:225px;padding:14px 16px;border:1px solid #aacde8;border-radius:12px;background:#fff;color:#143f67;text-decoration:none;box-shadow:0 4px 12px rgba(18,68,110,.09);box-sizing:border-box;">
       <img src="https://flagcdn.com/w40/br.png" alt="Bandeira do Brasil" width="30" height="22" style="width:30px;height:22px;object-fit:cover;border-radius:3px;flex-shrink:0;">
@@ -71,7 +71,7 @@ layout: default
 </section>
 
 <section class="posts game-posts">
-  <h2 class="section-title">Publicações <span class="game-heading-icon" aria-hidden="true">🎮</span></h2>
+  <h2 class="section-title">Publicações</h2>
   {% if site.posts.size == 0 %}
     <p class="empty">Nenhuma publicação ainda. Em breve!</p>
   {% else %}
@@ -80,7 +80,7 @@ layout: default
       {% assign ano = post.date | date: "%Y" %}
       {% if ano != ano_atual %}
         {% unless forloop.first %}</ul>{% endunless %}
-        <h3 class="year game-year"><span aria-hidden="true">▸</span> {{ ano }} <span class="game-year-label">ARQUIVO DE MISSÕES</span></h3>
+        <h3 class="year game-year"><span aria-hidden="true">▸</span> {{ ano }} <span class="game-year-label">PUBLICAÇÕES DO ANO</span></h3>
         <ul class="post-list">
         {% assign ano_atual = ano %}
       {% endif %}
@@ -88,12 +88,12 @@ layout: default
         <a href="{{ post.url | relative_url }}" class="post-card game-post-card">
           <span class="game-post-symbol" aria-hidden="true">⌘<small>IT LAB</small></span>
           <span class="game-post-content">
-            <span class="game-post-top"><span class="game-post-status"><span class="game-online-dot"></span> MISSÃO DISPONÍVEL</span><time datetime="{{ post.date | date_to_xmlschema }}">{% include data-pt.html date=post.date %}</time></span>
+            <span class="game-post-top"><span class="game-post-status"><span class="game-online-dot"></span> ARTIGO</span><time datetime="{{ post.date | date_to_xmlschema }}">{% include data-pt.html date=post.date %}</time></span>
             <span class="post-title">{{ post.title }}</span>
             <span class="post-excerpt">{{ post.description | default: post.excerpt | strip_html | truncatewords: 28 }}</span>
             <span class="game-post-tags"><span>TI</span><span>INFRAESTRUTURA</span><span>SEGURANÇA</span><span>ESTUDOS</span></span>
           </span>
-          <span class="game-post-action" aria-hidden="true">EXPLORAR <span>➜</span></span>
+          <span class="game-post-action" aria-hidden="true">LER <span>➜</span></span>
         </a>
       </li>
       {% if forloop.last %}</ul>{% endif %}
