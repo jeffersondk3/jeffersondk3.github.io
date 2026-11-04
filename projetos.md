@@ -4,8 +4,6 @@ title: Projetos
 permalink: /projetos/
 ---
 
-# Projetos e estudos
-
 Aqui registro os projetos que uso para estudar e colocar ideias em prática. Cada um está em uma etapa diferente; vou acrescentando código e documentação conforme avanço.
 
 ## Alemão em 4 anos — Deutsch im Alltag
