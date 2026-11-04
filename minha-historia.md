@@ -10,7 +10,10 @@ Atualmente, sou **2º Tenente — Oficial Temporário da Força Aérea Brasileir
 
 ## Momentos da minha história
 
-![Montagem de 21 fotografias da trajetória pessoal, familiar, profissional e militar de Jefferson Almeida de Brito]({{ '/assets/images/minha_trajetoria.jpg' | relative_url }})
+<a id="trajectory-photo-open" href="{{ '/assets/images/minha_trajetoria.jpg' | relative_url }}" aria-label="Ampliar montagem de fotos da minha história" aria-haspopup="dialog" style="display:block;cursor:zoom-in;">
+  <img src="{{ '/assets/images/minha_trajetoria.jpg' | relative_url }}" alt="Montagem de 21 fotografias da trajetória pessoal, familiar, profissional e militar de Jefferson Almeida de Brito" style="display:block;width:100%;height:auto;">
+</a>
+<p style="font-size:0.9rem;">Clique na montagem para ampliar.</p>
 
 *Fotografias originais de diferentes etapas da minha vida: trabalho, carreira militar, família e projetos sociais.*
 
@@ -54,3 +57,72 @@ Minha trajetória passou por diferentes atividades profissionais antes de consol
 Hoje sigo desenvolvendo minhas competências em infraestrutura, redes, segurança da informação e novas áreas de estudo, como QA, automação e fundamentos de SAP.
 
 [Conheça mais sobre mim]({{ '/sobre/' | relative_url }}) · [Veja meus projetos]({{ '/projetos/' | relative_url }})
+
+<style>
+#trajectory-photo-dialog {
+  box-sizing: border-box;
+  width: 100vw;
+  height: 100dvh;
+  max-width: 100vw;
+  max-height: 100dvh;
+  margin: 0;
+  padding: 76px 16px 20px;
+  border: 0;
+  background: #0b1220;
+  color: #fff;
+}
+#trajectory-photo-dialog::backdrop { background: rgba(0,0,0,.9); }
+#trajectory-photo-dialog .photo-toolbar {
+  position: absolute; top: 16px; right: 16px; left: 16px;
+  display: flex; justify-content: flex-end; align-items: center; gap: 16px;
+}
+#trajectory-photo-dialog .photo-toolbar a { color: #fff; font-size: 14px; }
+#trajectory-photo-close {
+  min-width: 44px; min-height: 44px; padding: 10px 16px;
+  border: 1px solid #fff; border-radius: 8px;
+  background: #fff; color: #0b1220; cursor: pointer; font: inherit;
+}
+#trajectory-photo-dialog .photo-stage {
+  display: flex; align-items: center; justify-content: center; height: 100%;
+}
+#trajectory-photo-dialog .photo-stage img {
+  display: block; width: auto; height: auto;
+  max-width: 100%; max-height: 100%; object-fit: contain; border-radius: 0;
+}
+#trajectory-photo-close:focus-visible { outline: 3px solid #60a5fa; outline-offset: 4px; }
+</style>
+
+<dialog id="trajectory-photo-dialog" aria-label="Fotos da minha história ampliadas">
+  <div class="photo-toolbar">
+    <a href="{{ '/assets/images/minha_trajetoria.jpg' | relative_url }}" target="_blank" rel="noopener noreferrer">Abrir imagem original</a>
+    <button id="trajectory-photo-close" type="button" autofocus>Fechar ×</button>
+  </div>
+  <div class="photo-stage">
+    <img src="{{ '/assets/images/minha_trajetoria.jpg' | relative_url }}" alt="Montagem ampliada de 21 fotos da minha trajetória">
+  </div>
+</dialog>
+<script>
+(function () {
+  const opener = document.getElementById('trajectory-photo-open');
+  const dialog = document.getElementById('trajectory-photo-dialog');
+  const closeButton = document.getElementById('trajectory-photo-close');
+  if (!opener || !dialog || typeof dialog.showModal !== 'function') return;
+  let previousOverflow = '';
+  opener.addEventListener('click', function (event) {
+    if (event.ctrlKey || event.metaKey || event.shiftKey || event.altKey) return;
+    event.preventDefault();
+    if (dialog.open) return;
+    previousOverflow = document.documentElement.style.overflow;
+    dialog.showModal();
+    document.documentElement.style.overflow = 'hidden';
+  });
+  closeButton.addEventListener('click', function () { dialog.close(); });
+  dialog.addEventListener('click', function (event) {
+    if (event.target === dialog || event.target.classList.contains('photo-stage')) dialog.close();
+  });
+  dialog.addEventListener('close', function () {
+    document.documentElement.style.overflow = previousOverflow;
+    opener.focus();
+  });
+})();
+</script>
