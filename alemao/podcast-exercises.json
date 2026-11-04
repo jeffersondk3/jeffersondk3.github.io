@@ -1,0 +1,3906 @@
+{
+  "version": 1,
+  "description": "Questões autorais adaptadas ao material identificado para cada episódio; fontes relacionadas são identificadas.",
+  "lessons": [
+    {
+      "id": 1,
+      "title": "Como você se chama?",
+      "level": "com apoio em português",
+      "source": {
+        "url": "https://fluency.io/br/blog/walk-n-talk-alemao-01-como-voce-se-chama/",
+        "basis": "episode-handout",
+        "label": "Apostila do episódio 1 · diálogo consultado",
+        "checkedOn": "2026-11-04"
+      },
+      "lines": [
+        {
+          "de": "Ich bin die neue Studentin.",
+          "pt": "Eu sou a aluna nova."
+        },
+        {
+          "de": "Heute ist mein erster Tag.",
+          "pt": "Hoje é meu primeiro dia."
+        },
+        {
+          "de": "Mein Name ist Luise.",
+          "pt": "Meu nome é Luise."
+        },
+        {
+          "de": "Ich komme aus Brasilien.",
+          "pt": "Eu venho do Brasil."
+        }
+      ],
+      "task": "Escreva uma pequena situação em alemão usando pelo menos duas expressões deste material."
+    },
+    {
+      "id": 2,
+      "title": "Como o senhor se chama?",
+      "level": "com apoio em português",
+      "source": {
+        "url": "https://fluency.io/br/blog/walk-n-talk-alemao-02-como-o-senhor-se-chama/",
+        "basis": "episode-material",
+        "label": "Material oficial desta aula",
+        "checkedOn": "2026-11-04"
+      },
+      "lines": [
+        {
+          "de": "Guten Tag!",
+          "pt": "Bom dia! (cumprimento formal)"
+        },
+        {
+          "de": "Wie heißen Sie?",
+          "pt": "Como o senhor ou a senhora se chama?"
+        },
+        {
+          "de": "Woher kommen Sie?",
+          "pt": "De onde o senhor ou a senhora vem?"
+        },
+        {
+          "de": "Auf Wiedersehen!",
+          "pt": "Até logo! (despedida formal)"
+        }
+      ],
+      "task": "Escreva uma pequena situação em alemão usando pelo menos duas expressões deste material."
+    },
+    {
+      "id": 3,
+      "title": "Você mora na Alemanha?",
+      "level": "com apoio em português",
+      "source": {
+        "url": "https://fluency.io/br/blog/walk-n-talk-alemao-03-voce-mora-na-alemanha/",
+        "basis": "episode-material",
+        "label": "Material oficial desta aula",
+        "checkedOn": "2026-11-04"
+      },
+      "lines": [
+        {
+          "de": "Ich bin aus Brasilien.",
+          "pt": "Eu sou do Brasil."
+        },
+        {
+          "de": "Freut mich, dich kennenzulernen!",
+          "pt": "Prazer em te conhecer!"
+        },
+        {
+          "de": "Wie geht’s dir?",
+          "pt": "Como você está?"
+        },
+        {
+          "de": "Mir geht’s gut, danke!",
+          "pt": "Eu estou bem, obrigado(a)!"
+        }
+      ],
+      "task": "Escreva uma pequena situação em alemão usando pelo menos duas expressões deste material."
+    },
+    {
+      "id": 4,
+      "title": "Que línguas você fala?",
+      "level": "com apoio em português",
+      "source": {
+        "url": "https://fluency.io/br/blog/walk-n-talk-alemao-04-que-linguas-voce-fala/",
+        "basis": "episode-material",
+        "label": "Material oficial desta aula",
+        "checkedOn": "2026-11-04"
+      },
+      "lines": [
+        {
+          "de": "Welche Sprachen sprichst du?",
+          "pt": "Quais idiomas você fala?"
+        },
+        {
+          "de": "Ich spreche Deutsch und Englisch.",
+          "pt": "Eu falo alemão e inglês."
+        },
+        {
+          "de": "Ich lerne gerade Spanisch.",
+          "pt": "Estou aprendendo espanhol."
+        },
+        {
+          "de": "Meine Muttersprache ist Portugiesisch.",
+          "pt": "Minha língua materna é português."
+        }
+      ],
+      "task": "Escreva uma pequena situação em alemão usando pelo menos duas expressões deste material."
+    },
+    {
+      "id": 5,
+      "title": "Vamos comer juntos?",
+      "level": "com apoio em português",
+      "source": {
+        "url": "https://fluency.io/br/blog/walk-n-talk-alemao-05-vamos-comer-juntos/",
+        "basis": "episode-material",
+        "label": "Material oficial desta aula",
+        "checkedOn": "2026-11-04"
+      },
+      "lines": [
+        {
+          "de": "Möchtest du mit mir ins Kino gehen?",
+          "pt": "Você quer ir ao cinema comigo?"
+        },
+        {
+          "de": "Hast du Lust, einen Kaffee zu trinken?",
+          "pt": "Você tem vontade de tomar um café?"
+        },
+        {
+          "de": "Kommst du mit uns ins Restaurant?",
+          "pt": "Você vem com a gente ao restaurante?"
+        },
+        {
+          "de": "Leider kann ich nicht.",
+          "pt": "Infelizmente, eu não posso."
+        }
+      ],
+      "task": "Escreva uma pequena situação em alemão usando pelo menos duas expressões deste material."
+    },
+    {
+      "id": 6,
+      "title": "Me empresta cinquentão",
+      "level": "com apoio em português",
+      "source": {
+        "url": "https://fluency.io/br/blog/walk-n-talk-alemao-06-me-empresta-cinquentao/",
+        "basis": "episode-material",
+        "label": "Material oficial desta aula",
+        "checkedOn": "2026-11-04"
+      },
+      "lines": [
+        {
+          "de": "Kannst du mir Geld leihen?",
+          "pt": "Você pode me emprestar dinheiro?"
+        },
+        {
+          "de": "Ich bin gerade knapp bei Kasse.",
+          "pt": "Estou sem grana no momento."
+        },
+        {
+          "de": "Wann kannst du es mir zurückgeben?",
+          "pt": "Quando você pode me devolver?"
+        },
+        {
+          "de": "Ich zahle es dir nächste Woche zurück.",
+          "pt": "Eu te pago de volta na próxima semana."
+        }
+      ],
+      "task": "Escreva uma pequena situação em alemão usando pelo menos duas expressões deste material."
+    },
+    {
+      "id": 7,
+      "title": "O senhor é turista?",
+      "level": "com apoio em português",
+      "source": {
+        "url": "https://fluency.io/br/blog/walk-n-talk-alemao-07-o-senhor-e-turista/",
+        "basis": "episode-material",
+        "label": "Material oficial desta aula",
+        "checkedOn": "2026-11-04"
+      },
+      "lines": [
+        {
+          "de": "Ich hätte gern einen Kaffee.",
+          "pt": "Eu gostaria de um café."
+        },
+        {
+          "de": "Möchten Sie Milch oder Zucker?",
+          "pt": "Você quer leite ou açúcar?"
+        },
+        {
+          "de": "Schwarz, bitte.",
+          "pt": "Preto, por favor."
+        },
+        {
+          "de": "Haben Sie etwas zu essen?",
+          "pt": "Vocês têm algo para comer?"
+        }
+      ],
+      "task": "Escreva uma pequena situação em alemão usando pelo menos duas expressões deste material."
+    },
+    {
+      "id": 8,
+      "title": "Estou procurando um supermercado",
+      "level": "com apoio em português",
+      "source": {
+        "url": "https://fluency.io/br/blog/walk-n-talk-alemao-08-estou-procurando-um-supermercado/",
+        "basis": "episode-material",
+        "label": "Material oficial desta aula",
+        "checkedOn": "2026-11-04"
+      },
+      "lines": [
+        {
+          "de": "Ich brauche Hilfe.",
+          "pt": "Eu preciso de ajuda."
+        },
+        {
+          "de": "Ich habe mich verlaufen.",
+          "pt": "Eu me perdi."
+        },
+        {
+          "de": "Können Sie mir helfen?",
+          "pt": "O senhor ou a senhora pode me ajudar?"
+        },
+        {
+          "de": "Können Sie das wiederholen?",
+          "pt": "O senhor ou a senhora pode repetir isso?"
+        }
+      ],
+      "task": "Escreva uma pequena situação em alemão usando pelo menos duas expressões deste material."
+    },
+    {
+      "id": 9,
+      "title": "No Restaurante",
+      "level": "com apoio em português",
+      "source": {
+        "url": "https://fluency.io/br/blog/walk-n-talk-alemao-09-no-restaurante/",
+        "basis": "episode-material",
+        "label": "Material oficial desta aula",
+        "checkedOn": "2026-11-04"
+      },
+      "lines": [
+        {
+          "de": "Ich hätte gern ein Steak, bitte.",
+          "pt": "Eu gostaria de um bife, por favor."
+        },
+        {
+          "de": "Kann ich bitte die Speisekarte haben?",
+          "pt": "Posso ver o cardápio, por favor?"
+        },
+        {
+          "de": "Ich nehme eine Suppe.",
+          "pt": "Eu vou querer uma sopa."
+        },
+        {
+          "de": "Ohne Zwiebeln, bitte.",
+          "pt": "Sem cebola, por favor."
+        }
+      ],
+      "task": "Escreva uma pequena situação em alemão usando pelo menos duas expressões deste material."
+    },
+    {
+      "id": 10,
+      "title": "No caixa",
+      "level": "com apoio em português",
+      "source": {
+        "url": "https://fluency.io/br/blog/walk-n-talk-alemao-10-no-caixa/",
+        "basis": "episode-material",
+        "label": "Material oficial desta aula",
+        "checkedOn": "2026-11-04"
+      },
+      "lines": [
+        {
+          "de": "Wie viel kostet das?",
+          "pt": "Quanto custa isso?"
+        },
+        {
+          "de": "Kann ich mit Karte zahlen?",
+          "pt": "Posso pagar com cartão?"
+        },
+        {
+          "de": "Zahlen Sie bar oder mit Karte?",
+          "pt": "Você paga em dinheiro ou com cartão?"
+        },
+        {
+          "de": "Das macht 12,50 Euro.",
+          "pt": "São 12,50 euros."
+        }
+      ],
+      "task": "Escreva uma pequena situação em alemão usando pelo menos duas expressões deste material."
+    },
+    {
+      "id": 11,
+      "title": "Eu gostaria de um cappuccino",
+      "level": "com apoio em português",
+      "source": {
+        "url": "https://fluency.io/br/blog/walk-n-talk-alemao-11-eu-gostaria-de-um-cappuccino/",
+        "basis": "episode-material",
+        "label": "Material oficial desta aula",
+        "checkedOn": "2026-11-04"
+      },
+      "lines": [
+        {
+          "de": "Ich hätte gern einen Kaffee.",
+          "pt": "Eu gostaria de um café."
+        },
+        {
+          "de": "Kann ich bitte einen Cappuccino haben?",
+          "pt": "Posso ter um cappuccino, por favor?"
+        },
+        {
+          "de": "Ich möchte einen Latte Macchiato.",
+          "pt": "Eu quero um latte macchiato."
+        },
+        {
+          "de": "Mit oder ohne Zucker?",
+          "pt": "Com ou sem açúcar?"
+        }
+      ],
+      "task": "Escreva uma pequena situação em alemão usando pelo menos duas expressões deste material."
+    },
+    {
+      "id": 12,
+      "title": "Comprando uma jaqueta",
+      "level": "com apoio em português",
+      "source": {
+        "url": "https://fluency.io/br/blog/walk-n-talk-alemao-12-comprando-uma-jaqueta/",
+        "basis": "episode-material",
+        "label": "Material oficial desta aula",
+        "checkedOn": "2026-11-04"
+      },
+      "lines": [
+        {
+          "de": "Kann ich das anprobieren?",
+          "pt": "Posso provar isso?"
+        },
+        {
+          "de": "Wo sind die Umkleidekabinen?",
+          "pt": "Onde ficam os provadores?"
+        },
+        {
+          "de": "Wie viel kostet das?",
+          "pt": "Quanto custa isso?"
+        },
+        {
+          "de": "Haben Sie das in einer anderen Größe?",
+          "pt": "Você tem isso em outro tamanho?"
+        }
+      ],
+      "task": "Escreva uma pequena situação em alemão usando pelo menos duas expressões deste material."
+    },
+    {
+      "id": 13,
+      "title": "Você já tem planos?",
+      "level": "com apoio em português",
+      "source": {
+        "url": "https://fluency.io/br/blog/walk-n-talk-alemao-13-voce-ja-tem-planos/",
+        "basis": "episode-material",
+        "label": "Material oficial desta aula",
+        "checkedOn": "2026-11-04"
+      },
+      "lines": [
+        {
+          "de": "Hast du heute Abend schon etwas vor?",
+          "pt": "Você já tem planos para esta noite?"
+        },
+        {
+          "de": "Hast du Lust, mit mir auszugehen?",
+          "pt": "Você quer sair comigo?"
+        },
+        {
+          "de": "Wollen wir etwas trinken gehen?",
+          "pt": "Vamos sair para tomar algo?"
+        },
+        {
+          "de": "Hast du Zeit für ein Abendessen?",
+          "pt": "Você tem tempo para um jantar?"
+        }
+      ],
+      "task": "Escreva uma pequena situação em alemão usando pelo menos duas expressões deste material."
+    },
+    {
+      "id": 14,
+      "title": "Fim de semana na praia",
+      "level": "com apoio em português",
+      "source": {
+        "url": "https://fluency.io/br/blog/walk-n-talk-alemao-14-fim-de-semana-na-praia/",
+        "basis": "episode-material",
+        "label": "Material oficial desta aula",
+        "checkedOn": "2026-11-04"
+      },
+      "lines": [
+        {
+          "de": "der Strand",
+          "pt": "A praia"
+        },
+        {
+          "de": "das Wochenende",
+          "pt": "O fim de semana"
+        },
+        {
+          "de": "Was machst du am Wochenende?",
+          "pt": "O que você faz no fim de semana?"
+        },
+        {
+          "de": "Ich fahre ans Meer.",
+          "pt": "Eu vou para o mar."
+        }
+      ],
+      "task": "Escreva uma pequena situação em alemão usando pelo menos duas expressões deste material."
+    },
+    {
+      "id": 15,
+      "title": "Uma reunião importante",
+      "level": "com apoio em português",
+      "source": {
+        "url": "https://fluency.io/br/blog/walk-n-talk-alemao-15-uma-reuniao-importante/",
+        "basis": "episode-material",
+        "label": "Material oficial desta aula",
+        "checkedOn": "2026-11-04"
+      },
+      "lines": [
+        {
+          "de": "Wo sind meine Ohrringe?",
+          "pt": "Onde estão meus brincos?"
+        },
+        {
+          "de": "Ich kann sie nicht finden!",
+          "pt": "Eu não consigo encontrá-los!"
+        },
+        {
+          "de": "Hast du sie gesehen?",
+          "pt": "Você os viu?"
+        },
+        {
+          "de": "Keine Ahnung!",
+          "pt": "Não faço ideia!"
+        }
+      ],
+      "task": "Escreva uma pequena situação em alemão usando pelo menos duas expressões deste material."
+    },
+    {
+      "id": 16,
+      "title": "O apartamento está um caos!",
+      "level": "com apoio em português",
+      "source": {
+        "url": "https://fluency.io/br/blog/walk-n-talk-alemao-16-o-apartamento-esta-um-caos/",
+        "basis": "episode-material",
+        "label": "Material oficial desta aula",
+        "checkedOn": "2026-11-04"
+      },
+      "lines": [
+        {
+          "de": "das Haus putzen",
+          "pt": "Limpar a casa"
+        },
+        {
+          "de": "staubsaugen",
+          "pt": "Passar o aspirador de pó"
+        },
+        {
+          "de": "den Boden wischen",
+          "pt": "Passar pano no chão"
+        },
+        {
+          "de": "den Müll rausbringen",
+          "pt": "Levar o lixo para fora"
+        }
+      ],
+      "task": "Escreva uma pequena situação em alemão usando pelo menos duas expressões deste material."
+    },
+    {
+      "id": 17,
+      "title": "Esse comediante é incrível!",
+      "level": "com apoio em português",
+      "source": {
+        "url": "https://fluency.io/br/blog/walk-n-talk-alemao-17-esse-comediante-e-incrivel/",
+        "basis": "episode-material",
+        "label": "Material oficial desta aula",
+        "checkedOn": "2026-11-04"
+      },
+      "lines": [
+        {
+          "de": "Ich habe mich kaputtgelacht!",
+          "pt": "Eu morri de rir!"
+        },
+        {
+          "de": "Ich lache mich tot!",
+          "pt": "Estou morrendo de rir!"
+        },
+        {
+          "de": "Das war zum Totlachen!",
+          "pt": "Isso foi de morrer de rir!"
+        },
+        {
+          "de": "Ich musste so lachen!",
+          "pt": "Eu tive que rir muito!"
+        }
+      ],
+      "task": "Escreva uma pequena situação em alemão usando pelo menos duas expressões deste material."
+    },
+    {
+      "id": 18,
+      "title": "O pneu está murcho",
+      "level": "com apoio em português",
+      "source": {
+        "url": "https://fluency.io/br/blog/walk-n-talk-alemao-18-o-pneu-esta-murcho/",
+        "basis": "episode-material",
+        "label": "Material oficial desta aula",
+        "checkedOn": "2026-11-04"
+      },
+      "lines": [
+        {
+          "de": "Ich habe eine Panne.",
+          "pt": "Meu carro quebrou."
+        },
+        {
+          "de": "Mein Reifen ist platt.",
+          "pt": "Meu pneu está furado."
+        },
+        {
+          "de": "Könnten Sie mir bitte helfen?",
+          "pt": "O senhor/a senhora poderia me ajudar?"
+        },
+        {
+          "de": "Ich brauche einen Mechaniker.",
+          "pt": "Eu preciso de um mecânico."
+        }
+      ],
+      "task": "Escreva uma pequena situação em alemão usando pelo menos duas expressões deste material."
+    },
+    {
+      "id": 19,
+      "title": "Como estava a festa ontem?",
+      "level": "com apoio em português",
+      "source": {
+        "url": "https://fluency.io/br/blog/walk-n-talk-alemao-19-como-estava-a-festa-ontem/",
+        "basis": "episode-material",
+        "label": "Material oficial desta aula",
+        "checkedOn": "2026-11-04"
+      },
+      "lines": [
+        {
+          "de": "Ich habe gestern zu viel getrunken.",
+          "pt": "Eu bebi demais ontem."
+        },
+        {
+          "de": "Ich habe einen Kater.",
+          "pt": "Estou de ressaca."
+        },
+        {
+          "de": "Was ist gestern passiert?",
+          "pt": "O que aconteceu ontem?"
+        },
+        {
+          "de": "Die Party war der Hammer!",
+          "pt": "A festa foi incrível!"
+        }
+      ],
+      "task": "Escreva uma pequena situação em alemão usando pelo menos duas expressões deste material."
+    },
+    {
+      "id": 20,
+      "title": "Com o que você sonha?",
+      "level": "com apoio em português",
+      "source": {
+        "url": "https://fluency.io/br/blog/walk-n-talk-alemao-20-com-o-que-voce-sonha/",
+        "basis": "episode-material",
+        "label": "Material oficial desta aula",
+        "checkedOn": "2026-11-04"
+      },
+      "lines": [
+        {
+          "de": "Ich habe letzte Nacht viel geträumt.",
+          "pt": "Eu sonhei muito na noite passada."
+        },
+        {
+          "de": "Wovon hast du geträumt?",
+          "pt": "Com o que você sonhou?"
+        },
+        {
+          "de": "Ich träume oft von Reisen.",
+          "pt": "Eu sonho frequentemente com viagens."
+        },
+        {
+          "de": "Können wir das zusammen machen?",
+          "pt": "Podemos fazer isso juntos?"
+        }
+      ],
+      "task": "Escreva uma pequena situação em alemão usando pelo menos duas expressões deste material."
+    },
+    {
+      "id": 21,
+      "title": "Marcando uma consulta",
+      "level": "com apoio em português",
+      "source": {
+        "url": "https://fluency.io/br/blog/walk-n-talk-alemao-21-marcando-uma-consulta/",
+        "basis": "episode-material",
+        "label": "Material oficial desta aula",
+        "checkedOn": "2026-11-04"
+      },
+      "lines": [
+        {
+          "de": "Einen Termin machen",
+          "pt": "Marcar uma consulta"
+        },
+        {
+          "de": "Einen Termin verschieben",
+          "pt": "Remarcar uma consulta"
+        },
+        {
+          "de": "Einen Termin absagen",
+          "pt": "Cancelar uma consulta"
+        },
+        {
+          "de": "Haben Sie einen freien Termin?",
+          "pt": "Vocês têm um horário disponível?"
+        }
+      ],
+      "task": "Escreva uma pequena situação em alemão usando pelo menos duas expressões deste material."
+    },
+    {
+      "id": 22,
+      "title": "Assalto",
+      "level": "com apoio em português",
+      "source": {
+        "url": "https://fluency.io/br/blog/walk-n-talk-alemao-22-assalto/",
+        "basis": "episode-material",
+        "label": "Material oficial desta aula",
+        "checkedOn": "2026-11-04"
+      },
+      "lines": [
+        {
+          "de": "Wie sieht er aus?",
+          "pt": "Como ele é fisicamente?"
+        },
+        {
+          "de": "Er ist groß und hat braune Haare.",
+          "pt": "Ele é alto e tem cabelo castanho."
+        },
+        {
+          "de": "Sie hat blaue Augen.",
+          "pt": "Ela tem olhos azuis."
+        },
+        {
+          "de": "Er trägt eine Brille.",
+          "pt": "Ele usa óculos."
+        }
+      ],
+      "task": "Escreva uma pequena situação em alemão usando pelo menos duas expressões deste material."
+    },
+    {
+      "id": 23,
+      "title": "Um estudante avoado",
+      "level": "com apoio em português",
+      "source": {
+        "url": "https://fluency.io/br/blog/walk-n-talk-alemao-23-um-estudante-avoado/",
+        "basis": "episode-material",
+        "label": "Material oficial desta aula",
+        "checkedOn": "2026-11-04"
+      },
+      "lines": [
+        {
+          "de": "die Prüfung",
+          "pt": "A prova"
+        },
+        {
+          "de": "vergessen",
+          "pt": "Esquecer"
+        },
+        {
+          "de": "sich erinnern",
+          "pt": "Lembrar-se"
+        },
+        {
+          "de": "Pech haben",
+          "pt": "Ter azar"
+        }
+      ],
+      "task": "Escreva uma pequena situação em alemão usando pelo menos duas expressões deste material."
+    },
+    {
+      "id": 24,
+      "title": "A voz de ouro",
+      "level": "com apoio em português",
+      "source": {
+        "url": "https://fluency.io/br/blog/walk-n-talk-alemao-24-a-voz-de-ouro/",
+        "basis": "episode-material",
+        "label": "Material oficial desta aula",
+        "checkedOn": "2026-11-04"
+      },
+      "lines": [
+        {
+          "de": "Wirklich? Das ist unglaublich!",
+          "pt": "Sério? Isso é inacreditável!"
+        },
+        {
+          "de": "Wow! Deine Stimme ist wunderschön!",
+          "pt": "Uau! Sua voz é maravilhosa!"
+        },
+        {
+          "de": "Ich bin sprachlos!",
+          "pt": "Estou sem palavras!"
+        },
+        {
+          "de": "Das klingt fantastisch!",
+          "pt": "Isso soa fantástico!"
+        }
+      ],
+      "task": "Escreva uma pequena situação em alemão usando pelo menos duas expressões deste material."
+    },
+    {
+      "id": 25,
+      "title": "Um lugar maravilhoso",
+      "level": "com apoio em português",
+      "source": {
+        "url": "https://fluency.io/br/blog/walk-n-talk-alemao-25-um-lugar-maravilhoso/",
+        "basis": "episode-material",
+        "label": "Material oficial desta aula",
+        "checkedOn": "2026-11-04"
+      },
+      "lines": [
+        {
+          "de": "Ich denke, dass das Leben schön ist.",
+          "pt": "Eu acho que a vida é bonita."
+        },
+        {
+          "de": "Meiner Meinung nach ist das falsch.",
+          "pt": "Na minha opinião, isso está errado."
+        },
+        {
+          "de": "Ich finde, dass jeder Glück haben kann.",
+          "pt": "Eu acho que todo mundo pode ter sorte."
+        },
+        {
+          "de": "Das ist nicht ganz richtig.",
+          "pt": "Isso não está completamente certo."
+        }
+      ],
+      "task": "Escreva uma pequena situação em alemão usando pelo menos duas expressões deste material."
+    },
+    {
+      "id": 26,
+      "title": "Sem dor, sem ganho",
+      "level": "com apoio em português",
+      "source": {
+        "url": "https://fluency.io/br/blog/walk-n-talk-alemao-26-sem-dor-sem-ganho/",
+        "basis": "episode-material",
+        "label": "Material oficial desta aula",
+        "checkedOn": "2026-11-04"
+      },
+      "lines": [
+        {
+          "de": "ins Fitnessstudio gehen",
+          "pt": "Ir à academia"
+        },
+        {
+          "de": "das Gewichtheben",
+          "pt": "Levantamento de peso"
+        },
+        {
+          "de": "die Hantel / die Hanteln",
+          "pt": "O halter / Os halteres"
+        },
+        {
+          "de": "die Liegestütze",
+          "pt": "A flexão de braço"
+        }
+      ],
+      "task": "Escreva uma pequena situação em alemão usando pelo menos duas expressões deste material."
+    },
+    {
+      "id": 27,
+      "title": "Como está o tempo hoje?",
+      "level": "com apoio em português",
+      "source": {
+        "url": "https://fluency.io/br/blog/walk-n-talk-alemao-27-como-esta-o-tempo-hoje/",
+        "basis": "episode-material",
+        "label": "Material oficial desta aula",
+        "checkedOn": "2026-11-04"
+      },
+      "lines": [
+        {
+          "de": "Wie ist das Wetter?",
+          "pt": "Como está o tempo?"
+        },
+        {
+          "de": "Es ist heiß.",
+          "pt": "Está quente."
+        },
+        {
+          "de": "Es ist kalt.",
+          "pt": "Está frio."
+        },
+        {
+          "de": "Es ist warm.",
+          "pt": "Está morno/quente."
+        }
+      ],
+      "task": "Escreva uma pequena situação em alemão usando pelo menos duas expressões deste material."
+    },
+    {
+      "id": 28,
+      "title": "Uma festa top!",
+      "level": "com apoio em português",
+      "source": {
+        "url": "https://fluency.io/br/blog/walk-n-talk-alemao-28-uma-festa-top/",
+        "basis": "episode-material",
+        "label": "Material oficial desta aula",
+        "checkedOn": "2026-11-04"
+      },
+      "lines": [
+        {
+          "de": "die Party",
+          "pt": "a festa"
+        },
+        {
+          "de": "die Musik",
+          "pt": "a música"
+        },
+        {
+          "de": "tanzen",
+          "pt": "dançar"
+        },
+        {
+          "de": "der Hammer",
+          "pt": "algo incrível (expressão coloquial)"
+        }
+      ],
+      "task": "Escreva uma pequena situação em alemão usando pelo menos duas expressões deste material."
+    },
+    {
+      "id": 29,
+      "title": "O Muro de Berlim",
+      "level": "com apoio em português",
+      "source": {
+        "url": "https://fluency.io/br/blog/estados-da-alemanha/",
+        "basis": "related-material",
+        "label": "Treino relacionado · geografia e cidades da Alemanha",
+        "checkedOn": "2026-11-04"
+      },
+      "lines": [
+        {
+          "de": "Berlin",
+          "pt": "Berlim"
+        },
+        {
+          "de": "Brandenburg",
+          "pt": "Brandemburgo"
+        },
+        {
+          "de": "Bayern",
+          "pt": "Baviera"
+        },
+        {
+          "de": "Hessen",
+          "pt": "Hesse"
+        }
+      ],
+      "task": "Escreva uma pequena situação em alemão usando pelo menos duas expressões deste material."
+    },
+    {
+      "id": 30,
+      "title": "Doenças",
+      "level": "com apoio em português",
+      "source": {
+        "url": "https://fluency.io/br/blog/walk-n-talk-alemao-30-doencas/",
+        "basis": "episode-material",
+        "label": "Material oficial desta aula",
+        "checkedOn": "2026-11-04"
+      },
+      "lines": [
+        {
+          "de": "Wie geht’s dir?",
+          "pt": "Como você está?"
+        },
+        {
+          "de": "Ich fühle mich nicht so gut.",
+          "pt": "Eu não me sinto muito bem."
+        },
+        {
+          "de": "Ich habe Kopfschmerzen.",
+          "pt": "Estou com dor de cabeça."
+        },
+        {
+          "de": "Ich bin müde.",
+          "pt": "Estou cansado(a)."
+        }
+      ],
+      "task": "Escreva uma pequena situação em alemão usando pelo menos duas expressões deste material."
+    },
+    {
+      "id": 31,
+      "title": "O que vamos assistir hoje?",
+      "level": "com apoio em português",
+      "source": {
+        "url": "https://fluency.io/br/blog/walk-n-talk-alemao-31-o-que-vamos-assistir-hoje/",
+        "basis": "episode-material",
+        "label": "Material oficial desta aula",
+        "checkedOn": "2026-11-04"
+      },
+      "lines": [
+        {
+          "de": "Welchen Film schauen wir?",
+          "pt": "Que filme vamos assistir?"
+        },
+        {
+          "de": "Hast du Lust auf einen Actionfilm?",
+          "pt": "Você está com vontade de ver um filme de ação?"
+        },
+        {
+          "de": "Ich liebe Komödien!",
+          "pt": "Eu amo comédias!"
+        },
+        {
+          "de": "Der Film läuft um 19 Uhr.",
+          "pt": "O filme passa às 19h."
+        }
+      ],
+      "task": "Escreva uma pequena situação em alemão usando pelo menos duas expressões deste material."
+    },
+    {
+      "id": 32,
+      "title": "Ligação telefônica",
+      "level": "com apoio em português",
+      "source": {
+        "url": "https://fluency.io/br/blog/walk-n-talk-alemao-32-ligacao-telefonica/",
+        "basis": "episode-material",
+        "label": "Material oficial desta aula",
+        "checkedOn": "2026-11-04"
+      },
+      "lines": [
+        {
+          "de": "der Kühlschrank",
+          "pt": "a geladeira"
+        },
+        {
+          "de": "kaputt sein",
+          "pt": "estar quebrado"
+        },
+        {
+          "de": "die Reparatur",
+          "pt": "o conserto"
+        },
+        {
+          "de": "reklamieren",
+          "pt": "reclamar"
+        }
+      ],
+      "task": "Escreva uma pequena situação em alemão usando pelo menos duas expressões deste material."
+    },
+    {
+      "id": 33,
+      "title": "Respira fundo!",
+      "level": "com apoio em português",
+      "source": {
+        "url": "https://fluency.io/br/blog/50-adjetivos-em-alemao/",
+        "basis": "related-material",
+        "label": "Treino relacionado · estados e sensações",
+        "checkedOn": "2026-11-04"
+      },
+      "lines": [
+        {
+          "de": "nervös",
+          "pt": "nervoso ou nervosa"
+        },
+        {
+          "de": "entspannt",
+          "pt": "relaxado ou relaxada"
+        },
+        {
+          "de": "müde",
+          "pt": "cansado ou cansada"
+        },
+        {
+          "de": "aufgeregt",
+          "pt": "agitado ou empolgado"
+        }
+      ],
+      "task": "Escreva uma pequena situação em alemão usando pelo menos duas expressões deste material."
+    },
+    {
+      "id": 34,
+      "title": "Oktoberfest",
+      "level": "com apoio em português",
+      "source": {
+        "url": "https://fluency.io/br/blog/walk-n-talk-alemao-34-oktoberfest/",
+        "basis": "episode-material",
+        "label": "Material oficial desta aula",
+        "checkedOn": "2026-11-04"
+      },
+      "lines": [
+        {
+          "de": "das Bier",
+          "pt": "a cerveja"
+        },
+        {
+          "de": "der Wein",
+          "pt": "o vinho"
+        },
+        {
+          "de": "das Wasser",
+          "pt": "a água"
+        },
+        {
+          "de": "der Saft",
+          "pt": "o suco"
+        }
+      ],
+      "task": "Escreva uma pequena situação em alemão usando pelo menos duas expressões deste material."
+    },
+    {
+      "id": 35,
+      "title": "Uma comida típica alemã",
+      "level": "com apoio em português",
+      "source": {
+        "url": "https://fluency.io/br/blog/walk-n-talk-alemao-35-uma-comida-tipica-alema/",
+        "basis": "episode-material",
+        "label": "Material oficial desta aula",
+        "checkedOn": "2026-11-04"
+      },
+      "lines": [
+        {
+          "de": "Bratwurst",
+          "pt": "Linguiça grelhada"
+        },
+        {
+          "de": "Sauerkraut",
+          "pt": "Chucrute (repolho fermentado)"
+        },
+        {
+          "de": "Brezel / Pretzel",
+          "pt": "Pretzel"
+        },
+        {
+          "de": "Kartoffelsalat",
+          "pt": "Salada de batata"
+        }
+      ],
+      "task": "Escreva uma pequena situação em alemão usando pelo menos duas expressões deste material."
+    },
+    {
+      "id": 36,
+      "title": "A lista de compras",
+      "level": "com apoio em português",
+      "source": {
+        "url": "https://fluency.io/br/blog/walk-n-talk-alemao-36-a-lista-de-compras/",
+        "basis": "episode-material",
+        "label": "Material oficial desta aula",
+        "checkedOn": "2026-11-04"
+      },
+      "lines": [
+        {
+          "de": "das Brot",
+          "pt": "o pão"
+        },
+        {
+          "de": "die Milch",
+          "pt": "o leite"
+        },
+        {
+          "de": "der Käse",
+          "pt": "o queijo"
+        },
+        {
+          "de": "das Obst",
+          "pt": "as frutas"
+        }
+      ],
+      "task": "Escreva uma pequena situação em alemão usando pelo menos duas expressões deste material."
+    },
+    {
+      "id": 37,
+      "title": "O que você gosta de ler?",
+      "level": "com apoio em português",
+      "source": {
+        "url": "https://fluency.io/br/blog/walk-n-talk-alemao-37-o-que-voce-gosta-de-ler/",
+        "basis": "episode-material",
+        "label": "Material oficial desta aula",
+        "checkedOn": "2026-11-04"
+      },
+      "lines": [
+        {
+          "de": "das Sachbuch",
+          "pt": "o livro de não ficção"
+        },
+        {
+          "de": "lesen",
+          "pt": "ler"
+        },
+        {
+          "de": "verstehen",
+          "pt": "entender"
+        },
+        {
+          "de": "fesselnd",
+          "pt": "cativante"
+        }
+      ],
+      "task": "Escreva uma pequena situação em alemão usando pelo menos duas expressões deste material."
+    },
+    {
+      "id": 38,
+      "title": "Primeiro dia na academia",
+      "level": "com apoio em português",
+      "source": {
+        "url": "https://fluency.io/br/blog/walk-n-talk-alemao-38-primeiro-dia-na-academia/",
+        "basis": "episode-material",
+        "label": "Material oficial desta aula",
+        "checkedOn": "2026-11-04"
+      },
+      "lines": [
+        {
+          "de": "das Fitnessstudio",
+          "pt": "a academia"
+        },
+        {
+          "de": "trainieren",
+          "pt": "treinar"
+        },
+        {
+          "de": "die Übung",
+          "pt": "o exercício"
+        },
+        {
+          "de": "der Muskelkater",
+          "pt": "dor muscular (após exercício)"
+        }
+      ],
+      "task": "Escreva uma pequena situação em alemão usando pelo menos duas expressões deste material."
+    },
+    {
+      "id": 39,
+      "title": "Votos de ano novo",
+      "level": "com apoio em português",
+      "source": {
+        "url": "https://fluency.io/br/blog/walk-n-talk-alemao-39-votos-de-ano-novo/",
+        "basis": "episode-material",
+        "label": "Material oficial desta aula",
+        "checkedOn": "2026-11-04"
+      },
+      "lines": [
+        {
+          "de": "Frohes neues Jahr!",
+          "pt": "Feliz Ano Novo!"
+        },
+        {
+          "de": "der Jahreswechsel",
+          "pt": "a passagem de ano"
+        },
+        {
+          "de": "Prosit Neujahr!",
+          "pt": "Saúde ao Ano Novo!"
+        },
+        {
+          "de": "das neue Jahr",
+          "pt": "o novo ano"
+        }
+      ],
+      "task": "Escreva uma pequena situação em alemão usando pelo menos duas expressões deste material."
+    },
+    {
+      "id": 40,
+      "title": "Agora ou nunca",
+      "level": "com apoio em português",
+      "source": {
+        "url": "https://fluency.io/br/blog/walk-n-talk-alemao-40-agora-ou-nunca/",
+        "basis": "episode-material",
+        "label": "Material oficial desta aula",
+        "checkedOn": "2026-11-04"
+      },
+      "lines": [
+        {
+          "de": "Welches Team unterstützt du?",
+          "pt": "Para qual time você torce?"
+        },
+        {
+          "de": "Das Spiel war unglaublich!",
+          "pt": "O jogo foi inacreditável!"
+        },
+        {
+          "de": "Hast du das Tor gesehen?",
+          "pt": "Você viu o gol?"
+        },
+        {
+          "de": "Der Schiedsrichter war schlecht.",
+          "pt": "O árbitro foi ruim."
+        }
+      ],
+      "task": "Escreva uma pequena situação em alemão usando pelo menos duas expressões deste material."
+    },
+    {
+      "id": 41,
+      "title": "Na delegacia",
+      "level": "com apoio em português",
+      "source": {
+        "url": "https://fluency.io/br/blog/walk-n-talk-alemao-41-na-delegacia/",
+        "basis": "episode-material",
+        "label": "Material oficial desta aula",
+        "checkedOn": "2026-11-04"
+      },
+      "lines": [
+        {
+          "de": "Frohes neues Jahr!",
+          "pt": "Feliz Ano Novo!"
+        },
+        {
+          "de": "Prosit Neujahr!",
+          "pt": "Saúde no Ano Novo!"
+        },
+        {
+          "de": "der Silvesterabend",
+          "pt": "A véspera de Ano Novo"
+        },
+        {
+          "de": "das Feuerwerk",
+          "pt": "Os fogos de artifício"
+        }
+      ],
+      "task": "Escreva uma pequena situação em alemão usando pelo menos duas expressões deste material."
+    },
+    {
+      "id": 42,
+      "title": "Um quarto, por favor",
+      "level": "com apoio em português",
+      "source": {
+        "url": "https://fluency.io/br/blog/walk-n-talk-alemao-42-um-quarto-por-favor/",
+        "basis": "episode-material",
+        "label": "Material oficial desta aula",
+        "checkedOn": "2026-11-04"
+      },
+      "lines": [
+        {
+          "de": "das Hotel",
+          "pt": "o hotel"
+        },
+        {
+          "de": "das Zimmer",
+          "pt": "o quarto"
+        },
+        {
+          "de": "das Einzelzimmer",
+          "pt": "quarto de solteiro"
+        },
+        {
+          "de": "das Doppelzimmer",
+          "pt": "quarto de casal"
+        }
+      ],
+      "task": "Escreva uma pequena situação em alemão usando pelo menos duas expressões deste material."
+    },
+    {
+      "id": 43,
+      "title": "Me chame de \"você\"",
+      "level": "com apoio em português",
+      "source": {
+        "url": "https://fluency.io/br/blog/walk-n-talk-alemao-43-me-chame-de-voce/",
+        "basis": "episode-material",
+        "label": "Material oficial desta aula",
+        "checkedOn": "2026-11-04"
+      },
+      "lines": [
+        {
+          "de": "Sie",
+          "pt": "tratamento formal: o senhor ou a senhora"
+        },
+        {
+          "de": "du",
+          "pt": "você, no tratamento informal singular"
+        },
+        {
+          "de": "ihr",
+          "pt": "vocês, no tratamento informal plural"
+        },
+        {
+          "de": "Herr",
+          "pt": "senhor, antes do sobrenome"
+        }
+      ],
+      "task": "Escreva uma pequena situação em alemão usando pelo menos duas expressões deste material."
+    },
+    {
+      "id": 44,
+      "title": "Me chame de senhor!",
+      "level": "com apoio em português",
+      "source": {
+        "url": "https://fluency.io/br/blog/walk-n-talk-alemao-43-me-chame-de-voce/",
+        "basis": "related-material",
+        "label": "Treino relacionado · aula 43, tratamento formal e informal",
+        "checkedOn": "2026-11-04"
+      },
+      "lines": [
+        {
+          "de": "Sie",
+          "pt": "tratamento formal: o senhor ou a senhora"
+        },
+        {
+          "de": "du",
+          "pt": "você, no tratamento informal singular"
+        },
+        {
+          "de": "ihr",
+          "pt": "vocês, no tratamento informal plural"
+        },
+        {
+          "de": "Herr",
+          "pt": "senhor, antes do sobrenome"
+        }
+      ],
+      "task": "Escreva uma pequena situação em alemão usando pelo menos duas expressões deste material."
+    },
+    {
+      "id": 45,
+      "title": "Deixa comigo!",
+      "level": "com apoio em português",
+      "source": {
+        "url": "https://fluency.io/br/blog/walk-n-talk-alemao-45-deixa-comigo/",
+        "basis": "episode-material",
+        "label": "Material oficial desta aula",
+        "checkedOn": "2026-11-04"
+      },
+      "lines": [
+        {
+          "de": "Kannst du mir helfen?",
+          "pt": "Você pode me ajudar?"
+        },
+        {
+          "de": "Ich brauche deine Hilfe.",
+          "pt": "Eu preciso da sua ajuda."
+        },
+        {
+          "de": "Könnten Sie mir bitte helfen?",
+          "pt": "O senhor(a) poderia me ajudar, por favor?"
+        },
+        {
+          "de": "Ich bin gerade beschäftigt.",
+          "pt": "Estou ocupado(a) agora."
+        }
+      ],
+      "task": "Escreva uma pequena situação em alemão usando pelo menos duas expressões deste material."
+    },
+    {
+      "id": 46,
+      "title": "Temos um problema",
+      "level": "com apoio em português",
+      "source": {
+        "url": "https://fluency.io/br/blog/walk-n-talk-alemao-46-temos-um-problema/",
+        "basis": "episode-material",
+        "label": "Material oficial desta aula",
+        "checkedOn": "2026-11-04"
+      },
+      "lines": [
+        {
+          "de": "der Lieferant",
+          "pt": "o fornecedor"
+        },
+        {
+          "de": "die Lieferung",
+          "pt": "a entrega"
+        },
+        {
+          "de": "die Verspätung",
+          "pt": "o atraso"
+        },
+        {
+          "de": "verspätet sein",
+          "pt": "estar atrasado"
+        }
+      ],
+      "task": "Escreva uma pequena situação em alemão usando pelo menos duas expressões deste material."
+    },
+    {
+      "id": 47,
+      "title": "Esses são meus livros favoritos!",
+      "level": "com apoio em português",
+      "source": {
+        "url": "https://fluency.io/br/blog/walk-n-talk-alemao-47-esses-sao-meus-livros-favoritos/",
+        "basis": "episode-material",
+        "label": "Material oficial desta aula",
+        "checkedOn": "2026-11-04"
+      },
+      "lines": [
+        {
+          "de": "Ich lese gerade ein Buch.",
+          "pt": "Estou lendo um livro agora."
+        },
+        {
+          "de": "Was ist dein Lieblingsbuch?",
+          "pt": "Qual é o seu livro favorito?"
+        },
+        {
+          "de": "Ich habe dieses Buch schon zweimal gelesen.",
+          "pt": "Eu já li esse livro duas vezes."
+        },
+        {
+          "de": "Ich liebe Fantasy-Romane!",
+          "pt": "Eu adoro romances de fantasia!"
+        }
+      ],
+      "task": "Escreva uma pequena situação em alemão usando pelo menos duas expressões deste material."
+    },
+    {
+      "id": 48,
+      "title": "A natureza é fantástica!",
+      "level": "com apoio em português",
+      "source": {
+        "url": "https://fluency.io/br/blog/walk-n-talk-alemao-48-a-natureza-e-fantastica/",
+        "basis": "episode-material",
+        "label": "Material oficial desta aula",
+        "checkedOn": "2026-11-04"
+      },
+      "lines": [
+        {
+          "de": "das Tier",
+          "pt": "O animal"
+        },
+        {
+          "de": "das Meer",
+          "pt": "O mar"
+        },
+        {
+          "de": "der Wal",
+          "pt": "A baleia"
+        },
+        {
+          "de": "der Blauwal",
+          "pt": "A baleia-azul"
+        }
+      ],
+      "task": "Escreva uma pequena situação em alemão usando pelo menos duas expressões deste material."
+    },
+    {
+      "id": 49,
+      "title": "O entregador de pizza",
+      "level": "com apoio em português",
+      "source": {
+        "url": "https://fluency.io/br/blog/walk-n-talk-alemao-49-o-entregador-de-pizza/",
+        "basis": "episode-material",
+        "label": "Material oficial desta aula",
+        "checkedOn": "2026-11-04"
+      },
+      "lines": [
+        {
+          "de": "die Speisekarte",
+          "pt": "o cardápio"
+        },
+        {
+          "de": "der Geschmack",
+          "pt": "o sabor"
+        },
+        {
+          "de": "der Lieferdienst",
+          "pt": "o serviço de entrega"
+        },
+        {
+          "de": "die Bestellung",
+          "pt": "o pedido"
+        }
+      ],
+      "task": "Escreva uma pequena situação em alemão usando pelo menos duas expressões deste material."
+    },
+    {
+      "id": 50,
+      "title": "Eu sou ecológico",
+      "level": "com apoio em português",
+      "source": {
+        "url": "https://fluency.io/br/blog/walk-n-talk-alemao-50-eu-sou-ecologico/",
+        "basis": "episode-material",
+        "label": "Material oficial desta aula",
+        "checkedOn": "2026-11-04"
+      },
+      "lines": [
+        {
+          "de": "der Restmüll",
+          "pt": "o lixo residual"
+        },
+        {
+          "de": "der Biomüll",
+          "pt": "o lixo orgânico"
+        },
+        {
+          "de": "das Papier",
+          "pt": "o papel"
+        },
+        {
+          "de": "der Kunststoff",
+          "pt": "o plástico"
+        }
+      ],
+      "task": "Escreva uma pequena situação em alemão usando pelo menos duas expressões deste material."
+    },
+    {
+      "id": 51,
+      "title": "Leve protetor solar",
+      "level": "com apoio em português",
+      "source": {
+        "url": "https://fluency.io/br/blog/walk-n-talk-alemao-51-leve-protetor-solar/",
+        "basis": "episode-material",
+        "label": "Material oficial desta aula",
+        "checkedOn": "2026-11-04"
+      },
+      "lines": [
+        {
+          "de": "die Sonnencreme",
+          "pt": "o protetor solar"
+        },
+        {
+          "de": "die Sonne",
+          "pt": "o sol"
+        },
+        {
+          "de": "der Bikini",
+          "pt": "o biquíni"
+        },
+        {
+          "de": "der Badeanzug",
+          "pt": "o maiô"
+        }
+      ],
+      "task": "Escreva uma pequena situação em alemão usando pelo menos duas expressões deste material."
+    },
+    {
+      "id": 52,
+      "title": "Dormir bem é imprescindível",
+      "level": "com apoio em português",
+      "source": {
+        "url": "https://fluency.io/br/blog/walk-n-talk-alemao-52-dormir-bem-e-imprescindivel/",
+        "basis": "episode-material",
+        "label": "Material oficial desta aula",
+        "checkedOn": "2026-11-04"
+      },
+      "lines": [
+        {
+          "de": "Ich versuche, mehr zu schlafen.",
+          "pt": "Eu tento dormir mais."
+        },
+        {
+          "de": "Ich habe keine Zeit, dich zu besuchen.",
+          "pt": "Não tenho tempo para visitar você."
+        },
+        {
+          "de": "Ich freue mich, dich zu sehen.",
+          "pt": "Fico feliz em ver você."
+        },
+        {
+          "de": "Ich versuche, ein Buch zu lesen.",
+          "pt": "Eu tento ler um livro."
+        }
+      ],
+      "task": "Escreva uma pequena situação em alemão usando pelo menos duas expressões deste material."
+    },
+    {
+      "id": 53,
+      "title": "Ele prometeu que não nos abandonaria",
+      "level": "com apoio em português",
+      "source": {
+        "url": "https://fluency.io/br/blog/walk-n-talk-alemao-53-ele-prometeu-que-nao-nos-abandonaria/",
+        "basis": "episode-material",
+        "label": "Material oficial desta aula",
+        "checkedOn": "2026-11-04"
+      },
+      "lines": [
+        {
+          "de": "Halt die Klappe!",
+          "pt": "Cale-se!"
+        },
+        {
+          "de": "Halt den Mund!",
+          "pt": "Cale a boca!"
+        },
+        {
+          "de": "Klappe!",
+          "pt": "Calado!"
+        },
+        {
+          "de": "Bleib mal ruhig!",
+          "pt": "Fique quieto!"
+        }
+      ],
+      "task": "Escreva uma pequena situação em alemão usando pelo menos duas expressões deste material."
+    },
+    {
+      "id": 54,
+      "title": "O que vamos fazer hoje?",
+      "level": "com apoio em português",
+      "source": {
+        "url": "https://fluency.io/br/blog/walk-n-talk-alemao-54-o-que-vamos-fazer-hoje/",
+        "basis": "episode-material",
+        "label": "Material oficial desta aula",
+        "checkedOn": "2026-11-04"
+      },
+      "lines": [
+        {
+          "de": "Wir können zum Strand fahren.",
+          "pt": "Nós podemos ir à praia."
+        },
+        {
+          "de": "Wir können ins Kino gehen.",
+          "pt": "Nós podemos ir ao cinema."
+        },
+        {
+          "de": "Wir können zum Zoo gehen.",
+          "pt": "Nós podemos ir ao zoológico."
+        },
+        {
+          "de": "Wir können auf’s Land gehen.",
+          "pt": "Nós podemos ir ao campo."
+        }
+      ],
+      "task": "Escreva uma pequena situação em alemão usando pelo menos duas expressões deste material."
+    },
+    {
+      "id": 55,
+      "title": "Tim-tim, meu amor!",
+      "level": "com apoio em português",
+      "source": {
+        "url": "https://fluency.io/br/blog/walk-n-talk-alemao-55-tim-tim-meu-amor/",
+        "basis": "episode-material",
+        "label": "Material oficial desta aula",
+        "checkedOn": "2026-11-04"
+      },
+      "lines": [
+        {
+          "de": "Eine Flasche Wein.",
+          "pt": "Uma garrafa de vinho."
+        },
+        {
+          "de": "Magst du Rotwein?",
+          "pt": "Você gosta de vinho tinto?"
+        },
+        {
+          "de": "Ich trinke lieber Weißwein.",
+          "pt": "Eu prefiro tomar vinho branco."
+        },
+        {
+          "de": "Am liebsten trinke ich Roséwein.",
+          "pt": "Meu favorito é vinho rosé."
+        }
+      ],
+      "task": "Escreva uma pequena situação em alemão usando pelo menos duas expressões deste material."
+    },
+    {
+      "id": 56,
+      "title": "Meus animais de estimação",
+      "level": "com apoio em português",
+      "source": {
+        "url": "https://fluency.io/br/blog/walk-n-talk-alemao-56-meus-animais-de-estimacao/",
+        "basis": "episode-material",
+        "label": "Material oficial desta aula",
+        "checkedOn": "2026-11-04"
+      },
+      "lines": [
+        {
+          "de": "Haustiere",
+          "pt": "Animais de estimação"
+        },
+        {
+          "de": "Hund",
+          "pt": "Cachorro"
+        },
+        {
+          "de": "Katze",
+          "pt": "Gato"
+        },
+        {
+          "de": "Freund",
+          "pt": "Amigo"
+        }
+      ],
+      "task": "Escreva uma pequena situação em alemão usando pelo menos duas expressões deste material."
+    },
+    {
+      "id": 57,
+      "title": "Como foram as tarefas de casa?",
+      "level": "com apoio em português",
+      "source": {
+        "url": "https://fluency.io/br/blog/walk-n-talk-alemao-57-como-foram-as-tarefas-de-casa/",
+        "basis": "episode-material",
+        "label": "Material oficial desta aula",
+        "checkedOn": "2026-11-04"
+      },
+      "lines": [
+        {
+          "de": "Das Geschirr spülen",
+          "pt": "Lavar a louça"
+        },
+        {
+          "de": "Das Geschirr abtrocknen",
+          "pt": "Secar a louça"
+        },
+        {
+          "de": "Das Zimmer aufräumen",
+          "pt": "Arrumar o quarto/cômodo"
+        },
+        {
+          "de": "Staubsaugen",
+          "pt": "Passar aspirador de pó"
+        }
+      ],
+      "task": "Escreva uma pequena situação em alemão usando pelo menos duas expressões deste material."
+    },
+    {
+      "id": 58,
+      "title": "Quanto custa o aluguel?",
+      "level": "com apoio em português",
+      "source": {
+        "url": "https://fluency.io/br/blog/walk-n-talk-alemao-58-quanto-custa-o-aluguel/",
+        "basis": "episode-material",
+        "label": "Material oficial desta aula",
+        "checkedOn": "2026-11-04"
+      },
+      "lines": [
+        {
+          "de": "mieten",
+          "pt": "alugar algo para usar"
+        },
+        {
+          "de": "vermieten",
+          "pt": "alugar algo para outra pessoa"
+        },
+        {
+          "de": "möbliert",
+          "pt": "mobiliado"
+        },
+        {
+          "de": "haustierfreundlich",
+          "pt": "que aceita animais de estimação"
+        }
+      ],
+      "task": "Escreva uma pequena situação em alemão usando pelo menos duas expressões deste material."
+    },
+    {
+      "id": 59,
+      "title": "Eu sinto tanto a sua falta!",
+      "level": "com apoio em português",
+      "source": {
+        "url": "https://fluency.io/br/blog/walk-n-talk-alemao-59-eu-sinto-tanto-a-sua-falta/",
+        "basis": "episode-material",
+        "label": "Material oficial desta aula",
+        "checkedOn": "2026-11-04"
+      },
+      "lines": [
+        {
+          "de": "die Beziehung",
+          "pt": "o relacionamento / a relação"
+        },
+        {
+          "de": "die Fernbeziehung",
+          "pt": "o relacionamento à distância"
+        },
+        {
+          "de": "Ich bin in einer (festen) Beziehung.",
+          "pt": "Eu estou em um relacionamento (sério/fixo)."
+        },
+        {
+          "de": "Ich und mein Mann wohnen getrennt.",
+          "pt": "Eu e meu marido moramos separados."
+        }
+      ],
+      "task": "Escreva uma pequena situação em alemão usando pelo menos duas expressões deste material."
+    },
+    {
+      "id": 60,
+      "title": "Meu aniversário",
+      "level": "com apoio em português",
+      "source": {
+        "url": "https://fluency.io/br/blog/walk-n-talk-alemao-60-meu-aniversario/",
+        "basis": "episode-material",
+        "label": "Material oficial desta aula",
+        "checkedOn": "2026-11-04"
+      },
+      "lines": [
+        {
+          "de": "der Geburtstag",
+          "pt": "o aniversário"
+        },
+        {
+          "de": "das Geschenk",
+          "pt": "o presente"
+        },
+        {
+          "de": "die Geburtstagsparty",
+          "pt": "a festa de aniversário"
+        },
+        {
+          "de": "die Gäste",
+          "pt": "os convidados"
+        }
+      ],
+      "task": "Escreva uma pequena situação em alemão usando pelo menos duas expressões deste material."
+    },
+    {
+      "id": 61,
+      "title": "Eu me perdi!",
+      "level": "com apoio em português",
+      "source": {
+        "url": "https://fluency.io/br/blog/walk-n-talk-alemao-61-eu-me-perdi/",
+        "basis": "episode-material",
+        "label": "Material oficial desta aula",
+        "checkedOn": "2026-11-04"
+      },
+      "lines": [
+        {
+          "de": "Entschuldigung!",
+          "pt": "Com licença!"
+        },
+        {
+          "de": "Ich brauche Hilfe.",
+          "pt": "Eu preciso de ajuda."
+        },
+        {
+          "de": "Ich habe mich verlaufen.",
+          "pt": "Eu me perdi."
+        },
+        {
+          "de": "Wo ist der Bahnhof?",
+          "pt": "Onde fica a estação de trem?"
+        }
+      ],
+      "task": "Escreva uma pequena situação em alemão usando pelo menos duas expressões deste material."
+    },
+    {
+      "id": 62,
+      "title": "Você quer se casar comigo?",
+      "level": "com apoio em português",
+      "source": {
+        "url": "https://fluency.io/br/blog/walk-n-talk-alemao-62-voce-quer-se-casar-comigo/",
+        "basis": "episode-material",
+        "label": "Material oficial desta aula",
+        "checkedOn": "2026-11-04"
+      },
+      "lines": [
+        {
+          "de": "heiraten",
+          "pt": "casar-se"
+        },
+        {
+          "de": "verheiratet",
+          "pt": "casado ou casada"
+        },
+        {
+          "de": "die Hochzeit",
+          "pt": "o casamento (a cerimônia)"
+        },
+        {
+          "de": "der Heiratsantrag",
+          "pt": "o pedido de casamento"
+        }
+      ],
+      "task": "Escreva uma pequena situação em alemão usando pelo menos duas expressões deste material."
+    },
+    {
+      "id": 63,
+      "title": "Estou à disposição",
+      "level": "com apoio em português",
+      "source": {
+        "url": "https://fluency.io/br/blog/walk-n-talk-alemao-63-estou-a-disposicao/",
+        "basis": "episode-material",
+        "label": "Material oficial desta aula",
+        "checkedOn": "2026-11-04"
+      },
+      "lines": [
+        {
+          "de": "Scheiße!",
+          "pt": "Merda!"
+        },
+        {
+          "de": "Mist!",
+          "pt": "Droga!"
+        },
+        {
+          "de": "So ein Quatsch!",
+          "pt": "Mas que besteira!"
+        },
+        {
+          "de": "Spinnst du oder was?",
+          "pt": "Você está louco ou o quê?"
+        }
+      ],
+      "task": "Escreva uma pequena situação em alemão usando pelo menos duas expressões deste material."
+    },
+    {
+      "id": 64,
+      "title": "Novo na empresa",
+      "level": "com apoio em português",
+      "source": {
+        "url": "https://fluency.io/br/blog/walk-n-talk-alemao-64-novo-na-empresa/",
+        "basis": "episode-material",
+        "label": "Material oficial desta aula",
+        "checkedOn": "2026-11-04"
+      },
+      "lines": [
+        {
+          "de": "der Arbeitstag",
+          "pt": "o dia de trabalho"
+        },
+        {
+          "de": "aufgeregt",
+          "pt": "empolgado/emocionado"
+        },
+        {
+          "de": "nervös",
+          "pt": "nervoso"
+        },
+        {
+          "de": "motiviert",
+          "pt": "motivado"
+        }
+      ],
+      "task": "Escreva uma pequena situação em alemão usando pelo menos duas expressões deste material."
+    },
+    {
+      "id": 65,
+      "title": "Eu preciso de manteiga",
+      "level": "com apoio em português",
+      "source": {
+        "url": "https://fluency.io/br/blog/walk-n-talk-alemao-65-eu-preciso-de-manteiga/",
+        "basis": "episode-material",
+        "label": "Material oficial desta aula",
+        "checkedOn": "2026-11-04"
+      },
+      "lines": [
+        {
+          "de": "Butter",
+          "pt": "manteiga"
+        },
+        {
+          "de": "Kuchen",
+          "pt": "bolo"
+        },
+        {
+          "de": "backen",
+          "pt": "assar"
+        },
+        {
+          "de": "Nachbar",
+          "pt": "vizinho"
+        }
+      ],
+      "task": "Escreva uma pequena situação em alemão usando pelo menos duas expressões deste material."
+    },
+    {
+      "id": 66,
+      "title": "Isso está muito pesado!",
+      "level": "com apoio em português",
+      "source": {
+        "url": "https://fluency.io/br/blog/walk-n-talk-alemao-66-isso-esta-muito-pesado/",
+        "basis": "episode-material",
+        "label": "Material oficial desta aula",
+        "checkedOn": "2026-11-04"
+      },
+      "lines": [
+        {
+          "de": "der Eingang",
+          "pt": "a entrada"
+        },
+        {
+          "de": "der Abflug",
+          "pt": "a partida de um voo"
+        },
+        {
+          "de": "die Ankunft",
+          "pt": "a chegada"
+        },
+        {
+          "de": "die Anzeigetafel",
+          "pt": "o painel de informações"
+        }
+      ],
+      "task": "Escreva uma pequena situação em alemão usando pelo menos duas expressões deste material."
+    },
+    {
+      "id": 67,
+      "title": "A prova",
+      "level": "com apoio em português",
+      "source": {
+        "url": "https://fluency.io/br/blog/walk-n-talk-alemao-67-a-prova/",
+        "basis": "episode-material",
+        "label": "Material oficial desta aula",
+        "checkedOn": "2026-11-04"
+      },
+      "lines": [
+        {
+          "de": "An der Schule",
+          "pt": "Na escola"
+        },
+        {
+          "de": "die Grundschule",
+          "pt": "Escola “de base” (Ensino fundamental)"
+        },
+        {
+          "de": "die Hauptschule",
+          "pt": "Escola com maior foco no aprendizado de um ofício"
+        },
+        {
+          "de": "die Realschule",
+          "pt": "Escola com foco no aprendizado técnico"
+        }
+      ],
+      "task": "Escreva uma pequena situação em alemão usando pelo menos duas expressões deste material."
+    },
+    {
+      "id": 68,
+      "title": "Minha vó é incrível!",
+      "level": "com apoio em português",
+      "source": {
+        "url": "https://fluency.io/br/blog/walk-n-talk-alemao-68-minha-vo-e-incrivel/",
+        "basis": "episode-material",
+        "label": "Material oficial desta aula",
+        "checkedOn": "2026-11-04"
+      },
+      "lines": [
+        {
+          "de": "hübsch",
+          "pt": "bonito ou bonita"
+        },
+        {
+          "de": "riesig",
+          "pt": "enorme"
+        },
+        {
+          "de": "ziemlich",
+          "pt": "bastante"
+        },
+        {
+          "de": "wunderschön",
+          "pt": "maravilhoso ou maravilhosa"
+        }
+      ],
+      "task": "Escreva uma pequena situação em alemão usando pelo menos duas expressões deste material."
+    },
+    {
+      "id": 69,
+      "title": "Ah, as crianças...",
+      "level": "com apoio em português",
+      "source": {
+        "url": "https://fluency.io/br/blog/walk-n-talk-alemao-69-ah-as-criancas/",
+        "basis": "episode-material",
+        "label": "Material oficial desta aula",
+        "checkedOn": "2026-11-04"
+      },
+      "lines": [
+        {
+          "de": "Kindersicherheitsweste",
+          "pt": "Colete de segurança"
+        },
+        {
+          "de": "faul",
+          "pt": "preguiçoso"
+        },
+        {
+          "de": "fleißig",
+          "pt": "aplicado"
+        },
+        {
+          "de": "frech",
+          "pt": "levado"
+        }
+      ],
+      "task": "Escreva uma pequena situação em alemão usando pelo menos duas expressões deste material."
+    },
+    {
+      "id": 70,
+      "title": "Na farmácia",
+      "level": "com apoio em português",
+      "source": {
+        "url": "https://fluency.io/br/blog/walk-n-talk-alemao-70-na-farmacia/",
+        "basis": "episode-material",
+        "label": "Material oficial desta aula",
+        "checkedOn": "2026-11-04"
+      },
+      "lines": [
+        {
+          "de": "Ich habe Kopfschmerzen.",
+          "pt": "Eu tenho dor de cabeça."
+        },
+        {
+          "de": "Ich habe Husten.",
+          "pt": "Eu tenho tosse."
+        },
+        {
+          "de": "Ich habe Bauchschmerzen.",
+          "pt": "Eu tenho dor de barriga."
+        },
+        {
+          "de": "Mein Kopf tut weh.",
+          "pt": "Minha cabeça está doendo."
+        }
+      ],
+      "task": "Escreva uma pequena situação em alemão usando pelo menos duas expressões deste material."
+    },
+    {
+      "id": 71,
+      "title": "Eu quero um bicho de estimação!",
+      "level": "com apoio em português",
+      "source": {
+        "url": "https://fluency.io/br/blog/walk-n-talk-alemao-56-meus-animais-de-estimacao/",
+        "basis": "related-material",
+        "label": "Treino relacionado · aula 56, animais de estimação",
+        "checkedOn": "2026-11-04"
+      },
+      "lines": [
+        {
+          "de": "das Haustier",
+          "pt": "o animal de estimação"
+        },
+        {
+          "de": "der Hund",
+          "pt": "o cachorro"
+        },
+        {
+          "de": "die Katze",
+          "pt": "a gata"
+        },
+        {
+          "de": "adoptieren",
+          "pt": "adotar"
+        }
+      ],
+      "task": "Escreva uma pequena situação em alemão usando pelo menos duas expressões deste material."
+    },
+    {
+      "id": 72,
+      "title": "Como foi o final de semana?",
+      "level": "com apoio em português",
+      "source": {
+        "url": "https://fluency.io/br/blog/walk-n-talk-alemao-72-como-foi-o-final-de-semana/",
+        "basis": "episode-material",
+        "label": "Material oficial desta aula",
+        "checkedOn": "2026-11-04"
+      },
+      "lines": [
+        {
+          "de": "Ich bin gelaufen.",
+          "pt": "Eu corri."
+        },
+        {
+          "de": "Ich bin nach Italien gefahren.",
+          "pt": "Eu fui de carro para a Itália."
+        },
+        {
+          "de": "Ich bin nach Osten gezogen.",
+          "pt": "Eu me mudei para o Leste."
+        },
+        {
+          "de": "Ich bin in die Innenstadt gegangen.",
+          "pt": "Eu fui ao centro da cidade."
+        }
+      ],
+      "task": "Escreva uma pequena situação em alemão usando pelo menos duas expressões deste material."
+    },
+    {
+      "id": 73,
+      "title": "Quando você estaria livre?",
+      "level": "com apoio em português",
+      "source": {
+        "url": "https://fluency.io/br/blog/walk-n-talk-alemao-73-quando-voce-estaria-livre/",
+        "basis": "episode-material",
+        "label": "Material oficial desta aula",
+        "checkedOn": "2026-11-04"
+      },
+      "lines": [
+        {
+          "de": "Wann hast du frei?",
+          "pt": "Quando você está livre?"
+        },
+        {
+          "de": "Hast du am Sonntag frei?",
+          "pt": "Você está livre no domingo?"
+        },
+        {
+          "de": "Am Samstag kann ich nicht.",
+          "pt": "No sábado, eu não posso."
+        },
+        {
+          "de": "Was machen wir in unserer Freizeit?",
+          "pt": "O que nós vamos fazer no nosso tempo livre?"
+        }
+      ],
+      "task": "Escreva uma pequena situação em alemão usando pelo menos duas expressões deste material."
+    },
+    {
+      "id": 74,
+      "title": "Estou morrendo de fome",
+      "level": "com apoio em português",
+      "source": {
+        "url": "https://fluency.io/br/blog/walk-n-talk-alemao-74-estou-morrendo-de-fome/",
+        "basis": "episode-material",
+        "label": "Material oficial desta aula",
+        "checkedOn": "2026-11-04"
+      },
+      "lines": [
+        {
+          "de": "Mir ist kalt.",
+          "pt": "Estou com frio."
+        },
+        {
+          "de": "Mir ist warm.",
+          "pt": "Estou com calor."
+        },
+        {
+          "de": "Mir ist klar.",
+          "pt": "Está claro para mim."
+        },
+        {
+          "de": "Mir ist schlecht.",
+          "pt": "Estou ruim / Não estou bem."
+        }
+      ],
+      "task": "Escreva uma pequena situação em alemão usando pelo menos duas expressões deste material."
+    },
+    {
+      "id": 75,
+      "title": "As férias de verão",
+      "level": "com apoio em português",
+      "source": {
+        "url": "https://fluency.io/br/blog/walk-n-talk-alemao-75-as-ferias-de-verao/",
+        "basis": "episode-material",
+        "label": "Material oficial desta aula",
+        "checkedOn": "2026-11-04"
+      },
+      "lines": [
+        {
+          "de": "Wir genießen die Luft.",
+          "pt": "Nós aproveitamos o ar."
+        },
+        {
+          "de": "Wir schwimmen im Swimmingpool.",
+          "pt": "Nós nadamos na piscina."
+        },
+        {
+          "de": "Wir machen ein Picknick.",
+          "pt": "Nós fazemos um piquenique."
+        },
+        {
+          "de": "Ich möchte klettern lernen.",
+          "pt": "Quero aprender a escalar."
+        }
+      ],
+      "task": "Escreva uma pequena situação em alemão usando pelo menos duas expressões deste material."
+    },
+    {
+      "id": 76,
+      "title": "Me dá uma carona?",
+      "level": "com apoio em português",
+      "source": {
+        "url": "https://fluency.io/br/blog/walk-n-talk-alemao-76-me-da-uma-carona/",
+        "basis": "episode-material",
+        "label": "Material oficial desta aula",
+        "checkedOn": "2026-11-04"
+      },
+      "lines": [
+        {
+          "de": "Wo befindet sich die Apotheke?",
+          "pt": "Onde se encontra a farmácia?"
+        },
+        {
+          "de": "Die Apotheke befindet sich im nächsten Block.",
+          "pt": "A farmácia se encontra no próximo bloco."
+        },
+        {
+          "de": "Wo hängt die Uhr?",
+          "pt": "Onde está pendurado o relógio?"
+        },
+        {
+          "de": "Die Uhr hängt an der Wand.",
+          "pt": "O relógio está pendurado na parede."
+        }
+      ],
+      "task": "Escreva uma pequena situação em alemão usando pelo menos duas expressões deste material."
+    },
+    {
+      "id": 77,
+      "title": "Maquiagem",
+      "level": "com apoio em português",
+      "source": {
+        "url": "https://fluency.io/br/blog/walk-n-talk-alemao-77-maquiagem/",
+        "basis": "episode-material",
+        "label": "Material oficial desta aula",
+        "checkedOn": "2026-11-04"
+      },
+      "lines": [
+        {
+          "de": "die Schminke / das Make-up",
+          "pt": "a maquiagem"
+        },
+        {
+          "de": "das Puder",
+          "pt": "o pó"
+        },
+        {
+          "de": "der Puderpinsel",
+          "pt": "o pincel para pó"
+        },
+        {
+          "de": "die Foundation",
+          "pt": "a base"
+        }
+      ],
+      "task": "Escreva uma pequena situação em alemão usando pelo menos duas expressões deste material."
+    },
+    {
+      "id": 78,
+      "title": "No curso de culinária",
+      "level": "com apoio em português",
+      "source": {
+        "url": "https://fluency.io/br/blog/walk-n-talk-alemao-78-no-curso-de-culinaria/",
+        "basis": "episode-material",
+        "label": "Material oficial desta aula",
+        "checkedOn": "2026-11-04"
+      },
+      "lines": [
+        {
+          "de": "kochen",
+          "pt": "cozinhar"
+        },
+        {
+          "de": "schälen",
+          "pt": "descascar"
+        },
+        {
+          "de": "schneiden",
+          "pt": "cortar"
+        },
+        {
+          "de": "die Zutaten",
+          "pt": "os ingredientes"
+        }
+      ],
+      "task": "Escreva uma pequena situação em alemão usando pelo menos duas expressões deste material."
+    },
+    {
+      "id": 79,
+      "title": "Férias no hotel",
+      "level": "com apoio em português",
+      "source": {
+        "url": "https://fluency.io/br/blog/walk-n-talk-alemao-79-ferias-no-hotel/",
+        "basis": "episode-material",
+        "label": "Material oficial desta aula",
+        "checkedOn": "2026-11-04"
+      },
+      "lines": [
+        {
+          "de": "Es gibt nichts zu tun.",
+          "pt": "Não tem nada para fazer."
+        },
+        {
+          "de": "Gibt es etwas in deiner Tasche?",
+          "pt": "Tem algo na sua bolsa?"
+        },
+        {
+          "de": "Es gibt bedingungslose Liebe.",
+          "pt": "Existe amor incondicional."
+        },
+        {
+          "de": "Es gibt Gerechtigkeit für alle.",
+          "pt": "Há justiça para todos."
+        }
+      ],
+      "task": "Escreva uma pequena situação em alemão usando pelo menos duas expressões deste material."
+    },
+    {
+      "id": 80,
+      "title": "Eu estou doente",
+      "level": "com apoio em português",
+      "source": {
+        "url": "https://fluency.io/br/blog/walk-n-talk-alemao-80-eu-estou-doente/",
+        "basis": "episode-material",
+        "label": "Material oficial desta aula",
+        "checkedOn": "2026-11-04"
+      },
+      "lines": [
+        {
+          "de": "die Kopfschmerzen",
+          "pt": "a dor de cabeça"
+        },
+        {
+          "de": "die laufende Nase",
+          "pt": "o nariz escorrendo"
+        },
+        {
+          "de": "die Körperschmerzen",
+          "pt": "as dores no corpo"
+        },
+        {
+          "de": "das Niesen",
+          "pt": "o ato de espirrar"
+        }
+      ],
+      "task": "Escreva uma pequena situação em alemão usando pelo menos duas expressões deste material."
+    },
+    {
+      "id": 81,
+      "title": "O pedido",
+      "level": "com apoio em português",
+      "source": {
+        "url": "https://fluency.io/br/blog/walk-n-talk-alemao-81-o-pedido/",
+        "basis": "episode-material",
+        "label": "Material oficial desta aula",
+        "checkedOn": "2026-11-04"
+      },
+      "lines": [
+        {
+          "de": "Veggie-Burger",
+          "pt": "Hambúrguer vegetariano"
+        },
+        {
+          "de": "der Burger",
+          "pt": "O hambúrguer"
+        },
+        {
+          "de": "der Nachtisch",
+          "pt": "A sobremesa"
+        },
+        {
+          "de": "die Torte",
+          "pt": "A torta"
+        }
+      ],
+      "task": "Escreva uma pequena situação em alemão usando pelo menos duas expressões deste material."
+    },
+    {
+      "id": 82,
+      "title": "A viagem para a Alemanha",
+      "level": "com apoio em português",
+      "source": {
+        "url": "https://fluency.io/br/blog/walk-n-talk-alemao-82-a-viagem-para-a-alemanha/",
+        "basis": "episode-material",
+        "label": "Material oficial desta aula",
+        "checkedOn": "2026-11-04"
+      },
+      "lines": [
+        {
+          "de": "mit meinem Bruder",
+          "pt": "com meu irmão"
+        },
+        {
+          "de": "mit deinem Bruder",
+          "pt": "com seu irmão (tratamento du)"
+        },
+        {
+          "de": "mit ihrer Schwester",
+          "pt": "com a irmã dela"
+        },
+        {
+          "de": "mit seinem Vater",
+          "pt": "com o pai dele"
+        }
+      ],
+      "task": "Escreva uma pequena situação em alemão usando pelo menos duas expressões deste material."
+    },
+    {
+      "id": 83,
+      "title": "Estamos num beco sem saída!",
+      "level": "com apoio em português",
+      "source": {
+        "url": "https://fluency.io/br/blog/walk-n-talk-alemao-83-estamos-num-beco-sem-saida/",
+        "basis": "episode-material",
+        "label": "Material oficial desta aula",
+        "checkedOn": "2026-11-04"
+      },
+      "lines": [
+        {
+          "de": "Ich fahre lieber am Morgen.",
+          "pt": "Eu prefiro dirigir de manhã."
+        },
+        {
+          "de": "Ich esse lieber Lasagna.",
+          "pt": "Eu prefiro comer lasanha."
+        },
+        {
+          "de": "Er spricht lieber mit mir.",
+          "pt": "Ele prefere falar comigo."
+        },
+        {
+          "de": "Wir gehen lieber nach Hause.",
+          "pt": "Nós preferimos ir para casa."
+        }
+      ],
+      "task": "Escreva uma pequena situação em alemão usando pelo menos duas expressões deste material."
+    },
+    {
+      "id": 84,
+      "title": "Meu relacionamento",
+      "level": "com apoio em português",
+      "source": {
+        "url": "https://fluency.io/br/blog/walk-n-talk-alemao-84-meu-relacionamento/",
+        "basis": "episode-material",
+        "label": "Material oficial desta aula",
+        "checkedOn": "2026-11-04"
+      },
+      "lines": [
+        {
+          "de": "die Fernbeziehung",
+          "pt": "o relacionamento à distância"
+        },
+        {
+          "de": "eine geschlossene Beziehung",
+          "pt": "um relacionamento fechado"
+        },
+        {
+          "de": "der Beziehungspartner",
+          "pt": "o parceiro"
+        },
+        {
+          "de": "die Beziehungspartnerin",
+          "pt": "a parceira"
+        }
+      ],
+      "task": "Escreva uma pequena situação em alemão usando pelo menos duas expressões deste material."
+    },
+    {
+      "id": 85,
+      "title": "Meu coração dói",
+      "level": "com apoio em português",
+      "source": {
+        "url": "https://fluency.io/br/blog/walk-n-talk-alemao-85-meu-coracao-doi/",
+        "basis": "episode-material",
+        "label": "Material oficial desta aula",
+        "checkedOn": "2026-11-04"
+      },
+      "lines": [
+        {
+          "de": "Ich wünsche mir ein Buch.",
+          "pt": "Eu desejo um livro para mim."
+        },
+        {
+          "de": "Du wünschst dir eine Reise.",
+          "pt": "Você deseja uma viagem para si."
+        },
+        {
+          "de": "Er wünscht sich Ruhe.",
+          "pt": "Ele deseja tranquilidade para si."
+        },
+        {
+          "de": "Wir wünschen uns Zeit.",
+          "pt": "Nós desejamos tempo para nós."
+        }
+      ],
+      "task": "Escreva uma pequena situação em alemão usando pelo menos duas expressões deste material."
+    },
+    {
+      "id": 86,
+      "title": "Chega de amigo secreto!",
+      "level": "com apoio em português",
+      "source": {
+        "url": "https://fluency.io/br/blog/walk-n-talk-alemao-86-chega-de-amigo-secreto/",
+        "basis": "episode-material",
+        "label": "Material oficial desta aula",
+        "checkedOn": "2026-11-04"
+      },
+      "lines": [
+        {
+          "de": "Zu Weihnachten gebe ich normalerweise handgemachte Dinge.",
+          "pt": "No Natal, eu normalmente dou coisas feitas à mão."
+        },
+        {
+          "de": "Den Kindern gebe ich üblicherweise Spielzeuge.",
+          "pt": "Para as crianças, eu usualmente dou brinquedos."
+        },
+        {
+          "de": "Wir wichteln jedes Jahr!",
+          "pt": "Nós fazemos amigo-secreto todo ano!"
+        },
+        {
+          "de": "Ich verbringe gern Zeit mit meiner Familie.",
+          "pt": "Eu gosto de passar tempo com a minha família."
+        }
+      ],
+      "task": "Escreva uma pequena situação em alemão usando pelo menos duas expressões deste material."
+    },
+    {
+      "id": 87,
+      "title": "Réveillon com o meu amor",
+      "level": "com apoio em português",
+      "source": {
+        "url": "https://fluency.io/br/blog/walk-n-talk-alemao-87-reveillon-com-o-meu-amor/",
+        "basis": "episode-material",
+        "label": "Material oficial desta aula",
+        "checkedOn": "2026-11-04"
+      },
+      "lines": [
+        {
+          "de": "die Reise",
+          "pt": "a viagem"
+        },
+        {
+          "de": "Silvester",
+          "pt": "a véspera de Ano Novo"
+        },
+        {
+          "de": "das Feuerwerk",
+          "pt": "os fogos de artifício"
+        },
+        {
+          "de": "Frohes neues Jahr!",
+          "pt": "Feliz Ano Novo!"
+        }
+      ],
+      "task": "Escreva uma pequena situação em alemão usando pelo menos duas expressões deste material."
+    },
+    {
+      "id": 88,
+      "title": "Eu só queria um drinque",
+      "level": "com apoio em português",
+      "source": {
+        "url": "https://fluency.io/br/blog/walk-n-talk-alemao-88-eu-so-queria-um-drinque/",
+        "basis": "episode-material",
+        "label": "Material oficial desta aula",
+        "checkedOn": "2026-11-04"
+      },
+      "lines": [
+        {
+          "de": "Ich wurde nicht eingeladen.",
+          "pt": "Eu não fui convidado."
+        },
+        {
+          "de": "Die Nachricht wurde gesendet.",
+          "pt": "A mensagem foi enviada."
+        },
+        {
+          "de": "Das Haus wurde gebaut.",
+          "pt": "A casa foi construída."
+        },
+        {
+          "de": "Der Passivsatz",
+          "pt": "a frase na voz passiva"
+        }
+      ],
+      "task": "Escreva uma pequena situação em alemão usando pelo menos duas expressões deste material."
+    },
+    {
+      "id": 89,
+      "title": "A mesa já está posta?",
+      "level": "com apoio em português",
+      "source": {
+        "url": "https://fluency.io/br/blog/walk-n-talk-alemao-89-a-mesa-ja-esta-posta/",
+        "basis": "episode-material",
+        "label": "Material oficial desta aula",
+        "checkedOn": "2026-11-04"
+      },
+      "lines": [
+        {
+          "de": "Nimm das Geschirrtuch!",
+          "pt": "Pegue o pano de prato!"
+        },
+        {
+          "de": "Schau mal!",
+          "pt": "Olhe só!"
+        },
+        {
+          "de": "Sieh mal!",
+          "pt": "Veja só!"
+        },
+        {
+          "de": "Wir müssen den Tisch decken.",
+          "pt": "Precisamos pôr a mesa."
+        }
+      ],
+      "task": "Escreva uma pequena situação em alemão usando pelo menos duas expressões deste material."
+    },
+    {
+      "id": 90,
+      "title": "Você está satisfeita com o seu trabalho?",
+      "level": "com apoio em português",
+      "source": {
+        "url": "https://fluency.io/br/blog/walk-n-talk-alemao-90-voce-esta-satisfeita-com-o-seu-trabalho/",
+        "basis": "episode-material",
+        "label": "Material oficial desta aula",
+        "checkedOn": "2026-11-04"
+      },
+      "lines": [
+        {
+          "de": "Das stört mich.",
+          "pt": "Isso me incomoda!"
+        },
+        {
+          "de": "Das geht mir auf die Nerven!",
+          "pt": "Isso me dá nos nervos!"
+        },
+        {
+          "de": "Ich bin wütend!",
+          "pt": "Eu estou furioso(a)!"
+        },
+        {
+          "de": "Ich koche vor Wut!",
+          "pt": "Eu estou fervendo de raiva!"
+        }
+      ],
+      "task": "Escreva uma pequena situação em alemão usando pelo menos duas expressões deste material."
+    },
+    {
+      "id": 91,
+      "title": "Onde colocamos a poltrona?",
+      "level": "com apoio em português",
+      "source": {
+        "url": "https://fluency.io/br/blog/walk-n-talk-alemao-91-onde-colocamos-a-poltrona/",
+        "basis": "episode-material",
+        "label": "Material oficial desta aula",
+        "checkedOn": "2026-11-04"
+      },
+      "lines": [
+        {
+          "de": "Wohin stellen wir den Sessel?",
+          "pt": "Onde vamos colocar a poltrona?"
+        },
+        {
+          "de": "Neben das Regal passt gut.",
+          "pt": "Ao lado da estante fica bom."
+        },
+        {
+          "de": "Dahin sollten wir die Lampe stellen.",
+          "pt": "Ali nós vamos colocar a luminária."
+        },
+        {
+          "de": "Es passt sehr gut zu den Pflanzen.",
+          "pt": "Combina muito bem com as plantas."
+        }
+      ],
+      "task": "Escreva uma pequena situação em alemão usando pelo menos duas expressões deste material."
+    },
+    {
+      "id": 92,
+      "title": "Onde estão minhas chaves?",
+      "level": "com apoio em português",
+      "source": {
+        "url": "https://fluency.io/br/blog/walk-n-talk-alemao-92-onde-estao-minhas-chaves/",
+        "basis": "episode-material",
+        "label": "Material oficial desta aula",
+        "checkedOn": "2026-11-04"
+      },
+      "lines": [
+        {
+          "de": "finden",
+          "pt": "achar ou encontrar"
+        },
+        {
+          "de": "suchen",
+          "pt": "procurar"
+        },
+        {
+          "de": "die Suche",
+          "pt": "a busca"
+        },
+        {
+          "de": "Ich finde deine Idee gut.",
+          "pt": "Eu acho sua ideia boa."
+        }
+      ],
+      "task": "Escreva uma pequena situação em alemão usando pelo menos duas expressões deste material."
+    },
+    {
+      "id": 93,
+      "title": "Você se interessa por xadrez?",
+      "level": "com apoio em português",
+      "source": {
+        "url": "https://fluency.io/br/blog/walk-n-talk-alemao-93-voce-se-interessa-por-xadrez/",
+        "basis": "episode-material",
+        "label": "Material oficial desta aula",
+        "checkedOn": "2026-11-04"
+      },
+      "lines": [
+        {
+          "de": "das Schachbrett",
+          "pt": "Tabuleiro de xadrez"
+        },
+        {
+          "de": "das Schachmatt",
+          "pt": "Xeque-mate"
+        },
+        {
+          "de": "die Schachfigur",
+          "pt": "Peça de xadrez"
+        },
+        {
+          "de": "der König",
+          "pt": "O rei"
+        }
+      ],
+      "task": "Escreva uma pequena situação em alemão usando pelo menos duas expressões deste material."
+    },
+    {
+      "id": 94,
+      "title": "Você consegue falar um trava-línguas?",
+      "level": "com apoio em português",
+      "source": {
+        "url": "https://fluency.io/br/blog/walk-n-talk-alemao-94-voce-consegue-falar-um-trava-linguas/",
+        "basis": "episode-material",
+        "label": "Material oficial desta aula",
+        "checkedOn": "2026-11-04"
+      },
+      "lines": [
+        {
+          "de": "Keine Sorge!",
+          "pt": "Não se preocupe!"
+        },
+        {
+          "de": "Das Auto gehört dem Mann.",
+          "pt": "O carro pertence ao homem."
+        },
+        {
+          "de": "Wem gehört das Auto?",
+          "pt": "A quem pertence o carro?"
+        },
+        {
+          "de": "dem Mann",
+          "pt": "ao homem, no dativo"
+        }
+      ],
+      "task": "Escreva uma pequena situação em alemão usando pelo menos duas expressões deste material."
+    },
+    {
+      "id": 95,
+      "title": "Medo de palco",
+      "level": "com apoio em português",
+      "source": {
+        "url": "https://fluency.io/br/blog/walk-n-talk-alemao-95-medo-de-palco/",
+        "basis": "episode-material",
+        "label": "Material oficial desta aula",
+        "checkedOn": "2026-11-04"
+      },
+      "lines": [
+        {
+          "de": "Ich bekomme Lampenfieber.",
+          "pt": "Eu tenho frio na barriga / medo de palco."
+        },
+        {
+          "de": "Ich bin so nervös.",
+          "pt": "Eu estou tão nervoso(a)."
+        },
+        {
+          "de": "Vor einer Präsentation werde ich immer ängstlich.",
+          "pt": "Eu sempre fico ansioso(a) antes de uma apresentação."
+        },
+        {
+          "de": "Vor einem Konzert bekomme ich immer Angst.",
+          "pt": "Antes de um show, eu sempre fico com medo."
+        }
+      ],
+      "task": "Escreva uma pequena situação em alemão usando pelo menos duas expressões deste material."
+    },
+    {
+      "id": 96,
+      "title": "Um jantar especial",
+      "level": "com apoio em português",
+      "source": {
+        "url": "https://fluency.io/br/blog/walk-n-talk-alemao-96-um-jantar-especial/",
+        "basis": "episode-material",
+        "label": "Material oficial desta aula",
+        "checkedOn": "2026-11-04"
+      },
+      "lines": [
+        {
+          "de": "das Geld",
+          "pt": "o dinheiro"
+        },
+        {
+          "de": "das Bargeld (bar)",
+          "pt": "o dinheiro vivo/em espécie"
+        },
+        {
+          "de": "das Trinkgeld",
+          "pt": "a gorjeta"
+        },
+        {
+          "de": "das Kleingeld",
+          "pt": "o dinheiro trocado (com moedas)"
+        }
+      ],
+      "task": "Escreva uma pequena situação em alemão usando pelo menos duas expressões deste material."
+    },
+    {
+      "id": 97,
+      "title": "A lista de compras",
+      "level": "com apoio em português",
+      "source": {
+        "url": "https://fluency.io/br/blog/walk-n-talk-alemao-97-a-lista-de-compras/",
+        "basis": "episode-material",
+        "label": "Material oficial desta aula",
+        "checkedOn": "2026-11-04"
+      },
+      "lines": [
+        {
+          "de": "Meine Mutter macht immer eine Einkaufsliste.",
+          "pt": "Minha mãe sempre faz uma lista de compras."
+        },
+        {
+          "de": "Schreib auch Milch und Eier auf.",
+          "pt": "Anote também leite e ovos."
+        },
+        {
+          "de": "Schreib auch Brot, Käse und Schokolade auf.",
+          "pt": "Anote também pão, queijo e chocolate."
+        },
+        {
+          "de": "Schreib auch bitte Sprudelwasser auf.",
+          "pt": "Anote também, por favor, água com gás."
+        }
+      ],
+      "task": "Escreva uma pequena situação em alemão usando pelo menos duas expressões deste material."
+    },
+    {
+      "id": 98,
+      "title": "Dor nas costas",
+      "level": "com apoio em português",
+      "source": {
+        "url": "https://fluency.io/br/blog/walk-n-talk-alemao-98-dor-nas-costas/",
+        "basis": "episode-material",
+        "label": "Material oficial desta aula",
+        "checkedOn": "2026-11-04"
+      },
+      "lines": [
+        {
+          "de": "der Chiropraktiker / die Chiropraktikerin",
+          "pt": "O quiroprata / A quiroprata"
+        },
+        {
+          "de": "der Arzt / die Ärztin",
+          "pt": "O médico / A médica"
+        },
+        {
+          "de": "der Krankenpfleger",
+          "pt": "O enfermeiro"
+        },
+        {
+          "de": "die Krankenpflegerin / die Krankenschwester",
+          "pt": "A enfermeira"
+        }
+      ],
+      "task": "Escreva uma pequena situação em alemão usando pelo menos duas expressões deste material."
+    },
+    {
+      "id": 99,
+      "title": "O término do relacionamento",
+      "level": "com apoio em português",
+      "source": {
+        "url": "https://fluency.io/br/blog/walk-n-talk-alemao-99-o-termino-do-relacionamento/",
+        "basis": "episode-material",
+        "label": "Material oficial desta aula",
+        "checkedOn": "2026-11-04"
+      },
+      "lines": [
+        {
+          "de": "die Angelegenheit",
+          "pt": "o assunto ou a questão"
+        },
+        {
+          "de": "Die Angelegenheit ist abgeschlossen.",
+          "pt": "O assunto está encerrado."
+        },
+        {
+          "de": "die Entscheidung",
+          "pt": "a decisão"
+        },
+        {
+          "de": "sich etwas ausmalen",
+          "pt": "imaginar alguma coisa"
+        }
+      ],
+      "task": "Escreva uma pequena situação em alemão usando pelo menos duas expressões deste material."
+    },
+    {
+      "id": 100,
+      "title": "A festa surpresa!",
+      "level": "com apoio em português",
+      "source": {
+        "url": "https://fluency.io/br/blog/walk-n-talk-alemao-100-a-festa-surpresa/",
+        "basis": "episode-material",
+        "label": "Material oficial desta aula",
+        "checkedOn": "2026-11-04"
+      },
+      "lines": [
+        {
+          "de": "Wow! Ich bin sprachlos!",
+          "pt": "Uau! Eu estou sem palavras!"
+        },
+        {
+          "de": "Ich bin total überrascht!",
+          "pt": "Eu estou totalmente surpreso(a)!"
+        },
+        {
+          "de": "Ich bin sehr erstaunt!",
+          "pt": "Eu estou muito surpreso(a)!"
+        },
+        {
+          "de": "Ich bin echt beeindruckt!",
+          "pt": "Eu estou realmente impressionado(a)!"
+        }
+      ],
+      "task": "Escreva uma pequena situação em alemão usando pelo menos duas expressões deste material."
+    },
+    {
+      "id": 101,
+      "title": "O carro quebrado",
+      "level": "com apoio em português",
+      "source": {
+        "url": "https://fluency.io/br/blog/walk-n-talk-alemao-101-o-carro-quebrado/",
+        "basis": "episode-material",
+        "label": "Material oficial desta aula",
+        "checkedOn": "2026-11-04"
+      },
+      "lines": [
+        {
+          "de": "Das Rücklicht ist an.",
+          "pt": "A luz traseira está ligada."
+        },
+        {
+          "de": "Der Motor ist aus.",
+          "pt": "O motor está desligado."
+        },
+        {
+          "de": "Die Autotüren sind auf.",
+          "pt": "As portas do carro estão abertas."
+        },
+        {
+          "de": "Der Kofferraum ist zu.",
+          "pt": "O porta-malas está fechado."
+        }
+      ],
+      "task": "Escreva uma pequena situação em alemão usando pelo menos duas expressões deste material."
+    },
+    {
+      "id": 102,
+      "title": "Um passeio de bicicleta no lago",
+      "level": "com apoio em português",
+      "source": {
+        "url": "https://fluency.io/br/blog/walk-n-talk-alemao-102-um-passeio-de-bicicleta-no-lago/",
+        "basis": "episode-material",
+        "label": "Material oficial desta aula",
+        "checkedOn": "2026-11-04"
+      },
+      "lines": [
+        {
+          "de": "das Rad / das Fahrrad",
+          "pt": "A bicicleta"
+        },
+        {
+          "de": "der Fahrradlenker",
+          "pt": "O guidão da bicicleta"
+        },
+        {
+          "de": "die Fahrradbremse",
+          "pt": "O freio da bicicleta"
+        },
+        {
+          "de": "der Fahrradsattel",
+          "pt": "O selim/banco da bicicleta"
+        }
+      ],
+      "task": "Escreva uma pequena situação em alemão usando pelo menos duas expressões deste material."
+    },
+    {
+      "id": 103,
+      "title": "Essa música chiclete!",
+      "level": "com apoio em português",
+      "source": {
+        "url": "https://fluency.io/br/blog/walk-n-talk-alemao-103-essa-musica-chiclete/",
+        "basis": "episode-material",
+        "label": "Material oficial desta aula",
+        "checkedOn": "2026-11-04"
+      },
+      "lines": [
+        {
+          "de": "der Ohrwurm",
+          "pt": "a música que não sai da cabeça"
+        },
+        {
+          "de": "die Melodie",
+          "pt": "a melodia"
+        },
+        {
+          "de": "singen",
+          "pt": "cantar"
+        },
+        {
+          "de": "aufräumen",
+          "pt": "arrumar ou organizar"
+        }
+      ],
+      "task": "Escreva uma pequena situação em alemão usando pelo menos duas expressões deste material."
+    },
+    {
+      "id": 104,
+      "title": "Noite de TV",
+      "level": "com apoio em português",
+      "source": {
+        "url": "https://fluency.io/br/blog/walk-n-talk-alemao-104-noite-de-tv/",
+        "basis": "episode-material",
+        "label": "Material oficial desta aula",
+        "checkedOn": "2026-11-04"
+      },
+      "lines": [
+        {
+          "de": "der Abenteuerfilm",
+          "pt": "o filme de aventura"
+        },
+        {
+          "de": "der Action-Film",
+          "pt": "o filme de ação"
+        },
+        {
+          "de": "die Doku",
+          "pt": "o documentário"
+        },
+        {
+          "de": "das Drama",
+          "pt": "o drama"
+        }
+      ],
+      "task": "Escreva uma pequena situação em alemão usando pelo menos duas expressões deste material."
+    },
+    {
+      "id": 105,
+      "title": "No semáforo",
+      "level": "com apoio em português",
+      "source": {
+        "url": "https://fluency.io/br/blog/walk-n-talk-alemao-105-no-semaforo/",
+        "basis": "episode-material",
+        "label": "Material oficial desta aula",
+        "checkedOn": "2026-11-04"
+      },
+      "lines": [
+        {
+          "de": "Hier darf man nicht rauchen.",
+          "pt": "Aqui não se pode fumar."
+        },
+        {
+          "de": "Sie dürfen da nicht parken.",
+          "pt": "O(A) senhor(a) não pode estacionar aí."
+        },
+        {
+          "de": "Darf ich sprechen?",
+          "pt": "Posso falar?"
+        },
+        {
+          "de": "Man darf auf der Wiese nicht sitzen.",
+          "pt": "Não se pode sentar no gramado."
+        }
+      ],
+      "task": "Escreva uma pequena situação em alemão usando pelo menos duas expressões deste material."
+    },
+    {
+      "id": 106,
+      "title": "Uma longa caminhada",
+      "level": "com apoio em português",
+      "source": {
+        "url": "https://fluency.io/br/blog/walk-n-talk-alemao-106-uma-longa-caminhada/",
+        "basis": "episode-material",
+        "label": "Material oficial desta aula",
+        "checkedOn": "2026-11-04"
+      },
+      "lines": [
+        {
+          "de": "die Landschaft",
+          "pt": "a paisagem"
+        },
+        {
+          "de": "die Wanderung",
+          "pt": "a caminhada ou trilha"
+        },
+        {
+          "de": "durchhalten",
+          "pt": "aguentar firme"
+        },
+        {
+          "de": "todmüde",
+          "pt": "exausto ou exausta"
+        }
+      ],
+      "task": "Escreva uma pequena situação em alemão usando pelo menos duas expressões deste material."
+    },
+    {
+      "id": 107,
+      "title": "Acidente com animal na rodovia",
+      "level": "com apoio em português",
+      "source": {
+        "url": "https://fluency.io/br/blog/walk-n-talk-alemao-107-acidente-com-animal-na-rodovia/",
+        "basis": "episode-material",
+        "label": "Material oficial desta aula",
+        "checkedOn": "2026-11-04"
+      },
+      "lines": [
+        {
+          "de": "Ich bin geblieben.",
+          "pt": "Eu permaneci."
+        },
+        {
+          "de": "Ich bin gefahren.",
+          "pt": "Eu fui de veículo."
+        },
+        {
+          "de": "Ich bin gefallen.",
+          "pt": "Eu caí."
+        },
+        {
+          "de": "Ich bin geflogen.",
+          "pt": "Eu voei."
+        }
+      ],
+      "task": "Escreva uma pequena situação em alemão usando pelo menos duas expressões deste material."
+    },
+    {
+      "id": 108,
+      "title": "Você não está vendo?",
+      "level": "com apoio em português",
+      "source": {
+        "url": "https://fluency.io/br/blog/walk-n-talk-alemao-108-voce-nao-esta-vendo/",
+        "basis": "episode-material",
+        "label": "Material oficial desta aula",
+        "checkedOn": "2026-11-04"
+      },
+      "lines": [
+        {
+          "de": "die Waschmaschine",
+          "pt": "Máquina de lavar roupas"
+        },
+        {
+          "de": "der Wäschetrockner",
+          "pt": "Secadora de roupas"
+        },
+        {
+          "de": "das Bügeleisen",
+          "pt": "Ferro de passar roupa"
+        },
+        {
+          "de": "der Herd",
+          "pt": "Fogão"
+        }
+      ],
+      "task": "Escreva uma pequena situação em alemão usando pelo menos duas expressões deste material."
+    },
+    {
+      "id": 109,
+      "title": "Na padaria",
+      "level": "com apoio em português",
+      "source": {
+        "url": "https://fluency.io/br/blog/walk-n-talk-alemao-109-na-padaria/",
+        "basis": "episode-material",
+        "label": "Material oficial desta aula",
+        "checkedOn": "2026-11-04"
+      },
+      "lines": [
+        {
+          "de": "Bäckerei",
+          "pt": "Padaria"
+        },
+        {
+          "de": "Brötchen",
+          "pt": "Pãozinho"
+        },
+        {
+          "de": "Pretzel / Brezel",
+          "pt": "Pretzel"
+        },
+        {
+          "de": "Milchbrötchen",
+          "pt": "Pão de leite"
+        }
+      ],
+      "task": "Escreva uma pequena situação em alemão usando pelo menos duas expressões deste material."
+    },
+    {
+      "id": 110,
+      "title": "Isso é retornável",
+      "level": "com apoio em português",
+      "source": {
+        "url": "https://fluency.io/br/blog/walk-n-talk-alemao-110-isso-e-retornavel/",
+        "basis": "episode-material",
+        "label": "Material oficial desta aula",
+        "checkedOn": "2026-11-04"
+      },
+      "lines": [
+        {
+          "de": "Halt!",
+          "pt": "Pare!"
+        },
+        {
+          "de": "Fahr langsamer!",
+          "pt": "Dirija mais devagar!"
+        },
+        {
+          "de": "Sprich bitte leiser!",
+          "pt": "Fale mais baixo, por favor!"
+        },
+        {
+          "de": "Wirf das nicht weg!",
+          "pt": "Não jogue isso fora!"
+        }
+      ],
+      "task": "Escreva uma pequena situação em alemão usando pelo menos duas expressões deste material."
+    },
+    {
+      "id": 111,
+      "title": "Meu gato não está bem",
+      "level": "com apoio em português",
+      "source": {
+        "url": "https://fluency.io/br/blog/walk-n-talk-alemao-111-meu-gato-nao-esta-bem/",
+        "basis": "episode-material",
+        "label": "Material oficial desta aula",
+        "checkedOn": "2026-11-04"
+      },
+      "lines": [
+        {
+          "de": "der Tierarzt",
+          "pt": "o veterinário"
+        },
+        {
+          "de": "die Tierärztin",
+          "pt": "a veterinária"
+        },
+        {
+          "de": "trächtig",
+          "pt": "prenha (animal)"
+        },
+        {
+          "de": "das Kätzchen",
+          "pt": "o filhote de gato"
+        }
+      ],
+      "task": "Escreva uma pequena situação em alemão usando pelo menos duas expressões deste material."
+    },
+    {
+      "id": 112,
+      "title": "Mas que trânsito!",
+      "level": "com apoio em português",
+      "source": {
+        "url": "https://fluency.io/br/blog/walk-n-talk-alemao-112-mas-que-transito/",
+        "basis": "episode-material",
+        "label": "Material oficial desta aula",
+        "checkedOn": "2026-11-04"
+      },
+      "lines": [
+        {
+          "de": "vorbeikommen",
+          "pt": "passar por algum lugar"
+        },
+        {
+          "de": "abfahren",
+          "pt": "partir ou sair de veículo"
+        },
+        {
+          "de": "einkaufen",
+          "pt": "fazer compras"
+        },
+        {
+          "de": "aufräumen",
+          "pt": "arrumar ou organizar"
+        }
+      ],
+      "task": "Escreva uma pequena situação em alemão usando pelo menos duas expressões deste material."
+    },
+    {
+      "id": 113,
+      "title": "Cozinha vegetariana",
+      "level": "com apoio em português",
+      "source": {
+        "url": "https://fluency.io/br/blog/walk-n-talk-alemao-113-cozinha-vegetariana/",
+        "basis": "episode-material",
+        "label": "Material oficial desta aula",
+        "checkedOn": "2026-11-04"
+      },
+      "lines": [
+        {
+          "de": "die Spaghetti",
+          "pt": "o espaguete"
+        },
+        {
+          "de": "der Rucola",
+          "pt": "a rúcula"
+        },
+        {
+          "de": "die Tomate",
+          "pt": "o tomate"
+        },
+        {
+          "de": "der Käse",
+          "pt": "o queijo"
+        }
+      ],
+      "task": "Escreva uma pequena situação em alemão usando pelo menos duas expressões deste material."
+    },
+    {
+      "id": 114,
+      "title": "Gatinho indefeso",
+      "level": "com apoio em português",
+      "source": {
+        "url": "https://fluency.io/br/blog/walk-n-talk-alemao-114-gatinho-indefeso/",
+        "basis": "episode-material",
+        "label": "Material oficial desta aula",
+        "checkedOn": "2026-11-04"
+      },
+      "lines": [
+        {
+          "de": "die Rettung",
+          "pt": "o resgate, substantivo de retten"
+        },
+        {
+          "de": "die Wanderung",
+          "pt": "a caminhada, substantivo de wandern"
+        },
+        {
+          "de": "die Übersetzung",
+          "pt": "a tradução, substantivo de übersetzen"
+        },
+        {
+          "de": "die Entschuldigung",
+          "pt": "o pedido de desculpas, de sich entschuldigen"
+        }
+      ],
+      "task": "Escreva uma pequena situação em alemão usando pelo menos duas expressões deste material."
+    },
+    {
+      "id": 115,
+      "title": "Conversa em alemão na universidade",
+      "level": "com apoio em português",
+      "source": {
+        "url": "https://fluency.io/br/blog/walk-n-talk-alemao-115-conversa-em-alemao-na-universidade/",
+        "basis": "episode-material",
+        "label": "Material oficial desta aula",
+        "checkedOn": "2026-11-04"
+      },
+      "lines": [
+        {
+          "de": "die Universität / Hochschule",
+          "pt": "a universidade"
+        },
+        {
+          "de": "der Professor / die Professorin",
+          "pt": "o professor / a professora"
+        },
+        {
+          "de": "die Mensa",
+          "pt": "o restaurante universitário / bandejão"
+        },
+        {
+          "de": "die Bibliothek",
+          "pt": "a biblioteca"
+        }
+      ],
+      "task": "Escreva uma pequena situação em alemão usando pelo menos duas expressões deste material."
+    },
+    {
+      "id": 116,
+      "title": "Procurando apartamento",
+      "level": "com apoio em português",
+      "source": {
+        "url": "https://fluency.io/br/blog/walk-n-talk-alemao-116-procurando-apartamento/",
+        "basis": "episode-material",
+        "label": "Material oficial desta aula",
+        "checkedOn": "2026-11-04"
+      },
+      "lines": [
+        {
+          "de": "eine Wohnung suchen",
+          "pt": "procurar por um apartamento"
+        },
+        {
+          "de": "eine Wohnung mieten",
+          "pt": "alugar um apartamento"
+        },
+        {
+          "de": "eine Wohnung verlassen",
+          "pt": "deixar (sair de) um apartamento"
+        },
+        {
+          "de": "in eine größere Wohnung ziehen",
+          "pt": "mudar-se para um apartamento maior"
+        }
+      ],
+      "task": "Escreva uma pequena situação em alemão usando pelo menos duas expressões deste material."
+    },
+    {
+      "id": 117,
+      "title": "Na divisa com Luxemburgo",
+      "level": "com apoio em português",
+      "source": {
+        "url": "https://fluency.io/br/blog/walk-n-talk-alemao-117-na-divisa-com-luxemburgo/",
+        "basis": "episode-material",
+        "label": "Material oficial desta aula",
+        "checkedOn": "2026-11-04"
+      },
+      "lines": [
+        {
+          "de": "die Wanderung",
+          "pt": "a caminhada"
+        },
+        {
+          "de": "Endpunkt der Wanderung",
+          "pt": "o destino final da caminhada"
+        },
+        {
+          "de": "das Land",
+          "pt": "o país"
+        },
+        {
+          "de": "die Grenzziehung",
+          "pt": "a demarcação da fronteira"
+        }
+      ],
+      "task": "Escreva uma pequena situação em alemão usando pelo menos duas expressões deste material."
+    },
+    {
+      "id": 118,
+      "title": "Ligando para o call center",
+      "level": "com apoio em português",
+      "source": {
+        "url": "https://fluency.io/br/blog/walk-n-talk-alemao-118-ligando-para-o-call-center/",
+        "basis": "episode-material",
+        "label": "Material oficial desta aula",
+        "checkedOn": "2026-11-04"
+      },
+      "lines": [
+        {
+          "de": "Entschuldigen Sie, können Sie bitte wiederholen?",
+          "pt": "Perdão, pode repetir, por favor?"
+        },
+        {
+          "de": "Leider habe ich Sie nicht verstanden.",
+          "pt": "Infelizmente não entendi você."
+        },
+        {
+          "de": "Ich kann Sie nicht gut hören.",
+          "pt": "Não consigo ouvi-lo(a) bem."
+        },
+        {
+          "de": "Ich kann Sie nicht gut sehen.",
+          "pt": "Não consigo vê-lo(a) bem."
+        }
+      ],
+      "task": "Escreva uma pequena situação em alemão usando pelo menos duas expressões deste material."
+    },
+    {
+      "id": 119,
+      "title": "O intercâmbio",
+      "level": "com apoio em português",
+      "source": {
+        "url": "https://fluency.io/br/blog/walk-n-talk-alemao-119-o-intercambio/",
+        "basis": "episode-material",
+        "label": "Material oficial desta aula",
+        "checkedOn": "2026-11-04"
+      },
+      "lines": [
+        {
+          "de": "der Lebenslauf",
+          "pt": "o currículo"
+        },
+        {
+          "de": "das Projekt",
+          "pt": "o projeto"
+        },
+        {
+          "de": "das Sprachzertifikat",
+          "pt": "certificado de língua"
+        },
+        {
+          "de": "das Motivationsschreiben",
+          "pt": "carta de motivação"
+        }
+      ],
+      "task": "Escreva uma pequena situação em alemão usando pelo menos duas expressões deste material."
+    },
+    {
+      "id": 120,
+      "title": "Um pouco de dança!",
+      "level": "com apoio em português",
+      "source": {
+        "url": "https://fluency.io/br/blog/walk-n-talk-alemao-120-um-pouco-de-danca/",
+        "basis": "episode-material",
+        "label": "Material oficial desta aula",
+        "checkedOn": "2026-11-04"
+      },
+      "lines": [
+        {
+          "de": "Wir tanzen, bevor die Kunden kommen.",
+          "pt": "Dançamos antes de os clientes chegarem."
+        },
+        {
+          "de": "Ich esse, bevor ich gehe.",
+          "pt": "Eu como antes de ir."
+        },
+        {
+          "de": "Bevor wir kochen, schälen wir die Kartoffeln.",
+          "pt": "Antes de cozinhar, descascamos as batatas."
+        },
+        {
+          "de": "Wir beginnen, bevor es spät wird.",
+          "pt": "Começamos antes de ficar tarde."
+        }
+      ],
+      "task": "Escreva uma pequena situação em alemão usando pelo menos duas expressões deste material."
+    },
+    {
+      "id": 121,
+      "title": "Na piscina",
+      "level": "com apoio em português",
+      "source": {
+        "url": "https://fluency.io/br/blog/walk-n-talk-alemao-121-na-piscina/",
+        "basis": "episode-material",
+        "label": "Material oficial desta aula",
+        "checkedOn": "2026-11-04"
+      },
+      "lines": [
+        {
+          "de": "der Badeanzug",
+          "pt": "a roupa de banho"
+        },
+        {
+          "de": "schwimmen",
+          "pt": "nadar"
+        },
+        {
+          "de": "tauchen",
+          "pt": "mergulhar"
+        },
+        {
+          "de": "die Taucherbrille",
+          "pt": "óculos de mergulho"
+        }
+      ],
+      "task": "Escreva uma pequena situação em alemão usando pelo menos duas expressões deste material."
+    },
+    {
+      "id": 122,
+      "title": "Durante a mudança",
+      "level": "com apoio em português",
+      "source": {
+        "url": "https://fluency.io/br/blog/walk-n-talk-alemao-122-durante-a-mudanca/",
+        "basis": "episode-material",
+        "label": "Material oficial desta aula",
+        "checkedOn": "2026-11-04"
+      },
+      "lines": [
+        {
+          "de": "stellen",
+          "pt": "colocar algo de pé"
+        },
+        {
+          "de": "legen",
+          "pt": "colocar algo deitado"
+        },
+        {
+          "de": "setzen",
+          "pt": "colocar algo sentado"
+        },
+        {
+          "de": "stehen",
+          "pt": "estar de pé"
+        }
+      ],
+      "task": "Escreva uma pequena situação em alemão usando pelo menos duas expressões deste material."
+    },
+    {
+      "id": 123,
+      "title": "O preço da gasolina!",
+      "level": "com apoio em português",
+      "source": {
+        "url": "https://fluency.io/br/blog/walk-n-talk-alemao-123-o-preco-da-gasolina/",
+        "basis": "episode-material",
+        "label": "Material oficial desta aula",
+        "checkedOn": "2026-11-04"
+      },
+      "lines": [
+        {
+          "de": "gesünder",
+          "pt": "mais saudável (comparativo de gesund)"
+        },
+        {
+          "de": "älter",
+          "pt": "mais velho (comparativo de alt)"
+        },
+        {
+          "de": "kälter",
+          "pt": "mais frio (comparativo de kalt)"
+        },
+        {
+          "de": "höher",
+          "pt": "mais alto (comparativo de hoch)"
+        }
+      ],
+      "task": "Escreva uma pequena situação em alemão usando pelo menos duas expressões deste material."
+    },
+    {
+      "id": 124,
+      "title": "O carteiro",
+      "level": "com apoio em português",
+      "source": {
+        "url": "https://fluency.io/br/blog/walk-n-talk-alemao-124-o-carteiro/",
+        "basis": "episode-material",
+        "label": "Material oficial desta aula",
+        "checkedOn": "2026-11-04"
+      },
+      "lines": [
+        {
+          "de": "der Brief",
+          "pt": "carta"
+        },
+        {
+          "de": "schicken",
+          "pt": "enviar"
+        },
+        {
+          "de": "die Postkarte",
+          "pt": "cartão postal"
+        },
+        {
+          "de": "der Empfänger",
+          "pt": "destinatário"
+        }
+      ],
+      "task": "Escreva uma pequena situação em alemão usando pelo menos duas expressões deste material."
+    },
+    {
+      "id": 125,
+      "title": "Transporte público na Alemanha",
+      "level": "com apoio em português",
+      "source": {
+        "url": "https://fluency.io/br/blog/walk-n-talk-alemao-125-transporte-publico-na-alemanha/",
+        "basis": "episode-material",
+        "label": "Material oficial desta aula",
+        "checkedOn": "2026-11-04"
+      },
+      "lines": [
+        {
+          "de": "die Wochenkarte",
+          "pt": "Passe semanal"
+        },
+        {
+          "de": "die Monatskarte",
+          "pt": "Passe mensal"
+        },
+        {
+          "de": "der Zug",
+          "pt": "Trem"
+        },
+        {
+          "de": "der Bus",
+          "pt": "Ônibus"
+        }
+      ],
+      "task": "Escreva uma pequena situação em alemão usando pelo menos duas expressões deste material."
+    },
+    {
+      "id": 126,
+      "title": "Verão quente",
+      "level": "com apoio em português",
+      "source": {
+        "url": "https://fluency.io/br/blog/walk-n-talk-alemao-126-verao-quente/",
+        "basis": "episode-material",
+        "label": "Material oficial desta aula",
+        "checkedOn": "2026-11-04"
+      },
+      "lines": [
+        {
+          "de": "die Erde",
+          "pt": "O planeta Terra"
+        },
+        {
+          "de": "der Klimawandel",
+          "pt": "A mudança climática"
+        },
+        {
+          "de": "die Tiere",
+          "pt": "Os animais"
+        },
+        {
+          "de": "die Pflanzen",
+          "pt": "As plantas"
+        }
+      ],
+      "task": "Escreva uma pequena situação em alemão usando pelo menos duas expressões deste material."
+    },
+    {
+      "id": 127,
+      "title": "No cabeleireiro",
+      "level": "com apoio em português",
+      "source": {
+        "url": "https://fluency.io/br/blog/walk-n-talk-alemao-127-no-cabeleireiro/",
+        "basis": "episode-material",
+        "label": "Material oficial desta aula",
+        "checkedOn": "2026-11-04"
+      },
+      "lines": [
+        {
+          "de": "Ich lasse meine Haare schneiden.",
+          "pt": "Eu mando cortar meu cabelo."
+        },
+        {
+          "de": "Du lässt dein Auto reparieren.",
+          "pt": "Você manda consertar seu carro."
+        },
+        {
+          "de": "Er lässt die Tür offen.",
+          "pt": "Ele deixa a porta aberta."
+        },
+        {
+          "de": "Wir lassen uns beraten.",
+          "pt": "Nós recebemos orientação."
+        }
+      ],
+      "task": "Escreva uma pequena situação em alemão usando pelo menos duas expressões deste material."
+    },
+    {
+      "id": 128,
+      "title": "Na sauna",
+      "level": "com apoio em português",
+      "source": {
+        "url": "https://fluency.io/br/blog/walk-n-talk-alemao-128-na-sauna/",
+        "basis": "episode-material",
+        "label": "Material oficial desta aula",
+        "checkedOn": "2026-11-04"
+      },
+      "lines": [
+        {
+          "de": "hatte",
+          "pt": "tinha ou tive (passado de haben)"
+        },
+        {
+          "de": "wusste",
+          "pt": "sabia (passado de wissen)"
+        },
+        {
+          "de": "ging",
+          "pt": "ia ou foi (passado de gehen)"
+        },
+        {
+          "de": "machte",
+          "pt": "fazia ou fez (passado de machen)"
+        }
+      ],
+      "task": "Escreva uma pequena situação em alemão usando pelo menos duas expressões deste material."
+    },
+    {
+      "id": 129,
+      "title": "Biergarten",
+      "level": "com apoio em português",
+      "source": {
+        "url": "https://fluency.io/br/blog/walk-n-talk-alemao-129-biergarten/",
+        "basis": "episode-material",
+        "label": "Material oficial desta aula",
+        "checkedOn": "2026-11-04"
+      },
+      "lines": [
+        {
+          "de": "Pilsner",
+          "pt": "cerveja leve e refrescante"
+        },
+        {
+          "de": "Helles",
+          "pt": "cerveja clara com sabor de malte"
+        },
+        {
+          "de": "Maibock",
+          "pt": "cerveja tradicionalmente produzida na primavera"
+        },
+        {
+          "de": "Doppelbock",
+          "pt": "cerveja mais forte e maltada"
+        }
+      ],
+      "task": "Escreva uma pequena situação em alemão usando pelo menos duas expressões deste material."
+    },
+    {
+      "id": 130,
+      "title": "Céu estrelado",
+      "level": "com apoio em português",
+      "source": {
+        "url": "https://fluency.io/br/blog/walk-n-talk-alemao-130-ceu-estrelado/",
+        "basis": "episode-material",
+        "label": "Material oficial desta aula",
+        "checkedOn": "2026-11-04"
+      },
+      "lines": [
+        {
+          "de": "der Himmel",
+          "pt": "o céu"
+        },
+        {
+          "de": "der Stern",
+          "pt": "a estrela"
+        },
+        {
+          "de": "die Sternschnuppe",
+          "pt": "a estrela cadente"
+        },
+        {
+          "de": "der Glückspilz",
+          "pt": "a pessoa sortuda"
+        }
+      ],
+      "task": "Escreva uma pequena situação em alemão usando pelo menos duas expressões deste material."
+    }
+  ]
+}
