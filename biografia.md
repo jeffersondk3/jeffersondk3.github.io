@@ -5,8 +5,6 @@ permalink: /biografia/
 description: "Minha história de vida: das raízes na roça à Tecnologia da Informação."
 ---
 
-# Minha Biografia
-
 *Das minhas raízes no campo à Tecnologia da Informação.*
 
 > **Não tenho vergonha de onde vim. Tenho orgulho do caminho que percorri.**
