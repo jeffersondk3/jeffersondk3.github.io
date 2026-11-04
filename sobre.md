@@ -4,8 +4,6 @@ title: Sobre mim
 permalink: /sobre/
 ---
 
-# Sobre mim
-
 Sou Jefferson Almeida de Brito. Trabalho com TI há aproximadamente quatro anos e sou formado em Sistemas de Informação, com pós-graduação em Segurança da Informação.
 
 Hoje sou 2º Tenente temporário da Força Aérea Brasileira e lidero a equipe de TI do Instituto de Logística da Aeronáutica (ILA), em São Paulo.
