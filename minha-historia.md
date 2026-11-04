@@ -52,7 +52,7 @@ Essa atuação também faz parte da minha formação: levo as experiências da c
 
 ## Meu caminho
 
-Minha trajetória passou por diferentes atividades profissionais antes de consolidar minha atuação em Tecnologia da Informação. Essas experiências me ensinaram dedicação, disciplina, capacidade de adaptação e compromisso com as pessoas.
+**Meu primeiro emprego com carteira assinada foi em um supermercado, como repositor e empacotador.** Também trabalhei na roça e fiz trabalhos como freelancer em cozinha e na área de alimentação, antes de chegar à Tecnologia da Informação.
 
 Hoje sigo desenvolvendo minhas competências em infraestrutura, redes, segurança da informação e novas áreas de estudo, como QA, automação e fundamentos de SAP.
 
