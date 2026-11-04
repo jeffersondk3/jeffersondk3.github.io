@@ -9,7 +9,10 @@ Aplicativo estático publicado em /alemao/ no GitHub Pages.
 - Uma conta Supabase, dois perfis selecionáveis: Jefferson e Sofia. Os dois perfis ficam acessíveis à mesma conta.
 - Progresso online em study_progress; RLS limita os registros ao usuário autenticado. O prefixo de scope separa os perfis. Alterações sem conexão ficam na fila local e são reenviadas quando houver conexão.
 - Favoritos, diálogos praticados, páginas e materiais concluídos são sincronizados. O perfil selecionado é uma preferência deste aparelho.
-- O progresso antigo dos diálogos pode ser importado em Minha conta, no perfil escolhido.
+- Visitantes praticam os diálogos sem login. Respostas, favoritos e progresso ficam apenas na memória da página e são descartados ao recarregar ou fechar. O estado local antigo não é mostrado aos visitantes.
+- O seletor oferece somente Visitante sem login. Jefferson e Sofia exigem uma conta aprovada em course_members (verificação no servidor), preservando a sincronização existente.
+- O botão de instalação e o manifesto são disponibilizados pela interface apenas após o acesso pessoal. O navegador ainda pode criar atalhos por conta própria; o site não consegue impedir esse recurso do navegador.
+- Os materiais e a aba Apoio mantêm o desbloqueio por senha.
 
 ## Entrada lembrada
 
@@ -18,6 +21,7 @@ A opção “Manter minha entrada neste aparelho” usa a sessão padrão do Sup
 ## Testes
 
 `node tests/exercises.test.mjs`
+`node tests/visitor-state.test.mjs`
 `node tests/session-storage.test.mjs`
 `node tests/writing.test.mjs`
 

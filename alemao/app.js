@@ -1,19 +1,21 @@
-import {studyLanguage} from './study-preferences.js?v=24';
-import {createDialoguePractice} from './exercises.js?v=27';
+import {studyLanguage} from './study-preferences.js?v=28';
+import {createDialoguePractice} from './exercises.js?v=28';
+import {createVisitorStorage,emptyVisitorProgress,hasPrivateProfile} from './visitor-state.js?v=28';
+const visitorStorage=createVisitorStorage();
 'use strict';
 const $=id=>document.getElementById(id);
 const audio=$('audioPlayer');
-const VOICE_KEY='deutsch-voice-choice-v1';let voiceChoice='male';try{voiceChoice=localStorage.getItem(VOICE_KEY)==='female'?'female':'male'}catch{}
+const VOICE_KEY='deutsch-voice-choice-v1';let voiceChoice='male';try{if(hasPrivateProfile(window.studyCloud))voiceChoice=localStorage.getItem(VOICE_KEY)==='female'?'female':'male'}catch{}
 $('voiceChoice').value=voiceChoice;const femaleClips=new Map();
 async function clipSource(id,n,lang){if(voiceChoice!=='female')return `audio/${String(id).padStart(3,'0')}-${n+1}-${lang}.mp3`;let promise=femaleClips.get(id);if(!promise){promise=fetch(`audio-female/${String(id).padStart(3,'0')}.json?v=1`).then(r=>{if(!r.ok)throw Error('female');return r.json()}).catch(e=>{femaleClips.delete(id);throw e});femaleClips.set(id,promise)}const clips=await promise;const src=clips[lang]?.[n];if(!src)throw Error('female');return src;}
 async function prepareClip(){if(!current)return;const t=token;audio.removeAttribute('src');audio.load();try{const src=await clipSource(current.id,0,$('audioLanguage').value==='pt'?'pt':'de');if(t===token)audio.src=src}catch{if(t===token)notice('Não foi possível carregar a voz feminina. Confira a conexão e tente novamente.')}}
-$('voiceChoice').onchange=()=>{stop();voiceChoice=$('voiceChoice').value;try{localStorage.setItem(VOICE_KEY,voiceChoice)}catch{}prepareClip()};
+$('voiceChoice').onchange=()=>{stop();voiceChoice=$('voiceChoice').value;try{if(hasPrivateProfile(window.studyCloud))localStorage.setItem(VOICE_KEY,voiceChoice)}catch{}prepareClip()};
 
 let data=[],current=null,category='',favoriteOnly=false,doneOnly=false,token=0,playing=false,index=-1,waiting=false;
-let saved={done:[],favorites:[],last:1};try{saved={...saved,...JSON.parse(localStorage.getItem('deutsch-alltag-v1')||'{}')};for(const k of ['done','favorites'])if(!Array.isArray(saved[k]))saved[k]=[]}catch{}
-const persist=()=>{try{localStorage.setItem(window.studyCloud?.userId?'deutsch-alltag-user-'+window.studyCloud.userId+'-'+window.studyCloud.profile:'deutsch-alltag-v1',JSON.stringify(saved));window.studyCloud?.saveDialogues(saved)}catch{}};
+let saved=emptyVisitorProgress();
+const persist=()=>{if(!hasPrivateProfile(window.studyCloud))return;try{localStorage.setItem('deutsch-alltag-user-'+window.studyCloud.userId+'-'+window.studyCloud.profile,JSON.stringify(saved));window.studyCloud.saveDialogues(saved)}catch{}};
 const escapeHTML=s=>String(s).replace(/[&<>"']/g,c=>({'&':'&amp;','<':'&lt;','>':'&gt;','"':'&quot;',"'":'&#39;'}[c]));
-const dialoguePractice=createDialoguePractice({getCloud:()=>window.studyCloud,storage:localStorage,listen:n=>playSentence(n,'de'),onChange:()=>{if(current)lessonButtons()}});
+const dialoguePractice=createDialoguePractice({getCloud:()=>window.studyCloud,storage:visitorStorage,listen:n=>playSentence(n,'de'),onChange:()=>{if(current)lessonButtons()}});
 window.addEventListener('study:exercises',()=>dialoguePractice.refresh());
 function draw(){
  $('doneCount').textContent=saved.done.length;$('progressBar').style.width=saved.done.length+'%';
@@ -55,11 +57,11 @@ $('cards').onclick=e=>{const f=e.target.closest('[data-favorite]'),o=e.target.cl
 $('search').oninput=draw;$('favFilter').onclick=()=>{favoriteOnly=!favoriteOnly;$('favFilter').setAttribute('aria-pressed',favoriteOnly);draw()};$('doneFilter').onclick=()=>{doneOnly=!doneOnly;$('doneFilter').setAttribute('aria-pressed',doneOnly);draw()};
 $('favorite').onclick=()=>favorite(current.id);$('markDone').onclick=()=>{if(!saved.done.includes(current.id)&&!dialoguePractice.requirePass())return;const id=current.id;saved.done=saved.done.includes(id)?saved.done.filter(x=>x!==id):[...saved.done,id];persist();draw();lessonButtons()};
 $('closeLesson').onclick=()=>$('lesson').close();$('lesson').addEventListener('close',stop);$('lesson').addEventListener('cancel',stop);$('previous').onclick=()=>openLesson(current.id-1);$('next').onclick=()=>{if(dialoguePractice.requirePass())openLesson(current.id+1)};$('continue').onclick=()=>openLesson(saved.last||1);
-$('install').onclick=()=>$('installHelp').showModal();$('closeInstall').onclick=()=>$('installHelp').close();
+$('install').onclick=()=>{if(hasPrivateProfile(window.studyCloud))$('installHelp').showModal()};$('closeInstall').onclick=()=>$('installHelp').close();
 window.addEventListener('pagehide',stop);
 fetch('data.json').then(r=>{if(!r.ok)throw new Error();return r.json()}).then(d=>{data=d;draw()}).catch(()=>{$('cards').textContent='Não foi possível carregar os diálogos. Confira sua conexão e recarregue a página.';$('continue').disabled=true});
 
-let displayedProfile='guest';window.addEventListener('study:dialogues',e=>{const active=window.studyCloud?.userId?window.studyCloud.userId+':'+window.studyCloud.profile:'guest';if(active!==displayedProfile){stop();if($('lesson').open)$('lesson').close();displayedProfile=active}saved=e.detail;draw();if(current&&$('lesson').open)lessonButtons()});
+let displayedProfile='guest';window.addEventListener('study:dialogues',e=>{const active=window.studyCloud?.userId?window.studyCloud.userId+':'+window.studyCloud.profile:'guest';if(active!==displayedProfile){visitorStorage.clear();voiceChoice='male';try{if(hasPrivateProfile(window.studyCloud))voiceChoice=localStorage.getItem(VOICE_KEY)==='female'?'female':'male'}catch{}$('voiceChoice').value=voiceChoice;stop();if($('lesson').open)$('lesson').close();displayedProfile=active}saved=e.detail;draw();if(current&&$('lesson').open)lessonButtons()});
 
 
 

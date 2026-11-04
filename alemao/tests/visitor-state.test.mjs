@@ -1,0 +1,15 @@
+import assert from 'node:assert/strict';
+import {readFile} from 'node:fs/promises';
+const source=await readFile(new URL('../visitor-state.js',import.meta.url),'utf8');
+const {createVisitorStorage,emptyVisitorProgress,hasPrivateProfile}=await import('data:text/javascript;base64,'+Buffer.from(source).toString('base64'));
+const firstPage=createVisitorStorage();
+firstPage.setItem('deutsch-dialogue-exercises-guest',JSON.stringify({1:{answers:['Hallo!'],submitted:true}}));
+assert.equal(JSON.parse(firstPage.getItem('deutsch-dialogue-exercises-guest'))[1].submitted,true);
+const refreshedPage=createVisitorStorage();
+assert.equal(refreshedPage.getItem('deutsch-dialogue-exercises-guest'),null,'Recarregar deve descartar as respostas do visitante');
+firstPage.clear();
+assert.equal(firstPage.getItem('deutsch-dialogue-exercises-guest'),null,'Trocar entre conta e visitante deve apagar o estado temporário');
+const a=emptyVisitorProgress(),b=emptyVisitorProgress();a.done.push(1);a.favorites.push(2);
+assert.deepEqual(b,{done:[],favorites:[],last:1},'Visitantes diferentes não compartilham progresso');
+assert.equal(hasPrivateProfile(undefined),false);assert.equal(hasPrivateProfile({userId:null}),false);assert.equal(hasPrivateProfile({userId:'authorized-user'}),true);
+console.log('PASS: respostas temporárias, reinício sem progresso e separação de visitante/conta.');

@@ -1,6 +1,7 @@
+const privatePreferences=()=>{try{return window.studyGuestMode!==true&&window.parent.studyGuestMode!==true}catch{return false}};
 const THEME='deutsch-theme-v1',STUDY='deutsch-study-language-v1';
 let theme='light',language='pt',captions=null,captionRequest=null,queued=false;
-try{theme=['light','blue','dark'].includes(localStorage.getItem(THEME))?localStorage.getItem(THEME):'light';language=['pt','en','off'].includes(localStorage.getItem(STUDY))?localStorage.getItem(STUDY):'pt'}catch{}
+try{if(!privatePreferences())throw new Error('guest');theme=['light','blue','dark'].includes(localStorage.getItem(THEME))?localStorage.getItem(THEME):'light';language=['pt','en','off'].includes(localStorage.getItem(STUDY))?localStorage.getItem(STUDY):'pt'}catch{}
 try{const entryUrl=new URL(location.href),entryTheme=entryUrl.searchParams.get('theme');if(['light','blue','dark'].includes(entryTheme)){theme=entryTheme;entryUrl.searchParams.delete('theme');history.replaceState(history.state,'',entryUrl.href)}}catch{}
 export const studyLanguage=()=>language;
 export const appearanceTheme=()=>theme;
@@ -22,7 +23,7 @@ async function loadCaptions(){if(captions)return;if(!captionRequest)captionReque
 export function setStudyPreferences(next={}){
  if(next.theme)theme=['light','blue','dark'].includes(next.theme)?next.theme:'light';if(next.language)language=['pt','en','off'].includes(next.language)?next.language:'pt';
  document.documentElement.dataset.theme=theme;const themeMeta=document.querySelector('meta[name="theme-color"]');if(themeMeta)themeMeta.content=theme==='blue'?'#19659a':theme==='dark'?'#151f23':'#f2e9dc';document.documentElement.dataset.study=language;document.documentElement.dataset.captionsReady=String(!!captions||language!=='en');
- try{localStorage.setItem(THEME,theme);localStorage.setItem(STUDY,language)}catch{}
+ try{if(privatePreferences()){localStorage.setItem(THEME,theme);localStorage.setItem(STUDY,language)}}catch{}
  const themeControl=document.getElementById('themeSelect'),studyControl=document.getElementById('studyLanguage');if(themeControl)themeControl.value=theme;if(studyControl)studyControl.value=language;
  const hint=document.getElementById('studyPreferencesHint');if(hint)hint.textContent=language==='en'?'Áudio em alemão · legendas de apoio em inglês.':language==='off'?'Sem legendas nas falas. Os enunciados e exercícios continuam disponíveis.':'Alemão com legendas de apoio em português.';
  if(hint?.dataset.context==='materials')hint.textContent=language==='en'?'Apoio em inglês · tradução da escrita de alemão para inglês.':language==='off'?'Tradução da escrita oculta. As páginas dos PDFs continuam no idioma original.':'Apoio em português · tradução da escrita de alemão para português.';
@@ -32,6 +33,7 @@ function boot(){
  document.getElementById('themeSelect')?.addEventListener('change',event=>setStudyPreferences({theme:event.target.value}));
  document.getElementById('studyLanguage')?.addEventListener('change',event=>setStudyPreferences({language:event.target.value}));
  const observer=new MutationObserver(()=>{if(!queued){queued=true;queueMicrotask(paintCaptions)}});observer.observe(document.body,{childList:true,subtree:true});setStudyPreferences();
- window.addEventListener('storage',event=>{if(event.key===THEME||event.key===STUDY){let values={};try{values={theme:localStorage.getItem(THEME),language:localStorage.getItem(STUDY)}}catch{}setStudyPreferences(values)}});
+ window.addEventListener('study:access',()=>{if(privatePreferences()){let values={};try{values={theme:localStorage.getItem(THEME),language:localStorage.getItem(STUDY)}}catch{}setStudyPreferences(values)}else setStudyPreferences({theme:'light',language:'pt'})});
+ window.addEventListener('storage',event=>{if(privatePreferences()&&(event.key===THEME||event.key===STUDY)){let values={};try{values={theme:localStorage.getItem(THEME),language:localStorage.getItem(STUDY)}}catch{}setStudyPreferences(values)}});
 }
 if(document.readyState==='loading')document.addEventListener('DOMContentLoaded',boot,{once:true});else boot();
