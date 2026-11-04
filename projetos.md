@@ -6,13 +6,15 @@ permalink: /projetos/
 
 # Projetos e estudos
 
-Este espaço reúne projetos de aprendizado e iniciativas técnicas. As tecnologias listadas como **em estudo** não representam, necessariamente, experiência profissional anterior.
+Aqui registro os projetos que uso para estudar e colocar ideias em prática. Cada um está em uma etapa diferente; vou acrescentando código e documentação conforme avanço.
 
 ## Alemão em 4 anos — Deutsch im Alltag
 
 **Projeto pessoal de Jefferson Almeida de Brito · Estudos de alemão**
 
-Aplicativo de prática com 100 diálogos originais, tradução em português, leitura aproximada da pronúncia em azul e áudio em alemão e português. Inclui situações do dia a dia, trabalho e TI, além de treino por personagem, velocidade ajustável e favoritos. A aba **Meus materiais** reúne os materiais pessoais de estudo. Os perfis **Jefferson** e **Sofia** têm progresso separado, com sincronização entre aparelhos após o login.
+Este é meu aplicativo pessoal para praticar alemão. Ele reúne 100 diálogos com tradução, ajuda de pronúncia e áudio em alemão e português, sobre situações do dia a dia, trabalho e TI.
+
+Posso treinar a fala de cada personagem, ajustar a velocidade do áudio e salvar favoritos. Em **Meus materiais**, reúno o conteúdo que estou estudando. Sofia e eu temos perfis separados e conseguimos continuar o estudo em outro aparelho após o login.
 
 [Abrir meu app de alemão →]({{ '/alemao/' | relative_url }})
 
@@ -20,7 +22,7 @@ Aplicativo de prática com 100 diálogos originais, tradução em português, le
 
 **Status:** em desenvolvimento / estudos
 
-Projeto evolutivo para construir e testar uma aplicação fictícia de gestão corporativa, inspirada em processos de sistemas empresariais.
+Estou organizando um laboratório de estudos para construir e testar uma aplicação fictícia de gestão. A ideia é acompanhar o trabalho desde o primeiro commit até os testes e a automação, aprendendo uma etapa de cada vez.
 
 **Trilha de desenvolvimento:**
 
@@ -35,9 +37,9 @@ Projeto evolutivo para construir e testar uma aplicação fictícia de gestão c
 
 Os resultados, códigos e documentação serão publicados conforme cada etapa for concluída.
 
-## Experiência aplicada em TI
+## Minha experiência e os estudos
 
-Minha experiência profissional inclui infraestrutura, redes, servidores, suporte técnico, ambientes Linux, segurança da informação e gestão de serviços de TI.
+Minha experiência de trabalho está em infraestrutura, redes, servidores, suporte, ambientes Linux e segurança da informação. O NEXUS IT é o espaço para ampliar meus conhecimentos em desenvolvimento e testes.
 
 ## Acompanhe o desenvolvimento
 
