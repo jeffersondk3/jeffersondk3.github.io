@@ -4,8 +4,6 @@ title: Minha História
 permalink: /minha-historia/
 ---
 
-# Minha trajetória
-
 Minha história reúne experiências de trabalho, serviço militar, formação, família e desenvolvimento profissional. Cada etapa contribuiu para minha trajetória até a Tecnologia da Informação.
 
 Atualmente, sou **2º Tenente — Oficial Temporário da Força Aérea Brasileira**, atuando na gestão de Tecnologia da Informação no Instituto de Logística da Aeronáutica (ILA).
