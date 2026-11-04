@@ -6,22 +6,15 @@ permalink: /sobre/
 
 # Sobre mim
 
-Olá! Sou **Jefferson Almeida de Brito**, profissional de Tecnologia da Informação, graduado em **Sistemas de Informação** e pós-graduado em **Segurança da Informação**.
+Sou Jefferson Almeida de Brito. Trabalho com TI há aproximadamente quatro anos e sou formado em Sistemas de Informação, com pós-graduação em Segurança da Informação.
 
-Atualmente, sou oficial temporário da **Força Aérea Brasileira** e atuo na liderança e gestão de Tecnologia da Informação no **Instituto de Logística da Aeronáutica (ILA)**, em São Paulo.
+Hoje sou 2º Tenente temporário da Força Aérea Brasileira e lidero a equipe de TI do Instituto de Logística da Aeronáutica (ILA), em São Paulo.
 
 ## Experiência profissional
 
-Tenho aproximadamente **quatro anos de experiência em TI**, com atuação em:
+Minha experiência está na infraestrutura que sustenta o trabalho de outras pessoas: redes, servidores, administração de sistemas e suporte técnico. Também trabalho com ambientes Linux, segurança da informação e continuidade dos serviços.
 
-- Infraestrutura de TI, redes e servidores
-- Ambientes Linux
-- Segurança da informação
-- Suporte técnico e continuidade de serviços
-- Administração de sistemas e serviços de TI
-- Liderança de equipes técnicas
-
-Minha trajetória também inclui experiências em outras áreas, que fortaleceram minha capacidade de adaptação, organização e resolução de problemas.
+No ILA, ajudo a organizar as demandas da equipe e a manter os serviços usados no ensino e na administração. Antes da TI, trabalhei em outras áreas; essas experiências também fazem parte do que aprendi sobre atendimento e organização do trabalho.
 
 ## Recomendações profissionais
 
@@ -56,24 +49,15 @@ Ressalta minha experiência em infraestrutura, organização e planejamento de p
 
 ## Projetos e aprendizado
 
-Estou desenvolvendo o **NEXUS IT – Enterprise Systems & QA Lab**, um projeto prático de estudos e portfólio com foco em:
+Organizo meus estudos no **NEXUS IT – Enterprise Systems & QA Lab**. A proposta é construir uma aplicação de gestão e praticar Git/GitHub, testes de software, APIs, SQL e automação. A trilha também inclui CI/CD, segurança e fundamentos de processos empresariais e SAP.
 
-- Git e GitHub
-- Qualidade de software (QA) e automação de testes
-- APIs e bancos de dados SQL
-- Integração e entrega contínuas (CI/CD)
-- Segurança da informação
-- Fundamentos de processos empresariais e SAP
-
-Esses temas representam meu **desenvolvimento profissional em andamento**, não experiências de trabalho que eu já tenha exercido em todas essas áreas.
+Vou registrar o código, os testes e as dificuldades conforme avançar. Esses assuntos fazem parte dos meus estudos atuais.
 
 ## Objetivos profissionais
 
-Busco **oportunidades profissionais na área de Tecnologia da Informação em diferentes países da Europa**, principalmente em infraestrutura de TI, administração de sistemas, redes, suporte técnico e segurança da informação.
+Busco oportunidades de TI em diferentes países da Europa, principalmente em infraestrutura, sistemas, redes, suporte e segurança da informação.
 
-**Também estou apto e aberto a uma mudança de carreira**, inclusive para atuar em outras áreas e funções, aproveitando as experiências e competências que já desenvolvi ao longo da minha trajetória profissional, como liderança de equipes, organização de processos, atendimento ao público, resolução de problemas e capacidade de adaptação.
-
-Estou estudando alemão e continuo investindo no meu desenvolvimento profissional e intercultural.
+Também estou aberto a uma mudança de carreira, aproveitando o que já aprendi em outras funções, no atendimento e na liderança de equipes. Estudo alemão e sigo me preparando para trabalhar em outro país.
 
 ## Nossa família e os planos para a Europa
 
