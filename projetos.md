@@ -18,9 +18,9 @@ Posso treinar a fala de cada personagem, ajustar a velocidade do áudio e salvar
 
 ## NEXUS IT — Enterprise Systems & QA Lab
 
-**Status:** em desenvolvimento / estudos
+**Status:** laboratório inicial disponível · estudos em andamento
 
-Estou organizando um laboratório de estudos para construir e testar uma aplicação fictícia de gestão. A ideia é acompanhar o trabalho desde o primeiro commit até os testes e a automação, aprendendo uma etapa de cada vez.
+Preparei uma aplicação fictícia de compras e estoque para estudar uma etapa de cada vez. O laboratório tem roteiros de prática, resultados esperados, API local, consultas SQL e testes automáticos. Agora quero executar os exercícios e registrar o que aprendi com minhas próprias palavras.
 
 **Trilha de desenvolvimento:**
 
@@ -33,7 +33,9 @@ Estou organizando um laboratório de estudos para construir e testar uma aplica�
 7. Segurança aplicada ao ciclo de desenvolvimento
 8. Fundamentos de processos empresariais e SAP
 
-Os resultados, códigos e documentação serão publicados conforme cada etapa for concluída.
+[Acessar o laboratório e começar pela etapa 1 →](https://github.com/jeffersondk3/NEXUS-IT-QA-SAP-)
+
+O ambiente usa dados fictícios e roda localmente. A parte empresarial é uma simulação de processos para preparar o estudo de SAP, sem conexão com um sistema SAP real. Vou publicar minhas evidências conforme concluir os exercícios.
 
 ## Minha experiência e os estudos
 
