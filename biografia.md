@@ -21,7 +21,13 @@ Passei por muitas dificuldades financeiras. Houve momentos em que precisei traba
 
 **Não tenho vergonha de nenhum desses trabalhos. Pelo contrário: sinto honra e orgulho por tudo o que fiz.** Foram experiências que me ensinaram a valorizar o esforço, a perseverança e as oportunidades.
 
-## Capítulo 2 — Por que escolhi a tecnologia
+## Capítulo 2 — Meu primeiro emprego com carteira assinada
+
+**Meu primeiro emprego registrado foi em um supermercado, onde trabalhei como repositor e empacotador.**
+
+Antes de chegar à TI, também trabalhei na roça e fiz trabalhos como freelancer na área de alimentação, incluindo serviços em cozinha. O supermercado marcou o início da minha experiência com carteira assinada e faz parte dessa história de trabalho.
+
+## Capítulo 3 — Por que escolhi a tecnologia
 
 Minha escolha pela Tecnologia da Informação não significou rejeitar minhas origens. Eu enxerguei na tecnologia uma possibilidade de mudar minha situação financeira e oferecer melhores condições de vida para minha família.
 
@@ -37,7 +43,7 @@ Mas nada disso apaga de onde vim. O trabalho na roça, as dificuldades financeir
 
 Esta biografia será ampliada aos poucos, conforme eu registrar novas lembranças e experiências:
 
-- **Meus primeiros trabalhos:** agricultura, criação de animais, construção civil, pintura e alimentação.
+- **Meus primeiros trabalhos:** agricultura, criação de animais, supermercado como repositor e empacotador, construção civil, pintura e trabalhos em cozinha.
 - **Estudos e oportunidades:** o caminho até a formação em Tecnologia da Informação.
 - **Minha trajetória militar:** serviço militar obrigatório no Exército Brasileiro, com atuação na Cavalaria, manejo e cuidados com cavalos e atividades da Guarda Presidencial; posteriormente, serviço como oficial temporário da Força Aérea Brasileira.
 - **Família e vida pessoal:** pessoas, escolhas e momentos importantes.
