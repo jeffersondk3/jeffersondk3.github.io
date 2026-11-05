@@ -69,3 +69,11 @@ footer{font-size:13px!important;line-height:1.8!important;color:var(--study-text
 :root[data-theme=blue] .stages button.active,:root[data-theme=light] .stages button.active{background:#19659a!important;color:#ffffff!important;border-color:#19659a!important}
 :root[data-theme=dark] .stages button.active,:root[data-theme=dark] .leveltabs button.active,:root[data-theme=dark] .review-nav a.active{background:#a9d6c9!important;color:#152a30!important;border-color:#a9d6c9!important}
 .stages button.active:focus-visible{outline:3px solid #75acd0;outline-offset:3px}
+
+/* Sofia keeps her pink identity in every appearance and selection state. */
+#mainNamedProfiles button[data-person="sofia"],#podcastNamedProfiles button[data-person="sofia"],
+:root body .choiceCards button.choiceCard[data-choice="Sofia"],:root body .choiceCards button.choiceCard[data-choice="sofia"],
+:root[data-theme] body .choiceCards button.choiceCard[data-choice="Sofia"],:root[data-theme] body .choiceCards button.choiceCard[data-choice="sofia"]{background:#f7d3e2!important;color:#692c46!important;border-color:#d58aa9!important}
+#mainNamedProfiles button[data-person="sofia"][aria-pressed="true"],#podcastNamedProfiles button[data-person="sofia"][aria-pressed="true"],
+:root[data-theme] body .choiceCards button.choiceCard[data-choice="Sofia"][aria-pressed="true"],:root[data-theme] body .choiceCards button.choiceCard[data-choice="sofia"][aria-pressed="true"]{background:#f3bfd5!important;color:#692c46!important;border-color:#a94470!important;box-shadow:0 0 0 2px #a94470!important}
+:root body .choiceCards .choiceCard[data-choice="Sofia"] small,:root body .choiceCards .choiceCard[data-choice="Sofia"] .choiceCheck,:root body .choiceCards .choiceCard[data-choice="sofia"] small,:root body .choiceCards .choiceCard[data-choice="sofia"] .choiceCheck{color:#692c46!important}
