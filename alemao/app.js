@@ -1,5 +1,5 @@
 import {studyLanguage} from './study-preferences.js?v=28';
-import {createDialoguePractice} from './exercises.js?v=28';
+import {createDialoguePractice} from './exercises.js?v=33';
 import {createVisitorStorage,emptyVisitorProgress,hasPrivateProfile} from './visitor-state.js?v=28';
 const visitorStorage=createVisitorStorage();
 'use strict';
@@ -15,7 +15,8 @@ let data=[],current=null,category='',favoriteOnly=false,doneOnly=false,token=0,p
 let saved=emptyVisitorProgress();
 const persist=()=>{if(!hasPrivateProfile(window.studyCloud))return;try{localStorage.setItem('deutsch-alltag-user-'+window.studyCloud.userId+'-'+window.studyCloud.profile,JSON.stringify(saved));window.studyCloud.saveDialogues(saved)}catch{}};
 const escapeHTML=s=>String(s).replace(/[&<>"']/g,c=>({'&':'&amp;','<':'&lt;','>':'&gt;','"':'&quot;',"'":'&#39;'}[c]));
-const dialoguePractice=createDialoguePractice({getCloud:()=>window.studyCloud,storage:visitorStorage,listen:n=>playSentence(n,'de'),onChange:()=>{if(current)lessonButtons()}});
+function warnGuestResponse(){if(!hasPrivateProfile(window.studyCloud))window.alert('Você está no modo visitante. Suas respostas e tarefas concluídas são temporárias e não ficam salvas no perfil. Para guardar seu progresso, entre em Acesso pessoal e selecione Jefferson ou Sofia.');}
+const dialoguePractice=createDialoguePractice({onGuestResponse:warnGuestResponse,getCloud:()=>window.studyCloud,storage:visitorStorage,listen:n=>playSentence(n,'de'),onChange:()=>{if(current)lessonButtons()}});
 window.addEventListener('study:exercises',()=>dialoguePractice.refresh());
 function draw(){
  $('doneCount').textContent=saved.done.length;$('progressBar').style.width=saved.done.length+'%';
@@ -58,7 +59,7 @@ $('lines').onclick=e=>{if(e.target.closest('.googleTranslateLink')){audio.pause(
 $('categories').onclick=e=>{const b=e.target.closest('[data-category]');if(b){category=b.dataset.category;draw()}};
 $('cards').onclick=e=>{const f=e.target.closest('[data-favorite]'),o=e.target.closest('[data-open]');if(f)favorite(Number(f.dataset.favorite));if(o)openLesson(Number(o.dataset.open))};
 $('search').oninput=draw;$('favFilter').onclick=()=>{favoriteOnly=!favoriteOnly;$('favFilter').setAttribute('aria-pressed',favoriteOnly);draw()};$('doneFilter').onclick=()=>{doneOnly=!doneOnly;$('doneFilter').setAttribute('aria-pressed',doneOnly);draw()};
-$('favorite').onclick=()=>favorite(current.id);$('markDone').onclick=()=>{if(!saved.done.includes(current.id)&&!dialoguePractice.requirePass())return;const id=current.id;saved.done=saved.done.includes(id)?saved.done.filter(x=>x!==id):[...saved.done,id];persist();draw();lessonButtons()};
+$('favorite').onclick=()=>favorite(current.id);$('markDone').onclick=()=>{warnGuestResponse();if(!saved.done.includes(current.id)&&!dialoguePractice.requirePass())return;const id=current.id;saved.done=saved.done.includes(id)?saved.done.filter(x=>x!==id):[...saved.done,id];persist();draw();lessonButtons()};
 $('closeLesson').onclick=()=>$('lesson').close();$('lesson').addEventListener('close',stop);$('lesson').addEventListener('cancel',stop);$('previous').onclick=()=>openLesson(current.id-1);$('next').onclick=()=>{if(dialoguePractice.requirePass())openLesson(current.id+1)};$('continue').onclick=()=>openLesson(saved.last||1);
 $('install').onclick=()=>{if(hasPrivateProfile(window.studyCloud))$('installHelp').showModal()};$('closeInstall').onclick=()=>$('installHelp').close();
 window.addEventListener('pagehide',stop);
