@@ -14,7 +14,7 @@ async function draw(){
  catch{failed=true}
  if(token!==generation||api.userId!==user||api.profile!==profile)return;
  const cached=safeRead('deutsch-grammar-cloud-v1-'+user);const entries=failed?cached?.entries:cached?.pending;
- for(const [key,payload] of entries||[]){const [owner,item]=key.split('\n');if(owner===name&&item?.startsWith('lessons/'))grammar[item.slice(8)]=failed?payload:(payload?.value??payload)}
+ for(const [key,payload] of entries||[]){const [owner,item]=key.split('\n');if(owner===name&&item?.startsWith('lessons/'))grammar[item.slice(8)]=failed?payload:(Object.hasOwn(payload||{},'value')?payload.value:payload)}
  const snapshot=api.progressSnapshot(),records={...snapshot.records,...api.materials()};
  const podcastCache=safeRead('deutsch-podcast-v1-'+user+'-'+profile);
  for(const [id,value]of Object.entries(podcastCache?.pending||{}))records['podcast:'+id]=value;
