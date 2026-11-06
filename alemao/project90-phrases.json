@@ -1,0 +1,4512 @@
+{
+  "version": 2,
+  "publishedDays": 90,
+  "totalPlanned": 497,
+  "bonusPlanned": 3,
+  "notes": "Frases originais organizadas por padrões e variações. Expressões comuns de séries, sem transcrição de Dark. Pronúncia aproximada; áudio sintético.",
+  "phrases": [
+    {
+      "id": 1,
+      "day": 1,
+      "pt": "Olá! Como você se chama?",
+      "de": "Hallo! Wie heißt du?",
+      "pronunciation": "há-lo vii háist du",
+      "month": 1,
+      "theme": "Apresentação e intercâmbio"
+    },
+    {
+      "id": 2,
+      "day": 1,
+      "pt": "Eu me chamo Jefferson.",
+      "de": "Ich heiße Jefferson.",
+      "pronunciation": "iç hái-se Jefferson",
+      "month": 1,
+      "theme": "Apresentação e intercâmbio"
+    },
+    {
+      "id": 3,
+      "day": 1,
+      "pt": "Eu me chamo Sofia.",
+      "de": "Ich heiße Sofia.",
+      "pronunciation": "iç hái-se Sofia",
+      "month": 1,
+      "theme": "Apresentação e intercâmbio"
+    },
+    {
+      "id": 4,
+      "day": 1,
+      "pt": "Eu venho do Brasil.",
+      "de": "Ich komme aus Brasilien.",
+      "pronunciation": "iç kó-me aus bra-zí-li-en",
+      "month": 1,
+      "theme": "Apresentação e intercâmbio"
+    },
+    {
+      "id": 5,
+      "day": 1,
+      "pt": "Eu venho da Argentina.",
+      "de": "Ich komme aus Argentinien.",
+      "pronunciation": "iç kó-me aus ar-guen-tí-ni-en",
+      "month": 1,
+      "theme": "Apresentação e intercâmbio"
+    },
+    {
+      "id": 6,
+      "day": 1,
+      "pt": "Prazer em conhecer você.",
+      "de": "Schön, dich kennenzulernen.",
+      "pronunciation": "shöön diç ké-nen-tsu-lér-nen",
+      "month": 1,
+      "theme": "Apresentação e intercâmbio"
+    },
+    {
+      "id": 7,
+      "day": 1,
+      "pt": "Onde você mora?",
+      "de": "Wo wohnst du?",
+      "pronunciation": "voo voonst du",
+      "month": 1,
+      "theme": "Apresentação e intercâmbio"
+    },
+    {
+      "id": 8,
+      "day": 2,
+      "pt": "Bom dia! Como você está?",
+      "de": "Guten Morgen! Wie geht es dir?",
+      "pronunciation": "gúu-ten mór-guen vii gueet es dia",
+      "month": 1,
+      "theme": "Apresentação e intercâmbio"
+    },
+    {
+      "id": 9,
+      "day": 2,
+      "pt": "Estou bem, obrigado.",
+      "de": "Mir geht es gut, danke.",
+      "pronunciation": "mia gueet es guut dán-ke",
+      "month": 1,
+      "theme": "Apresentação e intercâmbio"
+    },
+    {
+      "id": 10,
+      "day": 2,
+      "pt": "Estou aprendendo alemão.",
+      "de": "Ich lerne Deutsch.",
+      "pronunciation": "iç lér-ne dóitch",
+      "month": 1,
+      "theme": "Apresentação e intercâmbio"
+    },
+    {
+      "id": 11,
+      "day": 2,
+      "pt": "Eu ainda sou iniciante.",
+      "de": "Ich bin noch Anfänger.",
+      "pronunciation": "iç bin nokh án-fen-ga",
+      "month": 1,
+      "theme": "Apresentação e intercâmbio"
+    },
+    {
+      "id": 12,
+      "day": 2,
+      "pt": "Eu não entendi isso.",
+      "de": "Das habe ich nicht verstanden.",
+      "pronunciation": "das háa-be iç niçt fer-shtán-den",
+      "month": 1,
+      "theme": "Apresentação e intercâmbio"
+    },
+    {
+      "id": 13,
+      "day": 2,
+      "pt": "Você pode repetir isso?",
+      "de": "Kannst du das wiederholen?",
+      "pronunciation": "kanst du das víi-da-hoo-len",
+      "month": 1,
+      "theme": "Apresentação e intercâmbio"
+    },
+    {
+      "id": 14,
+      "day": 2,
+      "pt": "Muito obrigado pela sua ajuda.",
+      "de": "Vielen Dank für deine Hilfe.",
+      "pronunciation": "fíi-len dank füür dái-ne híl-fe",
+      "month": 1,
+      "theme": "Apresentação e intercâmbio"
+    },
+    {
+      "id": 15,
+      "day": 3,
+      "pt": "Eu procuro alguém para praticar.",
+      "de": "Ich suche jemanden zum Üben.",
+      "pronunciation": "iç zúu-khe iê-man-den tsum üü-ben",
+      "month": 1,
+      "theme": "Apresentação e intercâmbio"
+    },
+    {
+      "id": 16,
+      "day": 3,
+      "pt": "Você gostaria de aprender português?",
+      "de": "Möchtest du Portugiesisch lernen?",
+      "pronunciation": "möç-test du por-tu-guíi-zish lér-nen",
+      "month": 1,
+      "theme": "Apresentação e intercâmbio"
+    },
+    {
+      "id": 17,
+      "day": 3,
+      "pt": "Podemos nos ajudar mutuamente.",
+      "de": "Wir können uns gegenseitig helfen.",
+      "pronunciation": "via kö-nen uns guê-guen-zai-tiç hél-fen",
+      "month": 1,
+      "theme": "Apresentação e intercâmbio"
+    },
+    {
+      "id": 18,
+      "day": 3,
+      "pt": "Você tem tempo hoje à noite?",
+      "de": "Hast du heute Abend Zeit?",
+      "pronunciation": "hast du hói-te áa-bent tsait",
+      "month": 1,
+      "theme": "Apresentação e intercâmbio"
+    },
+    {
+      "id": 19,
+      "day": 3,
+      "pt": "Eu tenho dez minutos.",
+      "de": "Ich habe zehn Minuten Zeit.",
+      "pronunciation": "iç háa-be tseen mi-núu-ten tsait",
+      "month": 1,
+      "theme": "Apresentação e intercâmbio"
+    },
+    {
+      "id": 20,
+      "day": 3,
+      "pt": "Vamos conversar um pouco.",
+      "de": "Lass uns ein bisschen reden.",
+      "pronunciation": "las uns ain bís-çen rêe-den",
+      "month": 1,
+      "theme": "Apresentação e intercâmbio"
+    },
+    {
+      "id": 21,
+      "day": 3,
+      "pt": "Até amanhã!",
+      "de": "Bis morgen!",
+      "pronunciation": "bis mór-guen",
+      "month": 1,
+      "theme": "Apresentação e intercâmbio"
+    },
+    {
+      "id": 22,
+      "day": 4,
+      "pt": "Eu trabalho com TI.",
+      "de": "Ich arbeite in der IT.",
+      "pronunciation": "iç ár-bai-te in dea i-tê",
+      "month": 1,
+      "theme": "TI, redes e Tandem"
+    },
+    {
+      "id": 23,
+      "day": 4,
+      "pt": "Eu cuido de computadores e redes.",
+      "de": "Ich betreue Computer und Netzwerke.",
+      "pronunciation": "iç be-trói-e kom-piú-ta unt néts-vér-ke",
+      "month": 1,
+      "theme": "TI, redes e Tandem"
+    },
+    {
+      "id": 24,
+      "day": 4,
+      "pt": "Eu trabalho no Brasil.",
+      "de": "Ich arbeite in Brasilien.",
+      "pronunciation": "iç ár-bai-te in bra-zí-li-en",
+      "month": 1,
+      "theme": "TI, redes e Tandem"
+    },
+    {
+      "id": 25,
+      "day": 4,
+      "pt": "O que você faz profissionalmente?",
+      "de": "Was machst du beruflich?",
+      "pronunciation": "vas makhst du be-rúuf-liç",
+      "month": 1,
+      "theme": "TI, redes e Tandem"
+    },
+    {
+      "id": 26,
+      "day": 4,
+      "pt": "Você também trabalha com TI?",
+      "de": "Arbeitest du auch in der IT?",
+      "pronunciation": "ár-bai-test du aukh in dea i-tê",
+      "month": 1,
+      "theme": "TI, redes e Tandem"
+    },
+    {
+      "id": 27,
+      "day": 4,
+      "pt": "Estou aprendendo alemão para o meu trabalho.",
+      "de": "Ich lerne Deutsch für meine Arbeit.",
+      "pronunciation": "iç lér-ne dóitch füür mái-ne ár-bait",
+      "month": 1,
+      "theme": "TI, redes e Tandem"
+    },
+    {
+      "id": 28,
+      "day": 4,
+      "pt": "Podemos praticar juntos?",
+      "de": "Können wir zusammen üben?",
+      "pronunciation": "kö-nen via tsu-zá-men üü-ben",
+      "month": 1,
+      "theme": "TI, redes e Tandem"
+    },
+    {
+      "id": 29,
+      "day": 5,
+      "pt": "Meu computador não funciona.",
+      "de": "Mein Computer funktioniert nicht.",
+      "pronunciation": "main kom-piú-ta funk-tsio-níirt niçt",
+      "month": 1,
+      "theme": "TI, redes e Tandem"
+    },
+    {
+      "id": 30,
+      "day": 5,
+      "pt": "O computador está muito lento.",
+      "de": "Der Computer ist sehr langsam.",
+      "pronunciation": "dea kom-piú-ta ist zêa láng-zaam",
+      "month": 1,
+      "theme": "TI, redes e Tandem"
+    },
+    {
+      "id": 31,
+      "day": 5,
+      "pt": "Você pode me ajudar, por favor?",
+      "de": "Kannst du mir bitte helfen?",
+      "pronunciation": "kanst du mia bí-te hél-fen",
+      "month": 1,
+      "theme": "TI, redes e Tandem"
+    },
+    {
+      "id": 32,
+      "day": 5,
+      "pt": "Primeiro, vou verificar o cabo.",
+      "de": "Ich prüfe zuerst das Kabel.",
+      "pronunciation": "iç prüü-fe tsu-êerst das káa-bel",
+      "month": 1,
+      "theme": "TI, redes e Tandem"
+    },
+    {
+      "id": 33,
+      "day": 5,
+      "pt": "Por favor, reinicie o computador.",
+      "de": "Starte bitte den Computer neu.",
+      "pronunciation": "shtár-te bí-te den kom-piú-ta nói",
+      "month": 1,
+      "theme": "TI, redes e Tandem"
+    },
+    {
+      "id": 34,
+      "day": 5,
+      "pt": "Você está vendo uma mensagem de erro?",
+      "de": "Siehst du eine Fehlermeldung?",
+      "pronunciation": "ziist du ái-ne fêe-la-mél-dung",
+      "month": 1,
+      "theme": "TI, redes e Tandem"
+    },
+    {
+      "id": 35,
+      "day": 5,
+      "pt": "Agora está funcionando de novo.",
+      "de": "Jetzt funktioniert es wieder.",
+      "pronunciation": "iétst funk-tsio-níirt es víi-da",
+      "month": 1,
+      "theme": "TI, redes e Tandem"
+    },
+    {
+      "id": 36,
+      "day": 6,
+      "pt": "Eu não tenho conexão com a internet.",
+      "de": "Ich habe keine Internetverbindung.",
+      "pronunciation": "iç háa-be kái-ne ín-ter-net-fer-bin-dung",
+      "month": 1,
+      "theme": "TI, redes e Tandem"
+    },
+    {
+      "id": 37,
+      "day": 6,
+      "pt": "O Wi-Fi não está funcionando.",
+      "de": "Das WLAN funktioniert nicht.",
+      "pronunciation": "das vê-laan funk-tsio-níirt niçt",
+      "month": 1,
+      "theme": "TI, redes e Tandem"
+    },
+    {
+      "id": 38,
+      "day": 6,
+      "pt": "Qual é a senha do Wi-Fi?",
+      "de": "Wie lautet das WLAN-Passwort?",
+      "pronunciation": "vii láu-tet das vê-laan-pás-vort",
+      "month": 1,
+      "theme": "TI, redes e Tandem"
+    },
+    {
+      "id": 39,
+      "day": 6,
+      "pt": "O roteador está ligado?",
+      "de": "Ist der Router eingeschaltet?",
+      "pronunciation": "ist dea rúu-ta áin-gue-shal-tet",
+      "month": 1,
+      "theme": "TI, redes e Tandem"
+    },
+    {
+      "id": 40,
+      "day": 6,
+      "pt": "Eu verifico a conexão de rede.",
+      "de": "Ich überprüfe die Netzwerkverbindung.",
+      "pronunciation": "iç üü-ba-prüü-fe di néts-vérk-fer-bin-dung",
+      "month": 1,
+      "theme": "TI, redes e Tandem"
+    },
+    {
+      "id": 41,
+      "day": 6,
+      "pt": "Eu preciso de acesso ao servidor.",
+      "de": "Ich brauche Zugriff auf den Server.",
+      "pronunciation": "iç bráu-khe tsúu-grif auf den sör-va",
+      "month": 1,
+      "theme": "TI, redes e Tandem"
+    },
+    {
+      "id": 42,
+      "day": 6,
+      "pt": "Por favor, não compartilhe sua senha.",
+      "de": "Gib dein Passwort bitte nicht weiter.",
+      "pronunciation": "guip dain pás-vort bí-te niçt vái-ta",
+      "month": 1,
+      "theme": "TI, redes e Tandem"
+    },
+    {
+      "id": 43,
+      "day": 7,
+      "pt": "Eu falo português e estou aprendendo alemão.",
+      "de": "Ich spreche Portugiesisch und lerne Deutsch.",
+      "pronunciation": "iç shpré-çe por-tu-guíi-zish unt lér-ne dóitch",
+      "month": 1,
+      "theme": "TI, redes e Tandem"
+    },
+    {
+      "id": 44,
+      "day": 7,
+      "pt": "Você pode falar um pouco mais devagar?",
+      "de": "Kannst du etwas langsamer sprechen?",
+      "pronunciation": "kanst du ét-vas láng-zaa-ma shpré-çen",
+      "month": 1,
+      "theme": "TI, redes e Tandem"
+    },
+    {
+      "id": 45,
+      "day": 7,
+      "pt": "Você pode me enviar uma mensagem de voz?",
+      "de": "Kannst du mir eine Sprachnachricht schicken?",
+      "pronunciation": "kanst du mia ái-ne shpráakh-nakh-riçt shí-ken",
+      "month": 1,
+      "theme": "TI, redes e Tandem"
+    },
+    {
+      "id": 46,
+      "day": 7,
+      "pt": "Por favor, corrija meus erros.",
+      "de": "Bitte korrigiere meine Fehler.",
+      "pronunciation": "bí-te ko-ri-guíi-re mái-ne fêe-la",
+      "month": 1,
+      "theme": "TI, redes e Tandem"
+    },
+    {
+      "id": 47,
+      "day": 7,
+      "pt": "Como se diz isso em alemão?",
+      "de": "Wie sagt man das auf Deutsch?",
+      "pronunciation": "vii zaakt man das auf dóitch",
+      "month": 1,
+      "theme": "TI, redes e Tandem"
+    },
+    {
+      "id": 48,
+      "day": 7,
+      "pt": "Hoje eu resolvi um problema de rede.",
+      "de": "Heute habe ich ein Netzwerkproblem gelöst.",
+      "pronunciation": "hói-te háa-be iç ain néts-vérk-pro-bleem gue-lööst",
+      "month": 1,
+      "theme": "TI, redes e Tandem"
+    },
+    {
+      "id": 49,
+      "day": 7,
+      "pt": "Podemos conversar amanhã de novo?",
+      "de": "Können wir morgen wieder miteinander sprechen?",
+      "pronunciation": "kö-nen via mór-guen víi-da mit-ai-nán-da shpré-çen",
+      "month": 1,
+      "theme": "TI, redes e Tandem"
+    },
+    {
+      "id": 50,
+      "month": 1,
+      "day": 8,
+      "theme": "Tecnologia e equipamentos",
+      "de": "Ich benutze den Computer.",
+      "pt": "Eu uso o computador.",
+      "pronunciation": "iç be-nút-se den kom-piú-ta"
+    },
+    {
+      "id": 51,
+      "month": 1,
+      "day": 8,
+      "theme": "Tecnologia e equipamentos",
+      "de": "Ich brauche den Computer.",
+      "pt": "Eu preciso do computador.",
+      "pronunciation": "iç bráu-khe den kom-piú-ta"
+    },
+    {
+      "id": 52,
+      "month": 1,
+      "day": 8,
+      "theme": "Tecnologia e equipamentos",
+      "de": "Kannst du den Computer einschalten?",
+      "pt": "Você pode ligar o computador?",
+      "pronunciation": "kanst du den kom-piú-ta áin-shal-ten"
+    },
+    {
+      "id": 53,
+      "month": 1,
+      "day": 8,
+      "theme": "Tecnologia e equipamentos",
+      "de": "Ich muss den Computer neu starten.",
+      "pt": "Eu preciso reiniciar o computador.",
+      "pronunciation": "iç mus den kom-piú-ta nói shtár-ten"
+    },
+    {
+      "id": 54,
+      "month": 1,
+      "day": 8,
+      "theme": "Tecnologia e equipamentos",
+      "de": "Der Computer funktioniert wieder.",
+      "pt": "O computador está funcionando de novo.",
+      "pronunciation": "dea kom-piú-ta funk-tsio-níirt víi-da"
+    },
+    {
+      "id": 55,
+      "month": 1,
+      "day": 8,
+      "theme": "Tecnologia e equipamentos",
+      "de": "Wo steht der Computer?",
+      "pt": "Onde fica o computador?",
+      "pronunciation": "voo shteet dea kom-piú-ta"
+    },
+    {
+      "id": 56,
+      "month": 1,
+      "day": 8,
+      "theme": "Conversa e pedidos de ajuda",
+      "de": "Kannst du bitte langsamer sprechen?",
+      "pt": "Você pode falar mais devagar, por favor?",
+      "pronunciation": "kanst du bí-te láng-zaa-ma shpré-çen"
+    },
+    {
+      "id": 57,
+      "month": 1,
+      "day": 9,
+      "theme": "Conversa e pedidos de ajuda",
+      "de": "Könntest du bitte langsamer sprechen?",
+      "pt": "Você poderia falar mais devagar, por favor?",
+      "pronunciation": "kön-test du bí-te láng-zaa-ma shpré-çen"
+    },
+    {
+      "id": 58,
+      "month": 1,
+      "day": 9,
+      "theme": "Conversa e pedidos de ajuda",
+      "de": "Bitte versuche, langsamer zu sprechen.",
+      "pt": "Por favor, tente falar mais devagar.",
+      "pronunciation": "bí-te fer-zúu-khe láng-zaa-ma tsu shpré-çen"
+    },
+    {
+      "id": 59,
+      "month": 1,
+      "day": 9,
+      "theme": "Conversa e pedidos de ajuda",
+      "de": "Ich möchte dich bitten, langsamer zu sprechen.",
+      "pt": "Eu gostaria de pedir a você para falar mais devagar.",
+      "pronunciation": "iç möç-te diç bí-ten láng-zaa-ma tsu shpré-çen"
+    },
+    {
+      "id": 60,
+      "month": 1,
+      "day": 9,
+      "theme": "Conversa e pedidos de ajuda",
+      "de": "Hast du Zeit, langsamer zu sprechen?",
+      "pt": "Você tem tempo para falar mais devagar?",
+      "pronunciation": "hast du tsait láng-zaa-ma tsu shpré-çen"
+    },
+    {
+      "id": 61,
+      "month": 1,
+      "day": 9,
+      "theme": "Conversa e pedidos de ajuda",
+      "de": "Bitte vergiss nicht, langsamer zu sprechen.",
+      "pt": "Por favor, não se esqueça de falar mais devagar.",
+      "pronunciation": "bí-te fer-guís niçt láng-zaa-ma tsu shpré-çen"
+    },
+    {
+      "id": 62,
+      "month": 1,
+      "day": 9,
+      "theme": "Comunicação em lugares do dia a dia",
+      "de": "Ich arbeite im Büro.",
+      "pt": "Eu trabalho no escritório.",
+      "pronunciation": "iç ár-bai-te im bü-rôo"
+    },
+    {
+      "id": 63,
+      "month": 1,
+      "day": 9,
+      "theme": "Comunicação em lugares do dia a dia",
+      "de": "Ich bin heute im Büro.",
+      "pt": "Hoje eu estou no escritório.",
+      "pronunciation": "iç bin hói-te im bü-rôo"
+    },
+    {
+      "id": 64,
+      "month": 1,
+      "day": 10,
+      "theme": "Comunicação em lugares do dia a dia",
+      "de": "Können wir im Büro sprechen?",
+      "pt": "Podemos conversar no escritório?",
+      "pronunciation": "kö-nen via im bü-rôo shpré-çen"
+    },
+    {
+      "id": 65,
+      "month": 1,
+      "day": 10,
+      "theme": "Comunicação em lugares do dia a dia",
+      "de": "Ich habe im Büro Internet.",
+      "pt": "Eu tenho internet no escritório.",
+      "pronunciation": "iç háa-be im bü-rôo ín-ter-net"
+    },
+    {
+      "id": 66,
+      "month": 1,
+      "day": 10,
+      "theme": "Comunicação em lugares do dia a dia",
+      "de": "Wir können im Büro Deutsch üben.",
+      "pt": "Podemos praticar alemão no escritório.",
+      "pronunciation": "via kö-nen im bü-rôo dóitch üü-ben"
+    },
+    {
+      "id": 67,
+      "month": 1,
+      "day": 10,
+      "theme": "Tecnologia e equipamentos",
+      "de": "Ich benutze den Router.",
+      "pt": "Eu uso o roteador.",
+      "pronunciation": "iç be-nút-se den rúu-ta"
+    },
+    {
+      "id": 68,
+      "month": 1,
+      "day": 10,
+      "theme": "Tecnologia e equipamentos",
+      "de": "Ich brauche den Router.",
+      "pt": "Eu preciso do roteador.",
+      "pronunciation": "iç bráu-khe den rúu-ta"
+    },
+    {
+      "id": 69,
+      "month": 1,
+      "day": 10,
+      "theme": "Tecnologia e equipamentos",
+      "de": "Kannst du den Router einschalten?",
+      "pt": "Você pode ligar o roteador?",
+      "pronunciation": "kanst du den rúu-ta áin-shal-ten"
+    },
+    {
+      "id": 70,
+      "month": 1,
+      "day": 10,
+      "theme": "Tecnologia e equipamentos",
+      "de": "Ich muss den Router neu starten.",
+      "pt": "Eu preciso reiniciar o roteador.",
+      "pronunciation": "iç mus den rúu-ta nói shtár-ten"
+    },
+    {
+      "id": 71,
+      "month": 1,
+      "day": 11,
+      "theme": "Tecnologia e equipamentos",
+      "de": "Der Router funktioniert wieder.",
+      "pt": "O roteador está funcionando de novo.",
+      "pronunciation": "dea rúu-ta funk-tsio-níirt víi-da"
+    },
+    {
+      "id": 72,
+      "month": 1,
+      "day": 11,
+      "theme": "Tecnologia e equipamentos",
+      "de": "Wo steht der Router?",
+      "pt": "Onde fica o roteador?",
+      "pronunciation": "voo shteet dea rúu-ta"
+    },
+    {
+      "id": 73,
+      "month": 1,
+      "day": 11,
+      "theme": "Conversa e pedidos de ajuda",
+      "de": "Kannst du bitte mir helfen?",
+      "pt": "Você pode me ajudar, por favor?",
+      "pronunciation": "kanst du bí-te mia hél-fen"
+    },
+    {
+      "id": 74,
+      "month": 1,
+      "day": 11,
+      "theme": "Conversa e pedidos de ajuda",
+      "de": "Könntest du bitte mir helfen?",
+      "pt": "Você poderia me ajudar, por favor?",
+      "pronunciation": "kön-test du bí-te mia hél-fen"
+    },
+    {
+      "id": 75,
+      "month": 1,
+      "day": 11,
+      "theme": "Conversa e pedidos de ajuda",
+      "de": "Bitte versuche, mir zu helfen.",
+      "pt": "Por favor, tente me ajudar.",
+      "pronunciation": "bí-te fer-zúu-khe mia tsu hél-fen"
+    },
+    {
+      "id": 76,
+      "month": 1,
+      "day": 11,
+      "theme": "Conversa e pedidos de ajuda",
+      "de": "Ich möchte dich bitten, mir zu helfen.",
+      "pt": "Eu gostaria de pedir a você para me ajudar.",
+      "pronunciation": "iç möç-te diç bí-ten mia tsu hél-fen"
+    },
+    {
+      "id": 77,
+      "month": 1,
+      "day": 11,
+      "theme": "Conversa e pedidos de ajuda",
+      "de": "Hast du Zeit, mir zu helfen?",
+      "pt": "Você tem tempo para me ajudar?",
+      "pronunciation": "hast du tsait mia tsu hél-fen"
+    },
+    {
+      "id": 78,
+      "month": 1,
+      "day": 12,
+      "theme": "Conversa e pedidos de ajuda",
+      "de": "Bitte vergiss nicht, mir zu helfen.",
+      "pt": "Por favor, não se esqueça de me ajudar.",
+      "pronunciation": "bí-te fer-guís niçt mia tsu hél-fen"
+    },
+    {
+      "id": 79,
+      "month": 1,
+      "day": 12,
+      "theme": "Comunicação em lugares do dia a dia",
+      "de": "Ich arbeite zu Hause.",
+      "pt": "Eu trabalho em casa.",
+      "pronunciation": "iç ár-bai-te tsu háu-ze"
+    },
+    {
+      "id": 80,
+      "month": 1,
+      "day": 12,
+      "theme": "Comunicação em lugares do dia a dia",
+      "de": "Ich bin heute zu Hause.",
+      "pt": "Hoje eu estou em casa.",
+      "pronunciation": "iç bin hói-te tsu háu-ze"
+    },
+    {
+      "id": 81,
+      "month": 1,
+      "day": 12,
+      "theme": "Comunicação em lugares do dia a dia",
+      "de": "Können wir zu Hause sprechen?",
+      "pt": "Podemos conversar em casa?",
+      "pronunciation": "kö-nen via tsu háu-ze shpré-çen"
+    },
+    {
+      "id": 82,
+      "month": 1,
+      "day": 12,
+      "theme": "Comunicação em lugares do dia a dia",
+      "de": "Ich habe zu Hause Internet.",
+      "pt": "Eu tenho internet em casa.",
+      "pronunciation": "iç háa-be tsu háu-ze ín-ter-net"
+    },
+    {
+      "id": 83,
+      "month": 1,
+      "day": 12,
+      "theme": "Comunicação em lugares do dia a dia",
+      "de": "Wir können zu Hause Deutsch üben.",
+      "pt": "Podemos praticar alemão em casa.",
+      "pronunciation": "via kö-nen tsu háu-ze dóitch üü-ben"
+    },
+    {
+      "id": 84,
+      "month": 1,
+      "day": 12,
+      "theme": "Tecnologia e equipamentos",
+      "de": "Ich benutze den Server.",
+      "pt": "Eu uso o servidor.",
+      "pronunciation": "iç be-nút-se den sör-va"
+    },
+    {
+      "id": 85,
+      "month": 1,
+      "day": 13,
+      "theme": "Tecnologia e equipamentos",
+      "de": "Ich brauche den Server.",
+      "pt": "Eu preciso do servidor.",
+      "pronunciation": "iç bráu-khe den sör-va"
+    },
+    {
+      "id": 86,
+      "month": 1,
+      "day": 13,
+      "theme": "Tecnologia e equipamentos",
+      "de": "Kannst du den Server einschalten?",
+      "pt": "Você pode ligar o servidor?",
+      "pronunciation": "kanst du den sör-va áin-shal-ten"
+    },
+    {
+      "id": 87,
+      "month": 1,
+      "day": 13,
+      "theme": "Tecnologia e equipamentos",
+      "de": "Ich muss den Server neu starten.",
+      "pt": "Eu preciso reiniciar o servidor.",
+      "pronunciation": "iç mus den sör-va nói shtár-ten"
+    },
+    {
+      "id": 88,
+      "month": 1,
+      "day": 13,
+      "theme": "Tecnologia e equipamentos",
+      "de": "Der Server funktioniert wieder.",
+      "pt": "O servidor está funcionando de novo.",
+      "pronunciation": "dea sör-va funk-tsio-níirt víi-da"
+    },
+    {
+      "id": 89,
+      "month": 1,
+      "day": 13,
+      "theme": "Tecnologia e equipamentos",
+      "de": "Wo steht der Server?",
+      "pt": "Onde fica o servidor?",
+      "pronunciation": "voo shteet dea sör-va"
+    },
+    {
+      "id": 90,
+      "month": 1,
+      "day": 13,
+      "theme": "Conversa e pedidos de ajuda",
+      "de": "Kannst du bitte das wiederholen?",
+      "pt": "Você pode repetir isso, por favor?",
+      "pronunciation": "kanst du bí-te das víi-da-hoo-len"
+    },
+    {
+      "id": 91,
+      "month": 1,
+      "day": 13,
+      "theme": "Conversa e pedidos de ajuda",
+      "de": "Könntest du bitte das wiederholen?",
+      "pt": "Você poderia repetir isso, por favor?",
+      "pronunciation": "kön-test du bí-te das víi-da-hoo-len"
+    },
+    {
+      "id": 92,
+      "month": 1,
+      "day": 14,
+      "theme": "Conversa e pedidos de ajuda",
+      "de": "Bitte versuche, das zu wiederholen.",
+      "pt": "Por favor, tente repetir isso.",
+      "pronunciation": "bí-te fer-zúu-khe das tsu víi-da-hoo-len"
+    },
+    {
+      "id": 93,
+      "month": 1,
+      "day": 14,
+      "theme": "Conversa e pedidos de ajuda",
+      "de": "Ich möchte dich bitten, das zu wiederholen.",
+      "pt": "Eu gostaria de pedir a você para repetir isso.",
+      "pronunciation": "iç möç-te diç bí-ten das tsu víi-da-hoo-len"
+    },
+    {
+      "id": 94,
+      "month": 1,
+      "day": 14,
+      "theme": "Conversa e pedidos de ajuda",
+      "de": "Hast du Zeit, das zu wiederholen?",
+      "pt": "Você tem tempo para repetir isso?",
+      "pronunciation": "hast du tsait das tsu víi-da-hoo-len"
+    },
+    {
+      "id": 95,
+      "month": 1,
+      "day": 14,
+      "theme": "Conversa e pedidos de ajuda",
+      "de": "Bitte vergiss nicht, das zu wiederholen.",
+      "pt": "Por favor, não se esqueça de repetir isso.",
+      "pronunciation": "bí-te fer-guís niçt das tsu víi-da-hoo-len"
+    },
+    {
+      "id": 96,
+      "month": 1,
+      "day": 14,
+      "theme": "Comunicação em lugares do dia a dia",
+      "de": "Ich arbeite im Hotel.",
+      "pt": "Eu trabalho no hotel.",
+      "pronunciation": "iç ár-bai-te im ho-tél"
+    },
+    {
+      "id": 97,
+      "month": 1,
+      "day": 14,
+      "theme": "Comunicação em lugares do dia a dia",
+      "de": "Ich bin heute im Hotel.",
+      "pt": "Hoje eu estou no hotel.",
+      "pronunciation": "iç bin hói-te im ho-tél"
+    },
+    {
+      "id": 98,
+      "month": 1,
+      "day": 14,
+      "theme": "Comunicação em lugares do dia a dia",
+      "de": "Können wir im Hotel sprechen?",
+      "pt": "Podemos conversar no hotel?",
+      "pronunciation": "kö-nen via im ho-tél shpré-çen"
+    },
+    {
+      "id": 99,
+      "month": 1,
+      "day": 15,
+      "theme": "Comunicação em lugares do dia a dia",
+      "de": "Ich habe im Hotel Internet.",
+      "pt": "Eu tenho internet no hotel.",
+      "pronunciation": "iç háa-be im ho-tél ín-ter-net"
+    },
+    {
+      "id": 100,
+      "month": 1,
+      "day": 15,
+      "theme": "Comunicação em lugares do dia a dia",
+      "de": "Wir können im Hotel Deutsch üben.",
+      "pt": "Podemos praticar alemão no hotel.",
+      "pronunciation": "via kö-nen im ho-tél dóitch üü-ben"
+    },
+    {
+      "id": 101,
+      "month": 1,
+      "day": 15,
+      "theme": "Tecnologia e equipamentos",
+      "de": "Ich benutze den Drucker.",
+      "pt": "Eu uso a impressora.",
+      "pronunciation": "iç be-nút-se den drú-ka"
+    },
+    {
+      "id": 102,
+      "month": 1,
+      "day": 15,
+      "theme": "Tecnologia e equipamentos",
+      "de": "Ich brauche den Drucker.",
+      "pt": "Eu preciso da impressora.",
+      "pronunciation": "iç bráu-khe den drú-ka"
+    },
+    {
+      "id": 103,
+      "month": 1,
+      "day": 15,
+      "theme": "Tecnologia e equipamentos",
+      "de": "Kannst du den Drucker einschalten?",
+      "pt": "Você pode ligar a impressora?",
+      "pronunciation": "kanst du den drú-ka áin-shal-ten"
+    },
+    {
+      "id": 104,
+      "month": 1,
+      "day": 15,
+      "theme": "Tecnologia e equipamentos",
+      "de": "Ich muss den Drucker neu starten.",
+      "pt": "Eu preciso reiniciar a impressora.",
+      "pronunciation": "iç mus den drú-ka nói shtár-ten"
+    },
+    {
+      "id": 105,
+      "month": 1,
+      "day": 15,
+      "theme": "Tecnologia e equipamentos",
+      "de": "Der Drucker funktioniert wieder.",
+      "pt": "A impressora está funcionando de novo.",
+      "pronunciation": "dea drú-ka funk-tsio-níirt víi-da"
+    },
+    {
+      "id": 106,
+      "month": 1,
+      "day": 16,
+      "theme": "Tecnologia e equipamentos",
+      "de": "Wo steht der Drucker?",
+      "pt": "Onde fica a impressora?",
+      "pronunciation": "voo shteet dea drú-ka"
+    },
+    {
+      "id": 107,
+      "month": 1,
+      "day": 16,
+      "theme": "Conversa e pedidos de ajuda",
+      "de": "Kannst du bitte auf Deutsch antworten?",
+      "pt": "Você pode responder em alemão, por favor?",
+      "pronunciation": "kanst du bí-te auf dóitch ánt-vor-ten"
+    },
+    {
+      "id": 108,
+      "month": 1,
+      "day": 16,
+      "theme": "Conversa e pedidos de ajuda",
+      "de": "Könntest du bitte auf Deutsch antworten?",
+      "pt": "Você poderia responder em alemão, por favor?",
+      "pronunciation": "kön-test du bí-te auf dóitch ánt-vor-ten"
+    },
+    {
+      "id": 109,
+      "month": 1,
+      "day": 16,
+      "theme": "Conversa e pedidos de ajuda",
+      "de": "Bitte versuche, auf Deutsch zu antworten.",
+      "pt": "Por favor, tente responder em alemão.",
+      "pronunciation": "bí-te fer-zúu-khe auf dóitch tsu ánt-vor-ten"
+    },
+    {
+      "id": 110,
+      "month": 1,
+      "day": 16,
+      "theme": "Conversa e pedidos de ajuda",
+      "de": "Ich möchte dich bitten, auf Deutsch zu antworten.",
+      "pt": "Eu gostaria de pedir a você para responder em alemão.",
+      "pronunciation": "iç möç-te diç bí-ten auf dóitch tsu ánt-vor-ten"
+    },
+    {
+      "id": 111,
+      "month": 1,
+      "day": 16,
+      "theme": "Conversa e pedidos de ajuda",
+      "de": "Hast du Zeit, auf Deutsch zu antworten?",
+      "pt": "Você tem tempo para responder em alemão?",
+      "pronunciation": "hast du tsait auf dóitch tsu ánt-vor-ten"
+    },
+    {
+      "id": 112,
+      "month": 1,
+      "day": 16,
+      "theme": "Conversa e pedidos de ajuda",
+      "de": "Bitte vergiss nicht, auf Deutsch zu antworten.",
+      "pt": "Por favor, não se esqueça de responder em alemão.",
+      "pronunciation": "bí-te fer-guís niçt auf dóitch tsu ánt-vor-ten"
+    },
+    {
+      "id": 113,
+      "month": 1,
+      "day": 17,
+      "theme": "Comunicação em lugares do dia a dia",
+      "de": "Ich arbeite in Berlin.",
+      "pt": "Eu trabalho em Berlim.",
+      "pronunciation": "iç ár-bai-te in ber-líin"
+    },
+    {
+      "id": 114,
+      "month": 1,
+      "day": 17,
+      "theme": "Comunicação em lugares do dia a dia",
+      "de": "Ich bin heute in Berlin.",
+      "pt": "Hoje eu estou em Berlim.",
+      "pronunciation": "iç bin hói-te in ber-líin"
+    },
+    {
+      "id": 115,
+      "month": 1,
+      "day": 17,
+      "theme": "Comunicação em lugares do dia a dia",
+      "de": "Können wir in Berlin sprechen?",
+      "pt": "Podemos conversar em Berlim?",
+      "pronunciation": "kö-nen via in ber-líin shpré-çen"
+    },
+    {
+      "id": 116,
+      "month": 1,
+      "day": 17,
+      "theme": "Comunicação em lugares do dia a dia",
+      "de": "Ich habe in Berlin Internet.",
+      "pt": "Eu tenho internet em Berlim.",
+      "pronunciation": "iç háa-be in ber-líin ín-ter-net"
+    },
+    {
+      "id": 117,
+      "month": 1,
+      "day": 17,
+      "theme": "Comunicação em lugares do dia a dia",
+      "de": "Wir können in Berlin Deutsch üben.",
+      "pt": "Podemos praticar alemão em Berlim.",
+      "pronunciation": "via kö-nen in ber-líin dóitch üü-ben"
+    },
+    {
+      "id": 118,
+      "month": 1,
+      "day": 17,
+      "theme": "Tecnologia e equipamentos",
+      "de": "Ich benutze den Laptop.",
+      "pt": "Eu uso o notebook.",
+      "pronunciation": "iç be-nút-se den lép-top"
+    },
+    {
+      "id": 119,
+      "month": 1,
+      "day": 17,
+      "theme": "Tecnologia e equipamentos",
+      "de": "Ich brauche den Laptop.",
+      "pt": "Eu preciso do notebook.",
+      "pronunciation": "iç bráu-khe den lép-top"
+    },
+    {
+      "id": 120,
+      "month": 1,
+      "day": 18,
+      "theme": "Tecnologia e equipamentos",
+      "de": "Kannst du den Laptop einschalten?",
+      "pt": "Você pode ligar o notebook?",
+      "pronunciation": "kanst du den lép-top áin-shal-ten"
+    },
+    {
+      "id": 121,
+      "month": 1,
+      "day": 18,
+      "theme": "Tecnologia e equipamentos",
+      "de": "Ich muss den Laptop neu starten.",
+      "pt": "Eu preciso reiniciar o notebook.",
+      "pronunciation": "iç mus den lép-top nói shtár-ten"
+    },
+    {
+      "id": 122,
+      "month": 1,
+      "day": 18,
+      "theme": "Tecnologia e equipamentos",
+      "de": "Der Laptop funktioniert wieder.",
+      "pt": "O notebook está funcionando de novo.",
+      "pronunciation": "dea lép-top funk-tsio-níirt víi-da"
+    },
+    {
+      "id": 123,
+      "month": 1,
+      "day": 18,
+      "theme": "Tecnologia e equipamentos",
+      "de": "Wo steht der Laptop?",
+      "pt": "Onde fica o notebook?",
+      "pronunciation": "voo shteet dea lép-top"
+    },
+    {
+      "id": 124,
+      "month": 1,
+      "day": 18,
+      "theme": "Conversa e pedidos de ajuda",
+      "de": "Kannst du bitte mir ein Beispiel geben?",
+      "pt": "Você pode me dar um exemplo, por favor?",
+      "pronunciation": "kanst du bí-te mia ain bái-shpiil guêe-ben"
+    },
+    {
+      "id": 125,
+      "month": 1,
+      "day": 18,
+      "theme": "Conversa e pedidos de ajuda",
+      "de": "Könntest du bitte mir ein Beispiel geben?",
+      "pt": "Você poderia me dar um exemplo, por favor?",
+      "pronunciation": "kön-test du bí-te mia ain bái-shpiil guêe-ben"
+    },
+    {
+      "id": 126,
+      "month": 1,
+      "day": 18,
+      "theme": "Conversa e pedidos de ajuda",
+      "de": "Bitte versuche, mir ein Beispiel zu geben.",
+      "pt": "Por favor, tente me dar um exemplo.",
+      "pronunciation": "bí-te fer-zúu-khe mia ain bái-shpiil tsu guêe-ben"
+    },
+    {
+      "id": 127,
+      "month": 1,
+      "day": 19,
+      "theme": "Conversa e pedidos de ajuda",
+      "de": "Ich möchte dich bitten, mir ein Beispiel zu geben.",
+      "pt": "Eu gostaria de pedir a você para me dar um exemplo.",
+      "pronunciation": "iç möç-te diç bí-ten mia ain bái-shpiil tsu guêe-ben"
+    },
+    {
+      "id": 128,
+      "month": 1,
+      "day": 19,
+      "theme": "Conversa e pedidos de ajuda",
+      "de": "Hast du Zeit, mir ein Beispiel zu geben?",
+      "pt": "Você tem tempo para me dar um exemplo?",
+      "pronunciation": "hast du tsait mia ain bái-shpiil tsu guêe-ben"
+    },
+    {
+      "id": 129,
+      "month": 1,
+      "day": 19,
+      "theme": "Conversa e pedidos de ajuda",
+      "de": "Bitte vergiss nicht, mir ein Beispiel zu geben.",
+      "pt": "Por favor, não se esqueça de me dar um exemplo.",
+      "pronunciation": "bí-te fer-guís niçt mia ain bái-shpiil tsu guêe-ben"
+    },
+    {
+      "id": 130,
+      "month": 1,
+      "day": 19,
+      "theme": "Comunicação em lugares do dia a dia",
+      "de": "Ich arbeite in der Firma.",
+      "pt": "Eu trabalho na empresa.",
+      "pronunciation": "iç ár-bai-te in dea fír-ma"
+    },
+    {
+      "id": 131,
+      "month": 1,
+      "day": 19,
+      "theme": "Comunicação em lugares do dia a dia",
+      "de": "Ich bin heute in der Firma.",
+      "pt": "Hoje eu estou na empresa.",
+      "pronunciation": "iç bin hói-te in dea fír-ma"
+    },
+    {
+      "id": 132,
+      "month": 1,
+      "day": 19,
+      "theme": "Comunicação em lugares do dia a dia",
+      "de": "Können wir in der Firma sprechen?",
+      "pt": "Podemos conversar na empresa?",
+      "pronunciation": "kö-nen via in dea fír-ma shpré-çen"
+    },
+    {
+      "id": 133,
+      "month": 1,
+      "day": 19,
+      "theme": "Comunicação em lugares do dia a dia",
+      "de": "Ich habe in der Firma Internet.",
+      "pt": "Eu tenho internet na empresa.",
+      "pronunciation": "iç háa-be in dea fír-ma ín-ter-net"
+    },
+    {
+      "id": 134,
+      "month": 1,
+      "day": 20,
+      "theme": "Comunicação em lugares do dia a dia",
+      "de": "Wir können in der Firma Deutsch üben.",
+      "pt": "Podemos praticar alemão na empresa.",
+      "pronunciation": "via kö-nen in dea fír-ma dóitch üü-ben"
+    },
+    {
+      "id": 135,
+      "month": 1,
+      "day": 20,
+      "theme": "Tecnologia e equipamentos",
+      "de": "Ich benutze den Scanner.",
+      "pt": "Eu uso o scanner.",
+      "pronunciation": "iç be-nút-se den ské-na"
+    },
+    {
+      "id": 136,
+      "month": 1,
+      "day": 20,
+      "theme": "Tecnologia e equipamentos",
+      "de": "Ich brauche den Scanner.",
+      "pt": "Eu preciso do scanner.",
+      "pronunciation": "iç bráu-khe den ské-na"
+    },
+    {
+      "id": 137,
+      "month": 1,
+      "day": 20,
+      "theme": "Tecnologia e equipamentos",
+      "de": "Kannst du den Scanner einschalten?",
+      "pt": "Você pode ligar o scanner?",
+      "pronunciation": "kanst du den ské-na áin-shal-ten"
+    },
+    {
+      "id": 138,
+      "month": 1,
+      "day": 20,
+      "theme": "Tecnologia e equipamentos",
+      "de": "Ich muss den Scanner neu starten.",
+      "pt": "Eu preciso reiniciar o scanner.",
+      "pronunciation": "iç mus den ské-na nói shtár-ten"
+    },
+    {
+      "id": 139,
+      "month": 1,
+      "day": 20,
+      "theme": "Tecnologia e equipamentos",
+      "de": "Der Scanner funktioniert wieder.",
+      "pt": "O scanner está funcionando de novo.",
+      "pronunciation": "dea ské-na funk-tsio-níirt víi-da"
+    },
+    {
+      "id": 140,
+      "month": 1,
+      "day": 20,
+      "theme": "Tecnologia e equipamentos",
+      "de": "Wo steht der Scanner?",
+      "pt": "Onde fica o scanner?",
+      "pronunciation": "voo shteet dea ské-na"
+    },
+    {
+      "id": 141,
+      "month": 1,
+      "day": 21,
+      "theme": "Conversa e pedidos de ajuda",
+      "de": "Kannst du bitte deine Nachricht vorlesen?",
+      "pt": "Você pode ler sua mensagem em voz alta, por favor?",
+      "pronunciation": "kanst du bí-te dái-ne náakh-riçt fóor-lêe-zen"
+    },
+    {
+      "id": 142,
+      "month": 1,
+      "day": 21,
+      "theme": "Conversa e pedidos de ajuda",
+      "de": "Könntest du bitte deine Nachricht vorlesen?",
+      "pt": "Você poderia ler sua mensagem em voz alta, por favor?",
+      "pronunciation": "kön-test du bí-te dái-ne náakh-riçt fóor-lêe-zen"
+    },
+    {
+      "id": 143,
+      "month": 1,
+      "day": 21,
+      "theme": "Conversa e pedidos de ajuda",
+      "de": "Bitte versuche, deine Nachricht vorzulesen.",
+      "pt": "Por favor, tente ler sua mensagem em voz alta.",
+      "pronunciation": "bí-te fer-zúu-khe dái-ne náakh-riçt fóor-tsu-lêe-zen"
+    },
+    {
+      "id": 144,
+      "month": 1,
+      "day": 21,
+      "theme": "Conversa e pedidos de ajuda",
+      "de": "Ich möchte dich bitten, deine Nachricht vorzulesen.",
+      "pt": "Eu gostaria de pedir a você para ler sua mensagem em voz alta.",
+      "pronunciation": "iç möç-te diç bí-ten dái-ne náakh-riçt fóor-tsu-lêe-zen"
+    },
+    {
+      "id": 145,
+      "month": 1,
+      "day": 21,
+      "theme": "Conversa e pedidos de ajuda",
+      "de": "Hast du Zeit, deine Nachricht vorzulesen?",
+      "pt": "Você tem tempo para ler sua mensagem em voz alta?",
+      "pronunciation": "hast du tsait dái-ne náakh-riçt fóor-tsu-lêe-zen"
+    },
+    {
+      "id": 146,
+      "month": 1,
+      "day": 21,
+      "theme": "Conversa e pedidos de ajuda",
+      "de": "Bitte vergiss nicht, deine Nachricht vorzulesen.",
+      "pt": "Por favor, não se esqueça de ler sua mensagem em voz alta.",
+      "pronunciation": "bí-te fer-guís niçt dái-ne náakh-riçt fóor-tsu-lêe-zen"
+    },
+    {
+      "id": 147,
+      "month": 1,
+      "day": 21,
+      "theme": "Comunicação em lugares do dia a dia",
+      "de": "Ich arbeite am Flughafen.",
+      "pt": "Eu trabalho no aeroporto.",
+      "pronunciation": "iç ár-bai-te am flúuk-haa-fen"
+    },
+    {
+      "id": 148,
+      "month": 1,
+      "day": 22,
+      "theme": "Comunicação em lugares do dia a dia",
+      "de": "Ich bin heute am Flughafen.",
+      "pt": "Hoje eu estou no aeroporto.",
+      "pronunciation": "iç bin hói-te am flúuk-haa-fen"
+    },
+    {
+      "id": 149,
+      "month": 1,
+      "day": 22,
+      "theme": "Comunicação em lugares do dia a dia",
+      "de": "Können wir am Flughafen sprechen?",
+      "pt": "Podemos conversar no aeroporto?",
+      "pronunciation": "kö-nen via am flúuk-haa-fen shpré-çen"
+    },
+    {
+      "id": 150,
+      "month": 1,
+      "day": 22,
+      "theme": "Comunicação em lugares do dia a dia",
+      "de": "Ich habe am Flughafen Internet.",
+      "pt": "Eu tenho internet no aeroporto.",
+      "pronunciation": "iç háa-be am flúuk-haa-fen ín-ter-net"
+    },
+    {
+      "id": 151,
+      "month": 1,
+      "day": 22,
+      "theme": "Comunicação em lugares do dia a dia",
+      "de": "Wir können am Flughafen Deutsch üben.",
+      "pt": "Podemos praticar alemão no aeroporto.",
+      "pronunciation": "via kö-nen am flúuk-haa-fen dóitch üü-ben"
+    },
+    {
+      "id": 152,
+      "month": 1,
+      "day": 22,
+      "theme": "Tecnologia e equipamentos",
+      "de": "Ich benutze den Projektor.",
+      "pt": "Eu uso o projetor.",
+      "pronunciation": "iç be-nút-se den pro-iék-tor"
+    },
+    {
+      "id": 153,
+      "month": 1,
+      "day": 22,
+      "theme": "Tecnologia e equipamentos",
+      "de": "Ich brauche den Projektor.",
+      "pt": "Eu preciso do projetor.",
+      "pronunciation": "iç bráu-khe den pro-iék-tor"
+    },
+    {
+      "id": 154,
+      "month": 1,
+      "day": 22,
+      "theme": "Tecnologia e equipamentos",
+      "de": "Kannst du den Projektor einschalten?",
+      "pt": "Você pode ligar o projetor?",
+      "pronunciation": "kanst du den pro-iék-tor áin-shal-ten"
+    },
+    {
+      "id": 155,
+      "month": 1,
+      "day": 23,
+      "theme": "Tecnologia e equipamentos",
+      "de": "Ich muss den Projektor neu starten.",
+      "pt": "Eu preciso reiniciar o projetor.",
+      "pronunciation": "iç mus den pro-iék-tor nói shtár-ten"
+    },
+    {
+      "id": 156,
+      "month": 1,
+      "day": 23,
+      "theme": "Tecnologia e equipamentos",
+      "de": "Der Projektor funktioniert wieder.",
+      "pt": "O projetor está funcionando de novo.",
+      "pronunciation": "dea pro-iék-tor funk-tsio-níirt víi-da"
+    },
+    {
+      "id": 157,
+      "month": 1,
+      "day": 23,
+      "theme": "Tecnologia e equipamentos",
+      "de": "Wo steht der Projektor?",
+      "pt": "Onde fica o projetor?",
+      "pronunciation": "voo shteet dea pro-iék-tor"
+    },
+    {
+      "id": 158,
+      "month": 1,
+      "day": 23,
+      "theme": "Conversa e pedidos de ajuda",
+      "de": "Kannst du bitte den Satz erklären?",
+      "pt": "Você pode explicar a frase, por favor?",
+      "pronunciation": "kanst du bí-te den zats er-klêe-ren"
+    },
+    {
+      "id": 159,
+      "month": 1,
+      "day": 23,
+      "theme": "Conversa e pedidos de ajuda",
+      "de": "Könntest du bitte den Satz erklären?",
+      "pt": "Você poderia explicar a frase, por favor?",
+      "pronunciation": "kön-test du bí-te den zats er-klêe-ren"
+    },
+    {
+      "id": 160,
+      "month": 1,
+      "day": 23,
+      "theme": "Conversa e pedidos de ajuda",
+      "de": "Bitte versuche, den Satz zu erklären.",
+      "pt": "Por favor, tente explicar a frase.",
+      "pronunciation": "bí-te fer-zúu-khe den zats tsu er-klêe-ren"
+    },
+    {
+      "id": 161,
+      "month": 1,
+      "day": 23,
+      "theme": "Conversa e pedidos de ajuda",
+      "de": "Ich möchte dich bitten, den Satz zu erklären.",
+      "pt": "Eu gostaria de pedir a você para explicar a frase.",
+      "pronunciation": "iç möç-te diç bí-ten den zats tsu er-klêe-ren"
+    },
+    {
+      "id": 162,
+      "month": 1,
+      "day": 24,
+      "theme": "Conversa e pedidos de ajuda",
+      "de": "Hast du Zeit, den Satz zu erklären?",
+      "pt": "Você tem tempo para explicar a frase?",
+      "pronunciation": "hast du tsait den zats tsu er-klêe-ren"
+    },
+    {
+      "id": 163,
+      "month": 1,
+      "day": 24,
+      "theme": "Conversa e pedidos de ajuda",
+      "de": "Bitte vergiss nicht, den Satz zu erklären.",
+      "pt": "Por favor, não se esqueça de explicar a frase.",
+      "pronunciation": "bí-te fer-guís niçt den zats tsu er-klêe-ren"
+    },
+    {
+      "id": 164,
+      "month": 1,
+      "day": 24,
+      "theme": "Comunicação em lugares do dia a dia",
+      "de": "Ich arbeite am Bahnhof.",
+      "pt": "Eu trabalho na estação de trem.",
+      "pronunciation": "iç ár-bai-te am báan-hoof"
+    },
+    {
+      "id": 165,
+      "month": 1,
+      "day": 24,
+      "theme": "Comunicação em lugares do dia a dia",
+      "de": "Ich bin heute am Bahnhof.",
+      "pt": "Hoje eu estou na estação de trem.",
+      "pronunciation": "iç bin hói-te am báan-hoof"
+    },
+    {
+      "id": 166,
+      "month": 1,
+      "day": 24,
+      "theme": "Comunicação em lugares do dia a dia",
+      "de": "Können wir am Bahnhof sprechen?",
+      "pt": "Podemos conversar na estação de trem?",
+      "pronunciation": "kö-nen via am báan-hoof shpré-çen"
+    },
+    {
+      "id": 167,
+      "month": 1,
+      "day": 24,
+      "theme": "Comunicação em lugares do dia a dia",
+      "de": "Ich habe am Bahnhof Internet.",
+      "pt": "Eu tenho internet na estação de trem.",
+      "pronunciation": "iç háa-be am báan-hoof ín-ter-net"
+    },
+    {
+      "id": 168,
+      "month": 1,
+      "day": 24,
+      "theme": "Comunicação em lugares do dia a dia",
+      "de": "Wir können am Bahnhof Deutsch üben.",
+      "pt": "Podemos praticar alemão na estação de trem.",
+      "pronunciation": "via kö-nen am báan-hoof dóitch üü-ben"
+    },
+    {
+      "id": 169,
+      "month": 2,
+      "day": 31,
+      "theme": "Rotina e hábitos de estudo",
+      "de": "Ich lerne jeden Morgen Deutsch.",
+      "pt": "Eu estudo alemão todas as manhãs.",
+      "pronunciation": "iç lér-ne iê-den mór-guen dóitch"
+    },
+    {
+      "id": 170,
+      "month": 2,
+      "day": 31,
+      "theme": "Rotina e hábitos de estudo",
+      "de": "Ich mache jeden Morgen eine kurze Pause.",
+      "pt": "Eu faço uma pausa curta todas as manhãs.",
+      "pronunciation": "iç má-khe iê-den mór-guen ái-ne kúr-tse páu-ze"
+    },
+    {
+      "id": 171,
+      "month": 2,
+      "day": 31,
+      "theme": "Rotina e hábitos de estudo",
+      "de": "Ich prüfe jeden Morgen meine Nachrichten.",
+      "pt": "Eu verifico minhas mensagens todas as manhãs.",
+      "pronunciation": "iç prüü-fe iê-den mór-guen mái-ne náakh-riç-ten"
+    },
+    {
+      "id": 172,
+      "month": 2,
+      "day": 31,
+      "theme": "Rotina e hábitos de estudo",
+      "de": "Ich plane jeden Morgen meinen Tag.",
+      "pt": "Eu planejo meu dia todas as manhãs.",
+      "pronunciation": "iç pláa-ne iê-den mór-guen mái-nen taak"
+    },
+    {
+      "id": 173,
+      "month": 2,
+      "day": 31,
+      "theme": "Rotina e hábitos de estudo",
+      "de": "Ich wiederhole jeden Morgen neue Wörter.",
+      "pt": "Eu reviso palavras novas todas as manhãs.",
+      "pronunciation": "iç víi-da-hoo-le iê-den mór-guen nói-e vör-ta"
+    },
+    {
+      "id": 174,
+      "month": 2,
+      "day": 31,
+      "theme": "Rotina e hábitos de estudo",
+      "de": "Ich höre jeden Morgen einen Podcast.",
+      "pt": "Eu ouço um podcast todas as manhãs.",
+      "pronunciation": "iç höö-re iê-den mór-guen ái-nen pót-kast"
+    },
+    {
+      "id": 175,
+      "month": 2,
+      "day": 31,
+      "theme": "Rotina e hábitos de estudo",
+      "de": "Ich schreibe jeden Morgen einen kurzen Text.",
+      "pt": "Eu escrevo um texto curto todas as manhãs.",
+      "pronunciation": "iç shrái-be iê-den mór-guen ái-nen kúr-tsen tekst"
+    },
+    {
+      "id": 176,
+      "month": 2,
+      "day": 32,
+      "theme": "Rotina e hábitos de estudo",
+      "de": "Ich spreche jeden Morgen mit einem Kollegen.",
+      "pt": "Eu converso com um colega todas as manhãs.",
+      "pronunciation": "iç shpré-çe iê-den mór-guen mit ái-nem ko-lêe-guen"
+    },
+    {
+      "id": 177,
+      "month": 2,
+      "day": 32,
+      "theme": "Diálogos profissionais de TI",
+      "de": "Ich überprüfe das Netzwerk.",
+      "pt": "Eu verifico a rede.",
+      "pronunciation": "iç üü-ba-prüü-fe das néts-vérk"
+    },
+    {
+      "id": 178,
+      "month": 2,
+      "day": 32,
+      "theme": "Diálogos profissionais de TI",
+      "de": "Ich muss das Netzwerk überprüfen.",
+      "pt": "Eu preciso verificar a rede.",
+      "pronunciation": "iç mus das néts-vérk üü-ba-prüü-fen"
+    },
+    {
+      "id": 179,
+      "month": 2,
+      "day": 32,
+      "theme": "Diálogos profissionais de TI",
+      "de": "Kannst du bitte das Netzwerk überprüfen?",
+      "pt": "Você pode verificar a rede, por favor?",
+      "pronunciation": "kanst du bí-te das néts-vérk üü-ba-prüü-fen"
+    },
+    {
+      "id": 180,
+      "month": 2,
+      "day": 32,
+      "theme": "Diálogos profissionais de TI",
+      "de": "Wir sollten das Netzwerk gemeinsam prüfen.",
+      "pt": "Deveríamos verificar a rede juntos.",
+      "pronunciation": "via zól-ten das néts-vérk gue-máin-zaam prüü-fen"
+    },
+    {
+      "id": 181,
+      "month": 2,
+      "day": 32,
+      "theme": "Diálogos profissionais de TI",
+      "de": "Ich habe das Netzwerk bereits überprüft.",
+      "pt": "Eu já verifiquei a rede.",
+      "pronunciation": "iç háa-be das néts-vérk be-ráits üü-ba-prüüft"
+    },
+    {
+      "id": 182,
+      "month": 2,
+      "day": 32,
+      "theme": "Diálogos profissionais de TI",
+      "de": "Bevor wir anfangen, prüfe ich das Netzwerk.",
+      "pt": "Antes de começarmos, eu verifico a rede.",
+      "pronunciation": "be-fóor via án-fan-guen prüü-fe iç das néts-vérk"
+    },
+    {
+      "id": 183,
+      "month": 2,
+      "day": 33,
+      "theme": "Diálogos profissionais de TI",
+      "de": "Wenn es ein Problem gibt, überprüfe ich das Netzwerk.",
+      "pt": "Quando há um problema, eu verifico a rede.",
+      "pronunciation": "ven es ain pro-blêem guipt üü-ba-prüü-fe iç das néts-vérk"
+    },
+    {
+      "id": 184,
+      "month": 2,
+      "day": 33,
+      "theme": "Diálogos profissionais de TI",
+      "de": "Ich zeige dir, wie du das Netzwerk überprüfen kannst.",
+      "pt": "Eu mostro a você como verificar a rede.",
+      "pronunciation": "iç tsái-gue dia vii du das néts-vérk üü-ba-prüü-fen kanst"
+    },
+    {
+      "id": 185,
+      "month": 2,
+      "day": 33,
+      "theme": "Expressões de conversação e séries",
+      "de": "Was bedeutet „Keine Ahnung“?",
+      "pt": "O que significa “Não faço ideia”?",
+      "pronunciation": "vas be-dói-tet kái-ne áa-nung"
+    },
+    {
+      "id": 186,
+      "month": 2,
+      "day": 33,
+      "theme": "Expressões de conversação e séries",
+      "de": "Wie spricht man „Keine Ahnung“ aus?",
+      "pt": "Como se pronuncia “Não faço ideia”?",
+      "pronunciation": "vii shpriçt man kái-ne áa-nung aus"
+    },
+    {
+      "id": 187,
+      "month": 2,
+      "day": 33,
+      "theme": "Expressões de conversação e séries",
+      "de": "Wann sagt man „Keine Ahnung“?",
+      "pt": "Quando se diz “Não faço ideia”?",
+      "pronunciation": "van zaakt man kái-ne áa-nung"
+    },
+    {
+      "id": 188,
+      "month": 2,
+      "day": 33,
+      "theme": "Expressões de conversação e séries",
+      "de": "Kannst du mir „Keine Ahnung“ erklären?",
+      "pt": "Você pode me explicar “Não faço ideia”?",
+      "pronunciation": "kanst du mia kái-ne áa-nung er-klêe-ren"
+    },
+    {
+      "id": 189,
+      "month": 2,
+      "day": 33,
+      "theme": "Expressões de conversação e séries",
+      "de": "In Serien hört man oft „Keine Ahnung“.",
+      "pt": "Em séries, ouve-se frequentemente “Não faço ideia”.",
+      "pronunciation": "in zêe-ri-en höört man oft kái-ne áa-nung"
+    },
+    {
+      "id": 190,
+      "month": 2,
+      "day": 34,
+      "theme": "Expressões de conversação e séries",
+      "de": "Ich habe den Ausdruck „Keine Ahnung“ gehört.",
+      "pt": "Eu ouvi a expressão “Não faço ideia”.",
+      "pronunciation": "iç háa-be den áus-druk kái-ne áa-nung gue-höört"
+    },
+    {
+      "id": 191,
+      "month": 2,
+      "day": 34,
+      "theme": "Expressões de conversação e séries",
+      "de": "Ich möchte „Keine Ahnung“ richtig aussprechen.",
+      "pt": "Eu quero pronunciar “Não faço ideia” corretamente.",
+      "pronunciation": "iç möç-te kái-ne áa-nung ríç-tiç áus-shpré-çen"
+    },
+    {
+      "id": 192,
+      "month": 2,
+      "day": 34,
+      "theme": "Expressões de conversação e séries",
+      "de": "Kannst du einen Dialog mit „Keine Ahnung“ machen?",
+      "pt": "Você pode criar um diálogo com “Não faço ideia”?",
+      "pronunciation": "kanst du ái-nen di-a-lôok mit kái-ne áa-nung má-khen"
+    },
+    {
+      "id": 193,
+      "month": 2,
+      "day": 34,
+      "theme": "Rotina e hábitos de estudo",
+      "de": "Ich lerne jeden Abend Deutsch.",
+      "pt": "Eu estudo alemão todas as noites.",
+      "pronunciation": "iç lér-ne iê-den áa-bent dóitch"
+    },
+    {
+      "id": 194,
+      "month": 2,
+      "day": 34,
+      "theme": "Rotina e hábitos de estudo",
+      "de": "Ich mache jeden Abend eine kurze Pause.",
+      "pt": "Eu faço uma pausa curta todas as noites.",
+      "pronunciation": "iç má-khe iê-den áa-bent ái-ne kúr-tse páu-ze"
+    },
+    {
+      "id": 195,
+      "month": 2,
+      "day": 34,
+      "theme": "Rotina e hábitos de estudo",
+      "de": "Ich prüfe jeden Abend meine Nachrichten.",
+      "pt": "Eu verifico minhas mensagens todas as noites.",
+      "pronunciation": "iç prüü-fe iê-den áa-bent mái-ne náakh-riç-ten"
+    },
+    {
+      "id": 196,
+      "month": 2,
+      "day": 34,
+      "theme": "Rotina e hábitos de estudo",
+      "de": "Ich plane jeden Abend meinen Tag.",
+      "pt": "Eu planejo meu dia todas as noites.",
+      "pronunciation": "iç pláa-ne iê-den áa-bent mái-nen taak"
+    },
+    {
+      "id": 197,
+      "month": 2,
+      "day": 35,
+      "theme": "Rotina e hábitos de estudo",
+      "de": "Ich wiederhole jeden Abend neue Wörter.",
+      "pt": "Eu reviso palavras novas todas as noites.",
+      "pronunciation": "iç víi-da-hoo-le iê-den áa-bent nói-e vör-ta"
+    },
+    {
+      "id": 198,
+      "month": 2,
+      "day": 35,
+      "theme": "Rotina e hábitos de estudo",
+      "de": "Ich höre jeden Abend einen Podcast.",
+      "pt": "Eu ouço um podcast todas as noites.",
+      "pronunciation": "iç höö-re iê-den áa-bent ái-nen pót-kast"
+    },
+    {
+      "id": 199,
+      "month": 2,
+      "day": 35,
+      "theme": "Rotina e hábitos de estudo",
+      "de": "Ich schreibe jeden Abend einen kurzen Text.",
+      "pt": "Eu escrevo um texto curto todas as noites.",
+      "pronunciation": "iç shrái-be iê-den áa-bent ái-nen kúr-tsen tekst"
+    },
+    {
+      "id": 200,
+      "month": 2,
+      "day": 35,
+      "theme": "Rotina e hábitos de estudo",
+      "de": "Ich spreche jeden Abend mit einem Kollegen.",
+      "pt": "Eu converso com um colega todas as noites.",
+      "pronunciation": "iç shpré-çe iê-den áa-bent mit ái-nem ko-lêe-guen"
+    },
+    {
+      "id": 201,
+      "month": 2,
+      "day": 35,
+      "theme": "Diálogos profissionais de TI",
+      "de": "Ich überprüfe die Verbindung.",
+      "pt": "Eu verifico a conexão.",
+      "pronunciation": "iç üü-ba-prüü-fe di fer-bín-dung"
+    },
+    {
+      "id": 202,
+      "month": 2,
+      "day": 35,
+      "theme": "Diálogos profissionais de TI",
+      "de": "Ich muss die Verbindung überprüfen.",
+      "pt": "Eu preciso verificar a conexão.",
+      "pronunciation": "iç mus di fer-bín-dung üü-ba-prüü-fen"
+    },
+    {
+      "id": 203,
+      "month": 2,
+      "day": 35,
+      "theme": "Diálogos profissionais de TI",
+      "de": "Kannst du bitte die Verbindung überprüfen?",
+      "pt": "Você pode verificar a conexão, por favor?",
+      "pronunciation": "kanst du bí-te di fer-bín-dung üü-ba-prüü-fen"
+    },
+    {
+      "id": 204,
+      "month": 2,
+      "day": 36,
+      "theme": "Diálogos profissionais de TI",
+      "de": "Wir sollten die Verbindung gemeinsam prüfen.",
+      "pt": "Deveríamos verificar a conexão juntos.",
+      "pronunciation": "via zól-ten di fer-bín-dung gue-máin-zaam prüü-fen"
+    },
+    {
+      "id": 205,
+      "month": 2,
+      "day": 36,
+      "theme": "Diálogos profissionais de TI",
+      "de": "Ich habe die Verbindung bereits überprüft.",
+      "pt": "Eu já verifiquei a conexão.",
+      "pronunciation": "iç háa-be di fer-bín-dung be-ráits üü-ba-prüüft"
+    },
+    {
+      "id": 206,
+      "month": 2,
+      "day": 36,
+      "theme": "Diálogos profissionais de TI",
+      "de": "Bevor wir anfangen, prüfe ich die Verbindung.",
+      "pt": "Antes de começarmos, eu verifico a conexão.",
+      "pronunciation": "be-fóor via án-fan-guen prüü-fe iç di fer-bín-dung"
+    },
+    {
+      "id": 207,
+      "month": 2,
+      "day": 36,
+      "theme": "Diálogos profissionais de TI",
+      "de": "Wenn es ein Problem gibt, überprüfe ich die Verbindung.",
+      "pt": "Quando há um problema, eu verifico a conexão.",
+      "pronunciation": "ven es ain pro-blêem guipt üü-ba-prüü-fe iç di fer-bín-dung"
+    },
+    {
+      "id": 208,
+      "month": 2,
+      "day": 36,
+      "theme": "Diálogos profissionais de TI",
+      "de": "Ich zeige dir, wie du die Verbindung überprüfen kannst.",
+      "pt": "Eu mostro a você como verificar a conexão.",
+      "pronunciation": "iç tsái-gue dia vii du di fer-bín-dung üü-ba-prüü-fen kanst"
+    },
+    {
+      "id": 209,
+      "month": 2,
+      "day": 36,
+      "theme": "Expressões de conversação e séries",
+      "de": "Was bedeutet „Das gibt's doch nicht“?",
+      "pt": "O que significa “Não é possível”?",
+      "pronunciation": "vas be-dói-tet das guipts dokh niçt"
+    },
+    {
+      "id": 210,
+      "month": 2,
+      "day": 36,
+      "theme": "Expressões de conversação e séries",
+      "de": "Wie spricht man „Das gibt's doch nicht“ aus?",
+      "pt": "Como se pronuncia “Não é possível”?",
+      "pronunciation": "vii shpriçt man das guipts dokh niçt aus"
+    },
+    {
+      "id": 211,
+      "month": 2,
+      "day": 37,
+      "theme": "Expressões de conversação e séries",
+      "de": "Wann sagt man „Das gibt's doch nicht“?",
+      "pt": "Quando se diz “Não é possível”?",
+      "pronunciation": "van zaakt man das guipts dokh niçt"
+    },
+    {
+      "id": 212,
+      "month": 2,
+      "day": 37,
+      "theme": "Expressões de conversação e séries",
+      "de": "Kannst du mir „Das gibt's doch nicht“ erklären?",
+      "pt": "Você pode me explicar “Não é possível”?",
+      "pronunciation": "kanst du mia das guipts dokh niçt er-klêe-ren"
+    },
+    {
+      "id": 213,
+      "month": 2,
+      "day": 37,
+      "theme": "Expressões de conversação e séries",
+      "de": "In Serien hört man oft „Das gibt's doch nicht“.",
+      "pt": "Em séries, ouve-se frequentemente “Não é possível”.",
+      "pronunciation": "in zêe-ri-en höört man oft das guipts dokh niçt"
+    },
+    {
+      "id": 214,
+      "month": 2,
+      "day": 37,
+      "theme": "Expressões de conversação e séries",
+      "de": "Ich habe den Ausdruck „Das gibt's doch nicht“ gehört.",
+      "pt": "Eu ouvi a expressão “Não é possível”.",
+      "pronunciation": "iç háa-be den áus-druk das guipts dokh niçt gue-höört"
+    },
+    {
+      "id": 215,
+      "month": 2,
+      "day": 37,
+      "theme": "Expressões de conversação e séries",
+      "de": "Ich möchte „Das gibt's doch nicht“ richtig aussprechen.",
+      "pt": "Eu quero pronunciar “Não é possível” corretamente.",
+      "pronunciation": "iç möç-te das guipts dokh niçt ríç-tiç áus-shpré-çen"
+    },
+    {
+      "id": 216,
+      "month": 2,
+      "day": 37,
+      "theme": "Expressões de conversação e séries",
+      "de": "Kannst du einen Dialog mit „Das gibt's doch nicht“ machen?",
+      "pt": "Você pode criar um diálogo com “Não é possível”?",
+      "pronunciation": "kanst du ái-nen di-a-lôok mit das guipts dokh niçt má-khen"
+    },
+    {
+      "id": 217,
+      "month": 2,
+      "day": 37,
+      "theme": "Rotina e hábitos de estudo",
+      "de": "Ich lerne am Wochenende Deutsch.",
+      "pt": "Eu estudo alemão no fim de semana.",
+      "pronunciation": "iç lér-ne am vó-khen-én-de dóitch"
+    },
+    {
+      "id": 218,
+      "month": 2,
+      "day": 38,
+      "theme": "Rotina e hábitos de estudo",
+      "de": "Ich mache am Wochenende eine kurze Pause.",
+      "pt": "Eu faço uma pausa curta no fim de semana.",
+      "pronunciation": "iç má-khe am vó-khen-én-de ái-ne kúr-tse páu-ze"
+    },
+    {
+      "id": 219,
+      "month": 2,
+      "day": 38,
+      "theme": "Rotina e hábitos de estudo",
+      "de": "Ich prüfe am Wochenende meine Nachrichten.",
+      "pt": "Eu verifico minhas mensagens no fim de semana.",
+      "pronunciation": "iç prüü-fe am vó-khen-én-de mái-ne náakh-riç-ten"
+    },
+    {
+      "id": 220,
+      "month": 2,
+      "day": 38,
+      "theme": "Rotina e hábitos de estudo",
+      "de": "Ich plane am Wochenende meinen Tag.",
+      "pt": "Eu planejo meu dia no fim de semana.",
+      "pronunciation": "iç pláa-ne am vó-khen-én-de mái-nen taak"
+    },
+    {
+      "id": 221,
+      "month": 2,
+      "day": 38,
+      "theme": "Rotina e hábitos de estudo",
+      "de": "Ich wiederhole am Wochenende neue Wörter.",
+      "pt": "Eu reviso palavras novas no fim de semana.",
+      "pronunciation": "iç víi-da-hoo-le am vó-khen-én-de nói-e vör-ta"
+    },
+    {
+      "id": 222,
+      "month": 2,
+      "day": 38,
+      "theme": "Rotina e hábitos de estudo",
+      "de": "Ich höre am Wochenende einen Podcast.",
+      "pt": "Eu ouço um podcast no fim de semana.",
+      "pronunciation": "iç höö-re am vó-khen-én-de ái-nen pót-kast"
+    },
+    {
+      "id": 223,
+      "month": 2,
+      "day": 38,
+      "theme": "Rotina e hábitos de estudo",
+      "de": "Ich schreibe am Wochenende einen kurzen Text.",
+      "pt": "Eu escrevo um texto curto no fim de semana.",
+      "pronunciation": "iç shrái-be am vó-khen-én-de ái-nen kúr-tsen tekst"
+    },
+    {
+      "id": 224,
+      "month": 2,
+      "day": 38,
+      "theme": "Rotina e hábitos de estudo",
+      "de": "Ich spreche am Wochenende mit einem Kollegen.",
+      "pt": "Eu converso com um colega no fim de semana.",
+      "pronunciation": "iç shpré-çe am vó-khen-én-de mit ái-nem ko-lêe-guen"
+    },
+    {
+      "id": 225,
+      "month": 2,
+      "day": 39,
+      "theme": "Diálogos profissionais de TI",
+      "de": "Ich überprüfe die Einstellungen.",
+      "pt": "Eu verifico as configurações.",
+      "pronunciation": "iç üü-ba-prüü-fe di áin-shté-lun-guen"
+    },
+    {
+      "id": 226,
+      "month": 2,
+      "day": 39,
+      "theme": "Diálogos profissionais de TI",
+      "de": "Ich muss die Einstellungen überprüfen.",
+      "pt": "Eu preciso verificar as configurações.",
+      "pronunciation": "iç mus di áin-shté-lun-guen üü-ba-prüü-fen"
+    },
+    {
+      "id": 227,
+      "month": 2,
+      "day": 39,
+      "theme": "Diálogos profissionais de TI",
+      "de": "Kannst du bitte die Einstellungen überprüfen?",
+      "pt": "Você pode verificar as configurações, por favor?",
+      "pronunciation": "kanst du bí-te di áin-shté-lun-guen üü-ba-prüü-fen"
+    },
+    {
+      "id": 228,
+      "month": 2,
+      "day": 39,
+      "theme": "Diálogos profissionais de TI",
+      "de": "Wir sollten die Einstellungen gemeinsam prüfen.",
+      "pt": "Deveríamos verificar as configurações juntos.",
+      "pronunciation": "via zól-ten di áin-shté-lun-guen gue-máin-zaam prüü-fen"
+    },
+    {
+      "id": 229,
+      "month": 2,
+      "day": 39,
+      "theme": "Diálogos profissionais de TI",
+      "de": "Ich habe die Einstellungen bereits überprüft.",
+      "pt": "Eu já verifiquei as configurações.",
+      "pronunciation": "iç háa-be di áin-shté-lun-guen be-ráits üü-ba-prüüft"
+    },
+    {
+      "id": 230,
+      "month": 2,
+      "day": 39,
+      "theme": "Diálogos profissionais de TI",
+      "de": "Bevor wir anfangen, prüfe ich die Einstellungen.",
+      "pt": "Antes de começarmos, eu verifico as configurações.",
+      "pronunciation": "be-fóor via án-fan-guen prüü-fe iç di áin-shté-lun-guen"
+    },
+    {
+      "id": 231,
+      "month": 2,
+      "day": 39,
+      "theme": "Diálogos profissionais de TI",
+      "de": "Wenn es ein Problem gibt, überprüfe ich die Einstellungen.",
+      "pt": "Quando há um problema, eu verifico as configurações.",
+      "pronunciation": "ven es ain pro-blêem guipt üü-ba-prüü-fe iç di áin-shté-lun-guen"
+    },
+    {
+      "id": 232,
+      "month": 2,
+      "day": 40,
+      "theme": "Diálogos profissionais de TI",
+      "de": "Ich zeige dir, wie du die Einstellungen überprüfen kannst.",
+      "pt": "Eu mostro a você como verificar as configurações.",
+      "pronunciation": "iç tsái-gue dia vii du di áin-shté-lun-guen üü-ba-prüü-fen kanst"
+    },
+    {
+      "id": 233,
+      "month": 2,
+      "day": 40,
+      "theme": "Expressões de conversação e séries",
+      "de": "Was bedeutet „Lass mich in Ruhe“?",
+      "pt": "O que significa “Me deixe em paz”?",
+      "pronunciation": "vas be-dói-tet las miç in rúu-e"
+    },
+    {
+      "id": 234,
+      "month": 2,
+      "day": 40,
+      "theme": "Expressões de conversação e séries",
+      "de": "Wie spricht man „Lass mich in Ruhe“ aus?",
+      "pt": "Como se pronuncia “Me deixe em paz”?",
+      "pronunciation": "vii shpriçt man las miç in rúu-e aus"
+    },
+    {
+      "id": 235,
+      "month": 2,
+      "day": 40,
+      "theme": "Expressões de conversação e séries",
+      "de": "Wann sagt man „Lass mich in Ruhe“?",
+      "pt": "Quando se diz “Me deixe em paz”?",
+      "pronunciation": "van zaakt man las miç in rúu-e"
+    },
+    {
+      "id": 236,
+      "month": 2,
+      "day": 40,
+      "theme": "Expressões de conversação e séries",
+      "de": "Kannst du mir „Lass mich in Ruhe“ erklären?",
+      "pt": "Você pode me explicar “Me deixe em paz”?",
+      "pronunciation": "kanst du mia las miç in rúu-e er-klêe-ren"
+    },
+    {
+      "id": 237,
+      "month": 2,
+      "day": 40,
+      "theme": "Expressões de conversação e séries",
+      "de": "In Serien hört man oft „Lass mich in Ruhe“.",
+      "pt": "Em séries, ouve-se frequentemente “Me deixe em paz”.",
+      "pronunciation": "in zêe-ri-en höört man oft las miç in rúu-e"
+    },
+    {
+      "id": 238,
+      "month": 2,
+      "day": 40,
+      "theme": "Expressões de conversação e séries",
+      "de": "Ich habe den Ausdruck „Lass mich in Ruhe“ gehört.",
+      "pt": "Eu ouvi a expressão “Me deixe em paz”.",
+      "pronunciation": "iç háa-be den áus-druk las miç in rúu-e gue-höört"
+    },
+    {
+      "id": 239,
+      "month": 2,
+      "day": 41,
+      "theme": "Expressões de conversação e séries",
+      "de": "Ich möchte „Lass mich in Ruhe“ richtig aussprechen.",
+      "pt": "Eu quero pronunciar “Me deixe em paz” corretamente.",
+      "pronunciation": "iç möç-te las miç in rúu-e ríç-tiç áus-shpré-çen"
+    },
+    {
+      "id": 240,
+      "month": 2,
+      "day": 41,
+      "theme": "Expressões de conversação e séries",
+      "de": "Kannst du einen Dialog mit „Lass mich in Ruhe“ machen?",
+      "pt": "Você pode criar um diálogo com “Me deixe em paz”?",
+      "pronunciation": "kanst du ái-nen di-a-lôok mit las miç in rúu-e má-khen"
+    },
+    {
+      "id": 241,
+      "month": 2,
+      "day": 41,
+      "theme": "Rotina e hábitos de estudo",
+      "de": "Ich lerne montags Deutsch.",
+      "pt": "Eu estudo alemão às segundas-feiras.",
+      "pronunciation": "iç lér-ne môon-taaks dóitch"
+    },
+    {
+      "id": 242,
+      "month": 2,
+      "day": 41,
+      "theme": "Rotina e hábitos de estudo",
+      "de": "Ich mache montags eine kurze Pause.",
+      "pt": "Eu faço uma pausa curta às segundas-feiras.",
+      "pronunciation": "iç má-khe môon-taaks ái-ne kúr-tse páu-ze"
+    },
+    {
+      "id": 243,
+      "month": 2,
+      "day": 41,
+      "theme": "Rotina e hábitos de estudo",
+      "de": "Ich prüfe montags meine Nachrichten.",
+      "pt": "Eu verifico minhas mensagens às segundas-feiras.",
+      "pronunciation": "iç prüü-fe môon-taaks mái-ne náakh-riç-ten"
+    },
+    {
+      "id": 244,
+      "month": 2,
+      "day": 41,
+      "theme": "Rotina e hábitos de estudo",
+      "de": "Ich plane montags meinen Tag.",
+      "pt": "Eu planejo meu dia às segundas-feiras.",
+      "pronunciation": "iç pláa-ne môon-taaks mái-nen taak"
+    },
+    {
+      "id": 245,
+      "month": 2,
+      "day": 41,
+      "theme": "Rotina e hábitos de estudo",
+      "de": "Ich wiederhole montags neue Wörter.",
+      "pt": "Eu reviso palavras novas às segundas-feiras.",
+      "pronunciation": "iç víi-da-hoo-le môon-taaks nói-e vör-ta"
+    },
+    {
+      "id": 246,
+      "month": 2,
+      "day": 42,
+      "theme": "Rotina e hábitos de estudo",
+      "de": "Ich höre montags einen Podcast.",
+      "pt": "Eu ouço um podcast às segundas-feiras.",
+      "pronunciation": "iç höö-re môon-taaks ái-nen pót-kast"
+    },
+    {
+      "id": 247,
+      "month": 2,
+      "day": 42,
+      "theme": "Rotina e hábitos de estudo",
+      "de": "Ich schreibe montags einen kurzen Text.",
+      "pt": "Eu escrevo um texto curto às segundas-feiras.",
+      "pronunciation": "iç shrái-be môon-taaks ái-nen kúr-tsen tekst"
+    },
+    {
+      "id": 248,
+      "month": 2,
+      "day": 42,
+      "theme": "Rotina e hábitos de estudo",
+      "de": "Ich spreche montags mit einem Kollegen.",
+      "pt": "Eu converso com um colega às segundas-feiras.",
+      "pronunciation": "iç shpré-çe môon-taaks mit ái-nem ko-lêe-guen"
+    },
+    {
+      "id": 249,
+      "month": 2,
+      "day": 42,
+      "theme": "Diálogos profissionais de TI",
+      "de": "Ich überprüfe das System.",
+      "pt": "Eu verifico o sistema.",
+      "pronunciation": "iç üü-ba-prüü-fe das züs-têem"
+    },
+    {
+      "id": 250,
+      "month": 2,
+      "day": 42,
+      "theme": "Diálogos profissionais de TI",
+      "de": "Ich muss das System überprüfen.",
+      "pt": "Eu preciso verificar o sistema.",
+      "pronunciation": "iç mus das züs-têem üü-ba-prüü-fen"
+    },
+    {
+      "id": 251,
+      "month": 2,
+      "day": 42,
+      "theme": "Diálogos profissionais de TI",
+      "de": "Kannst du bitte das System überprüfen?",
+      "pt": "Você pode verificar o sistema, por favor?",
+      "pronunciation": "kanst du bí-te das züs-têem üü-ba-prüü-fen"
+    },
+    {
+      "id": 252,
+      "month": 2,
+      "day": 42,
+      "theme": "Diálogos profissionais de TI",
+      "de": "Wir sollten das System gemeinsam prüfen.",
+      "pt": "Deveríamos verificar o sistema juntos.",
+      "pronunciation": "via zól-ten das züs-têem gue-máin-zaam prüü-fen"
+    },
+    {
+      "id": 253,
+      "month": 2,
+      "day": 43,
+      "theme": "Diálogos profissionais de TI",
+      "de": "Ich habe das System bereits überprüft.",
+      "pt": "Eu já verifiquei o sistema.",
+      "pronunciation": "iç háa-be das züs-têem be-ráits üü-ba-prüüft"
+    },
+    {
+      "id": 254,
+      "month": 2,
+      "day": 43,
+      "theme": "Diálogos profissionais de TI",
+      "de": "Bevor wir anfangen, prüfe ich das System.",
+      "pt": "Antes de começarmos, eu verifico o sistema.",
+      "pronunciation": "be-fóor via án-fan-guen prüü-fe iç das züs-têem"
+    },
+    {
+      "id": 255,
+      "month": 2,
+      "day": 43,
+      "theme": "Diálogos profissionais de TI",
+      "de": "Wenn es ein Problem gibt, überprüfe ich das System.",
+      "pt": "Quando há um problema, eu verifico o sistema.",
+      "pronunciation": "ven es ain pro-blêem guipt üü-ba-prüü-fe iç das züs-têem"
+    },
+    {
+      "id": 256,
+      "month": 2,
+      "day": 43,
+      "theme": "Diálogos profissionais de TI",
+      "de": "Ich zeige dir, wie du das System überprüfen kannst.",
+      "pt": "Eu mostro a você como verificar o sistema.",
+      "pronunciation": "iç tsái-gue dia vii du das züs-têem üü-ba-prüü-fen kanst"
+    },
+    {
+      "id": 257,
+      "month": 2,
+      "day": 43,
+      "theme": "Expressões de conversação e séries",
+      "de": "Was bedeutet „Was ist hier los“?",
+      "pt": "O que significa “O que está acontecendo aqui”?",
+      "pronunciation": "vas be-dói-tet vas ist hia loos"
+    },
+    {
+      "id": 258,
+      "month": 2,
+      "day": 43,
+      "theme": "Expressões de conversação e séries",
+      "de": "Wie spricht man „Was ist hier los“ aus?",
+      "pt": "Como se pronuncia “O que está acontecendo aqui”?",
+      "pronunciation": "vii shpriçt man vas ist hia loos aus"
+    },
+    {
+      "id": 259,
+      "month": 2,
+      "day": 43,
+      "theme": "Expressões de conversação e séries",
+      "de": "Wann sagt man „Was ist hier los“?",
+      "pt": "Quando se diz “O que está acontecendo aqui”?",
+      "pronunciation": "van zaakt man vas ist hia loos"
+    },
+    {
+      "id": 260,
+      "month": 2,
+      "day": 44,
+      "theme": "Expressões de conversação e séries",
+      "de": "Kannst du mir „Was ist hier los“ erklären?",
+      "pt": "Você pode me explicar “O que está acontecendo aqui”?",
+      "pronunciation": "kanst du mia vas ist hia loos er-klêe-ren"
+    },
+    {
+      "id": 261,
+      "month": 2,
+      "day": 44,
+      "theme": "Expressões de conversação e séries",
+      "de": "In Serien hört man oft „Was ist hier los“.",
+      "pt": "Em séries, ouve-se frequentemente “O que está acontecendo aqui”.",
+      "pronunciation": "in zêe-ri-en höört man oft vas ist hia loos"
+    },
+    {
+      "id": 262,
+      "month": 2,
+      "day": 44,
+      "theme": "Expressões de conversação e séries",
+      "de": "Ich habe den Ausdruck „Was ist hier los“ gehört.",
+      "pt": "Eu ouvi a expressão “O que está acontecendo aqui”.",
+      "pronunciation": "iç háa-be den áus-druk vas ist hia loos gue-höört"
+    },
+    {
+      "id": 263,
+      "month": 2,
+      "day": 44,
+      "theme": "Expressões de conversação e séries",
+      "de": "Ich möchte „Was ist hier los“ richtig aussprechen.",
+      "pt": "Eu quero pronunciar “O que está acontecendo aqui” corretamente.",
+      "pronunciation": "iç möç-te vas ist hia loos ríç-tiç áus-shpré-çen"
+    },
+    {
+      "id": 264,
+      "month": 2,
+      "day": 44,
+      "theme": "Expressões de conversação e séries",
+      "de": "Kannst du einen Dialog mit „Was ist hier los“ machen?",
+      "pt": "Você pode criar um diálogo com “O que está acontecendo aqui”?",
+      "pronunciation": "kanst du ái-nen di-a-lôok mit vas ist hia loos má-khen"
+    },
+    {
+      "id": 265,
+      "month": 2,
+      "day": 44,
+      "theme": "Rotina e hábitos de estudo",
+      "de": "Ich lerne nach der Arbeit Deutsch.",
+      "pt": "Eu estudo alemão depois do trabalho.",
+      "pronunciation": "iç lér-ne naakh dea ár-bait dóitch"
+    },
+    {
+      "id": 266,
+      "month": 2,
+      "day": 44,
+      "theme": "Rotina e hábitos de estudo",
+      "de": "Ich mache nach der Arbeit eine kurze Pause.",
+      "pt": "Eu faço uma pausa curta depois do trabalho.",
+      "pronunciation": "iç má-khe naakh dea ár-bait ái-ne kúr-tse páu-ze"
+    },
+    {
+      "id": 267,
+      "month": 2,
+      "day": 45,
+      "theme": "Rotina e hábitos de estudo",
+      "de": "Ich prüfe nach der Arbeit meine Nachrichten.",
+      "pt": "Eu verifico minhas mensagens depois do trabalho.",
+      "pronunciation": "iç prüü-fe naakh dea ár-bait mái-ne náakh-riç-ten"
+    },
+    {
+      "id": 268,
+      "month": 2,
+      "day": 45,
+      "theme": "Rotina e hábitos de estudo",
+      "de": "Ich plane nach der Arbeit meinen Tag.",
+      "pt": "Eu planejo meu dia depois do trabalho.",
+      "pronunciation": "iç pláa-ne naakh dea ár-bait mái-nen taak"
+    },
+    {
+      "id": 269,
+      "month": 2,
+      "day": 45,
+      "theme": "Rotina e hábitos de estudo",
+      "de": "Ich wiederhole nach der Arbeit neue Wörter.",
+      "pt": "Eu reviso palavras novas depois do trabalho.",
+      "pronunciation": "iç víi-da-hoo-le naakh dea ár-bait nói-e vör-ta"
+    },
+    {
+      "id": 270,
+      "month": 2,
+      "day": 45,
+      "theme": "Rotina e hábitos de estudo",
+      "de": "Ich höre nach der Arbeit einen Podcast.",
+      "pt": "Eu ouço um podcast depois do trabalho.",
+      "pronunciation": "iç höö-re naakh dea ár-bait ái-nen pót-kast"
+    },
+    {
+      "id": 271,
+      "month": 2,
+      "day": 45,
+      "theme": "Rotina e hábitos de estudo",
+      "de": "Ich schreibe nach der Arbeit einen kurzen Text.",
+      "pt": "Eu escrevo um texto curto depois do trabalho.",
+      "pronunciation": "iç shrái-be naakh dea ár-bait ái-nen kúr-tsen tekst"
+    },
+    {
+      "id": 272,
+      "month": 2,
+      "day": 45,
+      "theme": "Rotina e hábitos de estudo",
+      "de": "Ich spreche nach der Arbeit mit einem Kollegen.",
+      "pt": "Eu converso com um colega depois do trabalho.",
+      "pronunciation": "iç shpré-çe naakh dea ár-bait mit ái-nem ko-lêe-guen"
+    },
+    {
+      "id": 273,
+      "month": 2,
+      "day": 45,
+      "theme": "Diálogos profissionais de TI",
+      "de": "Ich überprüfe die Software.",
+      "pt": "Eu verifico o software.",
+      "pronunciation": "iç üü-ba-prüü-fe di sóft-vér"
+    },
+    {
+      "id": 274,
+      "month": 2,
+      "day": 46,
+      "theme": "Diálogos profissionais de TI",
+      "de": "Ich muss die Software überprüfen.",
+      "pt": "Eu preciso verificar o software.",
+      "pronunciation": "iç mus di sóft-vér üü-ba-prüü-fen"
+    },
+    {
+      "id": 275,
+      "month": 2,
+      "day": 46,
+      "theme": "Diálogos profissionais de TI",
+      "de": "Kannst du bitte die Software überprüfen?",
+      "pt": "Você pode verificar o software, por favor?",
+      "pronunciation": "kanst du bí-te di sóft-vér üü-ba-prüü-fen"
+    },
+    {
+      "id": 276,
+      "month": 2,
+      "day": 46,
+      "theme": "Diálogos profissionais de TI",
+      "de": "Wir sollten die Software gemeinsam prüfen.",
+      "pt": "Deveríamos verificar o software juntos.",
+      "pronunciation": "via zól-ten di sóft-vér gue-máin-zaam prüü-fen"
+    },
+    {
+      "id": 277,
+      "month": 2,
+      "day": 46,
+      "theme": "Diálogos profissionais de TI",
+      "de": "Ich habe die Software bereits überprüft.",
+      "pt": "Eu já verifiquei o software.",
+      "pronunciation": "iç háa-be di sóft-vér be-ráits üü-ba-prüüft"
+    },
+    {
+      "id": 278,
+      "month": 2,
+      "day": 46,
+      "theme": "Diálogos profissionais de TI",
+      "de": "Bevor wir anfangen, prüfe ich die Software.",
+      "pt": "Antes de começarmos, eu verifico o software.",
+      "pronunciation": "be-fóor via án-fan-guen prüü-fe iç di sóft-vér"
+    },
+    {
+      "id": 279,
+      "month": 2,
+      "day": 46,
+      "theme": "Diálogos profissionais de TI",
+      "de": "Wenn es ein Problem gibt, überprüfe ich die Software.",
+      "pt": "Quando há um problema, eu verifico o software.",
+      "pronunciation": "ven es ain pro-blêem guipt üü-ba-prüü-fe iç di sóft-vér"
+    },
+    {
+      "id": 280,
+      "month": 2,
+      "day": 46,
+      "theme": "Diálogos profissionais de TI",
+      "de": "Ich zeige dir, wie du die Software überprüfen kannst.",
+      "pt": "Eu mostro a você como verificar o software.",
+      "pronunciation": "iç tsái-gue dia vii du di sóft-vér üü-ba-prüü-fen kanst"
+    },
+    {
+      "id": 281,
+      "month": 2,
+      "day": 47,
+      "theme": "Expressões de conversação e séries",
+      "de": "Was bedeutet „Ich bin gleich zurück“?",
+      "pt": "O que significa “Já volto”?",
+      "pronunciation": "vas be-dói-tet iç bin gláiç tsu-rük"
+    },
+    {
+      "id": 282,
+      "month": 2,
+      "day": 47,
+      "theme": "Expressões de conversação e séries",
+      "de": "Wie spricht man „Ich bin gleich zurück“ aus?",
+      "pt": "Como se pronuncia “Já volto”?",
+      "pronunciation": "vii shpriçt man iç bin gláiç tsu-rük aus"
+    },
+    {
+      "id": 283,
+      "month": 2,
+      "day": 47,
+      "theme": "Expressões de conversação e séries",
+      "de": "Wann sagt man „Ich bin gleich zurück“?",
+      "pt": "Quando se diz “Já volto”?",
+      "pronunciation": "van zaakt man iç bin gláiç tsu-rük"
+    },
+    {
+      "id": 284,
+      "month": 2,
+      "day": 47,
+      "theme": "Expressões de conversação e séries",
+      "de": "Kannst du mir „Ich bin gleich zurück“ erklären?",
+      "pt": "Você pode me explicar “Já volto”?",
+      "pronunciation": "kanst du mia iç bin gláiç tsu-rük er-klêe-ren"
+    },
+    {
+      "id": 285,
+      "month": 2,
+      "day": 47,
+      "theme": "Expressões de conversação e séries",
+      "de": "In Serien hört man oft „Ich bin gleich zurück“.",
+      "pt": "Em séries, ouve-se frequentemente “Já volto”.",
+      "pronunciation": "in zêe-ri-en höört man oft iç bin gláiç tsu-rük"
+    },
+    {
+      "id": 286,
+      "month": 2,
+      "day": 47,
+      "theme": "Expressões de conversação e séries",
+      "de": "Ich habe den Ausdruck „Ich bin gleich zurück“ gehört.",
+      "pt": "Eu ouvi a expressão “Já volto”.",
+      "pronunciation": "iç háa-be den áus-druk iç bin gláiç tsu-rük gue-höört"
+    },
+    {
+      "id": 287,
+      "month": 2,
+      "day": 47,
+      "theme": "Expressões de conversação e séries",
+      "de": "Ich möchte „Ich bin gleich zurück“ richtig aussprechen.",
+      "pt": "Eu quero pronunciar “Já volto” corretamente.",
+      "pronunciation": "iç möç-te iç bin gláiç tsu-rük ríç-tiç áus-shpré-çen"
+    },
+    {
+      "id": 288,
+      "month": 2,
+      "day": 48,
+      "theme": "Expressões de conversação e séries",
+      "de": "Kannst du einen Dialog mit „Ich bin gleich zurück“ machen?",
+      "pt": "Você pode criar um diálogo com “Já volto”?",
+      "pronunciation": "kanst du ái-nen di-a-lôok mit iç bin gláiç tsu-rük má-khen"
+    },
+    {
+      "id": 289,
+      "month": 2,
+      "day": 48,
+      "theme": "Rotina e hábitos de estudo",
+      "de": "Ich lerne vor dem Frühstück Deutsch.",
+      "pt": "Eu estudo alemão antes do café da manhã.",
+      "pronunciation": "iç lér-ne foor dem früü-shtük dóitch"
+    },
+    {
+      "id": 290,
+      "month": 2,
+      "day": 48,
+      "theme": "Rotina e hábitos de estudo",
+      "de": "Ich mache vor dem Frühstück eine kurze Pause.",
+      "pt": "Eu faço uma pausa curta antes do café da manhã.",
+      "pronunciation": "iç má-khe foor dem früü-shtük ái-ne kúr-tse páu-ze"
+    },
+    {
+      "id": 291,
+      "month": 2,
+      "day": 48,
+      "theme": "Rotina e hábitos de estudo",
+      "de": "Ich prüfe vor dem Frühstück meine Nachrichten.",
+      "pt": "Eu verifico minhas mensagens antes do café da manhã.",
+      "pronunciation": "iç prüü-fe foor dem früü-shtük mái-ne náakh-riç-ten"
+    },
+    {
+      "id": 292,
+      "month": 2,
+      "day": 48,
+      "theme": "Rotina e hábitos de estudo",
+      "de": "Ich plane vor dem Frühstück meinen Tag.",
+      "pt": "Eu planejo meu dia antes do café da manhã.",
+      "pronunciation": "iç pláa-ne foor dem früü-shtük mái-nen taak"
+    },
+    {
+      "id": 293,
+      "month": 2,
+      "day": 48,
+      "theme": "Rotina e hábitos de estudo",
+      "de": "Ich wiederhole vor dem Frühstück neue Wörter.",
+      "pt": "Eu reviso palavras novas antes do café da manhã.",
+      "pronunciation": "iç víi-da-hoo-le foor dem früü-shtük nói-e vör-ta"
+    },
+    {
+      "id": 294,
+      "month": 2,
+      "day": 48,
+      "theme": "Rotina e hábitos de estudo",
+      "de": "Ich höre vor dem Frühstück einen Podcast.",
+      "pt": "Eu ouço um podcast antes do café da manhã.",
+      "pronunciation": "iç höö-re foor dem früü-shtük ái-nen pót-kast"
+    },
+    {
+      "id": 295,
+      "month": 2,
+      "day": 49,
+      "theme": "Rotina e hábitos de estudo",
+      "de": "Ich schreibe vor dem Frühstück einen kurzen Text.",
+      "pt": "Eu escrevo um texto curto antes do café da manhã.",
+      "pronunciation": "iç shrái-be foor dem früü-shtük ái-nen kúr-tsen tekst"
+    },
+    {
+      "id": 296,
+      "month": 2,
+      "day": 49,
+      "theme": "Rotina e hábitos de estudo",
+      "de": "Ich spreche vor dem Frühstück mit einem Kollegen.",
+      "pt": "Eu converso com um colega antes do café da manhã.",
+      "pronunciation": "iç shpré-çe foor dem früü-shtük mit ái-nem ko-lêe-guen"
+    },
+    {
+      "id": 297,
+      "month": 2,
+      "day": 49,
+      "theme": "Diálogos profissionais de TI",
+      "de": "Ich überprüfe die Firewall.",
+      "pt": "Eu verifico o firewall.",
+      "pronunciation": "iç üü-ba-prüü-fe di fáia-vool"
+    },
+    {
+      "id": 298,
+      "month": 2,
+      "day": 49,
+      "theme": "Diálogos profissionais de TI",
+      "de": "Ich muss die Firewall überprüfen.",
+      "pt": "Eu preciso verificar o firewall.",
+      "pronunciation": "iç mus di fáia-vool üü-ba-prüü-fen"
+    },
+    {
+      "id": 299,
+      "month": 2,
+      "day": 49,
+      "theme": "Diálogos profissionais de TI",
+      "de": "Kannst du bitte die Firewall überprüfen?",
+      "pt": "Você pode verificar o firewall, por favor?",
+      "pronunciation": "kanst du bí-te di fáia-vool üü-ba-prüü-fen"
+    },
+    {
+      "id": 300,
+      "month": 2,
+      "day": 49,
+      "theme": "Diálogos profissionais de TI",
+      "de": "Wir sollten die Firewall gemeinsam prüfen.",
+      "pt": "Deveríamos verificar o firewall juntos.",
+      "pronunciation": "via zól-ten di fáia-vool gue-máin-zaam prüü-fen"
+    },
+    {
+      "id": 301,
+      "month": 2,
+      "day": 49,
+      "theme": "Diálogos profissionais de TI",
+      "de": "Ich habe die Firewall bereits überprüft.",
+      "pt": "Eu já verifiquei o firewall.",
+      "pronunciation": "iç háa-be di fáia-vool be-ráits üü-ba-prüüft"
+    },
+    {
+      "id": 302,
+      "month": 2,
+      "day": 50,
+      "theme": "Diálogos profissionais de TI",
+      "de": "Bevor wir anfangen, prüfe ich die Firewall.",
+      "pt": "Antes de começarmos, eu verifico o firewall.",
+      "pronunciation": "be-fóor via án-fan-guen prüü-fe iç di fáia-vool"
+    },
+    {
+      "id": 303,
+      "month": 2,
+      "day": 50,
+      "theme": "Diálogos profissionais de TI",
+      "de": "Wenn es ein Problem gibt, überprüfe ich die Firewall.",
+      "pt": "Quando há um problema, eu verifico o firewall.",
+      "pronunciation": "ven es ain pro-blêem guipt üü-ba-prüü-fe iç di fáia-vool"
+    },
+    {
+      "id": 304,
+      "month": 2,
+      "day": 50,
+      "theme": "Diálogos profissionais de TI",
+      "de": "Ich zeige dir, wie du die Firewall überprüfen kannst.",
+      "pt": "Eu mostro a você como verificar o firewall.",
+      "pronunciation": "iç tsái-gue dia vii du di fáia-vool üü-ba-prüü-fen kanst"
+    },
+    {
+      "id": 305,
+      "month": 2,
+      "day": 50,
+      "theme": "Expressões de conversação e séries",
+      "de": "Was bedeutet „Das ist mir egal“?",
+      "pt": "O que significa “Tanto faz para mim”?",
+      "pronunciation": "vas be-dói-tet das ist mia e-gáal"
+    },
+    {
+      "id": 306,
+      "month": 2,
+      "day": 50,
+      "theme": "Expressões de conversação e séries",
+      "de": "Wie spricht man „Das ist mir egal“ aus?",
+      "pt": "Como se pronuncia “Tanto faz para mim”?",
+      "pronunciation": "vii shpriçt man das ist mia e-gáal aus"
+    },
+    {
+      "id": 307,
+      "month": 2,
+      "day": 50,
+      "theme": "Expressões de conversação e séries",
+      "de": "Wann sagt man „Das ist mir egal“?",
+      "pt": "Quando se diz “Tanto faz para mim”?",
+      "pronunciation": "van zaakt man das ist mia e-gáal"
+    },
+    {
+      "id": 308,
+      "month": 2,
+      "day": 50,
+      "theme": "Expressões de conversação e séries",
+      "de": "Kannst du mir „Das ist mir egal“ erklären?",
+      "pt": "Você pode me explicar “Tanto faz para mim”?",
+      "pronunciation": "kanst du mia das ist mia e-gáal er-klêe-ren"
+    },
+    {
+      "id": 309,
+      "month": 2,
+      "day": 51,
+      "theme": "Expressões de conversação e séries",
+      "de": "In Serien hört man oft „Das ist mir egal“.",
+      "pt": "Em séries, ouve-se frequentemente “Tanto faz para mim”.",
+      "pronunciation": "in zêe-ri-en höört man oft das ist mia e-gáal"
+    },
+    {
+      "id": 310,
+      "month": 2,
+      "day": 51,
+      "theme": "Expressões de conversação e séries",
+      "de": "Ich habe den Ausdruck „Das ist mir egal“ gehört.",
+      "pt": "Eu ouvi a expressão “Tanto faz para mim”.",
+      "pronunciation": "iç háa-be den áus-druk das ist mia e-gáal gue-höört"
+    },
+    {
+      "id": 311,
+      "month": 2,
+      "day": 51,
+      "theme": "Expressões de conversação e séries",
+      "de": "Ich möchte „Das ist mir egal“ richtig aussprechen.",
+      "pt": "Eu quero pronunciar “Tanto faz para mim” corretamente.",
+      "pronunciation": "iç möç-te das ist mia e-gáal ríç-tiç áus-shpré-çen"
+    },
+    {
+      "id": 312,
+      "month": 2,
+      "day": 51,
+      "theme": "Expressões de conversação e séries",
+      "de": "Kannst du einen Dialog mit „Das ist mir egal“ machen?",
+      "pt": "Você pode criar um diálogo com “Tanto faz para mim”?",
+      "pronunciation": "kanst du ái-nen di-a-lôok mit das ist mia e-gáal má-khen"
+    },
+    {
+      "id": 313,
+      "month": 2,
+      "day": 51,
+      "theme": "Rotina e hábitos de estudo",
+      "de": "Ich lerne in der Mittagspause Deutsch.",
+      "pt": "Eu estudo alemão na pausa do almoço.",
+      "pronunciation": "iç lér-ne in dea mí-taaks-pau-ze dóitch"
+    },
+    {
+      "id": 314,
+      "month": 2,
+      "day": 51,
+      "theme": "Rotina e hábitos de estudo",
+      "de": "Ich mache in der Mittagspause eine kurze Pause.",
+      "pt": "Eu faço uma pausa curta na pausa do almoço.",
+      "pronunciation": "iç má-khe in dea mí-taaks-pau-ze ái-ne kúr-tse páu-ze"
+    },
+    {
+      "id": 315,
+      "month": 2,
+      "day": 51,
+      "theme": "Rotina e hábitos de estudo",
+      "de": "Ich prüfe in der Mittagspause meine Nachrichten.",
+      "pt": "Eu verifico minhas mensagens na pausa do almoço.",
+      "pronunciation": "iç prüü-fe in dea mí-taaks-pau-ze mái-ne náakh-riç-ten"
+    },
+    {
+      "id": 316,
+      "month": 2,
+      "day": 52,
+      "theme": "Rotina e hábitos de estudo",
+      "de": "Ich plane in der Mittagspause meinen Tag.",
+      "pt": "Eu planejo meu dia na pausa do almoço.",
+      "pronunciation": "iç pláa-ne in dea mí-taaks-pau-ze mái-nen taak"
+    },
+    {
+      "id": 317,
+      "month": 2,
+      "day": 52,
+      "theme": "Rotina e hábitos de estudo",
+      "de": "Ich wiederhole in der Mittagspause neue Wörter.",
+      "pt": "Eu reviso palavras novas na pausa do almoço.",
+      "pronunciation": "iç víi-da-hoo-le in dea mí-taaks-pau-ze nói-e vör-ta"
+    },
+    {
+      "id": 318,
+      "month": 2,
+      "day": 52,
+      "theme": "Rotina e hábitos de estudo",
+      "de": "Ich höre in der Mittagspause einen Podcast.",
+      "pt": "Eu ouço um podcast na pausa do almoço.",
+      "pronunciation": "iç höö-re in dea mí-taaks-pau-ze ái-nen pót-kast"
+    },
+    {
+      "id": 319,
+      "month": 2,
+      "day": 52,
+      "theme": "Rotina e hábitos de estudo",
+      "de": "Ich schreibe in der Mittagspause einen kurzen Text.",
+      "pt": "Eu escrevo um texto curto na pausa do almoço.",
+      "pronunciation": "iç shrái-be in dea mí-taaks-pau-ze ái-nen kúr-tsen tekst"
+    },
+    {
+      "id": 320,
+      "month": 2,
+      "day": 52,
+      "theme": "Rotina e hábitos de estudo",
+      "de": "Ich spreche in der Mittagspause mit einem Kollegen.",
+      "pt": "Eu converso com um colega na pausa do almoço.",
+      "pronunciation": "iç shpré-çe in dea mí-taaks-pau-ze mit ái-nem ko-lêe-guen"
+    },
+    {
+      "id": 321,
+      "month": 2,
+      "day": 52,
+      "theme": "Diálogos profissionais de TI",
+      "de": "Ich überprüfe die Datensicherung.",
+      "pt": "Eu verifico o backup.",
+      "pronunciation": "iç üü-ba-prüü-fe di dáa-ten-zí-çe-rung"
+    },
+    {
+      "id": 322,
+      "month": 2,
+      "day": 52,
+      "theme": "Diálogos profissionais de TI",
+      "de": "Ich muss die Datensicherung überprüfen.",
+      "pt": "Eu preciso verificar o backup.",
+      "pronunciation": "iç mus di dáa-ten-zí-çe-rung üü-ba-prüü-fen"
+    },
+    {
+      "id": 323,
+      "month": 2,
+      "day": 53,
+      "theme": "Diálogos profissionais de TI",
+      "de": "Kannst du bitte die Datensicherung überprüfen?",
+      "pt": "Você pode verificar o backup, por favor?",
+      "pronunciation": "kanst du bí-te di dáa-ten-zí-çe-rung üü-ba-prüü-fen"
+    },
+    {
+      "id": 324,
+      "month": 2,
+      "day": 53,
+      "theme": "Diálogos profissionais de TI",
+      "de": "Wir sollten die Datensicherung gemeinsam prüfen.",
+      "pt": "Deveríamos verificar o backup juntos.",
+      "pronunciation": "via zól-ten di dáa-ten-zí-çe-rung gue-máin-zaam prüü-fen"
+    },
+    {
+      "id": 325,
+      "month": 2,
+      "day": 53,
+      "theme": "Diálogos profissionais de TI",
+      "de": "Ich habe die Datensicherung bereits überprüft.",
+      "pt": "Eu já verifiquei o backup.",
+      "pronunciation": "iç háa-be di dáa-ten-zí-çe-rung be-ráits üü-ba-prüüft"
+    },
+    {
+      "id": 326,
+      "month": 2,
+      "day": 53,
+      "theme": "Diálogos profissionais de TI",
+      "de": "Bevor wir anfangen, prüfe ich die Datensicherung.",
+      "pt": "Antes de começarmos, eu verifico o backup.",
+      "pronunciation": "be-fóor via án-fan-guen prüü-fe iç di dáa-ten-zí-çe-rung"
+    },
+    {
+      "id": 327,
+      "month": 2,
+      "day": 53,
+      "theme": "Diálogos profissionais de TI",
+      "de": "Wenn es ein Problem gibt, überprüfe ich die Datensicherung.",
+      "pt": "Quando há um problema, eu verifico o backup.",
+      "pronunciation": "ven es ain pro-blêem guipt üü-ba-prüü-fe iç di dáa-ten-zí-çe-rung"
+    },
+    {
+      "id": 328,
+      "month": 2,
+      "day": 53,
+      "theme": "Diálogos profissionais de TI",
+      "de": "Ich zeige dir, wie du die Datensicherung überprüfen kannst.",
+      "pt": "Eu mostro a você como verificar o backup.",
+      "pronunciation": "iç tsái-gue dia vii du di dáa-ten-zí-çe-rung üü-ba-prüü-fen kanst"
+    },
+    {
+      "id": 329,
+      "month": 2,
+      "day": 53,
+      "theme": "Expressões de conversação e séries",
+      "de": "Was bedeutet „Wir müssen reden“?",
+      "pt": "O que significa “Precisamos conversar”?",
+      "pronunciation": "vas be-dói-tet via mü-sen rêe-den"
+    },
+    {
+      "id": 330,
+      "month": 2,
+      "day": 54,
+      "theme": "Expressões de conversação e séries",
+      "de": "Wie spricht man „Wir müssen reden“ aus?",
+      "pt": "Como se pronuncia “Precisamos conversar”?",
+      "pronunciation": "vii shpriçt man via mü-sen rêe-den aus"
+    },
+    {
+      "id": 331,
+      "month": 2,
+      "day": 54,
+      "theme": "Expressões de conversação e séries",
+      "de": "Wann sagt man „Wir müssen reden“?",
+      "pt": "Quando se diz “Precisamos conversar”?",
+      "pronunciation": "van zaakt man via mü-sen rêe-den"
+    },
+    {
+      "id": 332,
+      "month": 2,
+      "day": 54,
+      "theme": "Expressões de conversação e séries",
+      "de": "Kannst du mir „Wir müssen reden“ erklären?",
+      "pt": "Você pode me explicar “Precisamos conversar”?",
+      "pronunciation": "kanst du mia via mü-sen rêe-den er-klêe-ren"
+    },
+    {
+      "id": 333,
+      "month": 2,
+      "day": 54,
+      "theme": "Expressões de conversação e séries",
+      "de": "In Serien hört man oft „Wir müssen reden“.",
+      "pt": "Em séries, ouve-se frequentemente “Precisamos conversar”.",
+      "pronunciation": "in zêe-ri-en höört man oft via mü-sen rêe-den"
+    },
+    {
+      "id": 334,
+      "month": 2,
+      "day": 54,
+      "theme": "Expressões de conversação e séries",
+      "de": "Ich habe den Ausdruck „Wir müssen reden“ gehört.",
+      "pt": "Eu ouvi a expressão “Precisamos conversar”.",
+      "pronunciation": "iç háa-be den áus-druk via mü-sen rêe-den gue-höört"
+    },
+    {
+      "id": 335,
+      "month": 2,
+      "day": 54,
+      "theme": "Expressões de conversação e séries",
+      "de": "Ich möchte „Wir müssen reden“ richtig aussprechen.",
+      "pt": "Eu quero pronunciar “Precisamos conversar” corretamente.",
+      "pronunciation": "iç möç-te via mü-sen rêe-den ríç-tiç áus-shpré-çen"
+    },
+    {
+      "id": 336,
+      "month": 2,
+      "day": 54,
+      "theme": "Expressões de conversação e séries",
+      "de": "Kannst du einen Dialog mit „Wir müssen reden“ machen?",
+      "pt": "Você pode criar um diálogo com “Precisamos conversar”?",
+      "pronunciation": "kanst du ái-nen di-a-lôok mit via mü-sen rêe-den má-khen"
+    },
+    {
+      "id": 337,
+      "month": 3,
+      "day": 61,
+      "theme": "Viagem, carreira e mudança",
+      "de": "Ich habe vor, in Deutschland zu arbeiten.",
+      "pt": "Eu pretendo trabalhar na Alemanha.",
+      "pronunciation": "iç háa-be foor in dóitch-lant tsu ár-bai-ten"
+    },
+    {
+      "id": 338,
+      "month": 3,
+      "day": 61,
+      "theme": "Viagem, carreira e mudança",
+      "de": "Es ist mir wichtig, in Deutschland zu arbeiten.",
+      "pt": "É importante para mim trabalhar na Alemanha.",
+      "pronunciation": "es ist mia víç-tiç in dóitch-lant tsu ár-bai-ten"
+    },
+    {
+      "id": 339,
+      "month": 3,
+      "day": 61,
+      "theme": "Viagem, carreira e mudança",
+      "de": "Bevor ich eine Entscheidung treffe, möchte ich in Deutschland arbeiten.",
+      "pt": "Antes de tomar uma decisão, eu gostaria de trabalhar na Alemanha.",
+      "pronunciation": "be-fóor iç ái-ne ent-shái-dung tré-fe möç-te iç in dóitch-lant ár-bai-ten"
+    },
+    {
+      "id": 340,
+      "month": 3,
+      "day": 61,
+      "theme": "Viagem, carreira e mudança",
+      "de": "Wenn alles klappt, werde ich in Deutschland arbeiten.",
+      "pt": "Se tudo der certo, eu vou trabalhar na Alemanha.",
+      "pronunciation": "ven á-les klapt vêr-de iç in dóitch-lant ár-bai-ten"
+    },
+    {
+      "id": 341,
+      "month": 3,
+      "day": 61,
+      "theme": "Viagem, carreira e mudança",
+      "de": "Ich würde gern in Deutschland arbeiten.",
+      "pt": "Eu gostaria de trabalhar na Alemanha.",
+      "pronunciation": "iç vür-de guern in dóitch-lant ár-bai-ten"
+    },
+    {
+      "id": 342,
+      "month": 3,
+      "day": 61,
+      "theme": "Viagem, carreira e mudança",
+      "de": "Ich hoffe, bald in Deutschland zu arbeiten.",
+      "pt": "Eu espero trabalhar na Alemanha em breve.",
+      "pronunciation": "iç hó-fe balt in dóitch-lant tsu ár-bai-ten"
+    },
+    {
+      "id": 343,
+      "month": 3,
+      "day": 61,
+      "theme": "Viagem, carreira e mudança",
+      "de": "Mein Ziel ist es, in Deutschland zu arbeiten.",
+      "pt": "Meu objetivo é trabalhar na Alemanha.",
+      "pronunciation": "main tsiil ist es in dóitch-lant tsu ár-bai-ten"
+    },
+    {
+      "id": 344,
+      "month": 3,
+      "day": 62,
+      "theme": "Viagem, carreira e mudança",
+      "de": "Ich spare Geld, um in Deutschland zu arbeiten.",
+      "pt": "Eu economizo dinheiro para trabalhar na Alemanha.",
+      "pronunciation": "iç shpáa-re guelt um in dóitch-lant tsu ár-bai-ten"
+    },
+    {
+      "id": 345,
+      "month": 3,
+      "day": 62,
+      "theme": "Vida em países de língua alemã",
+      "de": "Ich könnte mir vorstellen, in Berlin zu leben.",
+      "pt": "Eu consigo me imaginar morando em Berlim.",
+      "pronunciation": "iç kön-te mia fóor-shté-len in ber-líin tsu lêe-ben"
+    },
+    {
+      "id": 346,
+      "month": 3,
+      "day": 62,
+      "theme": "Vida em países de língua alemã",
+      "de": "Es wäre schön, in Berlin zu arbeiten.",
+      "pt": "Seria bom trabalhar em Berlim.",
+      "pronunciation": "es vêe-re shöön in ber-líin tsu ár-bai-ten"
+    },
+    {
+      "id": 347,
+      "month": 3,
+      "day": 62,
+      "theme": "Vida em países de língua alemã",
+      "de": "Weißt du, wie hoch die Mieten in Berlin sind?",
+      "pt": "Você sabe quanto custam os aluguéis em Berlim?",
+      "pronunciation": "vaist du vii hookh di míi-ten in ber-líin zint"
+    },
+    {
+      "id": 348,
+      "month": 3,
+      "day": 62,
+      "theme": "Vida em países de língua alemã",
+      "de": "Ich suche eine bezahlbare Wohnung in Berlin.",
+      "pt": "Eu procuro um apartamento com aluguel acessível em Berlim.",
+      "pronunciation": "iç zúu-khe ái-ne be-tsáal-baa-re vôo-nung in ber-líin"
+    },
+    {
+      "id": 349,
+      "month": 3,
+      "day": 62,
+      "theme": "Vida em países de língua alemã",
+      "de": "Wenn ich in Berlin wohne, möchte ich neue Leute kennenlernen.",
+      "pt": "Se eu morar em Berlim, quero conhecer pessoas novas.",
+      "pronunciation": "ven iç in ber-líin vôo-ne möç-te iç nói-e lói-te ké-nen-lér-nen"
+    },
+    {
+      "id": 350,
+      "month": 3,
+      "day": 62,
+      "theme": "Vida em países de língua alemã",
+      "de": "Ich weiß noch nicht, ob ich in Berlin bleiben werde.",
+      "pt": "Eu ainda não sei se vou ficar em Berlim.",
+      "pronunciation": "iç vais nokh niçt op iç in ber-líin blái-ben vêr-de"
+    },
+    {
+      "id": 351,
+      "month": 3,
+      "day": 63,
+      "theme": "Vida em países de língua alemã",
+      "de": "Könntest du mir Tipps für den Alltag in Berlin geben?",
+      "pt": "Você poderia me dar dicas para o dia a dia em Berlim?",
+      "pronunciation": "kön-test du mia tips füür den ál-taak in ber-líin guêe-ben"
+    },
+    {
+      "id": 352,
+      "month": 3,
+      "day": 63,
+      "theme": "Opiniões e estruturas com subordinadas",
+      "de": "Ich finde es wichtig, dass ich jeden Tag Deutsch lerne.",
+      "pt": "Eu acho importante que eu estude alemão todos os dias.",
+      "pronunciation": "iç fín-de es víç-tiç das iç iê-den taak dóitch lér-ne"
+    },
+    {
+      "id": 353,
+      "month": 3,
+      "day": 63,
+      "theme": "Opiniões e estruturas com subordinadas",
+      "de": "Es hilft mir, dass ich jeden Tag Deutsch lerne.",
+      "pt": "Ajuda-me o fato de que eu estudo alemão todos os dias.",
+      "pronunciation": "es hilft mia das iç iê-den taak dóitch lér-ne"
+    },
+    {
+      "id": 354,
+      "month": 3,
+      "day": 63,
+      "theme": "Opiniões e estruturas com subordinadas",
+      "de": "Ich freue mich darüber, dass ich jeden Tag Deutsch lerne.",
+      "pt": "Eu fico feliz com o fato de que eu estudo alemão todos os dias.",
+      "pronunciation": "iç frói-e miç da-rüü-ba das iç iê-den taak dóitch lér-ne"
+    },
+    {
+      "id": 355,
+      "month": 3,
+      "day": 63,
+      "theme": "Opiniões e estruturas com subordinadas",
+      "de": "Ich merke, dass ich jeden Tag Deutsch lerne.",
+      "pt": "Eu percebo que eu estudo alemão todos os dias.",
+      "pronunciation": "iç mér-ke das iç iê-den taak dóitch lér-ne"
+    },
+    {
+      "id": 356,
+      "month": 3,
+      "day": 63,
+      "theme": "Opiniões e estruturas com subordinadas",
+      "de": "Für meine Zukunft ist es gut, dass ich jeden Tag Deutsch lerne.",
+      "pt": "Para meu futuro, é bom que eu estude alemão todos os dias.",
+      "pronunciation": "füür mái-ne tsúu-kunft ist es guut das iç iê-den taak dóitch lér-ne"
+    },
+    {
+      "id": 357,
+      "month": 3,
+      "day": 63,
+      "theme": "Opiniões e estruturas com subordinadas",
+      "de": "Ich möchte erklären, warum ich jeden Tag Deutsch lerne.",
+      "pt": "Eu gostaria de explicar por que eu estudo alemão todos os dias.",
+      "pronunciation": "iç möç-te er-klêe-ren va-rum iç iê-den taak dóitch lér-ne"
+    },
+    {
+      "id": 358,
+      "month": 3,
+      "day": 64,
+      "theme": "Opiniões e estruturas com subordinadas",
+      "de": "Du kannst sehen, dass ich jeden Tag Deutsch lerne.",
+      "pt": "Você pode ver que eu estudo alemão todos os dias.",
+      "pronunciation": "du kanst zêe-en das iç iê-den taak dóitch lér-ne"
+    },
+    {
+      "id": 359,
+      "month": 3,
+      "day": 64,
+      "theme": "Opiniões e estruturas com subordinadas",
+      "de": "Es motiviert mich, dass ich jeden Tag Deutsch lerne.",
+      "pt": "É motivador para mim saber que eu estudo alemão todos os dias.",
+      "pronunciation": "es mo-ti-víirt miç das iç iê-den taak dóitch lér-ne"
+    },
+    {
+      "id": 360,
+      "month": 3,
+      "day": 64,
+      "theme": "Viagem, carreira e mudança",
+      "de": "Ich habe vor, ein Visum zu beantragen.",
+      "pt": "Eu pretendo solicitar um visto.",
+      "pronunciation": "iç háa-be foor ain víi-zum tsu be-án-traa-guen"
+    },
+    {
+      "id": 361,
+      "month": 3,
+      "day": 64,
+      "theme": "Viagem, carreira e mudança",
+      "de": "Es ist mir wichtig, ein Visum zu beantragen.",
+      "pt": "É importante para mim solicitar um visto.",
+      "pronunciation": "es ist mia víç-tiç ain víi-zum tsu be-án-traa-guen"
+    },
+    {
+      "id": 362,
+      "month": 3,
+      "day": 64,
+      "theme": "Viagem, carreira e mudança",
+      "de": "Bevor ich eine Entscheidung treffe, möchte ich ein Visum beantragen.",
+      "pt": "Antes de tomar uma decisão, eu gostaria de solicitar um visto.",
+      "pronunciation": "be-fóor iç ái-ne ent-shái-dung tré-fe möç-te iç ain víi-zum be-án-traa-guen"
+    },
+    {
+      "id": 363,
+      "month": 3,
+      "day": 64,
+      "theme": "Viagem, carreira e mudança",
+      "de": "Wenn alles klappt, werde ich ein Visum beantragen.",
+      "pt": "Se tudo der certo, eu vou solicitar um visto.",
+      "pronunciation": "ven á-les klapt vêr-de iç ain víi-zum be-án-traa-guen"
+    },
+    {
+      "id": 364,
+      "month": 3,
+      "day": 64,
+      "theme": "Viagem, carreira e mudança",
+      "de": "Ich würde gern ein Visum beantragen.",
+      "pt": "Eu gostaria de solicitar um visto.",
+      "pronunciation": "iç vür-de guern ain víi-zum be-án-traa-guen"
+    },
+    {
+      "id": 365,
+      "month": 3,
+      "day": 65,
+      "theme": "Viagem, carreira e mudança",
+      "de": "Ich hoffe, bald ein Visum zu beantragen.",
+      "pt": "Eu espero solicitar um visto em breve.",
+      "pronunciation": "iç hó-fe balt ain víi-zum tsu be-án-traa-guen"
+    },
+    {
+      "id": 366,
+      "month": 3,
+      "day": 65,
+      "theme": "Viagem, carreira e mudança",
+      "de": "Mein Ziel ist es, ein Visum zu beantragen.",
+      "pt": "Meu objetivo é solicitar um visto.",
+      "pronunciation": "main tsiil ist es ain víi-zum tsu be-án-traa-guen"
+    },
+    {
+      "id": 367,
+      "month": 3,
+      "day": 65,
+      "theme": "Viagem, carreira e mudança",
+      "de": "Ich spare Geld, um ein Visum zu beantragen.",
+      "pt": "Eu economizo dinheiro para solicitar um visto.",
+      "pronunciation": "iç shpáa-re guelt um ain víi-zum tsu be-án-traa-guen"
+    },
+    {
+      "id": 368,
+      "month": 3,
+      "day": 65,
+      "theme": "Vida em países de língua alemã",
+      "de": "Ich könnte mir vorstellen, in Hamburg zu leben.",
+      "pt": "Eu consigo me imaginar morando em Hamburgo.",
+      "pronunciation": "iç kön-te mia fóor-shté-len in hám-burk tsu lêe-ben"
+    },
+    {
+      "id": 369,
+      "month": 3,
+      "day": 65,
+      "theme": "Vida em países de língua alemã",
+      "de": "Es wäre schön, in Hamburg zu arbeiten.",
+      "pt": "Seria bom trabalhar em Hamburgo.",
+      "pronunciation": "es vêe-re shöön in hám-burk tsu ár-bai-ten"
+    },
+    {
+      "id": 370,
+      "month": 3,
+      "day": 65,
+      "theme": "Vida em países de língua alemã",
+      "de": "Weißt du, wie hoch die Mieten in Hamburg sind?",
+      "pt": "Você sabe quanto custam os aluguéis em Hamburgo?",
+      "pronunciation": "vaist du vii hookh di míi-ten in hám-burk zint"
+    },
+    {
+      "id": 371,
+      "month": 3,
+      "day": 65,
+      "theme": "Vida em países de língua alemã",
+      "de": "Ich suche eine bezahlbare Wohnung in Hamburg.",
+      "pt": "Eu procuro um apartamento com aluguel acessível em Hamburgo.",
+      "pronunciation": "iç zúu-khe ái-ne be-tsáal-baa-re vôo-nung in hám-burk"
+    },
+    {
+      "id": 372,
+      "month": 3,
+      "day": 66,
+      "theme": "Vida em países de língua alemã",
+      "de": "Wenn ich in Hamburg wohne, möchte ich neue Leute kennenlernen.",
+      "pt": "Se eu morar em Hamburgo, quero conhecer pessoas novas.",
+      "pronunciation": "ven iç in hám-burk vôo-ne möç-te iç nói-e lói-te ké-nen-lér-nen"
+    },
+    {
+      "id": 373,
+      "month": 3,
+      "day": 66,
+      "theme": "Vida em países de língua alemã",
+      "de": "Ich weiß noch nicht, ob ich in Hamburg bleiben werde.",
+      "pt": "Eu ainda não sei se vou ficar em Hamburgo.",
+      "pronunciation": "iç vais nokh niçt op iç in hám-burk blái-ben vêr-de"
+    },
+    {
+      "id": 374,
+      "month": 3,
+      "day": 66,
+      "theme": "Vida em países de língua alemã",
+      "de": "Könntest du mir Tipps für den Alltag in Hamburg geben?",
+      "pt": "Você poderia me dar dicas para o dia a dia em Hamburgo?",
+      "pronunciation": "kön-test du mia tips füür den ál-taak in hám-burk guêe-ben"
+    },
+    {
+      "id": 375,
+      "month": 3,
+      "day": 66,
+      "theme": "Opiniões e estruturas com subordinadas",
+      "de": "Ich finde es wichtig, dass ich mich gut vorbereite.",
+      "pt": "Eu acho importante que eu me prepare bem.",
+      "pronunciation": "iç fín-de es víç-tiç das iç miç guut fóor-be-rai-te"
+    },
+    {
+      "id": 376,
+      "month": 3,
+      "day": 66,
+      "theme": "Opiniões e estruturas com subordinadas",
+      "de": "Es hilft mir, dass ich mich gut vorbereite.",
+      "pt": "Ajuda-me o fato de que eu me preparo bem.",
+      "pronunciation": "es hilft mia das iç miç guut fóor-be-rai-te"
+    },
+    {
+      "id": 377,
+      "month": 3,
+      "day": 66,
+      "theme": "Opiniões e estruturas com subordinadas",
+      "de": "Ich freue mich darüber, dass ich mich gut vorbereite.",
+      "pt": "Eu fico feliz com o fato de que eu me preparo bem.",
+      "pronunciation": "iç frói-e miç da-rüü-ba das iç miç guut fóor-be-rai-te"
+    },
+    {
+      "id": 378,
+      "month": 3,
+      "day": 66,
+      "theme": "Opiniões e estruturas com subordinadas",
+      "de": "Ich merke, dass ich mich gut vorbereite.",
+      "pt": "Eu percebo que eu me preparo bem.",
+      "pronunciation": "iç mér-ke das iç miç guut fóor-be-rai-te"
+    },
+    {
+      "id": 379,
+      "month": 3,
+      "day": 67,
+      "theme": "Opiniões e estruturas com subordinadas",
+      "de": "Für meine Zukunft ist es gut, dass ich mich gut vorbereite.",
+      "pt": "Para meu futuro, é bom que eu me prepare bem.",
+      "pronunciation": "füür mái-ne tsúu-kunft ist es guut das iç miç guut fóor-be-rai-te"
+    },
+    {
+      "id": 380,
+      "month": 3,
+      "day": 67,
+      "theme": "Opiniões e estruturas com subordinadas",
+      "de": "Ich möchte erklären, warum ich mich gut vorbereite.",
+      "pt": "Eu gostaria de explicar por que eu me preparo bem.",
+      "pronunciation": "iç möç-te er-klêe-ren va-rum iç miç guut fóor-be-rai-te"
+    },
+    {
+      "id": 381,
+      "month": 3,
+      "day": 67,
+      "theme": "Opiniões e estruturas com subordinadas",
+      "de": "Du kannst sehen, dass ich mich gut vorbereite.",
+      "pt": "Você pode ver que eu me preparo bem.",
+      "pronunciation": "du kanst zêe-en das iç miç guut fóor-be-rai-te"
+    },
+    {
+      "id": 382,
+      "month": 3,
+      "day": 67,
+      "theme": "Opiniões e estruturas com subordinadas",
+      "de": "Es motiviert mich, dass ich mich gut vorbereite.",
+      "pt": "É motivador para mim saber que eu me preparo bem.",
+      "pronunciation": "es mo-ti-víirt miç das iç miç guut fóor-be-rai-te"
+    },
+    {
+      "id": 383,
+      "month": 3,
+      "day": 67,
+      "theme": "Viagem, carreira e mudança",
+      "de": "Ich habe vor, eine Wohnung zu suchen.",
+      "pt": "Eu pretendo procurar um apartamento.",
+      "pronunciation": "iç háa-be foor ái-ne vôo-nung tsu zúu-khen"
+    },
+    {
+      "id": 384,
+      "month": 3,
+      "day": 67,
+      "theme": "Viagem, carreira e mudança",
+      "de": "Es ist mir wichtig, eine Wohnung zu suchen.",
+      "pt": "É importante para mim procurar um apartamento.",
+      "pronunciation": "es ist mia víç-tiç ái-ne vôo-nung tsu zúu-khen"
+    },
+    {
+      "id": 385,
+      "month": 3,
+      "day": 67,
+      "theme": "Viagem, carreira e mudança",
+      "de": "Bevor ich eine Entscheidung treffe, möchte ich eine Wohnung suchen.",
+      "pt": "Antes de tomar uma decisão, eu gostaria de procurar um apartamento.",
+      "pronunciation": "be-fóor iç ái-ne ent-shái-dung tré-fe möç-te iç ái-ne vôo-nung zúu-khen"
+    },
+    {
+      "id": 386,
+      "month": 3,
+      "day": 68,
+      "theme": "Viagem, carreira e mudança",
+      "de": "Wenn alles klappt, werde ich eine Wohnung suchen.",
+      "pt": "Se tudo der certo, eu vou procurar um apartamento.",
+      "pronunciation": "ven á-les klapt vêr-de iç ái-ne vôo-nung zúu-khen"
+    },
+    {
+      "id": 387,
+      "month": 3,
+      "day": 68,
+      "theme": "Viagem, carreira e mudança",
+      "de": "Ich würde gern eine Wohnung suchen.",
+      "pt": "Eu gostaria de procurar um apartamento.",
+      "pronunciation": "iç vür-de guern ái-ne vôo-nung zúu-khen"
+    },
+    {
+      "id": 388,
+      "month": 3,
+      "day": 68,
+      "theme": "Viagem, carreira e mudança",
+      "de": "Ich hoffe, bald eine Wohnung zu suchen.",
+      "pt": "Eu espero procurar um apartamento em breve.",
+      "pronunciation": "iç hó-fe balt ái-ne vôo-nung tsu zúu-khen"
+    },
+    {
+      "id": 389,
+      "month": 3,
+      "day": 68,
+      "theme": "Viagem, carreira e mudança",
+      "de": "Mein Ziel ist es, eine Wohnung zu suchen.",
+      "pt": "Meu objetivo é procurar um apartamento.",
+      "pronunciation": "main tsiil ist es ái-ne vôo-nung tsu zúu-khen"
+    },
+    {
+      "id": 390,
+      "month": 3,
+      "day": 68,
+      "theme": "Viagem, carreira e mudança",
+      "de": "Ich spare Geld, um eine Wohnung zu suchen.",
+      "pt": "Eu economizo dinheiro para procurar um apartamento.",
+      "pronunciation": "iç shpáa-re guelt um ái-ne vôo-nung tsu zúu-khen"
+    },
+    {
+      "id": 391,
+      "month": 3,
+      "day": 68,
+      "theme": "Vida em países de língua alemã",
+      "de": "Ich könnte mir vorstellen, in München zu leben.",
+      "pt": "Eu consigo me imaginar morando em Munique.",
+      "pronunciation": "iç kön-te mia fóor-shté-len in mün-çen tsu lêe-ben"
+    },
+    {
+      "id": 392,
+      "month": 3,
+      "day": 68,
+      "theme": "Vida em países de língua alemã",
+      "de": "Es wäre schön, in München zu arbeiten.",
+      "pt": "Seria bom trabalhar em Munique.",
+      "pronunciation": "es vêe-re shöön in mün-çen tsu ár-bai-ten"
+    },
+    {
+      "id": 393,
+      "month": 3,
+      "day": 69,
+      "theme": "Vida em países de língua alemã",
+      "de": "Weißt du, wie hoch die Mieten in München sind?",
+      "pt": "Você sabe quanto custam os aluguéis em Munique?",
+      "pronunciation": "vaist du vii hookh di míi-ten in mün-çen zint"
+    },
+    {
+      "id": 394,
+      "month": 3,
+      "day": 69,
+      "theme": "Vida em países de língua alemã",
+      "de": "Ich suche eine bezahlbare Wohnung in München.",
+      "pt": "Eu procuro um apartamento com aluguel acessível em Munique.",
+      "pronunciation": "iç zúu-khe ái-ne be-tsáal-baa-re vôo-nung in mün-çen"
+    },
+    {
+      "id": 395,
+      "month": 3,
+      "day": 69,
+      "theme": "Vida em países de língua alemã",
+      "de": "Wenn ich in München wohne, möchte ich neue Leute kennenlernen.",
+      "pt": "Se eu morar em Munique, quero conhecer pessoas novas.",
+      "pronunciation": "ven iç in mün-çen vôo-ne möç-te iç nói-e lói-te ké-nen-lér-nen"
+    },
+    {
+      "id": 396,
+      "month": 3,
+      "day": 69,
+      "theme": "Vida em países de língua alemã",
+      "de": "Ich weiß noch nicht, ob ich in München bleiben werde.",
+      "pt": "Eu ainda não sei se vou ficar em Munique.",
+      "pronunciation": "iç vais nokh niçt op iç in mün-çen blái-ben vêr-de"
+    },
+    {
+      "id": 397,
+      "month": 3,
+      "day": 69,
+      "theme": "Vida em países de língua alemã",
+      "de": "Könntest du mir Tipps für den Alltag in München geben?",
+      "pt": "Você poderia me dar dicas para o dia a dia em Munique?",
+      "pronunciation": "kön-test du mia tips füür den ál-taak in mün-çen guêe-ben"
+    },
+    {
+      "id": 398,
+      "month": 3,
+      "day": 69,
+      "theme": "Opiniões e estruturas com subordinadas",
+      "de": "Ich finde es wichtig, dass ich regelmäßig übe.",
+      "pt": "Eu acho importante que eu pratique regularmente.",
+      "pronunciation": "iç fín-de es víç-tiç das iç rêe-guel-mêe-siç üü-be"
+    },
+    {
+      "id": 399,
+      "month": 3,
+      "day": 69,
+      "theme": "Opiniões e estruturas com subordinadas",
+      "de": "Es hilft mir, dass ich regelmäßig übe.",
+      "pt": "Ajuda-me o fato de que eu pratico regularmente.",
+      "pronunciation": "es hilft mia das iç rêe-guel-mêe-siç üü-be"
+    },
+    {
+      "id": 400,
+      "month": 3,
+      "day": 70,
+      "theme": "Opiniões e estruturas com subordinadas",
+      "de": "Ich freue mich darüber, dass ich regelmäßig übe.",
+      "pt": "Eu fico feliz com o fato de que eu pratico regularmente.",
+      "pronunciation": "iç frói-e miç da-rüü-ba das iç rêe-guel-mêe-siç üü-be"
+    },
+    {
+      "id": 401,
+      "month": 3,
+      "day": 70,
+      "theme": "Opiniões e estruturas com subordinadas",
+      "de": "Ich merke, dass ich regelmäßig übe.",
+      "pt": "Eu percebo que eu pratico regularmente.",
+      "pronunciation": "iç mér-ke das iç rêe-guel-mêe-siç üü-be"
+    },
+    {
+      "id": 402,
+      "month": 3,
+      "day": 70,
+      "theme": "Opiniões e estruturas com subordinadas",
+      "de": "Für meine Zukunft ist es gut, dass ich regelmäßig übe.",
+      "pt": "Para meu futuro, é bom que eu pratique regularmente.",
+      "pronunciation": "füür mái-ne tsúu-kunft ist es guut das iç rêe-guel-mêe-siç üü-be"
+    },
+    {
+      "id": 403,
+      "month": 3,
+      "day": 70,
+      "theme": "Opiniões e estruturas com subordinadas",
+      "de": "Ich möchte erklären, warum ich regelmäßig übe.",
+      "pt": "Eu gostaria de explicar por que eu pratico regularmente.",
+      "pronunciation": "iç möç-te er-klêe-ren va-rum iç rêe-guel-mêe-siç üü-be"
+    },
+    {
+      "id": 404,
+      "month": 3,
+      "day": 70,
+      "theme": "Opiniões e estruturas com subordinadas",
+      "de": "Du kannst sehen, dass ich regelmäßig übe.",
+      "pt": "Você pode ver que eu pratico regularmente.",
+      "pronunciation": "du kanst zêe-en das iç rêe-guel-mêe-siç üü-be"
+    },
+    {
+      "id": 405,
+      "month": 3,
+      "day": 70,
+      "theme": "Opiniões e estruturas com subordinadas",
+      "de": "Es motiviert mich, dass ich regelmäßig übe.",
+      "pt": "É motivador para mim saber que eu pratico regularmente.",
+      "pronunciation": "es mo-ti-víirt miç das iç rêe-guel-mêe-siç üü-be"
+    },
+    {
+      "id": 406,
+      "month": 3,
+      "day": 70,
+      "theme": "Viagem, carreira e mudança",
+      "de": "Ich habe vor, meine Deutschkenntnisse zu verbessern.",
+      "pt": "Eu pretendo melhorar meu conhecimento de alemão.",
+      "pronunciation": "iç háa-be foor mái-ne dóitch-ként-ni-se tsu fer-bé-sern"
+    },
+    {
+      "id": 407,
+      "month": 3,
+      "day": 71,
+      "theme": "Viagem, carreira e mudança",
+      "de": "Es ist mir wichtig, meine Deutschkenntnisse zu verbessern.",
+      "pt": "É importante para mim melhorar meu conhecimento de alemão.",
+      "pronunciation": "es ist mia víç-tiç mái-ne dóitch-ként-ni-se tsu fer-bé-sern"
+    },
+    {
+      "id": 408,
+      "month": 3,
+      "day": 71,
+      "theme": "Viagem, carreira e mudança",
+      "de": "Bevor ich eine Entscheidung treffe, möchte ich meine Deutschkenntnisse verbessern.",
+      "pt": "Antes de tomar uma decisão, eu gostaria de melhorar meu conhecimento de alemão.",
+      "pronunciation": "be-fóor iç ái-ne ent-shái-dung tré-fe möç-te iç mái-ne dóitch-ként-ni-se fer-bé-sern"
+    },
+    {
+      "id": 409,
+      "month": 3,
+      "day": 71,
+      "theme": "Viagem, carreira e mudança",
+      "de": "Wenn alles klappt, werde ich meine Deutschkenntnisse verbessern.",
+      "pt": "Se tudo der certo, eu vou melhorar meu conhecimento de alemão.",
+      "pronunciation": "ven á-les klapt vêr-de iç mái-ne dóitch-ként-ni-se fer-bé-sern"
+    },
+    {
+      "id": 410,
+      "month": 3,
+      "day": 71,
+      "theme": "Viagem, carreira e mudança",
+      "de": "Ich würde gern meine Deutschkenntnisse verbessern.",
+      "pt": "Eu gostaria de melhorar meu conhecimento de alemão.",
+      "pronunciation": "iç vür-de guern mái-ne dóitch-ként-ni-se fer-bé-sern"
+    },
+    {
+      "id": 411,
+      "month": 3,
+      "day": 71,
+      "theme": "Viagem, carreira e mudança",
+      "de": "Ich hoffe, bald meine Deutschkenntnisse zu verbessern.",
+      "pt": "Eu espero melhorar meu conhecimento de alemão em breve.",
+      "pronunciation": "iç hó-fe balt mái-ne dóitch-ként-ni-se tsu fer-bé-sern"
+    },
+    {
+      "id": 412,
+      "month": 3,
+      "day": 71,
+      "theme": "Viagem, carreira e mudança",
+      "de": "Mein Ziel ist es, meine Deutschkenntnisse zu verbessern.",
+      "pt": "Meu objetivo é melhorar meu conhecimento de alemão.",
+      "pronunciation": "main tsiil ist es mái-ne dóitch-ként-ni-se tsu fer-bé-sern"
+    },
+    {
+      "id": 413,
+      "month": 3,
+      "day": 71,
+      "theme": "Viagem, carreira e mudança",
+      "de": "Ich spare Geld, um meine Deutschkenntnisse zu verbessern.",
+      "pt": "Eu economizo dinheiro para melhorar meu conhecimento de alemão.",
+      "pronunciation": "iç shpáa-re guelt um mái-ne dóitch-ként-ni-se tsu fer-bé-sern"
+    },
+    {
+      "id": 414,
+      "month": 3,
+      "day": 72,
+      "theme": "Vida em países de língua alemã",
+      "de": "Ich könnte mir vorstellen, in Wien zu leben.",
+      "pt": "Eu consigo me imaginar morando em Viena.",
+      "pronunciation": "iç kön-te mia fóor-shté-len in viin tsu lêe-ben"
+    },
+    {
+      "id": 415,
+      "month": 3,
+      "day": 72,
+      "theme": "Vida em países de língua alemã",
+      "de": "Es wäre schön, in Wien zu arbeiten.",
+      "pt": "Seria bom trabalhar em Viena.",
+      "pronunciation": "es vêe-re shöön in viin tsu ár-bai-ten"
+    },
+    {
+      "id": 416,
+      "month": 3,
+      "day": 72,
+      "theme": "Vida em países de língua alemã",
+      "de": "Weißt du, wie hoch die Mieten in Wien sind?",
+      "pt": "Você sabe quanto custam os aluguéis em Viena?",
+      "pronunciation": "vaist du vii hookh di míi-ten in viin zint"
+    },
+    {
+      "id": 417,
+      "month": 3,
+      "day": 72,
+      "theme": "Vida em países de língua alemã",
+      "de": "Ich suche eine bezahlbare Wohnung in Wien.",
+      "pt": "Eu procuro um apartamento com aluguel acessível em Viena.",
+      "pronunciation": "iç zúu-khe ái-ne be-tsáal-baa-re vôo-nung in viin"
+    },
+    {
+      "id": 418,
+      "month": 3,
+      "day": 72,
+      "theme": "Vida em países de língua alemã",
+      "de": "Wenn ich in Wien wohne, möchte ich neue Leute kennenlernen.",
+      "pt": "Se eu morar em Viena, quero conhecer pessoas novas.",
+      "pronunciation": "ven iç in viin vôo-ne möç-te iç nói-e lói-te ké-nen-lér-nen"
+    },
+    {
+      "id": 419,
+      "month": 3,
+      "day": 72,
+      "theme": "Vida em países de língua alemã",
+      "de": "Ich weiß noch nicht, ob ich in Wien bleiben werde.",
+      "pt": "Eu ainda não sei se vou ficar em Viena.",
+      "pronunciation": "iç vais nokh niçt op iç in viin blái-ben vêr-de"
+    },
+    {
+      "id": 420,
+      "month": 3,
+      "day": 72,
+      "theme": "Vida em países de língua alemã",
+      "de": "Könntest du mir Tipps für den Alltag in Wien geben?",
+      "pt": "Você poderia me dar dicas para o dia a dia em Viena?",
+      "pronunciation": "kön-test du mia tips füür den ál-taak in viin guêe-ben"
+    },
+    {
+      "id": 421,
+      "month": 3,
+      "day": 73,
+      "theme": "Opiniões e estruturas com subordinadas",
+      "de": "Ich finde es wichtig, dass ich neue Kontakte knüpfe.",
+      "pt": "Eu acho importante que eu faça novos contatos.",
+      "pronunciation": "iç fín-de es víç-tiç das iç nói-e kon-ták-te knüp-fe"
+    },
+    {
+      "id": 422,
+      "month": 3,
+      "day": 73,
+      "theme": "Opiniões e estruturas com subordinadas",
+      "de": "Es hilft mir, dass ich neue Kontakte knüpfe.",
+      "pt": "Ajuda-me o fato de que eu faço novos contatos.",
+      "pronunciation": "es hilft mia das iç nói-e kon-ták-te knüp-fe"
+    },
+    {
+      "id": 423,
+      "month": 3,
+      "day": 73,
+      "theme": "Opiniões e estruturas com subordinadas",
+      "de": "Ich freue mich darüber, dass ich neue Kontakte knüpfe.",
+      "pt": "Eu fico feliz com o fato de que eu faço novos contatos.",
+      "pronunciation": "iç frói-e miç da-rüü-ba das iç nói-e kon-ták-te knüp-fe"
+    },
+    {
+      "id": 424,
+      "month": 3,
+      "day": 73,
+      "theme": "Opiniões e estruturas com subordinadas",
+      "de": "Ich merke, dass ich neue Kontakte knüpfe.",
+      "pt": "Eu percebo que eu faço novos contatos.",
+      "pronunciation": "iç mér-ke das iç nói-e kon-ták-te knüp-fe"
+    },
+    {
+      "id": 425,
+      "month": 3,
+      "day": 73,
+      "theme": "Opiniões e estruturas com subordinadas",
+      "de": "Für meine Zukunft ist es gut, dass ich neue Kontakte knüpfe.",
+      "pt": "Para meu futuro, é bom que eu faça novos contatos.",
+      "pronunciation": "füür mái-ne tsúu-kunft ist es guut das iç nói-e kon-ták-te knüp-fe"
+    },
+    {
+      "id": 426,
+      "month": 3,
+      "day": 73,
+      "theme": "Opiniões e estruturas com subordinadas",
+      "de": "Ich möchte erklären, warum ich neue Kontakte knüpfe.",
+      "pt": "Eu gostaria de explicar por que eu faço novos contatos.",
+      "pronunciation": "iç möç-te er-klêe-ren va-rum iç nói-e kon-ták-te knüp-fe"
+    },
+    {
+      "id": 427,
+      "month": 3,
+      "day": 73,
+      "theme": "Opiniões e estruturas com subordinadas",
+      "de": "Du kannst sehen, dass ich neue Kontakte knüpfe.",
+      "pt": "Você pode ver que eu faço novos contatos.",
+      "pronunciation": "du kanst zêe-en das iç nói-e kon-ták-te knüp-fe"
+    },
+    {
+      "id": 428,
+      "month": 3,
+      "day": 74,
+      "theme": "Opiniões e estruturas com subordinadas",
+      "de": "Es motiviert mich, dass ich neue Kontakte knüpfe.",
+      "pt": "É motivador para mim saber que eu faço novos contatos.",
+      "pronunciation": "es mo-ti-víirt miç das iç nói-e kon-ták-te knüp-fe"
+    },
+    {
+      "id": 429,
+      "month": 3,
+      "day": 74,
+      "theme": "Viagem, carreira e mudança",
+      "de": "Ich habe vor, meine Familie zu besuchen.",
+      "pt": "Eu pretendo visitar minha família.",
+      "pronunciation": "iç háa-be foor mái-ne fa-mí-li-e tsu be-zúu-khen"
+    },
+    {
+      "id": 430,
+      "month": 3,
+      "day": 74,
+      "theme": "Viagem, carreira e mudança",
+      "de": "Es ist mir wichtig, meine Familie zu besuchen.",
+      "pt": "É importante para mim visitar minha família.",
+      "pronunciation": "es ist mia víç-tiç mái-ne fa-mí-li-e tsu be-zúu-khen"
+    },
+    {
+      "id": 431,
+      "month": 3,
+      "day": 74,
+      "theme": "Viagem, carreira e mudança",
+      "de": "Bevor ich eine Entscheidung treffe, möchte ich meine Familie besuchen.",
+      "pt": "Antes de tomar uma decisão, eu gostaria de visitar minha família.",
+      "pronunciation": "be-fóor iç ái-ne ent-shái-dung tré-fe möç-te iç mái-ne fa-mí-li-e be-zúu-khen"
+    },
+    {
+      "id": 432,
+      "month": 3,
+      "day": 74,
+      "theme": "Viagem, carreira e mudança",
+      "de": "Wenn alles klappt, werde ich meine Familie besuchen.",
+      "pt": "Se tudo der certo, eu vou visitar minha família.",
+      "pronunciation": "ven á-les klapt vêr-de iç mái-ne fa-mí-li-e be-zúu-khen"
+    },
+    {
+      "id": 433,
+      "month": 3,
+      "day": 74,
+      "theme": "Viagem, carreira e mudança",
+      "de": "Ich würde gern meine Familie besuchen.",
+      "pt": "Eu gostaria de visitar minha família.",
+      "pronunciation": "iç vür-de guern mái-ne fa-mí-li-e be-zúu-khen"
+    },
+    {
+      "id": 434,
+      "month": 3,
+      "day": 74,
+      "theme": "Viagem, carreira e mudança",
+      "de": "Ich hoffe, bald meine Familie zu besuchen.",
+      "pt": "Eu espero visitar minha família em breve.",
+      "pronunciation": "iç hó-fe balt mái-ne fa-mí-li-e tsu be-zúu-khen"
+    },
+    {
+      "id": 435,
+      "month": 3,
+      "day": 75,
+      "theme": "Viagem, carreira e mudança",
+      "de": "Mein Ziel ist es, meine Familie zu besuchen.",
+      "pt": "Meu objetivo é visitar minha família.",
+      "pronunciation": "main tsiil ist es mái-ne fa-mí-li-e tsu be-zúu-khen"
+    },
+    {
+      "id": 436,
+      "month": 3,
+      "day": 75,
+      "theme": "Viagem, carreira e mudança",
+      "de": "Ich spare Geld, um meine Familie zu besuchen.",
+      "pt": "Eu economizo dinheiro para visitar minha família.",
+      "pronunciation": "iç shpáa-re guelt um mái-ne fa-mí-li-e tsu be-zúu-khen"
+    },
+    {
+      "id": 437,
+      "month": 3,
+      "day": 75,
+      "theme": "Vida em países de língua alemã",
+      "de": "Ich könnte mir vorstellen, in Frankfurt zu leben.",
+      "pt": "Eu consigo me imaginar morando em Frankfurt.",
+      "pronunciation": "iç kön-te mia fóor-shté-len in fránk-furt tsu lêe-ben"
+    },
+    {
+      "id": 438,
+      "month": 3,
+      "day": 75,
+      "theme": "Vida em países de língua alemã",
+      "de": "Es wäre schön, in Frankfurt zu arbeiten.",
+      "pt": "Seria bom trabalhar em Frankfurt.",
+      "pronunciation": "es vêe-re shöön in fránk-furt tsu ár-bai-ten"
+    },
+    {
+      "id": 439,
+      "month": 3,
+      "day": 75,
+      "theme": "Vida em países de língua alemã",
+      "de": "Weißt du, wie hoch die Mieten in Frankfurt sind?",
+      "pt": "Você sabe quanto custam os aluguéis em Frankfurt?",
+      "pronunciation": "vaist du vii hookh di míi-ten in fránk-furt zint"
+    },
+    {
+      "id": 440,
+      "month": 3,
+      "day": 75,
+      "theme": "Vida em países de língua alemã",
+      "de": "Ich suche eine bezahlbare Wohnung in Frankfurt.",
+      "pt": "Eu procuro um apartamento com aluguel acessível em Frankfurt.",
+      "pronunciation": "iç zúu-khe ái-ne be-tsáal-baa-re vôo-nung in fránk-furt"
+    },
+    {
+      "id": 441,
+      "month": 3,
+      "day": 75,
+      "theme": "Vida em países de língua alemã",
+      "de": "Wenn ich in Frankfurt wohne, möchte ich neue Leute kennenlernen.",
+      "pt": "Se eu morar em Frankfurt, quero conhecer pessoas novas.",
+      "pronunciation": "ven iç in fránk-furt vôo-ne möç-te iç nói-e lói-te ké-nen-lér-nen"
+    },
+    {
+      "id": 442,
+      "month": 3,
+      "day": 76,
+      "theme": "Vida em países de língua alemã",
+      "de": "Ich weiß noch nicht, ob ich in Frankfurt bleiben werde.",
+      "pt": "Eu ainda não sei se vou ficar em Frankfurt.",
+      "pronunciation": "iç vais nokh niçt op iç in fránk-furt blái-ben vêr-de"
+    },
+    {
+      "id": 443,
+      "month": 3,
+      "day": 76,
+      "theme": "Vida em países de língua alemã",
+      "de": "Könntest du mir Tipps für den Alltag in Frankfurt geben?",
+      "pt": "Você poderia me dar dicas para o dia a dia em Frankfurt?",
+      "pronunciation": "kön-test du mia tips füür den ál-taak in fránk-furt guêe-ben"
+    },
+    {
+      "id": 444,
+      "month": 3,
+      "day": 76,
+      "theme": "Opiniões e estruturas com subordinadas",
+      "de": "Ich finde es wichtig, dass ich meine Ziele klar formuliere.",
+      "pt": "Eu acho importante que eu formule meus objetivos com clareza.",
+      "pronunciation": "iç fín-de es víç-tiç das iç mái-ne tsíi-le klaar for-mu-líi-re"
+    },
+    {
+      "id": 445,
+      "month": 3,
+      "day": 76,
+      "theme": "Opiniões e estruturas com subordinadas",
+      "de": "Es hilft mir, dass ich meine Ziele klar formuliere.",
+      "pt": "Ajuda-me o fato de que eu formulo meus objetivos com clareza.",
+      "pronunciation": "es hilft mia das iç mái-ne tsíi-le klaar for-mu-líi-re"
+    },
+    {
+      "id": 446,
+      "month": 3,
+      "day": 76,
+      "theme": "Opiniões e estruturas com subordinadas",
+      "de": "Ich freue mich darüber, dass ich meine Ziele klar formuliere.",
+      "pt": "Eu fico feliz com o fato de que eu formulo meus objetivos com clareza.",
+      "pronunciation": "iç frói-e miç da-rüü-ba das iç mái-ne tsíi-le klaar for-mu-líi-re"
+    },
+    {
+      "id": 447,
+      "month": 3,
+      "day": 76,
+      "theme": "Opiniões e estruturas com subordinadas",
+      "de": "Ich merke, dass ich meine Ziele klar formuliere.",
+      "pt": "Eu percebo que eu formulo meus objetivos com clareza.",
+      "pronunciation": "iç mér-ke das iç mái-ne tsíi-le klaar for-mu-líi-re"
+    },
+    {
+      "id": 448,
+      "month": 3,
+      "day": 76,
+      "theme": "Opiniões e estruturas com subordinadas",
+      "de": "Für meine Zukunft ist es gut, dass ich meine Ziele klar formuliere.",
+      "pt": "Para meu futuro, é bom que eu formule meus objetivos com clareza.",
+      "pronunciation": "füür mái-ne tsúu-kunft ist es guut das iç mái-ne tsíi-le klaar for-mu-líi-re"
+    },
+    {
+      "id": 449,
+      "month": 3,
+      "day": 77,
+      "theme": "Opiniões e estruturas com subordinadas",
+      "de": "Ich möchte erklären, warum ich meine Ziele klar formuliere.",
+      "pt": "Eu gostaria de explicar por que eu formulo meus objetivos com clareza.",
+      "pronunciation": "iç möç-te er-klêe-ren va-rum iç mái-ne tsíi-le klaar for-mu-líi-re"
+    },
+    {
+      "id": 450,
+      "month": 3,
+      "day": 77,
+      "theme": "Opiniões e estruturas com subordinadas",
+      "de": "Du kannst sehen, dass ich meine Ziele klar formuliere.",
+      "pt": "Você pode ver que eu formulo meus objetivos com clareza.",
+      "pronunciation": "du kanst zêe-en das iç mái-ne tsíi-le klaar for-mu-líi-re"
+    },
+    {
+      "id": 451,
+      "month": 3,
+      "day": 77,
+      "theme": "Opiniões e estruturas com subordinadas",
+      "de": "Es motiviert mich, dass ich meine Ziele klar formuliere.",
+      "pt": "É motivador para mim saber que eu formulo meus objetivos com clareza.",
+      "pronunciation": "es mo-ti-víirt miç das iç mái-ne tsíi-le klaar for-mu-líi-re"
+    },
+    {
+      "id": 452,
+      "month": 3,
+      "day": 77,
+      "theme": "Viagem, carreira e mudança",
+      "de": "Ich habe vor, eine Reise zu planen.",
+      "pt": "Eu pretendo planejar uma viagem.",
+      "pronunciation": "iç háa-be foor ái-ne rái-ze tsu pláa-nen"
+    },
+    {
+      "id": 453,
+      "month": 3,
+      "day": 77,
+      "theme": "Viagem, carreira e mudança",
+      "de": "Es ist mir wichtig, eine Reise zu planen.",
+      "pt": "É importante para mim planejar uma viagem.",
+      "pronunciation": "es ist mia víç-tiç ái-ne rái-ze tsu pláa-nen"
+    },
+    {
+      "id": 454,
+      "month": 3,
+      "day": 77,
+      "theme": "Viagem, carreira e mudança",
+      "de": "Bevor ich eine Entscheidung treffe, möchte ich eine Reise planen.",
+      "pt": "Antes de tomar uma decisão, eu gostaria de planejar uma viagem.",
+      "pronunciation": "be-fóor iç ái-ne ent-shái-dung tré-fe möç-te iç ái-ne rái-ze pláa-nen"
+    },
+    {
+      "id": 455,
+      "month": 3,
+      "day": 77,
+      "theme": "Viagem, carreira e mudança",
+      "de": "Wenn alles klappt, werde ich eine Reise planen.",
+      "pt": "Se tudo der certo, eu vou planejar uma viagem.",
+      "pronunciation": "ven á-les klapt vêr-de iç ái-ne rái-ze pláa-nen"
+    },
+    {
+      "id": 456,
+      "month": 3,
+      "day": 78,
+      "theme": "Viagem, carreira e mudança",
+      "de": "Ich würde gern eine Reise planen.",
+      "pt": "Eu gostaria de planejar uma viagem.",
+      "pronunciation": "iç vür-de guern ái-ne rái-ze pláa-nen"
+    },
+    {
+      "id": 457,
+      "month": 3,
+      "day": 78,
+      "theme": "Viagem, carreira e mudança",
+      "de": "Ich hoffe, bald eine Reise zu planen.",
+      "pt": "Eu espero planejar uma viagem em breve.",
+      "pronunciation": "iç hó-fe balt ái-ne rái-ze tsu pláa-nen"
+    },
+    {
+      "id": 458,
+      "month": 3,
+      "day": 78,
+      "theme": "Viagem, carreira e mudança",
+      "de": "Mein Ziel ist es, eine Reise zu planen.",
+      "pt": "Meu objetivo é planejar uma viagem.",
+      "pronunciation": "main tsiil ist es ái-ne rái-ze tsu pláa-nen"
+    },
+    {
+      "id": 459,
+      "month": 3,
+      "day": 78,
+      "theme": "Viagem, carreira e mudança",
+      "de": "Ich spare Geld, um eine Reise zu planen.",
+      "pt": "Eu economizo dinheiro para planejar uma viagem.",
+      "pronunciation": "iç shpáa-re guelt um ái-ne rái-ze tsu pláa-nen"
+    },
+    {
+      "id": 460,
+      "month": 3,
+      "day": 78,
+      "theme": "Vida em países de língua alemã",
+      "de": "Ich könnte mir vorstellen, in Leipzig zu leben.",
+      "pt": "Eu consigo me imaginar morando em Leipzig.",
+      "pronunciation": "iç kön-te mia fóor-shté-len in láip-tsiç tsu lêe-ben"
+    },
+    {
+      "id": 461,
+      "month": 3,
+      "day": 78,
+      "theme": "Vida em países de língua alemã",
+      "de": "Es wäre schön, in Leipzig zu arbeiten.",
+      "pt": "Seria bom trabalhar em Leipzig.",
+      "pronunciation": "es vêe-re shöön in láip-tsiç tsu ár-bai-ten"
+    },
+    {
+      "id": 462,
+      "month": 3,
+      "day": 78,
+      "theme": "Vida em países de língua alemã",
+      "de": "Weißt du, wie hoch die Mieten in Leipzig sind?",
+      "pt": "Você sabe quanto custam os aluguéis em Leipzig?",
+      "pronunciation": "vaist du vii hookh di míi-ten in láip-tsiç zint"
+    },
+    {
+      "id": 463,
+      "month": 3,
+      "day": 79,
+      "theme": "Vida em países de língua alemã",
+      "de": "Ich suche eine bezahlbare Wohnung in Leipzig.",
+      "pt": "Eu procuro um apartamento com aluguel acessível em Leipzig.",
+      "pronunciation": "iç zúu-khe ái-ne be-tsáal-baa-re vôo-nung in láip-tsiç"
+    },
+    {
+      "id": 464,
+      "month": 3,
+      "day": 79,
+      "theme": "Vida em países de língua alemã",
+      "de": "Wenn ich in Leipzig wohne, möchte ich neue Leute kennenlernen.",
+      "pt": "Se eu morar em Leipzig, quero conhecer pessoas novas.",
+      "pronunciation": "ven iç in láip-tsiç vôo-ne möç-te iç nói-e lói-te ké-nen-lér-nen"
+    },
+    {
+      "id": 465,
+      "month": 3,
+      "day": 79,
+      "theme": "Vida em países de língua alemã",
+      "de": "Ich weiß noch nicht, ob ich in Leipzig bleiben werde.",
+      "pt": "Eu ainda não sei se vou ficar em Leipzig.",
+      "pronunciation": "iç vais nokh niçt op iç in láip-tsiç blái-ben vêr-de"
+    },
+    {
+      "id": 466,
+      "month": 3,
+      "day": 79,
+      "theme": "Vida em países de língua alemã",
+      "de": "Könntest du mir Tipps für den Alltag in Leipzig geben?",
+      "pt": "Você poderia me dar dicas para o dia a dia em Leipzig?",
+      "pronunciation": "kön-test du mia tips füür den ál-taak in láip-tsiç guêe-ben"
+    },
+    {
+      "id": 467,
+      "month": 3,
+      "day": 79,
+      "theme": "Opiniões e estruturas com subordinadas",
+      "de": "Ich finde es wichtig, dass ich aus meinen Fehlern lerne.",
+      "pt": "Eu acho importante que eu aprenda com meus erros.",
+      "pronunciation": "iç fín-de es víç-tiç das iç aus mái-nen fêe-lern lér-ne"
+    },
+    {
+      "id": 468,
+      "month": 3,
+      "day": 79,
+      "theme": "Opiniões e estruturas com subordinadas",
+      "de": "Es hilft mir, dass ich aus meinen Fehlern lerne.",
+      "pt": "Ajuda-me o fato de que eu aprendo com meus erros.",
+      "pronunciation": "es hilft mia das iç aus mái-nen fêe-lern lér-ne"
+    },
+    {
+      "id": 469,
+      "month": 3,
+      "day": 79,
+      "theme": "Opiniões e estruturas com subordinadas",
+      "de": "Ich freue mich darüber, dass ich aus meinen Fehlern lerne.",
+      "pt": "Eu fico feliz com o fato de que eu aprendo com meus erros.",
+      "pronunciation": "iç frói-e miç da-rüü-ba das iç aus mái-nen fêe-lern lér-ne"
+    },
+    {
+      "id": 470,
+      "month": 3,
+      "day": 80,
+      "theme": "Opiniões e estruturas com subordinadas",
+      "de": "Ich merke, dass ich aus meinen Fehlern lerne.",
+      "pt": "Eu percebo que eu aprendo com meus erros.",
+      "pronunciation": "iç mér-ke das iç aus mái-nen fêe-lern lér-ne"
+    },
+    {
+      "id": 471,
+      "month": 3,
+      "day": 80,
+      "theme": "Opiniões e estruturas com subordinadas",
+      "de": "Für meine Zukunft ist es gut, dass ich aus meinen Fehlern lerne.",
+      "pt": "Para meu futuro, é bom que eu aprenda com meus erros.",
+      "pronunciation": "füür mái-ne tsúu-kunft ist es guut das iç aus mái-nen fêe-lern lér-ne"
+    },
+    {
+      "id": 472,
+      "month": 3,
+      "day": 80,
+      "theme": "Opiniões e estruturas com subordinadas",
+      "de": "Ich möchte erklären, warum ich aus meinen Fehlern lerne.",
+      "pt": "Eu gostaria de explicar por que eu aprendo com meus erros.",
+      "pronunciation": "iç möç-te er-klêe-ren va-rum iç aus mái-nen fêe-lern lér-ne"
+    },
+    {
+      "id": 473,
+      "month": 3,
+      "day": 80,
+      "theme": "Opiniões e estruturas com subordinadas",
+      "de": "Du kannst sehen, dass ich aus meinen Fehlern lerne.",
+      "pt": "Você pode ver que eu aprendo com meus erros.",
+      "pronunciation": "du kanst zêe-en das iç aus mái-nen fêe-lern lér-ne"
+    },
+    {
+      "id": 474,
+      "month": 3,
+      "day": 80,
+      "theme": "Opiniões e estruturas com subordinadas",
+      "de": "Es motiviert mich, dass ich aus meinen Fehlern lerne.",
+      "pt": "É motivador para mim saber que eu aprendo com meus erros.",
+      "pronunciation": "es mo-ti-víirt miç das iç aus mái-nen fêe-lern lér-ne"
+    },
+    {
+      "id": 475,
+      "month": 3,
+      "day": 80,
+      "theme": "Viagem, carreira e mudança",
+      "de": "Ich habe vor, beruflich neu anzufangen.",
+      "pt": "Eu pretendo recomeçar profissionalmente.",
+      "pronunciation": "iç háa-be foor be-rúuf-liç nói án-tsu-fan-guen"
+    },
+    {
+      "id": 476,
+      "month": 3,
+      "day": 80,
+      "theme": "Viagem, carreira e mudança",
+      "de": "Es ist mir wichtig, beruflich neu anzufangen.",
+      "pt": "É importante para mim recomeçar profissionalmente.",
+      "pronunciation": "es ist mia víç-tiç be-rúuf-liç nói án-tsu-fan-guen"
+    },
+    {
+      "id": 477,
+      "month": 3,
+      "day": 81,
+      "theme": "Viagem, carreira e mudança",
+      "de": "Bevor ich eine Entscheidung treffe, möchte ich beruflich neu anfangen.",
+      "pt": "Antes de tomar uma decisão, eu gostaria de recomeçar profissionalmente.",
+      "pronunciation": "be-fóor iç ái-ne ent-shái-dung tré-fe möç-te iç be-rúuf-liç nói án-fan-guen"
+    },
+    {
+      "id": 478,
+      "month": 3,
+      "day": 81,
+      "theme": "Viagem, carreira e mudança",
+      "de": "Wenn alles klappt, werde ich beruflich neu anfangen.",
+      "pt": "Se tudo der certo, eu vou recomeçar profissionalmente.",
+      "pronunciation": "ven á-les klapt vêr-de iç be-rúuf-liç nói án-fan-guen"
+    },
+    {
+      "id": 479,
+      "month": 3,
+      "day": 81,
+      "theme": "Viagem, carreira e mudança",
+      "de": "Ich würde gern beruflich neu anfangen.",
+      "pt": "Eu gostaria de recomeçar profissionalmente.",
+      "pronunciation": "iç vür-de guern be-rúuf-liç nói án-fan-guen"
+    },
+    {
+      "id": 480,
+      "month": 3,
+      "day": 81,
+      "theme": "Viagem, carreira e mudança",
+      "de": "Ich hoffe, bald beruflich neu anzufangen.",
+      "pt": "Eu espero recomeçar profissionalmente em breve.",
+      "pronunciation": "iç hó-fe balt be-rúuf-liç nói án-tsu-fan-guen"
+    },
+    {
+      "id": 481,
+      "month": 3,
+      "day": 81,
+      "theme": "Viagem, carreira e mudança",
+      "de": "Mein Ziel ist es, beruflich neu anzufangen.",
+      "pt": "Meu objetivo é recomeçar profissionalmente.",
+      "pronunciation": "main tsiil ist es be-rúuf-liç nói án-tsu-fan-guen"
+    },
+    {
+      "id": 482,
+      "month": 3,
+      "day": 81,
+      "theme": "Viagem, carreira e mudança",
+      "de": "Ich spare Geld, um beruflich neu anzufangen.",
+      "pt": "Eu economizo dinheiro para recomeçar profissionalmente.",
+      "pronunciation": "iç shpáa-re guelt um be-rúuf-liç nói án-tsu-fan-guen"
+    },
+    {
+      "id": 483,
+      "month": 3,
+      "day": 81,
+      "theme": "Vida em países de língua alemã",
+      "de": "Ich könnte mir vorstellen, in Köln zu leben.",
+      "pt": "Eu consigo me imaginar morando em Colônia.",
+      "pronunciation": "iç kön-te mia fóor-shté-len in köln tsu lêe-ben"
+    },
+    {
+      "id": 484,
+      "month": 3,
+      "day": 82,
+      "theme": "Vida em países de língua alemã",
+      "de": "Es wäre schön, in Köln zu arbeiten.",
+      "pt": "Seria bom trabalhar em Colônia.",
+      "pronunciation": "es vêe-re shöön in köln tsu ár-bai-ten"
+    },
+    {
+      "id": 485,
+      "month": 3,
+      "day": 82,
+      "theme": "Vida em países de língua alemã",
+      "de": "Weißt du, wie hoch die Mieten in Köln sind?",
+      "pt": "Você sabe quanto custam os aluguéis em Colônia?",
+      "pronunciation": "vaist du vii hookh di míi-ten in köln zint"
+    },
+    {
+      "id": 486,
+      "month": 3,
+      "day": 82,
+      "theme": "Vida em países de língua alemã",
+      "de": "Ich suche eine bezahlbare Wohnung in Köln.",
+      "pt": "Eu procuro um apartamento com aluguel acessível em Colônia.",
+      "pronunciation": "iç zúu-khe ái-ne be-tsáal-baa-re vôo-nung in köln"
+    },
+    {
+      "id": 487,
+      "month": 3,
+      "day": 82,
+      "theme": "Vida em países de língua alemã",
+      "de": "Wenn ich in Köln wohne, möchte ich neue Leute kennenlernen.",
+      "pt": "Se eu morar em Colônia, quero conhecer pessoas novas.",
+      "pronunciation": "ven iç in köln vôo-ne möç-te iç nói-e lói-te ké-nen-lér-nen"
+    },
+    {
+      "id": 488,
+      "month": 3,
+      "day": 82,
+      "theme": "Vida em países de língua alemã",
+      "de": "Ich weiß noch nicht, ob ich in Köln bleiben werde.",
+      "pt": "Eu ainda não sei se vou ficar em Colônia.",
+      "pronunciation": "iç vais nokh niçt op iç in köln blái-ben vêr-de"
+    },
+    {
+      "id": 489,
+      "month": 3,
+      "day": 82,
+      "theme": "Vida em países de língua alemã",
+      "de": "Könntest du mir Tipps für den Alltag in Köln geben?",
+      "pt": "Você poderia me dar dicas para o dia a dia em Colônia?",
+      "pronunciation": "kön-test du mia tips füür den ál-taak in köln guêe-ben"
+    },
+    {
+      "id": 490,
+      "month": 3,
+      "day": 82,
+      "theme": "Opiniões e estruturas com subordinadas",
+      "de": "Ich finde es wichtig, dass ich mir genug Zeit nehme.",
+      "pt": "Eu acho importante que eu me dê tempo suficiente.",
+      "pronunciation": "iç fín-de es víç-tiç das iç mia gue-nuuk tsait nêe-me"
+    },
+    {
+      "id": 491,
+      "month": 3,
+      "day": 83,
+      "theme": "Opiniões e estruturas com subordinadas",
+      "de": "Es hilft mir, dass ich mir genug Zeit nehme.",
+      "pt": "Ajuda-me o fato de que eu me dou tempo suficiente.",
+      "pronunciation": "es hilft mia das iç mia gue-nuuk tsait nêe-me"
+    },
+    {
+      "id": 492,
+      "month": 3,
+      "day": 83,
+      "theme": "Opiniões e estruturas com subordinadas",
+      "de": "Ich freue mich darüber, dass ich mir genug Zeit nehme.",
+      "pt": "Eu fico feliz com o fato de que eu me dou tempo suficiente.",
+      "pronunciation": "iç frói-e miç da-rüü-ba das iç mia gue-nuuk tsait nêe-me"
+    },
+    {
+      "id": 493,
+      "month": 3,
+      "day": 83,
+      "theme": "Opiniões e estruturas com subordinadas",
+      "de": "Ich merke, dass ich mir genug Zeit nehme.",
+      "pt": "Eu percebo que eu me dou tempo suficiente.",
+      "pronunciation": "iç mér-ke das iç mia gue-nuuk tsait nêe-me"
+    },
+    {
+      "id": 494,
+      "month": 3,
+      "day": 83,
+      "theme": "Opiniões e estruturas com subordinadas",
+      "de": "Für meine Zukunft ist es gut, dass ich mir genug Zeit nehme.",
+      "pt": "Para meu futuro, é bom que eu me dê tempo suficiente.",
+      "pronunciation": "füür mái-ne tsúu-kunft ist es guut das iç mia gue-nuuk tsait nêe-me"
+    },
+    {
+      "id": 495,
+      "month": 3,
+      "day": 83,
+      "theme": "Opiniões e estruturas com subordinadas",
+      "de": "Ich möchte erklären, warum ich mir genug Zeit nehme.",
+      "pt": "Eu gostaria de explicar por que eu me dou tempo suficiente.",
+      "pronunciation": "iç möç-te er-klêe-ren va-rum iç mia gue-nuuk tsait nêe-me"
+    },
+    {
+      "id": 496,
+      "month": 3,
+      "day": 83,
+      "theme": "Opiniões e estruturas com subordinadas",
+      "de": "Du kannst sehen, dass ich mir genug Zeit nehme.",
+      "pt": "Você pode ver que eu me dou tempo suficiente.",
+      "pronunciation": "du kanst zêe-en das iç mia gue-nuuk tsait nêe-me"
+    },
+    {
+      "id": 497,
+      "month": 3,
+      "day": 83,
+      "theme": "Opiniões e estruturas com subordinadas",
+      "de": "Es motiviert mich, dass ich mir genug Zeit nehme.",
+      "pt": "É motivador para mim saber que eu me dou tempo suficiente.",
+      "pronunciation": "es mo-ti-víirt miç das iç mia gue-nuuk tsait nêe-me"
+    },
+    {
+      "id": 498,
+      "month": 3,
+      "day": null,
+      "bonus": true,
+      "theme": "Bônus após os 90 dias",
+      "pt": "Não preciso falar perfeitamente para começar uma conversa.",
+      "de": "Ich muss nicht perfekt sprechen, um ein Gespräch zu beginnen.",
+      "pronunciation": "iç mus niçt per-fékt shpré-çen um ain gue-shprêeç tsu be-guí-nen"
+    },
+    {
+      "id": 499,
+      "month": 3,
+      "day": null,
+      "bonus": true,
+      "theme": "Bônus após os 90 dias",
+      "pt": "Quanto mais eu pratico, mais confiante eu fico.",
+      "de": "Je mehr ich übe, desto sicherer werde ich.",
+      "pronunciation": "iê meer iç üü-be dés-to zí-çe-ra vêr-de iç"
+    },
+    {
+      "id": 500,
+      "month": 3,
+      "day": null,
+      "bonus": true,
+      "theme": "Bônus após os 90 dias",
+      "pt": "Mesmo quando cometo erros, continuo aprendendo.",
+      "de": "Auch wenn ich Fehler mache, lerne ich weiter.",
+      "pronunciation": "aukh ven iç fêe-la má-khe lér-ne iç vái-ta"
+    }
+  ]
+}
