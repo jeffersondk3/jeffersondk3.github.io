@@ -1,0 +1,351 @@
+{
+  "version": 1,
+  "publishedDays": 7,
+  "totalPlanned": 497,
+  "bonusPlanned": 3,
+  "phrases": [
+    {
+      "id": 1,
+      "day": 1,
+      "pt": "Olá! Como você se chama?",
+      "de": "Hallo! Wie heißt du?",
+      "pronunciation": "há-lo vii háist du"
+    },
+    {
+      "id": 2,
+      "day": 1,
+      "pt": "Eu me chamo Jefferson.",
+      "de": "Ich heiße Jefferson.",
+      "pronunciation": "iç hái-se Jefferson"
+    },
+    {
+      "id": 3,
+      "day": 1,
+      "pt": "Eu me chamo Sofia.",
+      "de": "Ich heiße Sofia.",
+      "pronunciation": "iç hái-se Sofia"
+    },
+    {
+      "id": 4,
+      "day": 1,
+      "pt": "Eu venho do Brasil.",
+      "de": "Ich komme aus Brasilien.",
+      "pronunciation": "iç kó-me aus bra-zí-li-en"
+    },
+    {
+      "id": 5,
+      "day": 1,
+      "pt": "Eu venho da Argentina.",
+      "de": "Ich komme aus Argentinien.",
+      "pronunciation": "iç kó-me aus ar-guen-tí-ni-en"
+    },
+    {
+      "id": 6,
+      "day": 1,
+      "pt": "Prazer em conhecer você.",
+      "de": "Schön, dich kennenzulernen.",
+      "pronunciation": "shöön diç ké-nen-tsu-lér-nen"
+    },
+    {
+      "id": 7,
+      "day": 1,
+      "pt": "Onde você mora?",
+      "de": "Wo wohnst du?",
+      "pronunciation": "voo voonst du"
+    },
+    {
+      "id": 8,
+      "day": 2,
+      "pt": "Bom dia! Como você está?",
+      "de": "Guten Morgen! Wie geht es dir?",
+      "pronunciation": "gúu-ten mór-guen vii gueet es dia"
+    },
+    {
+      "id": 9,
+      "day": 2,
+      "pt": "Estou bem, obrigado.",
+      "de": "Mir geht es gut, danke.",
+      "pronunciation": "mia gueet es guut dán-ke"
+    },
+    {
+      "id": 10,
+      "day": 2,
+      "pt": "Estou aprendendo alemão.",
+      "de": "Ich lerne Deutsch.",
+      "pronunciation": "iç lér-ne dóitch"
+    },
+    {
+      "id": 11,
+      "day": 2,
+      "pt": "Eu ainda sou iniciante.",
+      "de": "Ich bin noch Anfänger.",
+      "pronunciation": "iç bin nokh án-fen-ga"
+    },
+    {
+      "id": 12,
+      "day": 2,
+      "pt": "Eu não entendi isso.",
+      "de": "Das habe ich nicht verstanden.",
+      "pronunciation": "das háa-be iç niçt fer-shtán-den"
+    },
+    {
+      "id": 13,
+      "day": 2,
+      "pt": "Você pode repetir isso?",
+      "de": "Kannst du das wiederholen?",
+      "pronunciation": "kanst du das víi-da-hoo-len"
+    },
+    {
+      "id": 14,
+      "day": 2,
+      "pt": "Muito obrigado pela sua ajuda.",
+      "de": "Vielen Dank für deine Hilfe.",
+      "pronunciation": "fíi-len dank füür dái-ne híl-fe"
+    },
+    {
+      "id": 15,
+      "day": 3,
+      "pt": "Eu procuro alguém para praticar.",
+      "de": "Ich suche jemanden zum Üben.",
+      "pronunciation": "iç zúu-khe iê-man-den tsum üü-ben"
+    },
+    {
+      "id": 16,
+      "day": 3,
+      "pt": "Você gostaria de aprender português?",
+      "de": "Möchtest du Portugiesisch lernen?",
+      "pronunciation": "möç-test du por-tu-guíi-zish lér-nen"
+    },
+    {
+      "id": 17,
+      "day": 3,
+      "pt": "Podemos nos ajudar mutuamente.",
+      "de": "Wir können uns gegenseitig helfen.",
+      "pronunciation": "via kö-nen uns guê-guen-zai-tiç hél-fen"
+    },
+    {
+      "id": 18,
+      "day": 3,
+      "pt": "Você tem tempo hoje à noite?",
+      "de": "Hast du heute Abend Zeit?",
+      "pronunciation": "hast du hói-te áa-bent tsait"
+    },
+    {
+      "id": 19,
+      "day": 3,
+      "pt": "Eu tenho dez minutos.",
+      "de": "Ich habe zehn Minuten Zeit.",
+      "pronunciation": "iç háa-be tseen mi-núu-ten tsait"
+    },
+    {
+      "id": 20,
+      "day": 3,
+      "pt": "Vamos conversar um pouco.",
+      "de": "Lass uns ein bisschen reden.",
+      "pronunciation": "las uns ain bís-çen rêe-den"
+    },
+    {
+      "id": 21,
+      "day": 3,
+      "pt": "Até amanhã!",
+      "de": "Bis morgen!",
+      "pronunciation": "bis mór-guen"
+    },
+    {
+      "id": 22,
+      "day": 4,
+      "pt": "Eu trabalho com TI.",
+      "de": "Ich arbeite in der IT.",
+      "pronunciation": "iç ár-bai-te in dea i-tê"
+    },
+    {
+      "id": 23,
+      "day": 4,
+      "pt": "Eu cuido de computadores e redes.",
+      "de": "Ich betreue Computer und Netzwerke.",
+      "pronunciation": "iç be-trói-e kom-piú-ta unt néts-vér-ke"
+    },
+    {
+      "id": 24,
+      "day": 4,
+      "pt": "Eu trabalho no Brasil.",
+      "de": "Ich arbeite in Brasilien.",
+      "pronunciation": "iç ár-bai-te in bra-zí-li-en"
+    },
+    {
+      "id": 25,
+      "day": 4,
+      "pt": "O que você faz profissionalmente?",
+      "de": "Was machst du beruflich?",
+      "pronunciation": "vas makhst du be-rúuf-liç"
+    },
+    {
+      "id": 26,
+      "day": 4,
+      "pt": "Você também trabalha com TI?",
+      "de": "Arbeitest du auch in der IT?",
+      "pronunciation": "ár-bai-test du aukh in dea i-tê"
+    },
+    {
+      "id": 27,
+      "day": 4,
+      "pt": "Estou aprendendo alemão para o meu trabalho.",
+      "de": "Ich lerne Deutsch für meine Arbeit.",
+      "pronunciation": "iç lér-ne dóitch füür mái-ne ár-bait"
+    },
+    {
+      "id": 28,
+      "day": 4,
+      "pt": "Podemos praticar juntos?",
+      "de": "Können wir zusammen üben?",
+      "pronunciation": "kö-nen via tsu-zá-men üü-ben"
+    },
+    {
+      "id": 29,
+      "day": 5,
+      "pt": "Meu computador não funciona.",
+      "de": "Mein Computer funktioniert nicht.",
+      "pronunciation": "main kom-piú-ta funk-tsio-níirt niçt"
+    },
+    {
+      "id": 30,
+      "day": 5,
+      "pt": "O computador está muito lento.",
+      "de": "Der Computer ist sehr langsam.",
+      "pronunciation": "dea kom-piú-ta ist zêa láng-zaam"
+    },
+    {
+      "id": 31,
+      "day": 5,
+      "pt": "Você pode me ajudar, por favor?",
+      "de": "Kannst du mir bitte helfen?",
+      "pronunciation": "kanst du mia bí-te hél-fen"
+    },
+    {
+      "id": 32,
+      "day": 5,
+      "pt": "Primeiro, vou verificar o cabo.",
+      "de": "Ich prüfe zuerst das Kabel.",
+      "pronunciation": "iç prüü-fe tsu-êerst das káa-bel"
+    },
+    {
+      "id": 33,
+      "day": 5,
+      "pt": "Por favor, reinicie o computador.",
+      "de": "Starte bitte den Computer neu.",
+      "pronunciation": "shtár-te bí-te den kom-piú-ta nói"
+    },
+    {
+      "id": 34,
+      "day": 5,
+      "pt": "Você está vendo uma mensagem de erro?",
+      "de": "Siehst du eine Fehlermeldung?",
+      "pronunciation": "ziist du ái-ne fêe-la-mél-dung"
+    },
+    {
+      "id": 35,
+      "day": 5,
+      "pt": "Agora está funcionando de novo.",
+      "de": "Jetzt funktioniert es wieder.",
+      "pronunciation": "iétst funk-tsio-níirt es víi-da"
+    },
+    {
+      "id": 36,
+      "day": 6,
+      "pt": "Eu não tenho conexão com a internet.",
+      "de": "Ich habe keine Internetverbindung.",
+      "pronunciation": "iç háa-be kái-ne ín-ter-net-fer-bin-dung"
+    },
+    {
+      "id": 37,
+      "day": 6,
+      "pt": "O Wi-Fi não está funcionando.",
+      "de": "Das WLAN funktioniert nicht.",
+      "pronunciation": "das vê-laan funk-tsio-níirt niçt"
+    },
+    {
+      "id": 38,
+      "day": 6,
+      "pt": "Qual é a senha do Wi-Fi?",
+      "de": "Wie lautet das WLAN-Passwort?",
+      "pronunciation": "vii láu-tet das vê-laan-pás-vort"
+    },
+    {
+      "id": 39,
+      "day": 6,
+      "pt": "O roteador está ligado?",
+      "de": "Ist der Router eingeschaltet?",
+      "pronunciation": "ist dea rúu-ta áin-gue-shal-tet"
+    },
+    {
+      "id": 40,
+      "day": 6,
+      "pt": "Eu verifico a conexão de rede.",
+      "de": "Ich überprüfe die Netzwerkverbindung.",
+      "pronunciation": "iç üü-ba-prüü-fe di néts-vérk-fer-bin-dung"
+    },
+    {
+      "id": 41,
+      "day": 6,
+      "pt": "Eu preciso de acesso ao servidor.",
+      "de": "Ich brauche Zugriff auf den Server.",
+      "pronunciation": "iç bráu-khe tsúu-grif auf den sör-va"
+    },
+    {
+      "id": 42,
+      "day": 6,
+      "pt": "Por favor, não compartilhe sua senha.",
+      "de": "Gib dein Passwort bitte nicht weiter.",
+      "pronunciation": "guip dain pás-vort bí-te niçt vái-ta"
+    },
+    {
+      "id": 43,
+      "day": 7,
+      "pt": "Eu falo português e estou aprendendo alemão.",
+      "de": "Ich spreche Portugiesisch und lerne Deutsch.",
+      "pronunciation": "iç shpré-çe por-tu-guíi-zish unt lér-ne dóitch"
+    },
+    {
+      "id": 44,
+      "day": 7,
+      "pt": "Você pode falar um pouco mais devagar?",
+      "de": "Kannst du etwas langsamer sprechen?",
+      "pronunciation": "kanst du ét-vas láng-zaa-ma shpré-çen"
+    },
+    {
+      "id": 45,
+      "day": 7,
+      "pt": "Você pode me enviar uma mensagem de voz?",
+      "de": "Kannst du mir eine Sprachnachricht schicken?",
+      "pronunciation": "kanst du mia ái-ne shpráakh-nakh-riçt shí-ken"
+    },
+    {
+      "id": 46,
+      "day": 7,
+      "pt": "Por favor, corrija meus erros.",
+      "de": "Bitte korrigiere meine Fehler.",
+      "pronunciation": "bí-te ko-ri-guíi-re mái-ne fêe-la"
+    },
+    {
+      "id": 47,
+      "day": 7,
+      "pt": "Como se diz isso em alemão?",
+      "de": "Wie sagt man das auf Deutsch?",
+      "pronunciation": "vii zaakt man das auf dóitch"
+    },
+    {
+      "id": 48,
+      "day": 7,
+      "pt": "Hoje eu resolvi um problema de rede.",
+      "de": "Heute habe ich ein Netzwerkproblem gelöst.",
+      "pronunciation": "hói-te háa-be iç ain néts-vérk-pro-bleem gue-lööst"
+    },
+    {
+      "id": 49,
+      "day": 7,
+      "pt": "Podemos conversar amanhã de novo?",
+      "de": "Können wir morgen wieder miteinander sprechen?",
+      "pronunciation": "kö-nen via mór-guen víi-da mit-ai-nán-da shpré-çen"
+    }
+  ]
+}
