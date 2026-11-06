@@ -1,4 +1,4 @@
-import {studyLanguage} from './study-preferences.js?v=28';
+import {studyLanguage} from './study-preferences.js?v=41';
 import {createDialoguePractice} from './exercises.js?v=33';
 import {createVisitorStorage,emptyVisitorProgress,hasPrivateProfile} from './visitor-state.js?v=28';
 const visitorStorage=createVisitorStorage();
