@@ -3,7 +3,7 @@
     "id": 1,
     "title": "Apresentar-se",
     "category": "Primeiras conversas",
-    "icon": "👋",
+    "icon": "🙋",
     "level": "A1",
     "lines": [
       {
@@ -77,7 +77,7 @@
     "id": 3,
     "title": "Soletrar o nome",
     "category": "Primeiras conversas",
-    "icon": "👋",
+    "icon": "🔤",
     "level": "A1",
     "lines": [
       {
@@ -114,7 +114,7 @@
     "id": 4,
     "title": "De onde você é",
     "category": "Primeiras conversas",
-    "icon": "👋",
+    "icon": "🌍",
     "level": "A1",
     "lines": [
       {
@@ -151,7 +151,7 @@
     "id": 5,
     "title": "Falar da família",
     "category": "Primeiras conversas",
-    "icon": "👋",
+    "icon": "👨‍👩‍👧‍👦",
     "level": "A1",
     "lines": [
       {
@@ -188,7 +188,7 @@
     "id": 6,
     "title": "Idade",
     "category": "Primeiras conversas",
-    "icon": "👋",
+    "icon": "🎂",
     "level": "A1",
     "lines": [
       {
@@ -225,7 +225,7 @@
     "id": 7,
     "title": "Idiomas",
     "category": "Primeiras conversas",
-    "icon": "👋",
+    "icon": "🗣️",
     "level": "A1",
     "lines": [
       {
@@ -262,7 +262,7 @@
     "id": 8,
     "title": "Pedir repetição",
     "category": "Primeiras conversas",
-    "icon": "👋",
+    "icon": "🔁",
     "level": "A1",
     "lines": [
       {
@@ -299,7 +299,7 @@
     "id": 9,
     "title": "Trocar contato",
     "category": "Primeiras conversas",
-    "icon": "👋",
+    "icon": "📱",
     "level": "A1",
     "lines": [
       {
@@ -336,7 +336,7 @@
     "id": 10,
     "title": "Despedir-se",
     "category": "Primeiras conversas",
-    "icon": "👋",
+    "icon": "🙋‍♂️",
     "level": "A1",
     "lines": [
       {
@@ -410,7 +410,7 @@
     "id": 12,
     "title": "Na padaria",
     "category": "Comer e beber",
-    "icon": "☕",
+    "icon": "🥐",
     "level": "A1",
     "lines": [
       {
@@ -447,7 +447,7 @@
     "id": 13,
     "title": "Pedir o cardápio",
     "category": "Comer e beber",
-    "icon": "☕",
+    "icon": "📋",
     "level": "A1",
     "lines": [
       {
@@ -484,7 +484,7 @@
     "id": 14,
     "title": "Pedir almoço",
     "category": "Comer e beber",
-    "icon": "☕",
+    "icon": "🍽️",
     "level": "A1",
     "lines": [
       {
@@ -521,7 +521,7 @@
     "id": 15,
     "title": "Sem carne",
     "category": "Comer e beber",
-    "icon": "☕",
+    "icon": "🥗",
     "level": "A1",
     "lines": [
       {
@@ -558,7 +558,7 @@
     "id": 16,
     "title": "Alergia alimentar",
     "category": "Comer e beber",
-    "icon": "☕",
+    "icon": "🥜",
     "level": "A1",
     "lines": [
       {
@@ -595,7 +595,7 @@
     "id": 17,
     "title": "Pedir água",
     "category": "Comer e beber",
-    "icon": "☕",
+    "icon": "💧",
     "level": "A1",
     "lines": [
       {
@@ -632,7 +632,7 @@
     "id": 18,
     "title": "Pedir a conta",
     "category": "Comer e beber",
-    "icon": "☕",
+    "icon": "🧾",
     "level": "A1",
     "lines": [
       {
@@ -669,7 +669,7 @@
     "id": 19,
     "title": "Levar para viagem",
     "category": "Comer e beber",
-    "icon": "☕",
+    "icon": "🥡",
     "level": "A1",
     "lines": [
       {
@@ -706,7 +706,7 @@
     "id": 20,
     "title": "Reserva no restaurante",
     "category": "Comer e beber",
-    "icon": "☕",
+    "icon": "🍴",
     "level": "A1",
     "lines": [
       {
@@ -743,7 +743,7 @@
     "id": 21,
     "title": "Encontrar leite",
     "category": "Compras",
-    "icon": "🛒",
+    "icon": "🥛",
     "level": "A1",
     "lines": [
       {
@@ -780,7 +780,7 @@
     "id": 22,
     "title": "Preço de frutas",
     "category": "Compras",
-    "icon": "🛒",
+    "icon": "🍎",
     "level": "A1",
     "lines": [
       {
@@ -854,7 +854,7 @@
     "id": 24,
     "title": "Pagar com cartão",
     "category": "Compras",
-    "icon": "🛒",
+    "icon": "💳",
     "level": "A1",
     "lines": [
       {
@@ -891,7 +891,7 @@
     "id": 25,
     "title": "Comprar uma sacola",
     "category": "Compras",
-    "icon": "🛒",
+    "icon": "🛍️",
     "level": "A1",
     "lines": [
       {
@@ -928,7 +928,7 @@
     "id": 26,
     "title": "Experimentar roupa",
     "category": "Compras",
-    "icon": "🛒",
+    "icon": "👕",
     "level": "A1",
     "lines": [
       {
@@ -965,7 +965,7 @@
     "id": 27,
     "title": "Trocar um produto",
     "category": "Compras",
-    "icon": "🛒",
+    "icon": "🔄",
     "level": "A1",
     "lines": [
       {
@@ -1002,7 +1002,7 @@
     "id": 28,
     "title": "Comprar sapatos",
     "category": "Compras",
-    "icon": "🛒",
+    "icon": "👟",
     "level": "A1",
     "lines": [
       {
@@ -1039,7 +1039,7 @@
     "id": 29,
     "title": "Produto indisponível",
     "category": "Compras",
-    "icon": "🛒",
+    "icon": "📦",
     "level": "A1",
     "lines": [
       {
@@ -1076,7 +1076,7 @@
     "id": 30,
     "title": "Mercado de rua",
     "category": "Compras",
-    "icon": "🛒",
+    "icon": "🥕",
     "level": "A1",
     "lines": [
       {
@@ -1113,7 +1113,7 @@
     "id": 31,
     "title": "Comprar passagem",
     "category": "Pela cidade",
-    "icon": "🚆",
+    "icon": "🎫",
     "level": "A1",
     "lines": [
       {
@@ -1150,7 +1150,7 @@
     "id": 32,
     "title": "Encontrar a plataforma",
     "category": "Pela cidade",
-    "icon": "🚆",
+    "icon": "🚉",
     "level": "A1",
     "lines": [
       {
@@ -1187,7 +1187,7 @@
     "id": 33,
     "title": "Trem atrasado",
     "category": "Pela cidade",
-    "icon": "🚆",
+    "icon": "⏳",
     "level": "A1",
     "lines": [
       {
@@ -1224,7 +1224,7 @@
     "id": 34,
     "title": "No ônibus",
     "category": "Pela cidade",
-    "icon": "🚆",
+    "icon": "🚌",
     "level": "A1",
     "lines": [
       {
@@ -1261,7 +1261,7 @@
     "id": 35,
     "title": "Pedir orientação",
     "category": "Pela cidade",
-    "icon": "🚆",
+    "icon": "🧭",
     "level": "A1",
     "lines": [
       {
@@ -1298,7 +1298,7 @@
     "id": 36,
     "title": "Pegar um táxi",
     "category": "Pela cidade",
-    "icon": "🚆",
+    "icon": "🚕",
     "level": "A1",
     "lines": [
       {
@@ -1335,7 +1335,7 @@
     "id": 37,
     "title": "Lugar reservado",
     "category": "Pela cidade",
-    "icon": "🚆",
+    "icon": "💺",
     "level": "A1",
     "lines": [
       {
@@ -1372,7 +1372,7 @@
     "id": 38,
     "title": "Alugar bicicleta",
     "category": "Pela cidade",
-    "icon": "🚆",
+    "icon": "🚲",
     "level": "A1",
     "lines": [
       {
@@ -1409,7 +1409,7 @@
     "id": 39,
     "title": "Validar bilhete",
     "category": "Pela cidade",
-    "icon": "🚆",
+    "icon": "🎟️",
     "level": "A1",
     "lines": [
       {
@@ -1446,7 +1446,7 @@
     "id": 40,
     "title": "Último metrô",
     "category": "Pela cidade",
-    "icon": "🚆",
+    "icon": "🚇",
     "level": "A1",
     "lines": [
       {
@@ -1483,7 +1483,7 @@
     "id": 41,
     "title": "Check-in no hotel",
     "category": "Moradia e hotel",
-    "icon": "🏠",
+    "icon": "🏨",
     "level": "A1",
     "lines": [
       {
@@ -1520,7 +1520,7 @@
     "id": 42,
     "title": "Café da manhã do hotel",
     "category": "Moradia e hotel",
-    "icon": "🏠",
+    "icon": "🍳",
     "level": "A1",
     "lines": [
       {
@@ -1557,7 +1557,7 @@
     "id": 43,
     "title": "Senha do Wi-Fi",
     "category": "Moradia e hotel",
-    "icon": "🏠",
+    "icon": "📶",
     "level": "A1",
     "lines": [
       {
@@ -1594,7 +1594,7 @@
     "id": 44,
     "title": "Problema no quarto",
     "category": "Moradia e hotel",
-    "icon": "🏠",
+    "icon": "🛠️",
     "level": "A1",
     "lines": [
       {
@@ -1631,7 +1631,7 @@
     "id": 45,
     "title": "Fazer check-out",
     "category": "Moradia e hotel",
-    "icon": "🏠",
+    "icon": "🧳",
     "level": "A1",
     "lines": [
       {
@@ -1668,7 +1668,7 @@
     "id": 46,
     "title": "Visitar um apartamento",
     "category": "Moradia e hotel",
-    "icon": "🏠",
+    "icon": "🏢",
     "level": "A1",
     "lines": [
       {
@@ -1705,7 +1705,7 @@
     "id": 47,
     "title": "Valor do aluguel",
     "category": "Moradia e hotel",
-    "icon": "🏠",
+    "icon": "💶",
     "level": "A1",
     "lines": [
       {
@@ -1742,7 +1742,7 @@
     "id": 48,
     "title": "Animais no imóvel",
     "category": "Moradia e hotel",
-    "icon": "🏠",
+    "icon": "🐾",
     "level": "A1",
     "lines": [
       {
@@ -1779,7 +1779,7 @@
     "id": 49,
     "title": "Chave do apartamento",
     "category": "Moradia e hotel",
-    "icon": "🏠",
+    "icon": "🔑",
     "level": "A1",
     "lines": [
       {
@@ -1816,7 +1816,7 @@
     "id": 50,
     "title": "Barulho do vizinho",
     "category": "Moradia e hotel",
-    "icon": "🏠",
+    "icon": "🔊",
     "level": "A1",
     "lines": [
       {
@@ -1853,7 +1853,7 @@
     "id": 51,
     "title": "Marcar consulta",
     "category": "Saúde e atendimento",
-    "icon": "🩺",
+    "icon": "📅",
     "level": "A1–A2",
     "lines": [
       {
@@ -1890,7 +1890,7 @@
     "id": 52,
     "title": "Descrever sintomas",
     "category": "Saúde e atendimento",
-    "icon": "🩺",
+    "icon": "🤒",
     "level": "A1–A2",
     "lines": [
       {
@@ -1927,7 +1927,7 @@
     "id": 53,
     "title": "Na farmácia",
     "category": "Saúde e atendimento",
-    "icon": "🩺",
+    "icon": "💊",
     "level": "A1–A2",
     "lines": [
       {
@@ -1964,7 +1964,7 @@
     "id": 54,
     "title": "Cartão de saúde",
     "category": "Saúde e atendimento",
-    "icon": "🩺",
+    "icon": "🪪",
     "level": "A1–A2",
     "lines": [
       {
@@ -2001,7 +2001,7 @@
     "id": 55,
     "title": "No dentista",
     "category": "Saúde e atendimento",
-    "icon": "🩺",
+    "icon": "🦷",
     "level": "A1–A2",
     "lines": [
       {
@@ -2038,7 +2038,7 @@
     "id": 56,
     "title": "Pedir ajuda urgente",
     "category": "Saúde e atendimento",
-    "icon": "🩺",
+    "icon": "🚑",
     "level": "A1–A2",
     "lines": [
       {
@@ -2075,7 +2075,7 @@
     "id": 57,
     "title": "Óculos",
     "category": "Saúde e atendimento",
-    "icon": "🩺",
+    "icon": "👓",
     "level": "A1–A2",
     "lines": [
       {
@@ -2112,7 +2112,7 @@
     "id": 58,
     "title": "Pedir intérprete",
     "category": "Saúde e atendimento",
-    "icon": "🩺",
+    "icon": "🗣️",
     "level": "A1–A2",
     "lines": [
       {
@@ -2149,7 +2149,7 @@
     "id": 59,
     "title": "Remarcar consulta",
     "category": "Saúde e atendimento",
-    "icon": "🩺",
+    "icon": "🗓️",
     "level": "A1–A2",
     "lines": [
       {
@@ -2186,7 +2186,7 @@
     "id": 60,
     "title": "Na recepção da clínica",
     "category": "Saúde e atendimento",
-    "icon": "🩺",
+    "icon": "🏥",
     "level": "A1–A2",
     "lines": [
       {
@@ -2260,7 +2260,7 @@
     "id": 62,
     "title": "Apresentar experiência",
     "category": "No trabalho",
-    "icon": "💼",
+    "icon": "📄",
     "level": "A1–A2",
     "lines": [
       {
@@ -2297,7 +2297,7 @@
     "id": 63,
     "title": "Pedir uma tarefa",
     "category": "No trabalho",
-    "icon": "💼",
+    "icon": "✅",
     "level": "A1–A2",
     "lines": [
       {
@@ -2334,7 +2334,7 @@
     "id": 64,
     "title": "Entender instruções",
     "category": "No trabalho",
-    "icon": "💼",
+    "icon": "📝",
     "level": "A1–A2",
     "lines": [
       {
@@ -2371,7 +2371,7 @@
     "id": 65,
     "title": "Horário de trabalho",
     "category": "No trabalho",
-    "icon": "💼",
+    "icon": "🕘",
     "level": "A1–A2",
     "lines": [
       {
@@ -2408,7 +2408,7 @@
     "id": 66,
     "title": "Participar de reunião",
     "category": "No trabalho",
-    "icon": "💼",
+    "icon": "👥",
     "level": "A1–A2",
     "lines": [
       {
@@ -2445,7 +2445,7 @@
     "id": 67,
     "title": "Avisar atraso",
     "category": "No trabalho",
-    "icon": "💼",
+    "icon": "⏰",
     "level": "A1–A2",
     "lines": [
       {
@@ -2482,7 +2482,7 @@
     "id": 68,
     "title": "Ausência por doença",
     "category": "No trabalho",
-    "icon": "💼",
+    "icon": "🤧",
     "level": "A1–A2",
     "lines": [
       {
@@ -2519,7 +2519,7 @@
     "id": 69,
     "title": "Pedir feedback",
     "category": "No trabalho",
-    "icon": "💼",
+    "icon": "💬",
     "level": "A1–A2",
     "lines": [
       {
@@ -2556,7 +2556,7 @@
     "id": 70,
     "title": "Mudança de carreira",
     "category": "No trabalho",
-    "icon": "💼",
+    "icon": "🔀",
     "level": "A1–A2",
     "lines": [
       {
@@ -2593,7 +2593,7 @@
     "id": 71,
     "title": "Computador não liga",
     "category": "Tecnologia e TI",
-    "icon": "💻",
+    "icon": "🖥️",
     "level": "A1–A2",
     "lines": [
       {
@@ -2630,7 +2630,7 @@
     "id": 72,
     "title": "Redefinir senha",
     "category": "Tecnologia e TI",
-    "icon": "💻",
+    "icon": "🔐",
     "level": "A1–A2",
     "lines": [
       {
@@ -2667,7 +2667,7 @@
     "id": 73,
     "title": "Sem internet",
     "category": "Tecnologia e TI",
-    "icon": "💻",
+    "icon": "📡",
     "level": "A1–A2",
     "lines": [
       {
@@ -2704,7 +2704,7 @@
     "id": 74,
     "title": "Impressora",
     "category": "Tecnologia e TI",
-    "icon": "💻",
+    "icon": "🖨️",
     "level": "A1–A2",
     "lines": [
       {
@@ -2741,7 +2741,7 @@
     "id": 75,
     "title": "Abrir chamado",
     "category": "Tecnologia e TI",
-    "icon": "💻",
+    "icon": "🎫",
     "level": "A1–A2",
     "lines": [
       {
@@ -2778,7 +2778,7 @@
     "id": 76,
     "title": "Instalar programa",
     "category": "Tecnologia e TI",
-    "icon": "💻",
+    "icon": "💿",
     "level": "A1–A2",
     "lines": [
       {
@@ -2815,7 +2815,7 @@
     "id": 77,
     "title": "Backup",
     "category": "Tecnologia e TI",
-    "icon": "💻",
+    "icon": "💾",
     "level": "A1–A2",
     "lines": [
       {
@@ -2852,7 +2852,7 @@
     "id": 78,
     "title": "Atualização",
     "category": "Tecnologia e TI",
-    "icon": "💻",
+    "icon": "🔄",
     "level": "A1–A2",
     "lines": [
       {
@@ -2889,7 +2889,7 @@
     "id": 79,
     "title": "Videoconferência",
     "category": "Tecnologia e TI",
-    "icon": "💻",
+    "icon": "📹",
     "level": "A1–A2",
     "lines": [
       {
@@ -2926,7 +2926,7 @@
     "id": 80,
     "title": "Ambientes Linux",
     "category": "Tecnologia e TI",
-    "icon": "💻",
+    "icon": "🐧",
     "level": "A1–A2",
     "lines": [
       {
@@ -2963,7 +2963,7 @@
     "id": 81,
     "title": "Curso de alemão",
     "category": "Estudos",
-    "icon": "📚",
+    "icon": "🇩🇪",
     "level": "A1–A2",
     "lines": [
       {
@@ -3000,7 +3000,7 @@
     "id": 82,
     "title": "Perguntar uma palavra",
     "category": "Estudos",
-    "icon": "📚",
+    "icon": "📖",
     "level": "A1–A2",
     "lines": [
       {
@@ -3037,7 +3037,7 @@
     "id": 83,
     "title": "Exercício em dupla",
     "category": "Estudos",
-    "icon": "📚",
+    "icon": "🤝",
     "level": "A1–A2",
     "lines": [
       {
@@ -3074,7 +3074,7 @@
     "id": 84,
     "title": "Dever de casa",
     "category": "Estudos",
-    "icon": "📚",
+    "icon": "✏️",
     "level": "A1–A2",
     "lines": [
       {
@@ -3148,7 +3148,7 @@
     "id": 86,
     "title": "Inscrição em prova",
     "category": "Estudos",
-    "icon": "📚",
+    "icon": "📝",
     "level": "A1–A2",
     "lines": [
       {
@@ -3185,7 +3185,7 @@
     "id": 87,
     "title": "Na aula",
     "category": "Estudos",
-    "icon": "📚",
+    "icon": "🙋",
     "level": "A1–A2",
     "lines": [
       {
@@ -3222,7 +3222,7 @@
     "id": 88,
     "title": "Praticar devagar",
     "category": "Estudos",
-    "icon": "📚",
+    "icon": "🐢",
     "level": "A1–A2",
     "lines": [
       {
@@ -3259,7 +3259,7 @@
     "id": 89,
     "title": "Estudar em casa",
     "category": "Estudos",
-    "icon": "📚",
+    "icon": "🏠",
     "level": "A1–A2",
     "lines": [
       {
@@ -3296,7 +3296,7 @@
     "id": 90,
     "title": "Entender um texto",
     "category": "Estudos",
-    "icon": "📚",
+    "icon": "📃",
     "level": "A1–A2",
     "lines": [
       {
@@ -3333,7 +3333,7 @@
     "id": 91,
     "title": "Abrir conta bancária",
     "category": "Vida na Alemanha",
-    "icon": "🌿",
+    "icon": "🏦",
     "level": "A1–A2",
     "lines": [
       {
@@ -3370,7 +3370,7 @@
     "id": 92,
     "title": "No correio",
     "category": "Vida na Alemanha",
-    "icon": "🌿",
+    "icon": "📮",
     "level": "A1–A2",
     "lines": [
       {
@@ -3407,7 +3407,7 @@
     "id": 93,
     "title": "Agendar atendimento",
     "category": "Vida na Alemanha",
-    "icon": "🌿",
+    "icon": "🗓️",
     "level": "A1–A2",
     "lines": [
       {
@@ -3444,7 +3444,7 @@
     "id": 94,
     "title": "Plano de celular",
     "category": "Vida na Alemanha",
-    "icon": "🌿",
+    "icon": "📱",
     "level": "A1–A2",
     "lines": [
       {
@@ -3481,7 +3481,7 @@
     "id": 95,
     "title": "Separar lixo",
     "category": "Vida na Alemanha",
-    "icon": "🌿",
+    "icon": "♻️",
     "level": "A1–A2",
     "lines": [
       {
@@ -3518,7 +3518,7 @@
     "id": 96,
     "title": "Passear com cachorro",
     "category": "Vida na Alemanha",
-    "icon": "🌿",
+    "icon": "🐕",
     "level": "A1–A2",
     "lines": [
       {
@@ -3555,7 +3555,7 @@
     "id": 97,
     "title": "Convidar para passeio",
     "category": "Vida na Alemanha",
-    "icon": "🌿",
+    "icon": "🚶",
     "level": "A1–A2",
     "lines": [
       {
@@ -3592,7 +3592,7 @@
     "id": 98,
     "title": "Falar do tempo",
     "category": "Vida na Alemanha",
-    "icon": "🌿",
+    "icon": "🌤️",
     "level": "A1–A2",
     "lines": [
       {
@@ -3629,7 +3629,7 @@
     "id": 99,
     "title": "Objetos perdidos",
     "category": "Vida na Alemanha",
-    "icon": "🌿",
+    "icon": "🎒",
     "level": "A1–A2",
     "lines": [
       {
@@ -3666,7 +3666,7 @@
     "id": 100,
     "title": "Planejar a semana",
     "category": "Vida na Alemanha",
-    "icon": "🌿",
+    "icon": "🗓️",
     "level": "A1–A2",
     "lines": [
       {
