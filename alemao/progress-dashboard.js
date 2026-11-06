@@ -1,3 +1,4 @@
+import {estimatePanel} from './level-projection.mjs?v=1';
 import {summarize} from './progress-model.mjs?v=43';
 const panel=document.getElementById('progressPanel');
 let generation=0;
@@ -25,6 +26,13 @@ async function draw(){
  const podcastPending=Object.keys(podcastCache?.pending||{}).length;
  const s=summarize(records,grammar),grammarPending=(cached?.pending||[]).filter(([key])=>key.startsWith(name+'\n')).length;
  status.textContent=(podcastPending?'Podcasts com alterações pendentes neste aparelho. ':'')+'Perfil '+name+' · '+document.getElementById('cloudStatus').textContent+(failed?' · Gramática: consulta indisponível; mostrando apenas o que está salvo neste aparelho.':grammarPending?' · Gramática com alterações pendentes neste aparelho.':' · Gramática consultada na nuvem.');
+ const routine=document.createElement('section');routine.className='progressRoutine';const heading=document.createElement('h2');heading.textContent='Meu caminho · horas e metas';routine.append(heading);
+ const config=records['daily-path:config'],valid=config&&Number.isFinite(config.minutes)&&[6,7].includes(config.days);
+ const intro=document.createElement('p');intro.textContent=valid?'Rotina salva de '+name+'. Horas planejadas; não representam horas efetivamente estudadas nem nível alcançado.':'Você ainda não criou uma rotina para '+name+'. Escolha o tempo diário para visualizar as estimativas.';routine.append(intro);
+ if(valid){const projection=document.createElement('div');projection.innerHTML=estimatePanel(config.minutes,config.days);routine.append(projection)}
+ const adjust=document.createElement('button');adjust.type='button';adjust.className='quiet';adjust.textContent=valid?'Ver ou ajustar minha rotina':'Criar meu caminho';adjust.onclick=()=>window.dispatchEvent(new CustomEvent('study:today'));routine.append(adjust);
+ if(valid){const agenda=document.createElement('button');agenda.type='button';agenda.className='quiet';agenda.textContent='Adicionar ao Google / Apple Agenda';agenda.onclick=()=>window.dispatchEvent(new CustomEvent('study:calendar'));routine.append(agenda)}
+ panel.append(routine);
  const grid=document.createElement('div');grid.className='progressGrid';panel.append(grid);
  for(const [title,value,total,area,detail]of [['Diálogos',s.dialogues,100,'dialogues','Marcados como praticados'],['Gramática',failed&&!cached?'—':s.grammar,36,'grammar','Lições em 100% · '+s.started+' iniciadas'],['Meus materiais',s.materials,12,'materials',s.written+' páginas com escrita salva'],['Podcasts',s.podcasts,130,'podcasts',s.heard+' ouvidos · contador de desafios concluídos']]){const card=document.createElement('article');card.className='progressCard';const h=document.createElement('h2');h.textContent=title;const n=document.createElement('strong');n.textContent=value+' / '+total;const p=document.createElement('p');p.textContent=detail;const b=document.createElement('button');b.className='quiet';b.textContent='Continuar →';b.onclick=()=>window.dispatchEvent(new CustomEvent('study:navigate',{detail:area}));card.append(h,n,p,b);grid.append(card)}
  const refresh=document.createElement('button');refresh.className='quiet';refresh.textContent='Atualizar progresso';refresh.onclick=async()=>{refresh.disabled=true;await api.sync();await draw()};panel.append(refresh);
@@ -32,3 +40,5 @@ async function draw(){
 new MutationObserver(()=>{if(!panel.hidden)draw()}).observe(panel,{attributes:true,attributeFilter:['hidden']});
 window.addEventListener('study:access',()=>{if(!panel.hidden)draw()});
 window.addEventListener('study:progress',()=>{if(!panel.hidden)draw()});
+
+for(const event of ['study:ready','study:materials'])window.addEventListener(event,()=>{if(!panel.hidden)draw()});
