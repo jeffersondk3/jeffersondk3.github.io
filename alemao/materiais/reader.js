@@ -1,5 +1,5 @@
 import {hasWriting} from '../learning-rules.js?v=14';
-import {createWritingPractice} from './writing.js?v=24';
+import {createWritingPractice} from './writing.js?v=41';
 import * as pdfjsLib from './vendor/pdf.mjs';
 const workerResponse=await fetch(new URL('./vendor/pdf.worker.mjs.gz.bin',import.meta.url));if(!workerResponse.ok)throw Error('Não foi possível carregar o leitor');const workerText=await new Response(workerResponse.body.pipeThrough(new DecompressionStream('gzip'))).text();pdfjsLib.GlobalWorkerOptions.workerSrc=URL.createObjectURL(new Blob([workerText],{type:'text/javascript'}));
 const $=id=>document.getElementById(id),escape=s=>String(s).replace(/[&<>"']/g,c=>({'&':'&amp;','<':'&lt;','>':'&gt;','"':'&quot;',"'":'&#39;'}[c]));
