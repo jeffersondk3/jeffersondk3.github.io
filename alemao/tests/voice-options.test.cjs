@@ -3,7 +3,7 @@ const fs=require('fs'),vm=require('vm'),assert=require('assert');
 async function test(file,kind){
  const text=fs.readFileSync(file,'utf8');let start=text.indexOf("const VOICE_KEY="),end=text.indexOf(kind==='main'?'\nlet data=':'\nlet displayedAccount=',start);assert.ok(start>0&&end>start);
  const nodes={},node=id=>nodes[id]??={value:'',removeAttribute(){},load(){}};let calls=0,stored={},stopped=0,fail=false;
- const ctx={$:node,audio:node('audioPlayer'),current:null,token:0,stop:()=>stopped++,stopAudio:()=>stopped++,notice(){},localStorage:{getItem:k=>stored[k],setItem:(k,v)=>stored[k]=v},fetch:async()=>{calls++;return {ok:!fail,json:async()=>kind==='main'?{de:['female-de'],pt:['female-pt']}:{'audio/a.mp3':'female-de'}}}};
+ const ctx={installStudyChoices:()=>()=>{},window:{studyCloud:{userId:'owner',profile:'jefferson'}},hasPrivateProfile:()=>true,$:node,audio:node('audioPlayer'),current:null,token:0,stop:()=>stopped++,stopAudio:()=>stopped++,notice(){},localStorage:{getItem:k=>stored[k],setItem:(k,v)=>stored[k]=v},fetch:async()=>{calls++;return {ok:!fail,json:async()=>kind==='main'?{de:['female-de'],pt:['female-pt']}:{'audio/a.mp3':'female-de'}}}};
  vm.runInNewContext(text.slice(start,end)+`;globalThis.resolveVoice=${kind==='main'?'clipSource':'voiceSource'};`,ctx);
  const resolve=()=>kind==='main'?ctx.resolveVoice(1,0,'de'):ctx.resolveVoice('audio/a.mp3');
  assert.equal(await resolve(),kind==='main'?'audio/001-1-de.mp3':'audio/a.mp3');assert.equal(calls,0);

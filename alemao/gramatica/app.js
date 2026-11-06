@@ -133,3 +133,5 @@ try{const responses=await Promise.all([fetch('course.json'),fetch('exams.json')]
 
 
 window.addEventListener('study:preferences',()=>{const [page,id,phase]=route();if(!cloud.ready||page!=='lesson')return;const l=courses.find(q=>q.id===id),panel=app.querySelector('.ai-conversation'),index=Math.min(4,Math.max(0,Number(phase)||0));if(l&&panel)panel.outerHTML=conversationPanel({lesson:l,phase:index,unlocked:!blockedLesson(l.id,index+1),profile,language:studyLanguage(),progress:conversationProgress(),escape:e});});
+
+window.addEventListener('study:inactive',stopMedia);
