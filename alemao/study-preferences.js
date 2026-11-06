@@ -5,7 +5,7 @@ try{if(!privatePreferences())throw new Error('guest');theme=['light','blue','dar
 try{const entryUrl=new URL(location.href),entryTheme=entryUrl.searchParams.get('theme');if(['light','blue','dark'].includes(entryTheme)){theme=entryTheme;entryUrl.searchParams.delete('theme');history.replaceState(history.state,'',entryUrl.href)}}catch{}
 export const studyLanguage=()=>language;
 export const appearanceTheme=()=>theme;
-const strict='.pt,.translation,.exerciseItem>p,[data-caption-pt]';
+const strict='.pt,p.translation,.exerciseItem>p,[data-caption-pt]';
 const targets=strict+',.question .option span';
 function paintCaptions(){
  queued=false;if(!document?.body||(language==='en'&&!captions))return;
@@ -16,10 +16,10 @@ function paintCaptions(){
    if(el.textContent!==desired)el.textContent=desired;el.lang=language==='en'?'en':'pt';
   }else if(el.matches(strict)){el.classList.toggle('caption-unavailable',language==='en');}
  }
- for(const a of document.querySelectorAll('#translateSelection,#translateWriting'))if(a.hasAttribute('href')){const url=new URL(a.href);url.searchParams.set('tl',language==='en'?'en':'pt');a.href=url.href;}
+ for(const a of document.querySelectorAll('#translateSelection,#translateWriting,.googleTranslateLink,#google,#fullGoogle,.prayerActions a'))if(a.hasAttribute('href')){const url=new URL(a.href);url.searchParams.set('tl',language==='en'?'en':'pt');if(a.href!==url.href)a.href=url.href;}
  const help=document.querySelector('.writingTranslation p:last-child');if(help){const message=language==='en'?'Abre o Google Tradutor em inglês. O texto só é enviado ao abrir a tradução.':'Abre o Google Tradutor em português. O texto só é enviado ao abrir a tradução.';if(help.textContent!==message)help.textContent=message;}
 }
-async function loadCaptions(){if(captions)return;if(!captionRequest)captionRequest=fetch(new URL('./caption-en.json?v=16',import.meta.url)).then(r=>{if(!r.ok)throw Error('captions');return r.json()}).then(data=>{captions=data;if(!document?.documentElement)return;document.documentElement.dataset.captionsReady='true';paintCaptions()}).catch(()=>{captionRequest=null;if(!document?.documentElement)return;const hint=document.getElementById('studyPreferencesHint');if(hint)hint.textContent='Não foi possível carregar o inglês. Confira a conexão e selecione o idioma novamente.';});await captionRequest;}
+async function loadCaptions(){if(captions)return;if(!captionRequest)captionRequest=fetch(new URL('./caption-en.json?v=41',import.meta.url)).then(r=>{if(!r.ok)throw Error('captions');return r.json()}).then(data=>{captions=data;if(!document?.documentElement)return;document.documentElement.dataset.captionsReady='true';paintCaptions()}).catch(()=>{captionRequest=null;if(!document?.documentElement)return;const hint=document.getElementById('studyPreferencesHint');if(hint)hint.textContent='Não foi possível carregar o inglês. Confira a conexão e selecione o idioma novamente.';});await captionRequest;}
 export function setStudyPreferences(next={}){
  if(next.theme)theme=['light','blue','dark'].includes(next.theme)?next.theme:'light';if(next.language)language=['pt','en','off'].includes(next.language)?next.language:'pt';
  document.documentElement.dataset.theme=theme;const themeMeta=document.querySelector('meta[name="theme-color"]');if(themeMeta)themeMeta.content=theme==='blue'?'#19659a':theme==='dark'?'#151f23':'#f2e9dc';document.documentElement.dataset.study=language;document.documentElement.dataset.captionsReady=String(!!captions||language!=='en');
@@ -32,6 +32,8 @@ export function setStudyPreferences(next={}){
 function boot(){
  document.getElementById('themeSelect')?.addEventListener('change',event=>setStudyPreferences({theme:event.target.value}));
  document.getElementById('studyLanguage')?.addEventListener('change',event=>setStudyPreferences({language:event.target.value}));
+ 
+ try{if(window.parent!==window&&window.parent.document.getElementById('dialoguesPanel')){const follow=()=>{const host=window.parent.document;setStudyPreferences({theme:host.getElementById('themeSelect')?.value,language:host.getElementById('studyLanguage')?.value});};window.parent.addEventListener('study:preferences',follow);follow();const controls=document.querySelector('.studyPreferences');if(controls)controls.hidden=true;}}catch{}
  const observer=new MutationObserver(()=>{if(!queued){queued=true;queueMicrotask(paintCaptions)}});observer.observe(document.body,{childList:true,subtree:true});setStudyPreferences();
  window.addEventListener('study:access',()=>{if(privatePreferences()){let values={};try{values={theme:localStorage.getItem(THEME),language:localStorage.getItem(STUDY)}}catch{}setStudyPreferences(values)}else setStudyPreferences({theme:'light',language:'pt'})});
  window.addEventListener('storage',event=>{if(privatePreferences()&&(event.key===THEME||event.key===STUDY)){let values={};try{values={theme:localStorage.getItem(THEME),language:localStorage.getItem(STUDY)}}catch{}setStudyPreferences(values)}});
