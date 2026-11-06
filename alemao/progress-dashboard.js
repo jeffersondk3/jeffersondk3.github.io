@@ -8,6 +8,10 @@ async function draw(){
  const title=document.createElement('h1');title.textContent='Meu progresso';panel.append(title);
  const status=document.createElement('p');status.setAttribute('role','status');panel.append(status);
  if(!user||!['jefferson','sofia'].includes(profile)){status.textContent='Modo visitante · as práticas são temporárias e não ficam salvas no perfil.';const b=document.createElement('button');b.className='quiet';b.textContent='Entrar na minha conta';b.onclick=()=>document.getElementById('accountButton').click();panel.append(b);return}
+ const chooser=document.createElement('div');chooser.className='progressProfiles';chooser.setAttribute('role','group');chooser.setAttribute('aria-label','Escolher perfil do progresso');
+ const label=document.createElement('p');label.textContent='De quem você quer ver o progresso?';panel.append(label);
+ for(const [value,name]of [['jefferson','Jefferson'],['sofia','Sofia']]){const button=document.createElement('button');button.type='button';button.className='quiet progressProfile '+value;button.textContent=name;button.setAttribute('aria-pressed',String(profile===value));const select=document.getElementById('studyProfile');button.disabled=!Array.from(select.options).some(o=>o.value===value);button.onclick=()=>{if(api.profile===value)return;select.value=value;select.dispatchEvent(new Event('change',{bubbles:true}));};chooser.append(button)}
+ panel.append(chooser);
  status.textContent='Consultando o perfil '+(profile==='sofia'?'Sofia':'Jefferson')+'…';
  const name=profile==='sofia'?'Sofia':'Jefferson';let grammar={},failed=false;
  try{for(let offset=0;;offset+=1000){const {data,error}=await api.client.from('grammar_progress').select('item_key,value').eq('user_id',user).eq('profile',name).order('item_key').range(offset,offset+999);if(error)throw error;for(const row of data||[])if(row.item_key.startsWith('lessons/'))grammar[row.item_key.slice(8)]=row.value;if((data||[]).length<1000)break}}
