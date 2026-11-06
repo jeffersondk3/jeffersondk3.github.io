@@ -1,0 +1,7 @@
+import assert from 'node:assert/strict';import {createPhrasePlayer} from '../project90-player.mjs';
+globalThis.location={href:'https://example.test/alemao/'};let plays=0,last='';
+const audio={src:'',currentTime:0,pause(){},load(){this.onloadedmetadata?.()},play(){plays++;this.onplay?.();return Promise.resolve()}};
+const clips=Object.fromEntries(Array.from({length:500},(_,i)=>[String(i+1),{male:{file:'male.mp3',start:5,end:7},female:{file:'female.mp3',start:10,end:12}}]));let voice='male';
+const p=createPhrasePlayer({audio,status:s=>last=s,voice:()=>voice,speed:()=>.9,fetcher:async()=>({ok:true,json:async()=>({clips})})});
+await p.play(1,3);await Promise.resolve();assert.equal(audio.currentTime,5);assert.equal(plays,1);audio.currentTime=7;audio.ontimeupdate();audio.ontimeupdate();await new Promise(r=>setTimeout(r,1050));assert.equal(plays,2);audio.currentTime=7;audio.ontimeupdate();await new Promise(r=>setTimeout(r,1050));assert.equal(plays,3);audio.currentTime=7;audio.ontimeupdate();assert(last.includes('concluído'));voice='female';await p.play(1);assert.equal(audio.currentTime,10);assert(audio.src.endsWith('female.mp3'));p.stop();assert.equal(audio.ontimeupdate,null);
+const broken=createPhrasePlayer({audio,status:s=>last=s,voice:()=>voice,speed:()=>1,fetcher:async()=>{throw Error()}});await broken.play(1);assert(last.includes('indisponível'));console.log('PASS: hosted audio both voices, segment bounds, three shadowing repetitions, duplicate timeupdate guard, stop, failure feedback');
