@@ -1,4 +1,4 @@
-import {studyLanguage} from '../study-preferences.js?v=28';
+import {studyLanguage} from '../study-preferences.js?v=41';
 import {hasWriting,writtenCount,selectedWriting,translationUrl} from '../learning-rules.js?v=14';
 // Escrita pessoal por perfil, material e página. Usa a mesma fila de sincronização do progresso.
 export function createWritingPractice({cloud,root=document,onChange=()=>{}}){
