@@ -1,4 +1,5 @@
-import {estimatePanel} from './level-projection.mjs?v=1';
+import {pathProgress} from './daily-path-core.mjs?v=2';
+import {estimatePanel} from './level-projection.mjs?v=2';
 import {summarize} from './progress-model.mjs?v=43';
 const panel=document.getElementById('progressPanel');
 let generation=0;
@@ -29,7 +30,7 @@ async function draw(){
  const routine=document.createElement('section');routine.className='progressRoutine';const heading=document.createElement('h2');heading.textContent='Meu caminho · horas e metas';routine.append(heading);
  const config=records['daily-path:config'],valid=config&&Number.isFinite(config.minutes)&&[6,7].includes(config.days);
  const intro=document.createElement('p');intro.textContent=valid?'Rotina salva de '+name+'. Horas planejadas; não representam horas efetivamente estudadas nem nível alcançado.':'Você ainda não criou uma rotina para '+name+'. Escolha o tempo diário para visualizar as estimativas.';routine.append(intro);
- if(valid){const projection=document.createElement('div');projection.innerHTML=estimatePanel(config.minutes,config.days);routine.append(projection)}
+ if(valid){const history=Object.fromEntries(Object.entries(records).filter(([k])=>k.startsWith('daily-path:day:')).map(([k,v])=>[k.slice(15),v])),state=pathProgress(history,records['daily-path:checkpoints']||{}),stage=document.createElement('p');stage.textContent='Percurso A1 → A2 → B1 · '+state.level+' · unidade '+state.unit+'/12 · '+state.sessions+'/3 sessões.'+(state.checkpoint?' Revisão de passagem disponível em Meu caminho de hoje.':state.complete?' Trilha introdutória percorrida; continue revisando.':'')+' O nível de estudo não é uma certificação de proficiência.';routine.append(stage);const projection=document.createElement('div');projection.innerHTML=estimatePanel(config.minutes,config.days);routine.append(projection)}
  const adjust=document.createElement('button');adjust.type='button';adjust.className='quiet';adjust.textContent=valid?'Ver ou ajustar minha rotina':'Criar meu caminho';adjust.onclick=()=>window.dispatchEvent(new CustomEvent('study:today'));routine.append(adjust);
  if(valid){const agenda=document.createElement('button');agenda.type='button';agenda.className='quiet';agenda.textContent='Adicionar ao Google / Apple Agenda';agenda.onclick=()=>window.dispatchEvent(new CustomEvent('study:calendar'));routine.append(agenda)}
  panel.append(routine);
