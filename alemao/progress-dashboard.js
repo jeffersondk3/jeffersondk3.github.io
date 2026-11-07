@@ -1,3 +1,4 @@
+import './support-language.mjs?v=1';
 import {pathProgress} from './daily-path-core.mjs?v=2';
 import {estimatePanel} from './level-projection.mjs?v=2';
 import {summarize} from './progress-model.mjs?v=43';
@@ -43,3 +44,4 @@ window.addEventListener('study:access',()=>{if(!panel.hidden)draw()});
 window.addEventListener('study:progress',()=>{if(!panel.hidden)draw()});
 
 for(const event of ['study:ready','study:materials'])window.addEventListener(event,()=>{if(!panel.hidden)draw()});
+
